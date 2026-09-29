@@ -3,3 +3,7 @@ data/raw/*
 !data/raw/.gitkeep
 !data/raw/adzuna/
 !data/raw/adzuna/*.json.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+**/.DS_Store
