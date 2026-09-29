@@ -2,4 +2,4 @@
 data/raw/*
 !data/raw/.gitkeep
 !data/raw/adzuna/
-!data/raw/adzuna/*.json
+!data/raw/adzuna/*.json.ipynb_checkpoints/
