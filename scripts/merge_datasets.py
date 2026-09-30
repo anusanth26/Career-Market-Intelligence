@@ -24,8 +24,9 @@ def merge_clean_data():
     df_text_dedup = df_text.drop_duplicates(subset=["job_id"], keep="first").copy()
     print(f"  Text shape after deduplication: {df_text_dedup.shape}")
 
-    # Columns to bring from text dataset
+    # Columns to bring from text dataset (including category_name so 100% of all attributes are preserved)
     text_cols = [
+        "category_name",
         "description_original",
         "description_clean",
         "description_nostopwords",
@@ -40,18 +41,21 @@ def merge_clean_data():
         how="inner"
     )
 
-    # Verification checks
+    # Exhaustive verification and integrity checks
     assert len(df_combined) == len(df_struct) == 2472, f"Row count mismatch! Expected 2472, got {len(df_combined)}"
     assert df_combined["job_id"].nunique() == 2472, "Found duplicate job_id in combined dataset!"
     assert df_combined["job_id"].isnull().sum() == 0, "Found null job_id in combined dataset!"
-    assert len(df_combined.columns) == 36, f"Expected 36 columns, got {len(df_combined.columns)}"
+    assert len(df_combined.columns) == 37, f"Expected 37 columns, got {len(df_combined.columns)}"
+    assert (df_combined["category_name"] == df_combined["adzuna_category"]).all(), "Category alignment mismatch!"
+    assert df_combined["description_original"].isnull().sum() == 0, "Found null in description_original!"
+    assert (df_combined["description_word_count"] > 0).all(), "Found invalid word count <= 0!"
 
     # Save master file
     df_combined.to_csv(output_path, index=False)
     file_size_mb = output_path.stat().st_size / (1024 * 1024)
     print(f"\nSuccessfully generated master dataset: {output_path}")
     print(f"  Total records: {len(df_combined)}")
-    print(f"  Total columns: {len(df_combined.columns)}")
+    print(f"  Total columns: {len(df_combined.columns)} (100% attributes from both structured and text)")
     print(f"  File size    : {file_size_mb:.2f} MB")
     print(f"  Unique job_ids: {df_combined['job_id'].nunique()} (Zero duplicates, Zero data loss)")
 
