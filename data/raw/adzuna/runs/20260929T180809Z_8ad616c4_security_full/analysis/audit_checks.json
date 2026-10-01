@@ -1,0 +1,35 @@
+{
+  "run_id": "20260929T180809Z_8ad616c4_security_full",
+  "queries": 5,
+  "rows_total": 1027,
+  "title_only_sent_for_every_query": true,
+  "max_days_old_sent": [
+    90
+  ],
+  "sort_by_sent": [
+    "date"
+  ],
+  "window_start_calendar_day": "2026-07-01T00:00:00Z",
+  "rows_before_calendar_day_window": 0,
+  "rows_before_exact_timestamp_window": 0,
+  "earliest_created_in_run": "2026-07-02T02:32:16Z",
+  "queries_created_sorted_desc": 5,
+  "queries_not_sorted_desc": [],
+  "pages_contiguous_from_1_in_every_query": true,
+  "duplicate_ids_within_a_single_query_total": 0,
+  "api_count_logged_for_every_query": true,
+  "queries_with_zero_results": [],
+  "http_failures_total": 0,
+  "retries_total": 0,
+  "failed_attempt_log_entries": 0,
+  "failed_status_counts": {},
+  "queries_not_complete": [],
+  "api_count_varied_within_query": [],
+  "mapping_status_counts": {
+    "unmatched": 332,
+    "matched": 687,
+    "ambiguous_multi": 7,
+    "excluded_by_rule": 1
+  },
+  "credentials_present_in_run_files": false
+}

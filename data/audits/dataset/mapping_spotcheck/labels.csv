@@ -1,0 +1,231 @@
+role,sample_index,job_id,title,mapping_tier,label,reason_code,label_source
+Software Engineer,1,5834761668,"Application Developer - Java, Angular, Oracle",synonym,correct,,manual
+Software Engineer,2,5838614193,Staff Software Engineer - iOS,canonical,correct,,manual
+Software Engineer,3,5839582242,Software Engineer,canonical,correct,,lookup
+Software Engineer,4,5842589803,Software Engineer / Senior Software Engineer,canonical,correct,,manual
+Software Engineer,5,5846723120,Lead Software Engineer,canonical,correct,,manual
+Software Engineer,6,5849697309,Software Engineer,canonical,correct,,lookup
+Software Engineer,7,5850632949,Senior Software Engineer (Security Domain),canonical,correct,,manual
+Software Engineer,8,5857251152,"MTS 2, Software Engineer, Data Platforms",canonical,correct,,manual
+Software Engineer,9,5869818720,Senior Windows Software Engineer – Biometric & Security Auth,canonical,correct,,manual
+Software Engineer,10,5871227803,Software Engineer,canonical,correct,,lookup
+Software Engineer,11,5872130283,"Senior Software Engineer, Information Security",canonical,correct,,manual
+Software Engineer,12,5881156858,Sr Software Engineer - DevOps & Automation Tools Engineer,canonical,correct,,manual
+Software Engineer,13,5889085378,Senior Software Engineer – Java Backend Developer,canonical,correct,,manual
+Software Engineer,14,5896366369,Software Development Engineer II,canonical,correct,,lookup
+Software Engineer,15,5897063794,Software Development Engineer II,canonical,correct,,lookup
+Software Engineer,16,5897951863,Mainframe Application Developer,synonym,ambiguous,application_developer_generic_mainframe,manual
+Software Engineer,17,5898178720,ServiceNow Developer (Software Engineer),canonical,correct,,manual
+Software Engineer,18,5898478742,Software Engineer,canonical,correct,,lookup
+Software Engineer,19,5899326156,"Software Development Engineer, AFT External Fulfillment",canonical,correct,,lookup
+Software Engineer,20,5901253687,Senior Software Engineer - C#  Azure,canonical,correct,,manual
+Data Analyst,1,5789394746,Data Analyst,canonical,correct,,lookup
+Data Analyst,2,5831364894,Data Analyst Internship in Pune,canonical,correct,,manual
+Data Analyst,3,5831400667,Senior Data Analyst,canonical,correct,,lookup
+Data Analyst,4,5831401994,Data Analyst,canonical,correct,,lookup
+Data Analyst,5,5831600876,Lead Data Analyst - Profiling & Cleansing,canonical,correct,,manual
+Data Analyst,6,5833581852,AI-Powered Data Analyst,canonical,correct,,manual
+Data Analyst,7,5841440298,Senior Clinical Data Analyst,canonical,correct,,lookup
+Data Analyst,8,5848369759,Lead Data Analyst,canonical,correct,,manual
+Data Analyst,9,5851860321,Flight Data Analyst,canonical,correct,,lookup
+Data Analyst,10,5861792459,Executive Data Analyst,canonical,correct,,manual
+Data Analyst,11,5869814078,Sr. Data Analyst,canonical,correct,,manual
+Data Analyst,12,5874134576,Data Analyst,canonical,correct,,lookup
+Data Analyst,13,5882593417,Turkish Data Analyst (Remote),canonical,correct,,lookup
+Data Analyst,14,5889598742,Data Analyst - Senior,canonical,correct,,manual
+Data Analyst,15,5890494495,Business Intelligence and Data Analyst,canonical,correct,,manual
+Data Analyst,16,5890784080,Marketing Data Analyst,canonical,correct,,manual
+Data Analyst,17,5891981514,Online Data Analyst - Punjabi (IN),canonical,incorrect,data_annotation_crowd_work,manual
+Data Analyst,18,5901424887,Data Analyst,canonical,correct,,lookup
+Data Analyst,19,5902914866,Data Analyst,canonical,correct,,lookup
+Data Analyst,20,5902987684,Data Analyst,canonical,correct,,lookup
+Data Scientist,1,5811916465,Principal Machine Learning Engineer,synonym,ambiguous,family:ml_engineer,lookup
+Data Scientist,2,5822285230,"Senior Applied Scientist, Traffic Quality",synonym,correct,,manual
+Data Scientist,3,5834740638,Staff Machine Learning Engineer,synonym,ambiguous,family:ml_engineer,lookup
+Data Scientist,4,5850613264,"Sr Applied Scientist, Amazon Recommerce India",synonym,correct,,manual
+Data Scientist,5,5877847645,Data Scientist,canonical,correct,,lookup
+Data Scientist,6,5879936155,"(Ind) Senior, Data Scientist",canonical,correct,,manual
+Data Scientist,7,5882730969,IN_Senior Associate_AI/ML Engineer_Data & Analytics_Advisory_Bangalore,synonym,ambiguous,family:ml_engineer,manual
+Data Scientist,8,5887225199,Data Scientist,canonical,correct,,lookup
+Data Scientist,9,5889501233,"Data Scientist II, Last Mile Science",canonical,correct,,manual
+Data Scientist,10,5889506020,Data Scientist Lead - Agentic Solutions,canonical,correct,,manual
+Data Scientist,11,5891909003,Data Scientist-II-MMM,canonical,correct,,manual
+Data Scientist,12,5895349738,Principal Machine Learning Engineer,synonym,ambiguous,family:ml_engineer,lookup
+Data Scientist,13,5895353087,"Data Scientist, SCOT (Supply Chain Optimization Technologies) RoW Tech",canonical,correct,,manual
+Data Scientist,14,5895401011,Machine Learning Engineer,synonym,ambiguous,family:ml_engineer,lookup
+Data Scientist,15,5896645965,Machine Learning Engineer,synonym,ambiguous,family:ml_engineer,lookup
+Data Scientist,16,5899329554,Senior Data Scientist,canonical,correct,,lookup
+Data Scientist,17,5900727560,Staff Data Scientist - Growth & Expansion,canonical,correct,,manual
+Data Scientist,18,5900743852,Data Scientist,canonical,correct,,lookup
+Data Scientist,19,5901762348,Principal Applied Scientist - Ads Ranking & Retrieval,synonym,correct,,manual
+Data Scientist,20,5902779236,DATA SCIENTIST,canonical,correct,,lookup
+Data Engineer,1,5805309358,ETL Developer,synonym,correct,,lookup
+Data Engineer,2,5809184520,Big Data Engineer,canonical,correct,,lookup
+Data Engineer,3,5861792595,Big Data Engineer,canonical,correct,,lookup
+Data Engineer,4,5862885150,"Python, ETL Developer_Truist",synonym,correct,,manual
+Data Engineer,5,5887546585,"Data Engineer I, DSP Analytics",canonical,correct,,manual
+Data Engineer,6,5890612016,Data Engineer,canonical,correct,,lookup
+Data Engineer,7,5894230944,Data Engineer - ETL Development,canonical,correct,,lookup
+Data Engineer,8,5895239145,"Data Engineer opportunities (AWS) - Junior, Senior & Lead",canonical,correct,,manual
+Data Engineer,9,5895405655,Senior Data Engineer,canonical,correct,,lookup
+Data Engineer,10,5895470000,Senior Analytics Engineer,synonym,ambiguous,family:analytics_engineer,lookup
+Data Engineer,11,5897025901,Snowflake Data Engineer - Consultant,canonical,correct,,manual
+Data Engineer,12,5897063092,Lead Data Engineer - R01571409,canonical,correct,,manual
+Data Engineer,13,5897949636,"Data Engineer III (Remote, IND)",canonical,correct,,lookup
+Data Engineer,14,5898127499,Data Engineer,canonical,correct,,lookup
+Data Engineer,15,5898127823,GCP Data Engineer (Immediate and Bangalore),canonical,correct,,manual
+Data Engineer,16,5898465918,Senior Data Engineer,canonical,correct,,lookup
+Data Engineer,17,5898466957,Data Engineer III,canonical,correct,,manual
+Data Engineer,18,5899326133,"Data Engineer II, Prime Video Advertising",canonical,correct,,manual
+Data Engineer,19,5899512278,Senior Data Engineer (ETL Developer),canonical,correct,,manual
+Data Engineer,20,5902913509,Executive-GDC (Data Engineer),canonical,correct,,manual
+DevOps / Cloud Engineer,1,5832800875,Site Reliability Engineering (SRE) Manager,synonym,ambiguous,manager_role,manual
+DevOps / Cloud Engineer,2,5861792853,Lead DevOps Engineer,canonical,correct,,manual
+DevOps / Cloud Engineer,3,5869153521,Senior Backend & Cloud Engineer,synonym,ambiguous,hybrid_backend_cloud,lookup
+DevOps / Cloud Engineer,4,5871278947,Senior Platform Engineer,synonym,ambiguous,platform_engineer_generic,manual
+DevOps / Cloud Engineer,5,5873200564,Cloud Platform Engineer,synonym,correct,,manual
+DevOps / Cloud Engineer,6,5875084314,Lead DevOps Engineer,canonical,correct,,manual
+DevOps / Cloud Engineer,7,5878275625,Platform Engineer ( USA),synonym,ambiguous,platform_engineer_generic,manual
+DevOps / Cloud Engineer,8,5881151590,Senior DevOps Engineer (CI/CD & AI-Enabled Platform),canonical,correct,,lookup
+DevOps / Cloud Engineer,9,5882853433,Site Reliability Engineer 3,synonym,correct,,manual
+DevOps / Cloud Engineer,10,5885979019,Salesforce Data Cloud Engineer - Hyderabad,synonym,incorrect,salesforce_data_cloud_not_cloud_infrastructure,manual
+DevOps / Cloud Engineer,11,5887061140,Senior DevOps Engineer,canonical,correct,,lookup
+DevOps / Cloud Engineer,12,5887949280,Cloud Platform Engineer,synonym,correct,,manual
+DevOps / Cloud Engineer,13,5889085458,Lead Cloud Engineer - AWS,synonym,correct,,manual
+DevOps / Cloud Engineer,14,5889566843,Senior Site Reliability Engineer – L3 (AI/ML),synonym,correct,,manual
+DevOps / Cloud Engineer,15,5890810951,AWS Cloud Engineer IV (Fixed Night shift),synonym,correct,,manual
+DevOps / Cloud Engineer,16,5891909378,DevOps Engineer - Netwrix DevOps Group,canonical,correct,,manual
+DevOps / Cloud Engineer,17,5896286923,DevOps Engineer,canonical,correct,,lookup
+DevOps / Cloud Engineer,18,5896368669,"Senior Platform Engineer-SAP BPC, SAC & GR",synonym,ambiguous,sap_platform,manual
+DevOps / Cloud Engineer,19,5898482645,"Manager, Site Reliability Engineer - Data Platforms",synonym,ambiguous,manager_role,manual
+DevOps / Cloud Engineer,20,5902287455,Senior AI Cloud Engineer – AWS & Generative AI,synonym,correct,,manual
+Business Analyst,1,5843159746,"Data/Business Analyst, Credit Risk Change",canonical,ambiguous,hybrid_data_business_analyst,manual
+Business Analyst,2,5844294871,"Techno-Functional Analyst, Veeva Vault Quality, BCCI",synonym,ambiguous,family:systems_functional_analyst,manual
+Business Analyst,3,5850375877,Business Analyst,canonical,correct,,lookup
+Business Analyst,4,5851857182,Business Analyst - Patient Data,canonical,correct,,manual
+Business Analyst,5,5852590233,Business Analyst,canonical,correct,,lookup
+Business Analyst,6,5859124564,Sr . Product Analyst,synonym,ambiguous,family:product_analyst,manual
+Business Analyst,7,5871992655,Sports-Business Analyst,canonical,correct,,manual
+Business Analyst,8,5874263934,Senior Systems Analyst,synonym,ambiguous,family:systems_functional_analyst,manual
+Business Analyst,9,5877276190,Business Analyst,canonical,correct,,lookup
+Business Analyst,10,5879147376,SAP S/4 HANA Functional Analyst Procure To Pay,synonym,ambiguous,family:systems_functional_analyst,manual
+Business Analyst,11,5879562233,Product Analyst,synonym,ambiguous,family:product_analyst,manual
+Business Analyst,12,5886085547,Senior Business Analyst/ Associate LAS,canonical,correct,,manual
+Business Analyst,13,5891910428,Senior Business Analyst,canonical,correct,,lookup
+Business Analyst,14,5894973461,Business analyst key user and plant controlling,canonical,ambiguous,key_user_plant_controlling,manual
+Business Analyst,15,5895065973,"Data Business Analyst - (DataBricks, SAP, Azure)",canonical,correct,,manual
+Business Analyst,16,5897036912,Business Analyst III – SAP Order Management,canonical,correct,,lookup
+Business Analyst,17,5900356878,Sr Business Systems Analyst (Salesforce Service Cloud/ Experience Cloud),synonym,correct,,manual
+Business Analyst,18,5900718859,Business Analyst Lead - Manager,canonical,correct,,manual
+Business Analyst,19,5901762440,Senior IT Business Analyst – Oracle,canonical,correct,,manual
+Business Analyst,20,5902918952,SH Business Analyst,canonical,correct,,manual
+Product Manager,1,5822429772,Sr. Product Owner,synonym,ambiguous,family:product_owner,lookup
+Product Manager,2,5875721259,PMO Staff Product Owner (Monitoring & Observability),synonym,ambiguous,family:product_owner,lookup
+Product Manager,3,5889085844,Principal Product Manager - APAC Direct Payments,canonical,correct,,manual
+Product Manager,4,5889510013,Senior Product Manager - Services Procurement- 10487,canonical,correct,,manual
+Product Manager,5,5889557512,AI Product Manager,canonical,correct,,manual
+Product Manager,6,5890228155,Senior Product Owner,synonym,ambiguous,family:product_owner,manual
+Product Manager,7,5890243007,Director - Product Manager - Lakehouse (Asset Management),canonical,correct,,manual
+Product Manager,8,5890481528,Financial Product Manager 金融产品经理（传统金融资讯、行情方向）,canonical,correct,,manual
+Product Manager,9,5890796469,Senior Product Owner,synonym,ambiguous,family:product_owner,manual
+Product Manager,10,5890807294,Sr Advanced Tech Product Owner,synonym,ambiguous,family:product_owner,manual
+Product Manager,11,5892705338,"Senior Product Manager, Amazon Fashion",canonical,correct,,lookup
+Product Manager,12,5894107170,"Senior Product Manager, Amazon Fashion",canonical,correct,,lookup
+Product Manager,13,5895058410,Senior Product Manager,canonical,correct,,lookup
+Product Manager,14,5895371257,Senior Product Manager - R01571422,canonical,correct,,manual
+Product Manager,15,5897053763,Product Owner III,synonym,ambiguous,family:product_owner,manual
+Product Manager,16,5897875518,Senior Product Owner - Google SecOps,synonym,ambiguous,family:product_owner,manual
+Product Manager,17,5898197928,"Sr. Product Manager - Tech, Just Walk Out Technology , Physical Store 3P (Just Walk Out Technology)",canonical,correct,,lookup
+Product Manager,18,5898476965,Senior Associate - Product Owner,synonym,ambiguous,family:product_owner,lookup
+Product Manager,19,5902912242,Associate Product Manager,canonical,correct,,lookup
+Product Manager,20,5902912936,"Sr. Product Manager, High Confidence Supply-chain",canonical,correct,,manual
+Project Manager,1,5851144631,Delivery/ Project Manager - Capital Markets & Trading - - (BFSI)[Shephali],canonical,ambiguous,hybrid_delivery_project_manager,lookup
+Project Manager,2,5889598555,IT Technical Project Manager - PLM Program,canonical,correct,,manual
+Project Manager,3,5889676133,Technical Project Manager,canonical,correct,,lookup
+Project Manager,4,5890098431,Project Manager,canonical,correct,,lookup
+Project Manager,5,5890222688,Technical Project Manager,canonical,correct,,lookup
+Project Manager,6,5890786290,Project Manager,canonical,correct,,lookup
+Project Manager,7,5890820513,Assistant Project Manager,canonical,correct,,lookup
+Project Manager,8,5891882642,Programme / Project Manager Role(Senior) | Offshore,canonical,ambiguous,hybrid_program_project,manual
+Project Manager,9,5891908456,"Project Manager - New Product Development, Supply Chain",canonical,correct,,manual
+Project Manager,10,5892974729,Project Manager,canonical,correct,,lookup
+Project Manager,11,5893187953,Senior Project Manager – Oil & Gas / Industrial Projects - Thane,canonical,ambiguous,industrial_construction_domain,lookup
+Project Manager,12,5893622677,Project Manager,canonical,correct,,lookup
+Project Manager,13,5894087604,Project Manager,canonical,correct,,lookup
+Project Manager,14,5894088852,Integrated Project Manager,canonical,correct,,lookup
+Project Manager,15,5894099544,People Experience & Change Specialist (Associate Project Manager),canonical,ambiguous,hybrid_change_specialist,lookup
+Project Manager,16,5895065689,Associate Director-Project Manager,canonical,correct,,manual
+Project Manager,17,5895069274,SEO Project Manager,canonical,correct,,manual
+Project Manager,18,5895240342,Project Manager - Managed Services,canonical,correct,,manual
+Project Manager,19,5895346851,Project Manager,canonical,correct,,lookup
+Project Manager,20,5895356567,Project Manager,canonical,correct,,lookup
+Project Manager,21,5895358266,"Sr Project Manager, Professional Services",canonical,correct,,lookup
+Project Manager,22,5896646717,Workplace Project Manager,canonical,ambiguous,workplace_facilities,manual
+Project Manager,23,5896658467,Project Manager,canonical,correct,,lookup
+Project Manager,24,5896658487,Project Manager - Technical,canonical,correct,,manual
+Project Manager,25,5897063317,Project Manager - Noida,canonical,correct,,manual
+Project Manager,26,5897295180,PLM Senior Project Manager,canonical,correct,,manual
+Project Manager,27,5897927905,Technical Project Manager,canonical,correct,,lookup
+Project Manager,28,5897938968,Project Manager,canonical,correct,,lookup
+Project Manager,29,5897949597,IT/OT Project Manager,canonical,correct,,manual
+Project Manager,30,5898126479,Project Manager - Wind/ Solar,canonical,ambiguous,energy_construction_domain,manual
+Project Manager,31,5898127677,Project Manager,canonical,correct,,lookup
+Project Manager,32,5898164877,Technical Project Manager â AI & GenAI Delivery Job Description,canonical,correct,,manual
+Project Manager,33,5898178930,NPDI Project Manager Products and Solutions - Engineering Senior Analyst,canonical,ambiguous,npdi_engineering_analyst,lookup
+Project Manager,34,5898484368,IN_Manager _ Project Manager _Enterprise Apps SAP Advisory_ Gurgaon,canonical,correct,,manual
+Project Manager,35,5898487888,Web Project Manager,canonical,correct,,manual
+Project Manager,36,5898533160,Technical Project Manager,canonical,correct,,lookup
+Project Manager,37,5898655971,Technical Cloud Project Manager,canonical,correct,,manual
+Project Manager,38,5899259783,Data Center Project Manager – Network Connectivity & Structured Cabling,canonical,ambiguous,infrastructure_construction_domain,lookup
+Project Manager,39,5899846506,Project Manager,canonical,correct,,lookup
+Project Manager,40,5899854600,Technical Project Manager,canonical,correct,,lookup
+Project Manager,41,5900183995,Project Manager,canonical,correct,,lookup
+Project Manager,42,5900355150,Project Manager,canonical,correct,,lookup
+Project Manager,43,5901132896,Senior Project Manager – Professional Services,canonical,correct,,manual
+Project Manager,44,5901133464,Project Manager,canonical,correct,,lookup
+Project Manager,45,5901424889,Senior Project Manager,canonical,correct,,lookup
+Project Manager,46,5901481115,Project Manager-Electrical Engineering,canonical,ambiguous,engineering_domain,manual
+Project Manager,47,5901559998,Technical Project Manager/Lead,canonical,correct,,manual
+Project Manager,48,5901762300,PROJECT MANAGER - Project Management-Infrastructure,canonical,ambiguous,construction_domain,lookup
+Project Manager,49,5902287216,HVAC Project Manager - HVAC Company - West Mogappair,canonical,ambiguous,hvac_construction_domain,manual
+Project Manager,50,5902917839,Oracle Fusion Technical Project Manager,canonical,correct,,lookup
+Digital Marketing,1,5827708298,SEO Specialist- Digital Marketing,canonical,correct,,manual
+Digital Marketing,2,5849525631,Performance Marketing Analyst,synonym,correct,,manual
+Digital Marketing,3,5850376584,Manager - SEO Specialist,synonym,correct,,manual
+Digital Marketing,4,5850376904,Sr . Digital Marketing Specialist,canonical,correct,,manual
+Digital Marketing,5,5851860330,"Specialist, Digital Marketing",canonical,correct,,manual
+Digital Marketing,6,5854850367,Digital Marketing Executive,canonical,correct,,lookup
+Digital Marketing,7,5861795981,Digital Marketing Manager,canonical,correct,,lookup
+Digital Marketing,8,5868314005,Performance Marketing Executive - Content(Tamil),synonym,correct,,manual
+Digital Marketing,9,5869670920,Key Account Manager – Digital Marketing,canonical,ambiguous,account_management_sales,manual
+Digital Marketing,10,5877847624,Opening For Performance Marketing,synonym,ambiguous,vague_ad_no_role,manual
+Digital Marketing,11,5877943098,Performance Marketing-Sr Associate,synonym,correct,,manual
+Digital Marketing,12,5884156001,Social Media Manager (Fresher - with Digital Marketing Course),canonical,ambiguous,spam_like_training_hybrid,manual
+Digital Marketing,13,5885447152,We need urgent students for digital marketing,canonical,incorrect,training_ad_not_a_job_title,manual
+Digital Marketing,14,5886981829,Digital Marketing Sr Executive,canonical,correct,,manual
+Digital Marketing,15,5887520616,Senior Growth Marketer,synonym,correct,,manual
+Digital Marketing,16,5887947325,"Urgent Job Opening for Digital Marketing, Ahmedabad",canonical,ambiguous,vague_ad_no_role,manual
+Digital Marketing,17,5889566927,Senior Executive – Digital Marketing,canonical,correct,,manual
+Digital Marketing,18,5893057282,Performance Marketing Executive,synonym,correct,,lookup
+Digital Marketing,19,5896068822,Digital Marketing Executive (Lead Generation & SEO),canonical,correct,,manual
+Digital Marketing,20,5900529772,PERFORMANCE MARKETING MANAGER (M/W/D),synonym,correct,,manual
+Graphic Designer,1,5842550015,Creative Designer,synonym,ambiguous,creative_designer_generic,lookup
+Graphic Designer,2,5842617010,Graphic Designer,canonical,correct,,lookup
+Graphic Designer,3,5850377358,Graphic Designer,canonical,correct,,lookup
+Graphic Designer,4,5852107297,Junior Graphic Designer,canonical,correct,,manual
+Graphic Designer,5,5860543702,Graphic Designer,canonical,correct,,lookup
+Graphic Designer,6,5863702553,Graphic Designer,canonical,correct,,lookup
+Graphic Designer,7,5876279336,Executive- Graphic Designer,canonical,correct,,manual
+Graphic Designer,8,5876455047,Graphic Designer & Video Editor,canonical,ambiguous,hybrid_role,lookup
+Graphic Designer,9,5876480962,Graphic Designer,canonical,correct,,lookup
+Graphic Designer,10,5876870583,Environmental Graphic Designer,canonical,ambiguous,environmental_graphics_signage,manual
+Graphic Designer,11,5877453199,Fashion & Graphic Designer,canonical,ambiguous,hybrid_fashion,manual
+Graphic Designer,12,5885450924,Sr. Graphic Designer,canonical,correct,,manual
+Graphic Designer,13,5886092619,Creative Graphic Designer,canonical,correct,,lookup
+Graphic Designer,14,5886663299,Graphic Designer,canonical,correct,,lookup
+Graphic Designer,15,5889557101,Graphic Designer,canonical,correct,,lookup
+Graphic Designer,16,5890612145,Graphic Designer,canonical,correct,,lookup
+Graphic Designer,17,5898128479,Graphic Designer,canonical,correct,,lookup
+Graphic Designer,18,5899029327,Graphic Designer,canonical,correct,,lookup
+Graphic Designer,19,5899259029,Graphic Designer,canonical,correct,,lookup
+Graphic Designer,20,5899512401,Junior AI Specialist - Graphic Designer,canonical,ambiguous,hybrid_ai_specialist,manual

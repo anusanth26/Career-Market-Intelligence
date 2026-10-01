@@ -1,0 +1,21 @@
+domain,canonical_role,tier,api_count,raw_count,title_match_count,clean_count,salary_percentage,capped_by_max_records,decision,reason
+Technology & Data,Software Engineer,firm,9129,1650,1349,874,5.7,True,DEFINITELY INCLUDE,clean_count 874 >= 400 (measured)
+Technology & Data,Data Analyst,firm,842,866,375,305,7.5,True,CONDITIONAL,pull was capped at the per-query record limit; clean 305 < 400 but upper-bound projection 425 >= 400 [inferred] - needs deeper pull
+Technology & Data,Data Scientist,firm,1264,948,768,604,7.8,True,DEFINITELY INCLUDE,clean_count 604 >= 400 (measured)
+Technology & Data,Data Engineer,firm,2805,777,522,410,5.1,True,DEFINITELY INCLUDE,clean_count 410 >= 400 (measured)
+Technology & Data,DevOps / Cloud Engineer,firm,822,1825,1097,854,10.1,True,DEFINITELY INCLUDE,clean_count 854 >= 400 (measured)
+Technology & Data,Security Engineer,probe,811,500,271,232,4.3,True,CONDITIONAL,borderline: 200 <= clean 232 < 400
+Technology & Data,Information Security Analyst,probe,39,39,24,19,0.0,False,EXCLUDE,clean 19 < 200
+Technology & Data,Cybersecurity Engineer,probe,78,78,70,55,9.1,False,EXCLUDE,clean 55 < 200
+Technology & Data,Information Security Engineer,probe,72,72,91,36,8.3,False,EXCLUDE,clean 36 < 200
+Technology & Data,Cybersecurity Analyst,probe,27,27,10,8,0.0,False,EXCLUDE,clean 8 < 200
+"Business, Finance & Management",Business Analyst,firm,1263,1051,870,663,6.6,True,DEFINITELY INCLUDE,clean_count 663 >= 400 (measured)
+"Business, Finance & Management",Financial Analyst,firm,587,1115,705,267,4.5,True,CONDITIONAL,borderline: 200 <= clean 267 < 400
+"Business, Finance & Management",Product Manager,firm,1823,879,694,628,7.0,True,DEFINITELY INCLUDE,clean_count 628 >= 400 (measured)
+"Business, Finance & Management",Project Manager,firm,1836,1556,1106,932,7.7,True,DEFINITELY INCLUDE,clean_count 932 >= 400 (measured)
+"Business, Finance & Management",Digital Marketing,firm,390,639,593,555,25.8,False,DEFINITELY INCLUDE,clean_count 555 >= 400 (measured)
+Engineering,Mechanical Engineer,conditional,567,689,531,369,8.1,True,CONDITIONAL,pull was capped at the per-query record limit; clean 369 < 400 but upper-bound projection 405 >= 400 [inferred] - needs deeper pull
+Engineering,Electrical Engineer,conditional,580,577,452,335,6.0,True,CONDITIONAL,borderline: 200 <= clean 335 < 400
+Engineering,Quality Engineer,conditional,807,678,177,151,7.9,True,EXCLUDE,clean 151 < 200 (capped pull)
+"Media, Design & Creative",UX Designer,conditional,238,550,390,345,13.6,False,CONDITIONAL,borderline: 200 <= clean 345 < 400
+"Media, Design & Creative",Graphic Designer,conditional,571,647,495,443,16.0,True,DEFINITELY INCLUDE,clean_count 443 >= 400 (measured)

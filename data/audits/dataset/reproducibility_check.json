@@ -1,0 +1,9 @@
+{
+ "compared": "row content of every dataset view (CSV bytes and Parquet logical content), role assignments, cap exclusions, all audit and report files, manifest statistics (build_timestamp and this status excluded)",
+ "differences_between_runs": [],
+ "differences_vs_main_outputs": [],
+ "files_compared": 22,
+ "full_validated_content_sha256": "1a533b8f9a783f7e065c253acb911a4f1a8338cfb3e3f2ee1ea16b1d42b658a0",
+ "result": "PASS",
+ "runs": 2
+}

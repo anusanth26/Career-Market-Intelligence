@@ -1,0 +1,4 @@
+domain,canonical_role,tier,api_count,raw_count,title_match_count,clean_count,salary_percentage,capped_by_max_records,decision,reason
+Technology & Data,Data Analyst,firm,842,307,113,101,8.9,True,EXCLUDE,clean 101 < 200 (capped pull)
+Technology & Data,Security Engineer,probe,811,100,52,48,6.2,True,EXCLUDE,clean 48 < 200 (capped pull)
+"Business, Finance & Management",Digital Marketing,firm,390,269,243,234,25.6,True,CONDITIONAL,pull was capped at the per-query record limit; clean 234 < 400 but upper-bound projection 556 >= 400 [inferred] - needs deeper pull

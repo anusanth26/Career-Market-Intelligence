@@ -1,0 +1,35 @@
+{
+  "run_id": "20260929T174139Z_4496f922_feasibility",
+  "queries": 57,
+  "rows_total": 15663,
+  "title_only_sent_for_every_query": true,
+  "max_days_old_sent": [
+    90
+  ],
+  "sort_by_sent": [
+    "date"
+  ],
+  "window_start_calendar_day": "2026-07-01T00:00:00Z",
+  "rows_before_calendar_day_window": 0,
+  "rows_before_exact_timestamp_window": 8,
+  "earliest_created_in_run": "2026-07-01T02:26:54Z",
+  "queries_created_sorted_desc": 57,
+  "queries_not_sorted_desc": [],
+  "pages_contiguous_from_1_in_every_query": true,
+  "duplicate_ids_within_a_single_query_total": 0,
+  "api_count_logged_for_every_query": true,
+  "queries_with_zero_results": [],
+  "http_failures_total": 0,
+  "retries_total": 0,
+  "failed_attempt_log_entries": 0,
+  "failed_status_counts": {},
+  "queries_not_complete": [],
+  "api_count_varied_within_query": [],
+  "mapping_status_counts": {
+    "matched": 11115,
+    "unmatched": 4298,
+    "ambiguous_multi": 140,
+    "excluded_by_rule": 110
+  },
+  "credentials_present_in_run_files": false
+}

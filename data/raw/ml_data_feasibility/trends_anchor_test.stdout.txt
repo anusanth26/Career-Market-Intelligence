@@ -1,0 +1,10 @@
+[B1] ['SQL', 'Python', 'Docker', 'Kubernetes', 'Tableau']
+[B2] ['SQL', 'Power BI', 'Figma', 'SEO', 'Jira']
+[B3] ['SQL', 'Terraform', 'Snowflake', 'Photoshop', 'Docker']
+[B1_repeat2] ['SQL', 'Python', 'Docker', 'Kubernetes', 'Tableau']
+[B1_repeat3] ['SQL', 'Python', 'Docker', 'Kubernetes', 'Tableau']
+[L1_mid_anchor] ['Photoshop', 'Terraform', 'Snowflake', 'Tableau', 'Kubernetes']
+    attempt 1 failed: TooManyRequestsError; sleeping 60s
+[G1_direct_with_SQL] ['SQL', 'Terraform', 'Snowflake', 'Tableau', 'Kubernetes']
+    attempt 1 failed: TooManyRequestsError; sleeping 60s
+    attempt 2 failed: TooManyRequestsError; sleeping 120s

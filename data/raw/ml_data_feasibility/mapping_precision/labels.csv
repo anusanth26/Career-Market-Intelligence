@@ -1,0 +1,585 @@
+role,sample_index,adzuna_id,title,mapping_tier,retrieved_by,label,reason_code
+Software Engineer,1,5828945744,Mobile Application Developer (Native Android & iOS),S,application developer,correct,
+Software Engineer,2,5850371057,Application Developer,S,application developer,ambiguous,application_developer_generic
+Software Engineer,3,5858375391,"Senior Associate, Application Developer, Consumer Banking Group Technology",S,application developer,correct,
+Software Engineer,4,5868097422,Application Developer-Python,S,application developer,correct,
+Software Engineer,5,5869817661,Application Developer,S,application developer,ambiguous,application_developer_generic
+Software Engineer,6,5870768949,Senior CAD Software Engineer - IC design,C,cad engineer,correct,
+Software Engineer,7,5871271705,.NET Core Application Developer,S,application developer,correct,
+Software Engineer,8,5871276686,Android Application Developer Native,S,application developer,correct,
+Software Engineer,9,5871530809,"Software Engineer III, Infrastructure, Google Cloud Storage",C,cloud engineer,correct,
+Software Engineer,10,5871787899,Lead Software Engineer - Salesforce Primary Cloud,C,cloud engineer,correct,
+Software Engineer,11,5876480300,Senior Software Engineer - Enterprise Linux Platform,C,platform engineer,correct,
+Software Engineer,12,5877295667,"Senior Software Engineer, YouTube Live, Creator Platform",C,platform engineer,correct,
+Software Engineer,13,5881104838,"Software Engineer I, Machine Learning",C,machine learning engineer,correct,
+Software Engineer,14,5882768833,Senior Application Developer,S,application developer,ambiguous,application_developer_generic
+Software Engineer,15,5887961870,Software Development Engineer 3,C,software developer,correct,
+Software Engineer,16,5889108508,Software Development Engineer II,C,software developer,correct,
+Software Engineer,17,5889554480,Software Development Engineer I-2,C,software developer,correct,
+Software Engineer,18,5889572955,Lead Software Engineer - ‬‭ Analytics & Data‬ ‭- 10336,C,analytics engineer,correct,
+Software Engineer,19,5890817299,Software Engineer 3 – Platform Security,C,platform engineer,correct,
+Software Engineer,20,5891582078,Software Engineer II - Cloud Platform,C,cloud engineer,correct,
+Software Engineer,21,5893057374,Software Developer,C,software developer,correct,
+Software Engineer,22,5893848962,"Software Development Engineer, AI Runtime",C,software developer,correct,
+Software Engineer,23,5893848989,Sr. Software Development Engineer,C,software developer,correct,
+Software Engineer,24,5894127010,Staff Firmware & System Software Engineer — Platform Controller and SoC Stack,C,platform engineer,correct,
+Software Engineer,25,5894822124,Senior Software Development Engineer II,C,software developer,correct,
+Software Engineer,26,5896366924,"Staff Software Engineer, Google Cloud",C,cloud engineer,correct,
+Software Engineer,27,5896657627,Sr Associate Software Engineer Cloud Platform DevOps,C,devops engineer,correct,
+Software Engineer,28,5897052323,Senior Full-Stack Software Developer - AI Voice and Communications Platform,C,software developer,correct,
+Software Engineer,29,5897054087,Senior Software Engineer - Tax Platform,C,platform engineer,correct,
+Software Engineer,30,5897055641,Senior Staff Software Engineer- Monetization Platform,C,platform engineer,correct,
+Software Engineer,31,5897063650,"Lead Software Developer(C++, Simulink&Matlab,3-6 years,Bangalore)",C,software developer,correct,
+Software Engineer,32,5897066938,"Software Development Engineer, AFT External Fulfillment",C,software developer,correct,
+Software Engineer,33,5897953354,"Lead Software Developer(C++, Simulink&Matlab,3-6 years,Bangalore)",C,software developer,correct,
+Software Engineer,34,5899536729,Staff Software Engineer (Platform - Financial Engineering),C,platform engineer,correct,
+Software Engineer,35,5899868480,Software Development Engineer 2,C,software engineer,correct,
+Software Engineer,36,5900355894,Principal Software Engineer,C,software engineer,correct,
+Software Engineer,37,5900356214,Software Engineer III,C,software engineer,correct,
+Software Engineer,38,5900357038,Senior Software Engineer II,C,software engineer,correct,
+Software Engineer,39,5900717827,"Software Engineer 1 , Applied AI",C,software engineer,correct,
+Software Engineer,40,5900743341,Software Engineer I,C,software engineer,correct,
+Software Engineer,41,5900751464,Software Development Engineer,C,software engineer,correct,
+Software Engineer,42,5901252777,"Software Development Engineer II - FinTech, FinTech",C,software engineer,correct,
+Software Engineer,43,5901252856,Software Engineer,C,software engineer,correct,
+Software Engineer,44,5901253420,"Software Engineer Manager, Commerce Infrastructure, Health and Home",C,software engineer,ambiguous,manager_role
+Software Engineer,45,5901253674,Principal Software Engineer,C,software engineer,correct,
+Software Engineer,46,5902535253,"Software Engineer, Principal",C,software engineer,correct,
+Software Engineer,47,5902580426,Senior Software Engineer,C,software engineer,correct,
+Software Engineer,48,5902729427,Senior Software Engineer-AI,C,software engineer,correct,
+Software Engineer,49,5902910495,Software Engineer III,C,software engineer,correct,
+Software Engineer,50,5902913036,Software Engineer,C,software engineer,correct,
+Software Engineer,U1,5803870024,Backend Developer (Python) – GenAI & LLM Applications,,application developer,false_negative,
+Software Engineer,U3,5841941251,AI Developer – Voice AI Application,,application developer,false_negative,
+Software Engineer,U4,5848357947,Sr. Developer - Application Development JAVA P 4B,,application developer,false_negative,
+Software Engineer,U8,5890796364,Software Cloud Developer,,software developer,false_negative,
+Software Engineer,U12,5898655923,Custom Software Engineering Lead - Java Full Stack Development,,software developer,false_negative,
+Software Engineer,U13,5899863118,"Staff Engineer, Product Software",,software engineer,false_negative,
+Software Engineer,U14,5900616393,Technical Lead & Sr Developers Web And Blockchain Applications,,application developer,unmatched_ambiguous,
+Data Analyst,1,5797363610,Reliability Data Analyst,C,data analyst,correct,
+Data Analyst,2,5807501339,Business Intelligence Analyst II,S,business intelligence analyst,correct,
+Data Analyst,3,5814494533,Data Analyst,C,data analyst,correct,
+Data Analyst,4,5818418582,Senior Data Analyst,C,data analyst,correct,
+Data Analyst,5,5826674517,Business Intelligence Analyst,S,business intelligence analyst,correct,
+Data Analyst,6,5830641274,CX Data Analyst,C,data analyst,correct,
+Data Analyst,7,5832090748,Principal Survey Data Analyst,C,data analyst,correct,
+Data Analyst,8,5834751705,Senior Data Analyst,C,data analyst,correct,
+Data Analyst,9,5841440298,Senior Clinical Data Analyst,C,data analyst,correct,
+Data Analyst,10,5841921852,Data Analyst II (Sharepoint/ PowerApps/ Power Automate Developer)- Only Bangalore Based Candidates,C,data analyst,ambiguous,hybrid_developer
+Data Analyst,11,5844301375,Financial Data Analyst (Reference Data/Financial Instruments),C,data analyst,correct,
+Data Analyst,12,5849314553,HR Data Analyst,C,data analyst,correct,
+Data Analyst,13,5850339738,Data Analyst Internship in Ahmedabad,C,data analyst,correct,
+Data Analyst,14,5852577088,Liquidity Reporting- data analyst,C,data analyst,correct,
+Data Analyst,15,5852610226,Data Analyst - Revenue Operations,C,data analyst,correct,
+Data Analyst,16,5854877435,Data Analyst,C,data analyst,correct,
+Data Analyst,17,5854880422,Data Analyst,C,data analyst,correct,
+Data Analyst,18,5856408833,Data Analyst,C,data analyst,correct,
+Data Analyst,19,5856941319,Staff AI & Automation Data Analyst,C,data analyst,correct,
+Data Analyst,20,5857745620,Senior Data Analyst,C,data analyst,correct,
+Data Analyst,21,5857746715,Data Analyst,C,data analyst,correct,
+Data Analyst,22,5858362818,Sr Data Analyst_Campaign Management Analytics,C,data analyst,correct,
+Data Analyst,23,5860533633,Binary Semantics - Senior Data Analyst - Tableau/Power BI,C,data analyst,correct,
+Data Analyst,24,5861793318,Senior Data Analyst,C,data analyst,correct,
+Data Analyst,25,5861793858,Data Analyst,C,data analyst,correct,
+Data Analyst,26,5868120206,Data Analyst,C,data analyst,correct,
+Data Analyst,27,5869193558,Lead Data Analyst - Cyber Incident Review,C,data analyst,ambiguous,security_analyst_domain
+Data Analyst,28,5871991986,Data Analyst – Power Platform,C,data analyst,correct,
+Data Analyst,29,5876480070,Senior Data Analyst/Programmer,C,data analyst,ambiguous,hybrid_programmer
+Data Analyst,30,5879552231,Data Analyst,C,data analyst,correct,
+Data Analyst,31,5879665881,Business Intelligence Analyst,S,business intelligence analyst,correct,
+Data Analyst,32,5879668539,Data Analyst,C,data analyst,correct,
+Data Analyst,33,5882593417,Turkish Data Analyst (Remote),C,data analyst,correct,
+Data Analyst,34,5887876245,Lead - Data Analyst - GBS CRP Data Analytics,C,data analyst,correct,
+Data Analyst,35,5889558833,"Treasury ALM Senior Data Analyst, Assistant Manager",C,data analyst,correct,
+Data Analyst,36,5890240441,Azure AI Data Analyst,C,data analyst,correct,
+Data Analyst,37,5890803974,Business/Data Analyst - Training & Certification,C,data analyst,ambiguous,hybrid_business_data
+Data Analyst,38,5892770992,Data Analyst,C,data analyst,correct,
+Data Analyst,39,5893913372,"Senior Business Data Analyst - (DataBricks, SAP, Azure)",C,data analyst,correct,
+Data Analyst,40,5893930269,Data Analyst,C,data analyst,correct,
+Data Analyst,41,5894130072,People Business Intelligence Analyst,S,business intelligence analyst,correct,
+Data Analyst,42,5895065880,Data Analyst,C,data analyst,correct,
+Data Analyst,43,5895353519,Assistant Manager - Data Analyst,C,data analyst,correct,
+Data Analyst,44,5895357304,Data Analyst - Global Procurement & Planning COE,C,data analyst,correct,
+Data Analyst,45,5896647033,"Data Analyst, Stewardship",C,data analyst,ambiguous,data_stewardship
+Data Analyst,46,5899537340,Senior Data Analyst,C,data analyst,correct,
+Data Analyst,47,5899868943,Lead Data Analyst (US Regulatory Reporting) - R01571259,C,data analyst,correct,
+Data Analyst,48,5900348948,Data Analyst,C,data analyst,correct,
+Data Analyst,49,5900744967,Senior MDM Product Data Analyst,C,data analyst,ambiguous,data_stewardship
+Data Analyst,50,5902919467,GBS Data Operations - Maintenance Data Analyst,C,data analyst,ambiguous,data_operations
+Data Analyst,U17,5890794731,Analyst Data & Insight,,data analyst,false_negative,
+Data Analyst,U18,5890799872,Lead Analyst/ Associate Consultant-Power BI with paginated reports,,bi analyst,false_negative,
+Data Analyst,U21,5895662197,Senior Insights Analyst - Power BI (Italian Speaking),,bi analyst,false_negative,
+Data Analyst,U22,5897039139,BI Reporting Analyst,,bi analyst,false_negative,
+Data Analyst,U3,5833601338,"Analyst, Data Operations",,data analyst,unmatched_ambiguous,
+Data Analyst,U4,5845820258,Senior HR Analyst HR Data and Reporting Team parental leave coverage,,data analyst,unmatched_ambiguous,
+Data Analyst,U15,5886394245,Reporting Analyst II,,reporting analyst,unmatched_ambiguous,
+Data Analyst,U23,5897050510,Reporting Analyst,,reporting analyst,unmatched_ambiguous,
+Data Analyst,U24,5897056309,RevOps SF Analyst and Power BI,,bi analyst,unmatched_ambiguous,
+Data Scientist,1,5788472875,Machine Learning Engineer,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,2,5789591344,Sr Machine Learning Engineer,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,3,5798265719,Applied Scientist II - Recommendation Systems,S,applied scientist,correct,
+Data Scientist,4,5819665505,"Machine Learning Engineer, Amazon Music - Catalog Quality",S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,5,5829179062,"Applied Scientist II, Alexa International Tech",S,applied scientist,correct,
+Data Scientist,6,5834764541,Senior Machine Learning Engineer,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,7,5836849101,Staff Machine Learning Engineer,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,8,5844305252,"Senior Applied Scientist, Alexa Ads",S,applied scientist,correct,
+Data Scientist,9,5845253142,Senior Machine Learning Engineer,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,10,5845820481,Data Scientist Fintech Applied ML,C,applied scientist,correct,
+Data Scientist,11,5859122446,Senior Machine Learning Engineer,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,12,5870119149,Principal Machine Learning Engineer,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,13,5877287619,IN_Senior Associate_ Data Scientist_D&A_Advisory_Hyderabad,C,data scientist,correct,
+Data Scientist,14,5878276709,Finance AI Data Scientist,C,data scientist,correct,
+Data Scientist,15,5878284918,Credit Data Scientist (Credit Analytics) - Bengaluru,C,data scientist,correct,
+Data Scientist,16,5878629526,Data Scientist-KMPL Support Services-Analytics,C,data scientist,correct,
+Data Scientist,17,5878695312,Data Scientist II,C,data scientist,correct,
+Data Scientist,18,5879139721,Senior Data Scientist,C,data scientist,correct,
+Data Scientist,19,5879561855,Senior Data Scientist - AI & ML,C,data scientist,correct,
+Data Scientist,20,5882502640,"Data Scientist / AI Engineer (Python, ML, RAG) - Tier 1 college only",C,data scientist,correct,
+Data Scientist,21,5883281847,Sr. Engineer - Data Scientist,C,data scientist,correct,
+Data Scientist,22,5883711782,Data Scientist 4A,C,data scientist,correct,
+Data Scientist,23,5885450972,Applied Scientist-Agentic AI,S,applied scientist,correct,
+Data Scientist,24,5888774077,Senior Machine Learning Engineer-Office of the CTO,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,25,5889605310,Senior Associate - Data Scientist,C,data scientist,correct,
+Data Scientist,26,5889785904,Advanced Data Scientist - Machine Learning,C,data scientist,correct,
+Data Scientist,27,5890897448,Lead Data Scientist,C,data scientist,correct,
+Data Scientist,28,5891582202,Lead Data Scientist,C,data scientist,correct,
+Data Scientist,29,5891588101,Senior Data Scientist Marketing Mix Modeling,C,data scientist,correct,
+Data Scientist,30,5894222466,"Data Scientist, Fraud Risk Mitigation",C,data scientist,correct,
+Data Scientist,31,5895059390,"Machine Learning Engineer, Link",S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,32,5895065476,Lead Machine Learning Engineer,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,33,5895382354,Senior Machine Learning Engineer,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,34,5897029482,Machine Learning Engineer II,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,35,5897040700,Full-Stack AI Engineer / Data Scientist – Agentic Systems,C,data scientist,ambiguous,hybrid_ai_engineer
+Data Scientist,36,5897045971,Sr. Machine Learning Engineer,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,37,5897873954,Data Scientist,C,data scientist,correct,
+Data Scientist,38,5898200150,"Sr Applied Scientist, Amazon Shipping",S,applied scientist,correct,
+Data Scientist,39,5898466641,Data Scientist,C,data scientist,correct,
+Data Scientist,40,5899549783,Data Scientist,C,data scientist,correct,
+Data Scientist,41,5900356110,Principal Machine Learning Engineer (Prisma AIRS) - NetSec,S,machine learning engineer,ambiguous,family:ml_engineer
+Data Scientist,42,5900357018,Associate Data Scientist,C,data scientist,correct,
+Data Scientist,43,5900530028,"STAFF, DATA SCIENTIST",C,data scientist,correct,
+Data Scientist,44,5900717049,Data Scientist Associate,C,data scientist,correct,
+Data Scientist,45,5900721457,Expert Clinical Data Scientist,C,data scientist,correct,
+Data Scientist,46,5900752020,Data Scientist-3,C,data scientist,correct,
+Data Scientist,47,5901481018,Data Scientist,C,data scientist,correct,
+Data Scientist,48,5901762423,Principal Data Scientist,C,data scientist,correct,
+Data Scientist,49,5902721400,Senior Data Scientist,C,data scientist,correct,
+Data Scientist,50,5902920008,Senior Data Scientist,C,data scientist,correct,
+Data Scientist,U3,5875071762,Data Science Intership in Ahmedabad,,data scientist,false_negative,
+Data Scientist,U9,5891888550,IND Applied AI Scientist,,applied scientist,false_negative,
+Data Scientist,U10,5893825605,Data Science & ML Senior Associate,,data scientist,false_negative,
+Data Scientist,U11,5894233473,Applied Data Science (Fresher),,data scientist,false_negative,
+Data Scientist,U15,5902916549,"Senior Specialist, Data Science & Artificial Intelligence( Claude & Copilot)",,data scientist,false_negative,
+Data Scientist,U7,5886521535,"Senior Data Science Engineer, India",,data scientist,unmatched_ambiguous,
+Data Engineer,1,5809184520,Big Data Engineer,C,big data engineer,correct,
+Data Engineer,2,5820787356,Manager- ETL Developer,S,etl developer,ambiguous,manager_role
+Data Engineer,3,5822389846,SAP Analytics Engineer (Datasphere)- India,S,analytics engineer,ambiguous,family:analytics_engineer
+Data Engineer,4,5843196561,"Data Engineer, IN Data Engineering & Analytics",C,analytics engineer,correct,
+Data Engineer,5,5847672049,C501 - BTA::Application Senior Developer_Data Engineer,C,application developer,correct,
+Data Engineer,6,5849463143,FBS Associate Analytics Engineer,S,analytics engineer,ambiguous,family:analytics_engineer
+Data Engineer,7,5851857355,Etl Developer Lead,S,etl developer,correct,
+Data Engineer,8,5856952612,"Oliver Wyman - Data Engineer / Senior Data Engineer - Data and Analytics (DNA) - Gurugram, India",C,analytics engineer,correct,
+Data Engineer,9,5858374844,ETL DEveloper,S,etl developer,correct,
+Data Engineer,10,5859757280,Data Engineer- Senior Associate- Analytics as Service - Operate,C,analytics engineer,correct,
+Data Engineer,11,5860532608,Senior Lead Data Engineer - Devops,C,devops engineer,correct,
+Data Engineer,12,5869817237,"Java , ETL Developer",S,etl developer,correct,
+Data Engineer,13,5878709154,"Data Engineer II, TSE Operations Analytics",C,analytics engineer,correct,
+Data Engineer,14,5879940863,Data Engineer III - Data Platform,C,platform engineer,correct,
+Data Engineer,15,5890804435,Data Engineer - Analyst,C,data analyst,correct,
+Data Engineer,16,5894230944,Data Engineer - ETL Development,C,etl developer,correct,
+Data Engineer,17,5895875081,DATA ENGINEER (GCP),C,data engineer,correct,
+Data Engineer,18,5896110855,"Senior Data Engineer (DBT, AWS, SQL)",C,data engineer,correct,
+Data Engineer,19,5896366356,"Data Engineer , Business Data Technologies",C,data engineer,correct,
+Data Engineer,20,5896612538,Senior Data Engineer,C,data engineer,correct,
+Data Engineer,21,5896675939,"Data Engineer II, Sales Data Services (SDS)",C,data engineer,correct,
+Data Engineer,22,5897041598,Senior Data Engineer,C,data engineer,correct,
+Data Engineer,23,5897046092,"Data Engineer III (Remote, IND)",C,data engineer,correct,
+Data Engineer,24,5897067172,Lead AWS Data Engineer (PPM),C,data engineer,correct,
+Data Engineer,25,5897946313,Senior Analytics Engineer,S,analytics engineer,ambiguous,family:analytics_engineer
+Data Engineer,26,5897949191,Sr. Associate Data Engineer,C,data engineer,correct,
+Data Engineer,27,5897949496,Oracle PLSQL ETL Developer - Vice President,S,etl developer,correct,
+Data Engineer,28,5898126207,Lead Data Engineer,C,data engineer,correct,
+Data Engineer,29,5898127205,AWS Data engineer,C,data engineer,correct,
+Data Engineer,30,5898128063,Data Engineer,C,data engineer,correct,
+Data Engineer,31,5898129018,GCP Data Engineer,C,data engineer,correct,
+Data Engineer,32,5898467124,Senior Data Engineer,C,data engineer,correct,
+Data Engineer,33,5898506122,Data Engineer,C,data engineer,correct,
+Data Engineer,34,5899555690,Senior Data Engineer,C,data engineer,correct,
+Data Engineer,35,5899838078,Data Engineer - Manager,C,data engineer,ambiguous,manager_role
+Data Engineer,36,5899844554,Data Engineer - GCH,C,data engineer,correct,
+Data Engineer,37,5899864392,"Sr. Security Data Engineer & Developer, Security Data Platform",C,data engineer,correct,
+Data Engineer,38,5899962022,Senior Azure Data Engineer – RAG & Databricks,C,data engineer,correct,
+Data Engineer,39,5900616358,Senior ETL Developer,S,etl developer,correct,
+Data Engineer,40,5900748323,Data Engineer II,C,data engineer,correct,
+Data Engineer,41,5900875510,Lead Data Engineer,C,data engineer,correct,
+Data Engineer,42,5900875607,Lead Data Engineer,C,data engineer,correct,
+Data Engineer,43,5901132887,Data Engineer 2,C,data engineer,correct,
+Data Engineer,44,5901872735,Data Engineer-Pan India,C,data engineer,correct,
+Data Engineer,45,5902168642,Data Engineer-Master Data Management,C,data engineer,correct,
+Data Engineer,46,5902358456,Senior Data Engineer,C,data engineer,correct,
+Data Engineer,47,5902729924,Senior Full Stack Data Engineer,C,data engineer,correct,
+Data Engineer,48,5902912193,IN_Associate_– Data Engineer _GCC_Advisory_Hyderabad,C,data engineer,correct,
+Data Engineer,49,5902912949,IN-Sr Associate_Databricks Data Engineer_GCC_Advisory_Bangalore,C,data engineer,correct,
+Data Engineer,50,5902918775,Microsoft Fabric / Data Engineer,C,data engineer,correct,
+Data Engineer,U3,5889505872,SSIS Developer (ETL) JobID JC0015829,,etl developer,false_negative,
+Data Engineer,U8,5899836368,DE&A - Core - Cloud Data Engineering - Azure Data Engineering,,data engineer,false_negative,
+Data Engineer,U10,5901134288,Data Engineering [T500-29647],,data engineer,false_negative,
+Data Engineer,U15,5902942298,Sr.Data Engineering,,data engineer,false_negative,
+Data Engineer,U1,5858131071,"Senior Database Developer (PL/SQL, ETL)",,etl developer,unmatched_ambiguous,
+Data Engineer,U13,5902448378,Data Engineering Lead,,data engineer,unmatched_ambiguous,
+DevOps / Cloud Engineer,1,5812882736,Senior Site Reliability Engineer,S,site reliability engineer,correct,
+DevOps / Cloud Engineer,2,5819378910,Senior Site Reliability Engineer,S,site reliability engineer,correct,
+DevOps / Cloud Engineer,3,5827637899,DevOps Engineer / Site Reliability Engineer (SRE),C,site reliability engineer,correct,
+DevOps / Cloud Engineer,4,5829199888,"Sr. Site Reliability Engineer, Engineering Stack Support",S,site reliability engineer,correct,
+DevOps / Cloud Engineer,5,5859420059,Sr Specialist System Engineering - DevOps Engineer - AI & Pipeline Automation,C,devops engineer,correct,
+DevOps / Cloud Engineer,6,5860548442,AWS Site Reliability Engineer,S,site reliability engineer,correct,
+DevOps / Cloud Engineer,7,5860548484,Senior Site Reliability Engineer,S,site reliability engineer,correct,
+DevOps / Cloud Engineer,8,5861793709,Devops Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,9,5869222043,DevOps Engineer - Contract,C,devops engineer,correct,
+DevOps / Cloud Engineer,10,5869803420,DevOps / Cloud Engineer,S,devops engineer,correct,
+DevOps / Cloud Engineer,11,5871271708,DevOps Engineer - Mid Level,C,devops engineer,correct,
+DevOps / Cloud Engineer,12,5871278855,Cloud Engineer,S,cloud engineer,correct,
+DevOps / Cloud Engineer,13,5872104728,Senior DevSecOps/Site Reliability Engineer (AWS),S,site reliability engineer,correct,
+DevOps / Cloud Engineer,14,5872126006,Senior DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,15,5872936783,DEVOPS ENGINEER L3,C,devops engineer,correct,
+DevOps / Cloud Engineer,16,5878635394,Senior Site Reliability Engineer (CI-CD/CTAP/Delivery team),S,site reliability engineer,correct,
+DevOps / Cloud Engineer,17,5878703901,Principal DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,18,5879551451,Executive - Full Stack DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,19,5880845468,Platform Engineer (Cybersecurity Platform),S,platform engineer,ambiguous,platform_engineer_generic
+DevOps / Cloud Engineer,20,5881144782,Senior Cloud and DevOps Engineer-Azure,C,devops engineer,correct,
+DevOps / Cloud Engineer,21,5881151590,Senior DevOps Engineer (CI/CD & AI-Enabled Platform),C,devops engineer,correct,
+DevOps / Cloud Engineer,22,5882274729,"Site Reliability Engineer - Devops, AWS, Python/GO - 4 to 8 years",S,devops engineer,correct,
+DevOps / Cloud Engineer,23,5882275603,Lead Platform Engineer,S,platform engineer,ambiguous,platform_engineer_generic
+DevOps / Cloud Engineer,24,5882499428,Azure Devops Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,25,5884512379,"Platform Engineer- Automation, Testing,Kubernetes- Skylar AI Platform",S,platform engineer,ambiguous,platform_engineer_generic
+DevOps / Cloud Engineer,26,5886325118,Staff DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,27,5886394619,DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,28,5886402423,Sr Site Reliability Engineer,S,site reliability engineer,correct,
+DevOps / Cloud Engineer,29,5887208051,Azure DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,30,5887881335,Sr Cloud Engineer II,S,cloud engineer,correct,
+DevOps / Cloud Engineer,31,5887957775,Senior DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,32,5889085431,Senior Cloud Platform Engineer,S,cloud engineer,correct,
+DevOps / Cloud Engineer,33,5889518946,DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,34,5889525071,Azure Platform Engineer JobID JC0015837,S,platform engineer,correct,
+DevOps / Cloud Engineer,35,5889564143,Cloud Engineer,S,cloud engineer,correct,
+DevOps / Cloud Engineer,36,5890785266,Senior DevOps Engineer (Contract),C,devops engineer,correct,
+DevOps / Cloud Engineer,37,5890807896,Senior Platform Engineer (SAP Basis Hana),S,platform engineer,ambiguous,sap_basis_admin
+DevOps / Cloud Engineer,38,5891901349,"Staff Site Reliability Engineer, Environment Automation",S,site reliability engineer,correct,
+DevOps / Cloud Engineer,39,5892386676,"Sr. Site Reliability Engineer - GCP, Terraform, Networking, Linux ,Python",S,site reliability engineer,correct,
+DevOps / Cloud Engineer,40,5893831988,Senior DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,41,5894073576,"Senior Site Reliability Engineer, Production Engineering",S,site reliability engineer,correct,
+DevOps / Cloud Engineer,42,5894769740,Salesforce DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,43,5896354346,Senior DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,44,5896644820,SFDC Devops Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,45,5896648234,Cloud Engineer,S,cloud engineer,correct,
+DevOps / Cloud Engineer,46,5898473740,Site Reliability Engineer II,S,site reliability engineer,correct,
+DevOps / Cloud Engineer,47,5899850657,Site Reliability Engineer,S,site reliability engineer,correct,
+DevOps / Cloud Engineer,48,5899863127,Senior Azure Cloud Platform Engineer,S,cloud engineer,correct,
+DevOps / Cloud Engineer,49,5900355071,Senior DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,50,5900737381,Principal AI & DevOps Engineer,C,devops engineer,correct,
+DevOps / Cloud Engineer,U2,5861792822,DevOps Engineering Enablement-Lead Engineer,,devops engineer,false_negative,
+DevOps / Cloud Engineer,U3,5862282623,Cloud Services Engineer,,cloud engineer,false_negative,
+DevOps / Cloud Engineer,U7,5881116353,Senior Engineer- Azure DevOps,,devops engineer,false_negative,
+DevOps / Cloud Engineer,U8,5887934595,"Senior Engineer, DevOps",,devops engineer,false_negative,
+DevOps / Cloud Engineer,U15,5902739613,DevOps / Infrastructure Engineer,,devops engineer,false_negative,
+DevOps / Cloud Engineer,U11,5889600071,Staff Platform Operations Engineer(Snowflake),,platform engineer,unmatched_ambiguous,
+DevOps / Cloud Engineer,U14,5901481289,Lead Developer - Platform Engineering,,platform engineer,unmatched_ambiguous,
+Business Analyst,1,5784307650,Senior Finance Systems Analyst,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,2,5787167967,System Analyst SAP,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,3,5796208546,HR Systems Analyst,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,4,5803870389,Nostro Risk Reporting Business Analyst,C,reporting analyst,correct,
+Business Analyst,5,5831403231,Business System Analyst,S,systems analyst,correct,
+Business Analyst,6,5835719342,Mid Level SAP ERP Systems Analyst OTC,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,7,5851151916,RCM Senior AI and Automation Systems Analyst,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,8,5851859964,Workday System Analyst - HRIS,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,9,5859121192,Product Analyst II,S,product analyst,ambiguous,family:product_analyst
+Business Analyst,10,5861224357,System Analyst,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,11,5863636581,Functional Analyst,S,functional analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,12,5864438745,Functional Product Analyst (AA) - India,S,functional analyst,ambiguous,family:product_analyst
+Business Analyst,13,5872088972,Credit System Analyst,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,14,5872118220,"Senior Business Analyst IT - Alternate Investments, Assistant Vice President",C,investment analyst,correct,
+Business Analyst,15,5872128982,Vice President (VP) Data Business Analyst,C,data analyst,correct,
+Business Analyst,16,5876942228,System Analyst Us Equities Integration,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,17,5876942921,System Analyst Mobile,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,18,5877486811,Senior Product Analyst/Senior Analyst,S,product analyst,ambiguous,family:product_analyst
+Business Analyst,19,5878626808,Financial Systems Analyst,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,20,5878633634,"Functional Analyst, Oracle HCM Center of Excellence",S,functional analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,21,5878707593,"Business Analyst II, WW FBA, FBA Analytics",C,business analyst,correct,
+Business Analyst,22,5879362649,"Business Analyst - AMZL S&OP, S&OP",C,business analyst,correct,
+Business Analyst,23,5882754943,Business Analyst - Associate - Online-GUT,C,business analyst,correct,
+Business Analyst,24,5886007102,"Business Analyst, RBS ARTS (Automation Reporting and Tech Sciences)",C,reporting analyst,correct,
+Business Analyst,25,5887875291,"Business Analyst II, GTS Field",C,business analyst,correct,
+Business Analyst,26,5887942394,"Business Analyst, Associate",C,business analyst,correct,
+Business Analyst,27,5887943452,Business Analyst AI,C,business analyst,correct,
+Business Analyst,28,5888672698,Business Analyst - Banking at Compunet Connections,C,business analyst,correct,
+Business Analyst,29,5888693381,Business Analyst – Post Sales,C,business analyst,correct,
+Business Analyst,30,5889501005,Junior Business Analyst,C,business analyst,correct,
+Business Analyst,31,5889505708,Physical Security Systems Analyst,S,systems analyst,incorrect,physical_security_systems
+Business Analyst,32,5890791520,Workday Systems Analyst- Phenom Specialist,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,33,5890801884,"Senior Business Systems Analyst, SAP IBP Planning",S,business analyst,correct,
+Business Analyst,34,5891404648,Workday Prism & Accounting Systems Analyst,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,35,5891864109,Business Analyst 2,C,business analyst,correct,
+Business Analyst,36,5892384033,Business Systems Analyst,S,business analyst,correct,
+Business Analyst,37,5892689834,Senior Business Analyst,C,business analyst,correct,
+Business Analyst,38,5893618538,"Business Analyst, ROC, ROC",C,business analyst,correct,
+Business Analyst,39,5894314854,Solution Consultant/Business Analyst - Tieto Banktech (m/f/d),C,business analyst,correct,
+Business Analyst,40,5895351408,Business Analyst - Specification Management,C,business analyst,correct,
+Business Analyst,41,5895373783,"Senior Business Analyst, Sales and Use Tax",C,business analyst,correct,
+Business Analyst,42,5896030146,FS-RISK CONSULTING-FSRM - Basel III Business Analyst _CSTC-SENIOR,C,business analyst,correct,
+Business Analyst,43,5897042022,Business Analyst III – SAP MM/PP,C,business analyst,correct,
+Business Analyst,44,5897954950,Business Analyst III - SAP Order Management,C,business analyst,correct,
+Business Analyst,45,5898179069,SAP Functional Analyst - GTS,S,functional analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,46,5899326111,"Business Analyst, Global Solutions & Risk Compliance (GSRC)",C,business analyst,correct,
+Business Analyst,47,5899329238,GB Commercial Systems Analyst,S,systems analyst,ambiguous,family:systems_functional_analyst
+Business Analyst,48,5899851797,Website Security Support - Product Analyst,S,product analyst,incorrect,website_security_support
+Business Analyst,49,5899856192,Business Analyst,C,business analyst,correct,
+Business Analyst,50,5902919511,Senior Salesforce CPQ Business Systems Analyst (Techno-Functional),S,business analyst,correct,
+Business Analyst,U3,5832080719,Senior Analyst Business Systems,,systems analyst,false_negative,
+Business Analyst,U9,5877296663,ServiceNow Principal Business Process Analyst,,business analyst,false_negative,
+Business Analyst,U2,5816835212,Analyst Sr.- Functional SAP FI-CO,,functional analyst,unmatched_ambiguous,
+Business Analyst,U12,5879363488,Business Senior Technical Lead Analyst,,business analyst,unmatched_ambiguous,
+Business Analyst,U14,5882730706,Analyst Systems IT,,systems analyst,unmatched_ambiguous,
+Business Analyst,U15,5882774229,Lead Analyst Business System(Workday Recruiting),,business analyst,unmatched_ambiguous,
+Business Analyst,U20,5887915338,Application Testing & Business Process Analyst,,business analyst,unmatched_ambiguous,
+Product Manager,1,5808699352,Senior Manager Data Science and AI Technical Product Owner Mumbai,S,product owner,ambiguous,family:product_owner
+Product Manager,2,5835718576,Associate Product Manager,C,associate product manager,correct,
+Product Manager,3,5841923498,"Product Owner, Electrical Engineering Software",S,product owner,ambiguous,family:product_owner
+Product Manager,4,5842763757,"Product Owner, Electrical Engineering Software",S,product owner,ambiguous,family:product_owner
+Product Manager,5,5847853008,Product Owner,S,product owner,ambiguous,family:product_owner
+Product Manager,6,5849141918,Digital Product Owner – Retail Accounting,S,product owner,ambiguous,family:product_owner
+Product Manager,7,5850375088,Associate Product Manager - B2B - SaaS Product,C,associate product manager,correct,
+Product Manager,8,5850376696,"Data & Analytics Sales Product Owner, Analytics, Business Analytics",S,product owner,ambiguous,family:product_owner
+Product Manager,9,5850377216,Hiring Product Owner,S,product owner,ambiguous,family:product_owner
+Product Manager,10,5857744695,Product Owner,S,product owner,ambiguous,family:product_owner
+Product Manager,11,5875721259,PMO Staff Product Owner (Monitoring & Observability),S,product owner,ambiguous,family:product_owner
+Product Manager,12,5876940968,Product Owner (Crypto),S,product owner,ambiguous,family:product_owner
+Product Manager,13,5878696895,Product Owner II,S,product owner,ambiguous,family:product_owner
+Product Manager,14,5887880757,Product Owner - ServiceNow HRSD AI,S,product owner,ambiguous,family:product_owner
+Product Manager,15,5887955969,Product Owner Global,S,product owner,ambiguous,family:product_owner
+Product Manager,16,5889517456,Product Manager,C,product manager,correct,
+Product Manager,17,5889556144,Staff Product Manager,C,product manager,correct,
+Product Manager,18,5889601436,"Product Manager, Amazon Payment Services",C,product manager,correct,
+Product Manager,19,5890793883,Product Manager-Loan Against Shares-Product Manager,C,product manager,correct,
+Product Manager,20,5890801182,Senior Product Manager,C,product manager,correct,
+Product Manager,21,5892705338,"Senior Product Manager, Amazon Fashion",C,product manager,correct,
+Product Manager,22,5892941650,Product Owner / A.PO,S,product owner,ambiguous,family:product_owner
+Product Manager,23,5893616123,Senior Product Manager,C,product manager,correct,
+Product Manager,24,5894126860,Product Manager-AFFLUENT-Investment Counselors,C,product manager,correct,
+Product Manager,25,5894831675,Product Manager II,C,product manager,correct,
+Product Manager,26,5895535213,Sr. Product Manager,C,product manager,correct,
+Product Manager,27,5896030109,Sr Product Owner,S,product owner,ambiguous,family:product_owner
+Product Manager,28,5897025612,"Senior Product Manager, Service Delivery Standard Work",C,product manager,correct,
+Product Manager,29,5897037726,Staff Product Manager,C,product manager,correct,
+Product Manager,30,5897053538,Technical Product Manager,C,product manager,correct,
+Product Manager,31,5897061452,Senior Product Manager,C,product manager,correct,
+Product Manager,32,5897063664,Senior Product Manager (Finance and Account Management),C,product manager,correct,
+Product Manager,33,5897067475,Lead Product Manager,C,product manager,correct,
+Product Manager,34,5898165924,Product Manager Compliance,C,product manager,correct,
+Product Manager,35,5898166838,Senior Product Manager - Compliance,C,product manager,correct,
+Product Manager,36,5899323099,Senior Digital Product Manager,C,product manager,correct,
+Product Manager,37,5899328002,Senior Product Manager - Technical,C,product manager,correct,
+Product Manager,38,5899329274,Senior Associate - Product Owner,S,product owner,ambiguous,family:product_owner
+Product Manager,39,5899555538,Product manager,C,product manager,correct,
+Product Manager,40,5899835055,Customer Success & Product Manager,C,product manager,ambiguous,hybrid_customer_success
+Product Manager,41,5899863496,"Product Manager III, Technical, Amazon Fulfillment Technologies (AFT)",C,product manager,correct,
+Product Manager,42,5900354482,"Sr. Product Manager - Tech, Just Walk Out Technology , Physical Store 3P (Just Walk Out Technology)",C,product manager,correct,
+Product Manager,43,5900731381,Senior Product Manager – Enterprise Search,C,product manager,correct,
+Product Manager,44,5901254066,Senior Digital Product Manager,C,product manager,correct,
+Product Manager,45,5901481118,Senior Staff Product Manager - Data Protection,C,product manager,correct,
+Product Manager,46,5901702183,Software Download OTA Product owner,S,product owner,ambiguous,family:product_owner
+Product Manager,47,5901762198,Senior Platform Product Manager,C,product manager,correct,
+Product Manager,48,5901762302,Lead Product Manager,C,product manager,correct,
+Product Manager,49,5902287128,Product Manager,C,product manager,correct,
+Product Manager,50,5902721606,Senior Product Manager,C,product manager,correct,
+Product Manager,U10,5898490712,Digital Product Management - Associate,,product manager,false_negative,
+Product Manager,U14,5900750326,Senior Associate -Digital Product Management,,product manager,false_negative,
+Project Manager,1,5784973990,Project Manager - Scrum Master,C,scrum master,correct,
+Project Manager,2,5802288924,Delivery Manager,S,delivery manager,ambiguous,family:delivery_manager
+Project Manager,3,5825361825,Senior Scrum Master / Delivery Manager,S,delivery manager,ambiguous,family:scrum_master
+Project Manager,4,5831403703,Delivery Manager Operations,S,delivery manager,ambiguous,family:delivery_manager
+Project Manager,5,5841129973,Identity and Access Management Scrum Master,S,scrum master,ambiguous,family:scrum_master
+Project Manager,6,5851865260,Scrum Master,S,scrum master,ambiguous,family:scrum_master
+Project Manager,7,5863636157,SAP Client Delivery Manager,S,delivery manager,ambiguous,family:delivery_manager
+Project Manager,8,5867717442,Service Delivery Manager,S,delivery manager,incorrect,service_delivery_manager
+Project Manager,9,5871787970,Senior Service Delivery Manager - AMS,S,delivery manager,incorrect,service_delivery_manager
+Project Manager,10,5876872302,Operations Delivery Manager – Insurance Product Implementation,S,delivery manager,ambiguous,family:delivery_manager
+Project Manager,11,5880673293,Staff Technical Program Manager,S,program manager,ambiguous,family:program_manager
+Project Manager,12,5887224881,Program Manager,S,program manager,ambiguous,family:program_manager
+Project Manager,13,5887227964,GSI Services Program Manager,S,program manager,ambiguous,family:program_manager
+Project Manager,14,5887960939,"Delivery Manager - BI, Reporting and Data Visualization 4D",S,delivery manager,ambiguous,family:delivery_manager
+Project Manager,15,5890612415,"Program Manager, Account Management",S,program manager,ambiguous,family:program_manager
+Project Manager,16,5890612504,GCP Project Manager,C,project manager,correct,
+Project Manager,17,5890821829,Project Manager Specialist III,C,project manager,correct,
+Project Manager,18,5891404606,Senior Project Manager,C,project manager,correct,
+Project Manager,19,5891888853,"Program Manager I, WFM",S,program manager,ambiguous,family:program_manager
+Project Manager,20,5891905340,Engineering Project Manager,C,project manager,correct,
+Project Manager,21,5892384035,"Technical Program Manager, AI Garage",S,program manager,ambiguous,family:program_manager
+Project Manager,22,5892690040,IT Project Manager,C,project manager,correct,
+Project Manager,23,5892765247,Project Manager,C,project manager,correct,
+Project Manager,24,5892855217,Marketing Project Manager Associate,C,project manager,correct,
+Project Manager,25,5893057345,Program Manager Non Tech 3,S,program manager,ambiguous,family:program_manager
+Project Manager,26,5893476255,Project Manager – eLearning Solutions (Corporate Learning) | Onsite-Noida | Open to India-based candidates only,C,project manager,correct,
+Project Manager,27,5894088852,Integrated Project Manager,C,project manager,correct,
+Project Manager,28,5894233572,Project Manager-Architecture BIM,C,project manager,ambiguous,construction_domain
+Project Manager,29,5897044078,"Program Manager II, Service Delivery Standard Work",S,program manager,ambiguous,family:program_manager
+Project Manager,30,5897062202,Lead Program Manager,S,program manager,ambiguous,family:program_manager
+Project Manager,31,5897294845,Staff Technical Program Manager - Electronics,S,program manager,ambiguous,family:program_manager
+Project Manager,32,5897336086,Technical Project Manager,C,project manager,correct,
+Project Manager,33,5897680826,"Program Manager II, Buyer Abuse",S,program manager,ambiguous,family:program_manager
+Project Manager,34,5897938968,Project Manager,C,project manager,correct,
+Project Manager,35,5898126458,Senior Project Manager,C,project manager,correct,
+Project Manager,36,5898178930,NPDI Project Manager Products and Solutions - Engineering Senior Analyst,C,product analyst,ambiguous,npdi_engineering_analyst
+Project Manager,37,5898491863,Salesforce Project Manager,C,project manager,correct,
+Project Manager,38,5898599505,Program Manager (Security Infrastructure),S,program manager,ambiguous,family:program_manager
+Project Manager,39,5899326153,"Sr Program Manager, ASIN Localization",S,program manager,ambiguous,family:program_manager
+Project Manager,40,5899327078,"Technical Program Manager, Google Search Platforms",S,program manager,ambiguous,family:program_manager
+Project Manager,41,5899328011,Senior Technical Program Manager,S,program manager,ambiguous,family:program_manager
+Project Manager,42,5899510957,Project Manager,C,project manager,correct,
+Project Manager,43,5899511604,Project Manager - Projects & Interiors,C,project manager,incorrect,interiors_construction_missed_by_exclude
+Project Manager,44,5899549725,Project Manager,C,project manager,correct,
+Project Manager,45,5899835709,Program Manager - Last Mile,S,program manager,ambiguous,family:program_manager
+Project Manager,46,5901482419,Senior Technical Program Manager,S,program manager,ambiguous,family:program_manager
+Project Manager,47,5901762300,PROJECT MANAGER - Project Management-Infrastructure,C,project manager,ambiguous,construction_domain
+Project Manager,48,5901873350,Technical Program Manager_8 yrs_Hyderabad (Hybrid),S,program manager,ambiguous,family:program_manager
+Project Manager,49,5902741296,"Program Manager II, Global Catalog Operations, Amazon",S,program manager,ambiguous,family:program_manager
+Project Manager,50,5902917839,Oracle Fusion Technical Project Manager,C,project manager,correct,
+Project Manager,U10,5890074006,Associate Principal - Program & Project Management,,project manager,false_negative,
+Project Manager,U13,5891404562,Manager - Project Management,,project manager,false_negative,
+Project Manager,U17,5895348807,Client Project Management Manager,,project manager,false_negative,
+Project Manager,U20,5897955590,Assistant Consultant - Project Management,,project manager,false_negative,
+Project Manager,U23,5899259027,Project Management Specialist,,project manager,false_negative,
+Project Manager,U28,5901690096,Program/Project Management Lead,,project manager,false_negative,
+Project Manager,U5,5879901220,Senior Executive - Program Management,,program manager,unmatched_ambiguous,
+Project Manager,U7,5884773058,Associate – Program Management (Regulatory Finance Data Strategy),,program manager,unmatched_ambiguous,
+Project Manager,U11,5890768087,Program Management Lead - WebOps - Shared (Transformational TPM),,program manager,unmatched_ambiguous,
+Project Manager,U12,5890795146,Program Management (Business product) - DGM/GM- Lending EMI,,program manager,unmatched_ambiguous,
+Project Manager,U15,5892690161,Jr Executive - Program Management,,program manager,unmatched_ambiguous,
+Project Manager,U18,5895352922,Manager - Project Planning,,project manager,unmatched_ambiguous,
+Project Manager,U19,5895373237,Program Management Advisor - HIH - Evernorth,,program manager,unmatched_ambiguous,
+Project Manager,U22,5898599476,Team Leader and Project Management Expert_BID Position,,project manager,unmatched_ambiguous,
+Digital Marketing,1,5803910098,Social Media & Digital Marketing Specialist,C,digital marketing,correct,
+Digital Marketing,2,5805535975,Digital Marketing Internship,C,digital marketing,correct,
+Digital Marketing,3,5830375261,Performance Marketing Specialist - Eaze,S,performance marketing,correct,
+Digital Marketing,4,5831404560,Digital Marketing Evangelist,C,digital marketing,correct,
+Digital Marketing,5,5831404571,Digital Marketing Evangelist,C,digital marketing,correct,
+Digital Marketing,6,5836227959,Performance Marketing Executive,S,performance marketing,correct,
+Digital Marketing,7,5839221165,Digital Marketing Specialist,C,digital marketing,correct,
+Digital Marketing,8,5850339310,Digital Marketing Specialist SEO Social Media Video Creator Intern,C,digital marketing,correct,
+Digital Marketing,9,5850380241,Digital Marketing Executive,C,digital marketing,correct,
+Digital Marketing,10,5851141749,Paid Ads / Performance Marketing Manager - Surat,S,performance marketing,correct,
+Digital Marketing,11,5854442093,Senior Digital Marketing Associate,C,digital marketing,correct,
+Digital Marketing,12,5854847317,Vacancies For Digital Marketing Specialists Freshers,C,digital marketing,correct,
+Digital Marketing,13,5854850568,Digital Marketing Intern,C,digital marketing,correct,
+Digital Marketing,14,5857693090,SEO Specialist,S,seo specialist,correct,
+Digital Marketing,15,5861795874,Digital Marketing Manager,C,digital marketing,correct,
+Digital Marketing,16,5861795981,Digital Marketing Manager,C,digital marketing,correct,
+Digital Marketing,17,5864338066,B2B Growth & Digital Marketing Executive,C,digital marketing,correct,
+Digital Marketing,18,5871276115,Assistant Manager - Digital Marketing,C,digital marketing,correct,
+Digital Marketing,19,5875204774,Digital Marketing Manager,C,digital marketing,correct,
+Digital Marketing,20,5876710970,Digital Marketing Consultant,C,digital marketing,correct,
+Digital Marketing,21,5876938910,Digital Marketing Manager - Marketing (Fintech),C,digital marketing,correct,
+Digital Marketing,22,5876946977,Manager - Performance Marketing,S,performance marketing,correct,
+Digital Marketing,23,5876949122,"Senior Executive, Performance Marketing",S,performance marketing,correct,
+Digital Marketing,24,5878947805,On-Page SEO Specialist,S,seo specialist,correct,
+Digital Marketing,25,5879546447,Performance Marketing Manager,S,performance marketing,correct,
+Digital Marketing,26,5880855309,Performance Marketing Executive,S,performance marketing,correct,
+Digital Marketing,27,5884155779,MOC Performance Marketing Sr Exec/Asst Mngr M/F 5-6YRS(7-11 LPA),S,performance marketing,correct,
+Digital Marketing,28,5885447175,Senior Executive Performance Marketing JioCinema,S,performance marketing,correct,
+Digital Marketing,29,5885447768,Work From Home Social Media Manager Digital Marketing Sector Earn,C,digital marketing,ambiguous,spam_like_posting
+Digital Marketing,30,5885450808,Digital Marketing Account Manager - Intern,C,digital marketing,correct,
+Digital Marketing,31,5885845918,"Senior Performance Marketing Manager - Meta Ads · Remote, India",S,performance marketing,correct,
+Digital Marketing,32,5885974768,Senior Digital Marketing & SEO Lead,C,digital marketing,correct,
+Digital Marketing,33,5885979334,Digital Marketing Manager,C,digital marketing,correct,
+Digital Marketing,34,5887125588,Digital Marketing Manager,C,digital marketing,correct,
+Digital Marketing,35,5887531995,Digital Marketing Executive (6-10 Years Experience) - Chennai | Up to 18 LPA,C,digital marketing,correct,
+Digital Marketing,36,5888693600,Digital Marketing Internship,C,digital marketing,correct,
+Digital Marketing,37,5889497853,Digital Marketing Intern,C,digital marketing,correct,
+Digital Marketing,38,5889500915,Performance Marketing Associate,S,performance marketing,correct,
+Digital Marketing,39,5889554288,Performance Marketing Associate,S,performance marketing,correct,
+Digital Marketing,40,5890048315,Sr. Digital Marketing Manager | Agency on Record for Alcobev Brand,C,digital marketing,correct,
+Digital Marketing,41,5893057282,Performance Marketing Executive,S,performance marketing,correct,
+Digital Marketing,42,5893471252,Senior Performance Marketing Manager,S,performance marketing,correct,
+Digital Marketing,43,5893825620,Founding Growth Marketer,S,growth marketer,correct,
+Digital Marketing,44,5897057544,"Senior Performance Marketing Specialist, Paid Media",S,performance marketing,correct,
+Digital Marketing,45,5898478155,Senior Digital Marketing Specialist,C,digital marketing,correct,
+Digital Marketing,46,5899848967,"Outbound Marketing - Monetization, Monetization, Performance Marketing",S,performance marketing,ambiguous,hybrid_outbound_monetization
+Digital Marketing,47,5900529917,Digital Marketing Manager,C,digital marketing,correct,
+Digital Marketing,48,5900534823,Performance Marketing & Growth Manager,S,performance marketing,correct,
+Digital Marketing,49,5900808799,GTM Engineer – Performance Marketing,S,performance marketing,ambiguous,hybrid_gtm_engineer
+Digital Marketing,50,5901556951,Performance Marketing Executive - Content (Eaze - Tamil),S,performance marketing,correct,
+Digital Marketing,U1,5785942388,AEO/SEO & CRO Specialist,,seo specialist,false_negative,
+Digital Marketing,U4,5828584392,"Performance & Growth Marketing Specialist – SEO, AEO & GEO",,seo specialist,false_negative,
+Digital Marketing,U8,5859124576,SEO Outreach Specialist,,seo specialist,false_negative,
+Digital Marketing,U9,5859451794,SEO Expert - Organic Growth Specialist,,seo specialist,false_negative,
+Digital Marketing,U13,5889568331,SEO and Growth Specialist,,seo specialist,false_negative,
+Digital Marketing,U15,5897335654,"Senior Marketing Executive, Digital Channels",,digital marketing,false_negative,
+Digital Marketing,U3,5821049122,Marketing Executive – Digital & Brand,,digital marketing,unmatched_ambiguous,
+Digital Marketing,U6,5832074060,AEO/SEO Content Specialist,,seo specialist,unmatched_ambiguous,
+Digital Marketing,U10,5871237935,SEO Content Writer Specialist,,seo specialist,unmatched_ambiguous,
+Digital Marketing,U11,5876429005,Marketing-Digital-Head/General Manager-Healthcare Organisation,,digital marketing,unmatched_ambiguous,
+Digital Marketing,U14,5890792029,SEO Content Specialist,,seo specialist,unmatched_ambiguous,
+Graphic Designer,1,5835662694,AI Graphic Designer,C,graphic designer,correct,
+Graphic Designer,2,5840187625,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,3,5840682276,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,4,5844303957,Graphic Designer II,C,graphic designer,correct,
+Graphic Designer,5,5845822262,Graphic Designer / 3D Visualizer / Video Editor,C,graphic designer,ambiguous,hybrid_role
+Graphic Designer,6,5846299683,Graphic Designer/ Brand identity,C,graphic designer,correct,
+Graphic Designer,7,5846300460,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,8,5846555992,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,9,5853620058,Motion Graphic Designer,C,graphic designer,incorrect,motion_graphics_designer
+Graphic Designer,10,5856195303,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,11,5857749719,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,12,5858360480,We Are Hiring Graphic Designer Cum Branding Executive,C,graphic designer,ambiguous,hybrid_role
+Graphic Designer,13,5859121651,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,14,5859122017,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,15,5867717413,Senior Creative Designer,S,creative designer,ambiguous,creative_designer_generic
+Graphic Designer,16,5868111799,Senior Creative Designer,S,creative designer,ambiguous,creative_designer_generic
+Graphic Designer,17,5869803509,GRAPHIC DESIGNER - Remote,C,graphic designer,correct,
+Graphic Designer,18,5872929995,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,19,5873074204,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,20,5876869920,Graphic Designer - Associate,C,graphic designer,correct,
+Graphic Designer,21,5879552132,Motion Graphic Designer & Video Editor,C,graphic designer,incorrect,motion_graphics_designer
+Graphic Designer,22,5879665551,Graphic designer-Packaging,C,graphic designer,correct,
+Graphic Designer,23,5883094459,Sr. Graphic Designer | Wellness Brand,C,graphic designer,correct,
+Graphic Designer,24,5886663299,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,25,5887778359,Bid Co-ordinator and Graphic Designer,C,graphic designer,ambiguous,hybrid_role
+Graphic Designer,26,5889552337,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,27,5889572076,"Graphic Designer, Andheri East",C,graphic designer,correct,
+Graphic Designer,28,5889578428,Brand Visual Designer,S,visual designer,correct,
+Graphic Designer,29,5890098374,Graphic designer,C,graphic designer,correct,
+Graphic Designer,30,5890611927,Art Director/ Graphic Designer- Creative Advertising Agency- Andheri East Mumbai,C,graphic designer,ambiguous,hybrid_role
+Graphic Designer,31,5892765436,Graphic Designer & Video editor,C,graphic designer,ambiguous,hybrid_role
+Graphic Designer,32,5894179599,Graphic Designer (InDesign Expert),C,graphic designer,correct,
+Graphic Designer,33,5894179638,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,34,5895238777,Motion Graphic Designer,C,graphic designer,incorrect,motion_graphics_designer
+Graphic Designer,35,5895239095,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,36,5895399583,Creative Graphic Designer,C,graphic designer,correct,
+Graphic Designer,37,5896612934,Visual Designer,S,visual designer,ambiguous,visual_designer_ui_ux
+Graphic Designer,38,5896660057,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,39,5897294743,Multimedia Graphic Designer,C,graphic designer,correct,
+Graphic Designer,40,5898126939,Senior Graphic Designer,C,graphic designer,correct,
+Graphic Designer,41,5898127094,Performance Creative Designer (UI / UX),S,ux designer,ambiguous,visual_designer_ui_ux
+Graphic Designer,42,5898128221,Visual Designer,S,visual designer,ambiguous,visual_designer_ui_ux
+Graphic Designer,43,5898129574,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,44,5898472536,Graphic Designer.,C,graphic designer,correct,
+Graphic Designer,45,5898552047,Creative Graphic Designer Intern,C,graphic designer,correct,
+Graphic Designer,46,5899028879,Graphic Designer - Motion Graphics,C,graphic designer,ambiguous,motion_graphics_hybrid
+Graphic Designer,47,5899976031,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,48,5900876410,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,49,5901134327,Graphic Designer,C,graphic designer,correct,
+Graphic Designer,50,5901481050,Senior Graphic Designer,C,graphic designer,correct,
+Graphic Designer,U1,5834753476,Graphic Design Intern — D2C,,graphic designer,false_negative,
+Graphic Designer,U6,5846298756,Graphic Design Specialist,,graphic designer,false_negative,
+Graphic Designer,U12,5868113570,Sr . Graphics Designer,,graphic designer,false_negative,
+Graphic Designer,U18,5876480957,Graphic and Pitch Deck Designer,,graphic designer,false_negative,
+Graphic Designer,U19,5877943393,Graphics Design Intern,,graphic designer,false_negative,
+Graphic Designer,U21,5878637545,Senior Executive - Graphic Design,,graphic designer,false_negative,
+Graphic Designer,U22,5882729030,Graphic Design Intern- Founder’s Office,,graphic designer,false_negative,
+Graphic Designer,U25,5889759958,Graphic Design Contractor,,graphic designer,false_negative,
+Graphic Designer,U29,5899838222,"Consultant, Graphic Design",,graphic designer,false_negative,
+Graphic Designer,U30,5901133236,Graphic Design Intern,,graphic designer,false_negative,
+Graphic Designer,U5,5842782926,Coordinator- Graphic Design,,graphic designer,unmatched_ambiguous,
+Graphic Designer,U7,5856164943,Creative Design Intern,,creative designer,unmatched_ambiguous,
+Graphic Designer,U13,5868792867,Freelance Graphic Web Designer,,graphic designer,unmatched_ambiguous,
+Graphic Designer,U24,5889681934,Visual Communication Designer,,visual designer,unmatched_ambiguous,
+Graphic Designer,U26,5895393389,Media & Graphics Design Senior Analyst,,graphic designer,unmatched_ambiguous,

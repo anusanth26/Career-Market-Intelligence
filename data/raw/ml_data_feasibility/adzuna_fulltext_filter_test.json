@@ -1,0 +1,52 @@
+{
+ "tests": {
+  "title_only=data engineer": [
+   200,
+   2796
+  ],
+  "title_only=data engineer + what=python": [
+   200,
+   1851
+  ],
+  "title_only=data engineer + what=zzqxvkw (nonsense)": [
+   200,
+   0
+  ],
+  "what=python (any field)": [
+   200,
+   21107
+  ]
+ },
+ "snippet_python_pct_data_engineer": 14.4,
+ "note": "India, max_days_old=90, results_per_page=1; run 2026-09-30",
+ "tests_round2": {
+  "DA & what=power bi (AND of words)": [
+   200,
+   312
+  ],
+  "DA & what_phrase=power bi": [
+   200,
+   190
+  ],
+  "DA baseline 90d": [
+   200,
+   841
+  ],
+  "DE & python 7d": [
+   200,
+   378
+  ],
+  "DE baseline 7d": [
+   200,
+   582
+  ],
+  "DE & python 30d": [
+   200,
+   1118
+  ],
+  "DE baseline 30d": [
+   200,
+   1728
+  ]
+ }
+}

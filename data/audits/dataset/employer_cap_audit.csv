@@ -1,0 +1,11 @@
+role,records_before_cap,records_after_cap,unique_employers,top_employer_percentage_before,top_employer_percentage_after,effective_employers,records_removed_by_cap,status
+Software Engineer,1260,1206,506,7.7,5.22,107.1,54,core
+Data Analyst,526,526,376,1.9,1.9,264.5,0,core
+Data Scientist,691,626,325,14.33,5.43,96.2,65,core
+Data Engineer,470,466,279,5.74,4.94,106.8,4,core
+DevOps / Cloud Engineer,910,909,540,5.05,4.95,183.7,1,core
+Business Analyst,873,870,476,5.27,4.94,147.4,3,core
+Product Manager,635,635,382,3.94,3.94,168.5,0,core
+Project Manager,317,315,245,5.36,4.76,132.1,2,conditional_limited
+Digital Marketing,562,562,422,2.32,2.32,250.8,0,core
+Graphic Designer,418,418,365,1.91,1.91,287.4,0,core

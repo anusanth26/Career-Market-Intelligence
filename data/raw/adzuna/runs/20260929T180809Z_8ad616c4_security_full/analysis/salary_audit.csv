@@ -1,0 +1,6 @@
+country,role,clean_postings,salary_min_count,salary_max_count,salary_both_count,salary_any_count,salary_percentage,predicted_count,predicted_percentage,suspicious_below_floor,suspicious_above_ceiling,suspicious_min_gt_max,point_salary_min_eq_max,salary_valid_count_after_floor_ceiling,salary_floor,salary_ceiling
+in,Security Engineer,374,14,14,14,14,3.7,0,0.0,1,0,0,2,13,100000,10000000
+in,Information Security Analyst,19,0,0,0,0,0.0,0,0.0,0,0,0,0,0,100000,10000000
+in,Cybersecurity Engineer,61,5,5,5,5,8.2,0,0.0,0,0,0,1,5,100000,10000000
+in,Information Security Engineer,36,3,3,3,3,8.3,0,0.0,0,0,0,2,3,100000,10000000
+in,Cybersecurity Analyst,8,0,0,0,0,0.0,0,0.0,0,0,0,0,0,100000,10000000

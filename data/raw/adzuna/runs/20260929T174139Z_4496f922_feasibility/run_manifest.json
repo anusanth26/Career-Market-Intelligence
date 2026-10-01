@@ -1,0 +1,1001 @@
+{
+  "run_id": "20260929T174139Z_4496f922_feasibility",
+  "started": "2026-09-29T17:41:39Z",
+  "argv": [
+    "--tag",
+    "feasibility"
+  ],
+  "config_path": "config/roles.json",
+  "config_snapshot": {
+    "_comment": "Role configuration for scripts/collect_adzuna.py and scripts/analyze_coverage.py. 'variants' are Adzuna title_only queries. 'match'/'exclude' are regexes applied to the NORMALIZED title (lowercase, non-alphanumerics -> single space) by scripts/role_mapping.py. A query is never a role label: role = f(title). 'exclude' fires only after a 'match' and sends the posting to 'excluded_by_rule'. Roles sharing an 'overlap_group' may overlap; the highest 'priority' wins. Any other multi-role match is 'ambiguous_multi' and is not assigned.",
+    "settings": {
+      "source": "adzuna",
+      "page_size": 50,
+      "max_days_old": 90,
+      "sort_by": "date",
+      "default_max_records": 500,
+      "min_interval_seconds": 2.6,
+      "request_timeout_seconds": 30,
+      "max_retries": 5,
+      "backoff_base_seconds": 2,
+      "backoff_max_seconds": 120,
+      "retry_statuses": [
+        429,
+        500,
+        502,
+        503,
+        504
+      ],
+      "abort_after_consecutive_failed_queries": 3,
+      "dedup_description_chars": 150,
+      "employer_cap_fraction": 0.05,
+      "salary_floor": 100000,
+      "salary_ceiling": 10000000,
+      "clean_threshold": 400,
+      "borderline_threshold": 200
+    },
+    "roles": [
+      {
+        "domain": "Technology & Data",
+        "role": "Software Engineer",
+        "tier": "firm",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "software engineer",
+          "software developer",
+          {
+            "query": "software development engineer",
+            "max_records": 150
+          },
+          "application developer"
+        ],
+        "match": [
+          "\\bsoftware (engineer|developer|development engineer)\\b",
+          "\\bsde\\b",
+          "\\bapplication developer\\b"
+        ],
+        "exclude": [
+          "\\b(test|testing|qa|quality)\\b"
+        ]
+      },
+      {
+        "domain": "Technology & Data",
+        "role": "Data Analyst",
+        "tier": "firm",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "data analyst",
+          "bi analyst",
+          "business intelligence analyst",
+          "reporting analyst"
+        ],
+        "match": [
+          "\\bdata analyst\\b",
+          "\\bbi analyst\\b",
+          "\\bbusiness intelligence analyst\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Technology & Data",
+        "role": "Data Scientist",
+        "tier": "firm",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "data scientist",
+          "machine learning engineer",
+          "applied scientist"
+        ],
+        "match": [
+          "\\bdata scientist\\b",
+          "\\bmachine learning (engineer|scientist)\\b",
+          "\\bml engineer\\b",
+          "\\bapplied scientist\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Technology & Data",
+        "role": "Data Engineer",
+        "tier": "firm",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "data engineer",
+          "etl developer",
+          "big data engineer",
+          "analytics engineer"
+        ],
+        "match": [
+          "\\bdata engineer\\b",
+          "\\betl (developer|engineer)\\b",
+          "\\bbig data (engineer|developer)\\b",
+          "\\banalytics engineer\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Technology & Data",
+        "role": "DevOps / Cloud Engineer",
+        "tier": "firm",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "devops engineer",
+          "cloud engineer",
+          "site reliability engineer",
+          "platform engineer"
+        ],
+        "match": [
+          "\\bdev ?ops (engineer|specialist|consultant|developer)\\b",
+          "\\bcloud (devops )?engineer\\b",
+          "\\bsite reliability engineer\\b",
+          "\\bsre\\b",
+          "\\bplatform engineer\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Technology & Data",
+        "role": "Security Engineer",
+        "tier": "probe",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "group": "security",
+        "overlap_group": "security",
+        "priority": 1,
+        "variants": [
+          "security engineer"
+        ],
+        "match": [
+          "\\bsecurity engineer\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Technology & Data",
+        "role": "Information Security Analyst",
+        "tier": "probe",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "group": "security",
+        "overlap_group": "security",
+        "priority": 2,
+        "variants": [
+          "information security analyst"
+        ],
+        "match": [
+          "\\binformation security analyst\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Technology & Data",
+        "role": "Cybersecurity Engineer",
+        "tier": "probe",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "group": "security",
+        "overlap_group": "security",
+        "priority": 2,
+        "variants": [
+          "cybersecurity engineer"
+        ],
+        "match": [
+          "\\bcyber ?security engineer\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Technology & Data",
+        "role": "Information Security Engineer",
+        "tier": "probe",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "group": "security",
+        "overlap_group": "security",
+        "priority": 2,
+        "variants": [
+          "information security engineer"
+        ],
+        "match": [
+          "\\binformation security engineer\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Technology & Data",
+        "role": "Cybersecurity Analyst",
+        "tier": "probe",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "group": "security",
+        "overlap_group": "security",
+        "priority": 2,
+        "variants": [
+          "cybersecurity analyst"
+        ],
+        "match": [
+          "\\bcyber ?security analyst\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Business, Finance & Management",
+        "role": "Business Analyst",
+        "tier": "firm",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "business analyst",
+          "systems analyst",
+          "functional analyst",
+          "product analyst"
+        ],
+        "match": [
+          "\\bbusiness analyst\\b",
+          "\\bsystems? analyst\\b",
+          "\\bfunctional analyst\\b",
+          "\\bproduct analyst\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Business, Finance & Management",
+        "role": "Financial Analyst",
+        "tier": "firm",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "financial analyst",
+          "finance analyst",
+          "fp&a analyst",
+          "investment analyst"
+        ],
+        "match": [
+          "\\bfinancial analyst\\b",
+          "\\bfinance analyst\\b",
+          "\\bfp a analyst\\b",
+          "\\bfpa analyst\\b",
+          "\\binvestment analyst\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Business, Finance & Management",
+        "role": "Product Manager",
+        "tier": "firm",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "product manager",
+          "product owner",
+          "associate product manager"
+        ],
+        "match": [
+          "\\bproduct manager\\b",
+          "\\bproduct owner\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Business, Finance & Management",
+        "role": "Project Manager",
+        "tier": "firm",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "project manager",
+          "program manager",
+          "delivery manager",
+          "scrum master"
+        ],
+        "match": [
+          "\\bproject manager\\b",
+          "\\bprogram(me)? manager\\b",
+          "\\bdelivery manager\\b",
+          "\\bscrum master\\b"
+        ],
+        "exclude": [
+          "\\b(construction|civil|site|interior|real estate|mep)\\b"
+        ]
+      },
+      {
+        "domain": "Business, Finance & Management",
+        "role": "Digital Marketing",
+        "tier": "firm",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "digital marketing",
+          "seo specialist",
+          "performance marketing",
+          "growth marketer"
+        ],
+        "match": [
+          "\\bdigital marketing\\b",
+          "\\bseo (specialist|executive|analyst|manager)\\b",
+          "\\bperformance marketing\\b",
+          "\\bgrowth marketer\\b",
+          "\\bsocial media marketing\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Engineering",
+        "role": "Mechanical Engineer",
+        "tier": "conditional",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "mechanical engineer",
+          {
+            "query": "mechanical design engineer",
+            "max_records": 150
+          },
+          "cad engineer"
+        ],
+        "match": [
+          "\\bmechanical (design )?engineer\\b",
+          "\\bcad engineer\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Engineering",
+        "role": "Electrical Engineer",
+        "tier": "conditional",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "electrical engineer",
+          {
+            "query": "electrical design engineer",
+            "max_records": 150
+          }
+        ],
+        "match": [
+          "\\belectrical (design )?engineer\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Engineering",
+        "role": "Quality Engineer",
+        "tier": "conditional",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "quality engineer",
+          "quality assurance engineer"
+        ],
+        "match": [
+          "\\bquality engineer\\b"
+        ],
+        "exclude": [
+          "\\b(software|test|testing|automation|sdet|selenium|api|web|mobile|application|manual)\\b"
+        ]
+      },
+      {
+        "domain": "Media, Design & Creative",
+        "role": "UX Designer",
+        "tier": "conditional",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "ux designer",
+          "product designer",
+          "user experience designer"
+        ],
+        "match": [
+          "\\bux designer\\b",
+          "\\bui ux designer\\b",
+          "\\bux ui designer\\b",
+          "\\buser experience designer\\b",
+          "\\bproduct designer\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Media, Design & Creative",
+        "role": "Graphic Designer",
+        "tier": "conditional",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "graphic designer",
+          "visual designer",
+          "creative designer"
+        ],
+        "match": [
+          "\\bgraphic designer\\b",
+          "\\bvisual designer\\b",
+          "\\bcreative designer\\b"
+        ],
+        "exclude": []
+      },
+      {
+        "domain": "Architecture & Construction",
+        "role": "Architect (contamination audit)",
+        "tier": "audit",
+        "enabled": true,
+        "countries": [
+          "in"
+        ],
+        "variants": [
+          "architect"
+        ],
+        "match": [
+          "\\barchitects?\\b"
+        ],
+        "exclude": [],
+        "audit": {
+          "it_terms": [
+            "software",
+            "solution",
+            "solutions",
+            "cloud",
+            "data",
+            "enterprise",
+            "technical",
+            "technology",
+            "java",
+            "net",
+            "sap",
+            "security",
+            "application",
+            "integration",
+            "platform",
+            "infrastructure",
+            "devops",
+            "network",
+            "it",
+            "salesforce",
+            "aws",
+            "azure",
+            "microservices",
+            "backend",
+            "frontend",
+            "full stack",
+            "digital",
+            "ai",
+            "ml",
+            "erp",
+            "oracle",
+            "servicenow",
+            "mulesoft",
+            "etl",
+            "bi",
+            "analytics",
+            "systems",
+            "system",
+            "api",
+            "web",
+            "mobile",
+            "middleware",
+            "presales",
+            "pre sales",
+            "cyber"
+          ],
+          "building_terms": [
+            "building",
+            "landscape",
+            "urban",
+            "interior",
+            "architectural",
+            "revit",
+            "autocad",
+            "bim",
+            "construction",
+            "residential",
+            "town planning"
+          ]
+        }
+      }
+    ]
+  },
+  "queries_planned": [
+    {
+      "domain": "Technology & Data",
+      "role": "Software Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "software engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Software Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "software developer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Software Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "software development engineer",
+      "max_records": 150
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Software Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "application developer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Data Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "data analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Data Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "bi analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Data Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "business intelligence analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Data Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "reporting analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Data Scientist",
+      "tier": "firm",
+      "country": "in",
+      "query": "data scientist",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Data Scientist",
+      "tier": "firm",
+      "country": "in",
+      "query": "machine learning engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Data Scientist",
+      "tier": "firm",
+      "country": "in",
+      "query": "applied scientist",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Data Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "data engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Data Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "etl developer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Data Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "big data engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Data Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "analytics engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "DevOps / Cloud Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "devops engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "DevOps / Cloud Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "cloud engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "DevOps / Cloud Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "site reliability engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "DevOps / Cloud Engineer",
+      "tier": "firm",
+      "country": "in",
+      "query": "platform engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Security Engineer",
+      "tier": "probe",
+      "country": "in",
+      "query": "security engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Information Security Analyst",
+      "tier": "probe",
+      "country": "in",
+      "query": "information security analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Cybersecurity Engineer",
+      "tier": "probe",
+      "country": "in",
+      "query": "cybersecurity engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Information Security Engineer",
+      "tier": "probe",
+      "country": "in",
+      "query": "information security engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "Cybersecurity Analyst",
+      "tier": "probe",
+      "country": "in",
+      "query": "cybersecurity analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Business Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "business analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Business Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "systems analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Business Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "functional analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Business Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "product analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Financial Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "financial analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Financial Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "finance analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Financial Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "fp&a analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Financial Analyst",
+      "tier": "firm",
+      "country": "in",
+      "query": "investment analyst",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Product Manager",
+      "tier": "firm",
+      "country": "in",
+      "query": "product manager",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Product Manager",
+      "tier": "firm",
+      "country": "in",
+      "query": "product owner",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Product Manager",
+      "tier": "firm",
+      "country": "in",
+      "query": "associate product manager",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Project Manager",
+      "tier": "firm",
+      "country": "in",
+      "query": "project manager",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Project Manager",
+      "tier": "firm",
+      "country": "in",
+      "query": "program manager",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Project Manager",
+      "tier": "firm",
+      "country": "in",
+      "query": "delivery manager",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Project Manager",
+      "tier": "firm",
+      "country": "in",
+      "query": "scrum master",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Digital Marketing",
+      "tier": "firm",
+      "country": "in",
+      "query": "digital marketing",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Digital Marketing",
+      "tier": "firm",
+      "country": "in",
+      "query": "seo specialist",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Digital Marketing",
+      "tier": "firm",
+      "country": "in",
+      "query": "performance marketing",
+      "max_records": 500
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "Digital Marketing",
+      "tier": "firm",
+      "country": "in",
+      "query": "growth marketer",
+      "max_records": 500
+    },
+    {
+      "domain": "Engineering",
+      "role": "Mechanical Engineer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "mechanical engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Engineering",
+      "role": "Mechanical Engineer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "mechanical design engineer",
+      "max_records": 150
+    },
+    {
+      "domain": "Engineering",
+      "role": "Mechanical Engineer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "cad engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Engineering",
+      "role": "Electrical Engineer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "electrical engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Engineering",
+      "role": "Electrical Engineer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "electrical design engineer",
+      "max_records": 150
+    },
+    {
+      "domain": "Engineering",
+      "role": "Quality Engineer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "quality engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Engineering",
+      "role": "Quality Engineer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "quality assurance engineer",
+      "max_records": 500
+    },
+    {
+      "domain": "Media, Design & Creative",
+      "role": "UX Designer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "ux designer",
+      "max_records": 500
+    },
+    {
+      "domain": "Media, Design & Creative",
+      "role": "UX Designer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "product designer",
+      "max_records": 500
+    },
+    {
+      "domain": "Media, Design & Creative",
+      "role": "UX Designer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "user experience designer",
+      "max_records": 500
+    },
+    {
+      "domain": "Media, Design & Creative",
+      "role": "Graphic Designer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "graphic designer",
+      "max_records": 500
+    },
+    {
+      "domain": "Media, Design & Creative",
+      "role": "Graphic Designer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "visual designer",
+      "max_records": 500
+    },
+    {
+      "domain": "Media, Design & Creative",
+      "role": "Graphic Designer",
+      "tier": "conditional",
+      "country": "in",
+      "query": "creative designer",
+      "max_records": 500
+    },
+    {
+      "domain": "Architecture & Construction",
+      "role": "Architect (contamination audit)",
+      "tier": "audit",
+      "country": "in",
+      "query": "architect",
+      "max_records": 500
+    }
+  ],
+  "python": "3.10.13",
+  "window_start": "2026-07-01T17:41:39Z",
+  "finished": "2026-09-29T17:57:32Z"
+}

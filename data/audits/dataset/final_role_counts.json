@@ -1,0 +1,236 @@
+{
+ "note": "core final_count is after the employer cap; conditional and adjacent partitions are not capped",
+ "per_role": [
+  {
+   "canonical_title_count": 1051,
+   "employer_cap_applied": true,
+   "final_count": 1206,
+   "in_core_analysis_dataset": true,
+   "partition": "core",
+   "role": "Software Engineer",
+   "status": "core",
+   "uncapped_count": 1260,
+   "unique_employers": 506
+  },
+  {
+   "canonical_title_count": 481,
+   "employer_cap_applied": true,
+   "final_count": 526,
+   "in_core_analysis_dataset": true,
+   "partition": "core",
+   "role": "Data Analyst",
+   "status": "core",
+   "uncapped_count": 526,
+   "unique_employers": 376
+  },
+  {
+   "canonical_title_count": 354,
+   "employer_cap_applied": true,
+   "final_count": 626,
+   "in_core_analysis_dataset": true,
+   "partition": "core",
+   "role": "Data Scientist",
+   "status": "core",
+   "uncapped_count": 691,
+   "unique_employers": 325
+  },
+  {
+   "canonical_title_count": 381,
+   "employer_cap_applied": true,
+   "final_count": 466,
+   "in_core_analysis_dataset": true,
+   "partition": "core",
+   "role": "Data Engineer",
+   "status": "core",
+   "uncapped_count": 470,
+   "unique_employers": 279
+  },
+  {
+   "canonical_title_count": 351,
+   "employer_cap_applied": true,
+   "final_count": 909,
+   "in_core_analysis_dataset": true,
+   "partition": "core",
+   "role": "DevOps / Cloud Engineer",
+   "status": "core",
+   "uncapped_count": 910,
+   "unique_employers": 540
+  },
+  {
+   "canonical_title_count": 558,
+   "employer_cap_applied": true,
+   "final_count": 870,
+   "in_core_analysis_dataset": true,
+   "partition": "core",
+   "role": "Business Analyst",
+   "status": "core",
+   "uncapped_count": 873,
+   "unique_employers": 476
+  },
+  {
+   "canonical_title_count": 370,
+   "employer_cap_applied": true,
+   "final_count": 635,
+   "in_core_analysis_dataset": true,
+   "partition": "core",
+   "role": "Product Manager",
+   "status": "core",
+   "uncapped_count": 635,
+   "unique_employers": 382
+  },
+  {
+   "canonical_title_count": 315,
+   "employer_cap_applied": true,
+   "final_count": 315,
+   "in_core_analysis_dataset": true,
+   "partition": "core",
+   "role": "Project Manager",
+   "status": "conditional_limited",
+   "uncapped_count": 317,
+   "unique_employers": 245
+  },
+  {
+   "canonical_title_count": 355,
+   "employer_cap_applied": true,
+   "final_count": 562,
+   "in_core_analysis_dataset": true,
+   "partition": "core",
+   "role": "Digital Marketing",
+   "status": "core",
+   "uncapped_count": 562,
+   "unique_employers": 422
+  },
+  {
+   "canonical_title_count": 352,
+   "employer_cap_applied": true,
+   "final_count": 418,
+   "in_core_analysis_dataset": true,
+   "partition": "core",
+   "role": "Graphic Designer",
+   "status": "core",
+   "uncapped_count": 418,
+   "unique_employers": 365
+  },
+  {
+   "canonical_title_count": 152,
+   "employer_cap_applied": false,
+   "final_count": 350,
+   "in_core_analysis_dataset": false,
+   "partition": "conditional",
+   "role": "UX Designer",
+   "status": "conditional",
+   "uncapped_count": 350,
+   "unique_employers": 266
+  },
+  {
+   "canonical_title_count": 240,
+   "employer_cap_applied": false,
+   "final_count": 346,
+   "in_core_analysis_dataset": false,
+   "partition": "conditional",
+   "role": "Financial Analyst",
+   "status": "conditional",
+   "uncapped_count": 346,
+   "unique_employers": 178
+  },
+  {
+   "canonical_title_count": 378,
+   "employer_cap_applied": false,
+   "final_count": 378,
+   "in_core_analysis_dataset": false,
+   "partition": "conditional",
+   "role": "Security Engineer",
+   "status": "conditional",
+   "uncapped_count": 378,
+   "unique_employers": 263
+  },
+  {
+   "canonical_title_count": 22,
+   "employer_cap_applied": false,
+   "final_count": 22,
+   "in_core_analysis_dataset": false,
+   "partition": "conditional",
+   "role": "Information Security Analyst",
+   "status": "conditional",
+   "uncapped_count": 22,
+   "unique_employers": 19
+  },
+  {
+   "canonical_title_count": 64,
+   "employer_cap_applied": false,
+   "final_count": 64,
+   "in_core_analysis_dataset": false,
+   "partition": "conditional",
+   "role": "Cybersecurity Engineer",
+   "status": "conditional",
+   "uncapped_count": 64,
+   "unique_employers": 51
+  },
+  {
+   "canonical_title_count": 45,
+   "employer_cap_applied": false,
+   "final_count": 45,
+   "in_core_analysis_dataset": false,
+   "partition": "conditional",
+   "role": "Information Security Engineer",
+   "status": "conditional",
+   "uncapped_count": 45,
+   "unique_employers": 30
+  },
+  {
+   "canonical_title_count": 8,
+   "employer_cap_applied": false,
+   "final_count": 8,
+   "in_core_analysis_dataset": false,
+   "partition": "conditional",
+   "role": "Cybersecurity Analyst",
+   "status": "conditional",
+   "uncapped_count": 8,
+   "unique_employers": 8
+  },
+  {
+   "canonical_title_count": 371,
+   "employer_cap_applied": false,
+   "final_count": 371,
+   "in_core_analysis_dataset": false,
+   "partition": "adjacent_not_core",
+   "role": "Program Manager",
+   "status": "adjacent_not_core",
+   "uncapped_count": 371,
+   "unique_employers": 184
+  },
+  {
+   "canonical_title_count": 133,
+   "employer_cap_applied": false,
+   "final_count": 133,
+   "in_core_analysis_dataset": false,
+   "partition": "adjacent_not_core",
+   "role": "Delivery Manager",
+   "status": "adjacent_not_core",
+   "uncapped_count": 133,
+   "unique_employers": 101
+  },
+  {
+   "canonical_title_count": 110,
+   "employer_cap_applied": false,
+   "final_count": 110,
+   "in_core_analysis_dataset": false,
+   "partition": "adjacent_not_core",
+   "role": "Scrum Master",
+   "status": "adjacent_not_core",
+   "uncapped_count": 110,
+   "unique_employers": 85
+  }
+ ],
+ "pipeline": {
+  "adjacent_rows": 614,
+  "conditional_rows": 1213,
+  "core_analysis_after_employer_cap": 6533,
+  "core_uncapped": 6662,
+  "full_validated_final_retained": 8489,
+  "id_deduplicated": 16663,
+  "near_deduplicated": 15332,
+  "raw": 25572
+ },
+ "security_merged_view_rows": 517
+}

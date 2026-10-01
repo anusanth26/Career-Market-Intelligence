@@ -1,0 +1,1381 @@
+{
+  "spec_version": "1.0-draft",
+  "created": "2026-09-30",
+  "status": "DESIGN - awaiting team acknowledgement; no production collection started",
+  "generated_by": "data/raw/ml_data_feasibility/build_career_scope.py from measured audits",
+  "rubric_constraint": "Primary dataset must be collected by the team via API/scraping. No pre-built datasets (Kaggle/UCI/GitHub/Hugging Face) as a primary source.",
+  "sources": {
+    "adzuna_api": {
+      "role": "current employer demand (job postings)",
+      "raw_dir": "data/raw/adzuna/"
+    },
+    "google_trends": {
+      "role": "temporal search-interest signal",
+      "raw_dir": "data/raw/trends/",
+      "never_mixed_into_adzuna_records": true
+    },
+    "onet_esco": {
+      "role": "reference taxonomies for skill/occupation normalisation only (not job-posting data)",
+      "licences": {
+        "O*NET 31.0": "CC BY 4.0 (onetcenter.org/license_db.html)",
+        "ESCO v1.2.1": "content licensed CC BY 4.0 (esco.ec.europa.eu copyright notice)"
+      }
+    }
+  },
+  "collection_rules": {
+    "country": "in",
+    "search_param": "title_only",
+    "max_days_old_baseline": 90,
+    "max_days_old_incremental": 7,
+    "sort_by": "date",
+    "results_per_page": 50,
+    "window": "whole calendar days (verified 2026-09-29)",
+    "role_label_source": "posting title only (config mapping rules), never the query and never the description",
+    "raw_fields": [
+      "id",
+      "title",
+      "description",
+      "company.display_name",
+      "location.display_name",
+      "location.area",
+      "created",
+      "salary_min",
+      "salary_max",
+      "salary_is_predicted",
+      "contract_type",
+      "contract_time",
+      "category.label",
+      "category.tag",
+      "redirect_url",
+      "latitude",
+      "longitude",
+      "adref"
+    ],
+    "collector_added_provenance": [
+      "run_id",
+      "collected_at",
+      "source",
+      "country",
+      "query_variant",
+      "query_role",
+      "page",
+      "position"
+    ],
+    "api_limits_from_terms_of_service": {
+      "per_minute": 25,
+      "per_day": 250,
+      "per_week": 1000,
+      "per_month": 2500,
+      "self_imposed_pace_seconds_between_calls": 2.6
+    }
+  },
+  "domains": [
+    {
+      "domain": "Technology & Data",
+      "status": "core",
+      "roles": [
+        "Software Engineer",
+        "Data Analyst",
+        "Data Scientist",
+        "Data Engineer",
+        "DevOps / Cloud Engineer"
+      ]
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "status": "core",
+      "roles": [
+        "Business Analyst",
+        "Product Manager",
+        "Project Manager",
+        "Digital Marketing"
+      ]
+    },
+    {
+      "domain": "Media & Design",
+      "status": "core",
+      "roles": [
+        "Graphic Designer"
+      ],
+      "caveat": "One firm role; domain-level conclusions are weak until UX Designer is promoted"
+    }
+  ],
+  "roles": [
+    {
+      "role": "Software Engineer",
+      "domain": "Technology & Data",
+      "status": "core",
+      "country": "in",
+      "definition": "Builds and maintains software applications or services. Any seniority.",
+      "query_variants": [
+        {
+          "query": "software engineer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "9129",
+            "raw": "500",
+            "title_matched": "398",
+            "marginal_clean": "327"
+          }
+        },
+        {
+          "query": "software developer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "1937",
+            "raw": "500",
+            "title_matched": "372",
+            "marginal_clean": "238"
+          }
+        },
+        {
+          "query": "application developer",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "528",
+            "raw": "500",
+            "title_matched": "218",
+            "marginal_clean": "142"
+          }
+        }
+      ],
+      "dropped_variants": [
+        {
+          "query": "software development engineer",
+          "reason": "0 new clean postings in the audit (all duplicates of 'software engineer'); the SDE title still maps via the regex when returned by another query",
+          "measured_2026-09-29": {
+            "api_count": "1166",
+            "raw": "150",
+            "title_matched": "127",
+            "marginal_clean": "0"
+          }
+        }
+      ],
+      "include_patterns": {
+        "canonical_pattern": "\\bsoftware (engineer|developer|development engineer)\\b",
+        "synonym_patterns": [
+          "\\bsde\\b",
+          "\\bapplication developer\\b"
+        ]
+      },
+      "exclude_patterns": [
+        "\\b(test|testing|qa|quality)\\b"
+      ],
+      "exclude_patterns_added_vs_roles_json": [],
+      "added_exclude_reason": null,
+      "ambiguous_title_examples": [
+        "Software Engineer in Test / SDET (excluded by rule)",
+        "Security Software Engineer",
+        "Embedded Software Engineer"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T174139Z_4496f922_feasibility",
+        "api_count_primary_variant": 9129,
+        "raw_rows_own_queries": 1650,
+        "title_matched_rows": 1350,
+        "clean": 875,
+        "yield_clean_per_raw": 0.53,
+        "near_dup_rate_of_unique_ids_pct": 17.4,
+        "distinct_employers": 403,
+        "top_employer_share_pct": 5.3,
+        "effective_number_of_employers": 125.6,
+        "canonical_title_share_pct": 84.0,
+        "canonical_title_clean_n": 735,
+        "description_ge_200_chars_pct": 99.8,
+        "salary_valid_labels": 38,
+        "last_7_days_inflow_lower_bound": null,
+        "pages_used": 33,
+        "variants_capped_by_record_limit": [
+          "software engineer",
+          "software developer",
+          "software development engineer",
+          "application developer"
+        ],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    },
+    {
+      "role": "Data Analyst",
+      "domain": "Technology & Data",
+      "status": "core",
+      "country": "in",
+      "definition": "Analyses data to produce reports and insights. Titles 'data analyst', 'BI analyst', 'business intelligence analyst'.",
+      "query_variants": [
+        {
+          "query": "data analyst",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "842",
+            "raw": "842",
+            "title_matched": "463",
+            "marginal_clean": "433"
+          }
+        },
+        {
+          "query": "bi analyst",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "63",
+            "raw": "63",
+            "title_matched": "26",
+            "marginal_clean": "17"
+          }
+        },
+        {
+          "query": "business intelligence analyst",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "44",
+            "raw": "44",
+            "title_matched": "31",
+            "marginal_clean": "23"
+          }
+        }
+      ],
+      "dropped_variants": [
+        {
+          "query": "reporting analyst",
+          "reason": "adds 2 clean postings for 6 API calls; returns Regulatory/Tax/Record-to-Report analysts (manual title inspection)",
+          "measured_2026-09-29": {
+            "api_count": "259",
+            "raw": "259",
+            "title_matched": "6",
+            "marginal_clean": "0"
+          }
+        }
+      ],
+      "include_patterns": {
+        "canonical_pattern": "\\bdata analyst\\b",
+        "synonym_patterns": [
+          "\\bbi analyst\\b",
+          "\\bbusiness intelligence analyst\\b"
+        ]
+      },
+      "exclude_patterns": [],
+      "exclude_patterns_added_vs_roles_json": [],
+      "added_exclude_reason": null,
+      "ambiguous_title_examples": [
+        "Data Analyst / Business Analyst (ambiguous_multi)",
+        "Analyst - Data Analytics (unmatched)",
+        "Senior Data Management Analyst (unmatched)"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T175840Z_b181dc01_deepen",
+        "api_count_primary_variant": 842,
+        "raw_rows_own_queries": 1208,
+        "title_matched_rows": 540,
+        "clean": 473,
+        "yield_clean_per_raw": 0.392,
+        "near_dup_rate_of_unique_ids_pct": 6.7,
+        "distinct_employers": 348,
+        "top_employer_share_pct": 1.9,
+        "effective_number_of_employers": 256.9,
+        "canonical_title_share_pct": 91.3,
+        "canonical_title_clean_n": 432,
+        "description_ge_200_chars_pct": 100.0,
+        "salary_valid_labels": 29,
+        "last_7_days_inflow_lower_bound": 98,
+        "pages_used": 26,
+        "variants_capped_by_record_limit": [],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    },
+    {
+      "role": "Data Scientist",
+      "domain": "Technology & Data",
+      "status": "core",
+      "country": "in",
+      "definition": "Builds statistical / machine-learning models. Includes machine learning engineer and applied scientist titles.",
+      "query_variants": [
+        {
+          "query": "data scientist",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "1264",
+            "raw": "500",
+            "title_matched": "372",
+            "marginal_clean": "340"
+          }
+        },
+        {
+          "query": "machine learning engineer",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "212",
+            "raw": "212",
+            "title_matched": "176",
+            "marginal_clean": "148"
+          }
+        },
+        {
+          "query": "applied scientist",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "236",
+            "raw": "236",
+            "title_matched": "195",
+            "marginal_clean": "111"
+          }
+        }
+      ],
+      "dropped_variants": [],
+      "include_patterns": {
+        "canonical_pattern": "\\bdata scientist\\b",
+        "synonym_patterns": [
+          "\\bmachine learning (engineer|scientist)\\b",
+          "\\bml engineer\\b",
+          "\\bapplied scientist\\b"
+        ]
+      },
+      "exclude_patterns": [],
+      "exclude_patterns_added_vs_roles_json": [],
+      "added_exclude_reason": null,
+      "ambiguous_title_examples": [
+        "Lead Machine Learning Engineer (MLOps) (engineering-leaning)",
+        "Data Scientist/Digitalization Engineer"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T174139Z_4496f922_feasibility",
+        "api_count_primary_variant": 1264,
+        "raw_rows_own_queries": 948,
+        "title_matched_rows": 768,
+        "clean": 604,
+        "yield_clean_per_raw": 0.637,
+        "near_dup_rate_of_unique_ids_pct": 11.1,
+        "distinct_employers": 319,
+        "top_employer_share_pct": 5.5,
+        "effective_number_of_employers": 95.1,
+        "canonical_title_share_pct": 57.5,
+        "canonical_title_clean_n": 347,
+        "description_ge_200_chars_pct": 100.0,
+        "salary_valid_labels": 42,
+        "last_7_days_inflow_lower_bound": 198,
+        "pages_used": 20,
+        "variants_capped_by_record_limit": [
+          "data scientist"
+        ],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    },
+    {
+      "role": "Data Engineer",
+      "domain": "Technology & Data",
+      "status": "core",
+      "country": "in",
+      "definition": "Builds data pipelines and platforms (ETL, warehouses, big data).",
+      "query_variants": [
+        {
+          "query": "data engineer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "2805",
+            "raw": "500",
+            "title_matched": "307",
+            "marginal_clean": "260"
+          }
+        },
+        {
+          "query": "etl developer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "44",
+            "raw": "44",
+            "title_matched": "32",
+            "marginal_clean": "28"
+          }
+        },
+        {
+          "query": "big data engineer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "42",
+            "raw": "42",
+            "title_matched": "28",
+            "marginal_clean": "21"
+          }
+        },
+        {
+          "query": "analytics engineer",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "191",
+            "raw": "191",
+            "title_matched": "104",
+            "marginal_clean": "82"
+          }
+        }
+      ],
+      "dropped_variants": [],
+      "include_patterns": {
+        "canonical_pattern": "\\bdata engineer\\b",
+        "synonym_patterns": [
+          "\\betl (developer|engineer)\\b",
+          "\\bbig data (engineer|developer)\\b",
+          "\\banalytics engineer\\b"
+        ]
+      },
+      "exclude_patterns": [],
+      "exclude_patterns_added_vs_roles_json": [],
+      "added_exclude_reason": null,
+      "ambiguous_title_examples": [
+        "Data Engineering [T500-...] (unmatched, role name not a title)",
+        "Senior Analytics Engineer"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T174139Z_4496f922_feasibility",
+        "api_count_primary_variant": 2805,
+        "raw_rows_own_queries": 777,
+        "title_matched_rows": 522,
+        "clean": 410,
+        "yield_clean_per_raw": 0.528,
+        "near_dup_rate_of_unique_ids_pct": 15.8,
+        "distinct_employers": 259,
+        "top_employer_share_pct": 3.9,
+        "effective_number_of_employers": 110.7,
+        "canonical_title_share_pct": 80.0,
+        "canonical_title_clean_n": 328,
+        "description_ge_200_chars_pct": 99.3,
+        "salary_valid_labels": 20,
+        "last_7_days_inflow_lower_bound": null,
+        "pages_used": 16,
+        "variants_capped_by_record_limit": [
+          "data engineer"
+        ],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    },
+    {
+      "role": "DevOps / Cloud Engineer",
+      "domain": "Technology & Data",
+      "status": "core",
+      "country": "in",
+      "definition": "Builds and operates cloud infrastructure, CI/CD and reliability tooling.",
+      "query_variants": [
+        {
+          "query": "devops engineer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "822",
+            "raw": "500",
+            "title_matched": "389",
+            "marginal_clean": "354"
+          }
+        },
+        {
+          "query": "cloud engineer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "842",
+            "raw": "500",
+            "title_matched": "178",
+            "marginal_clean": "104"
+          }
+        },
+        {
+          "query": "site reliability engineer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "325",
+            "raw": "325",
+            "title_matched": "286",
+            "marginal_clean": "245"
+          }
+        },
+        {
+          "query": "platform engineer",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "990",
+            "raw": "500",
+            "title_matched": "213",
+            "marginal_clean": "131"
+          }
+        }
+      ],
+      "dropped_variants": [],
+      "include_patterns": {
+        "canonical_pattern": "\\bdev ?ops (engineer|specialist|consultant|developer)\\b",
+        "synonym_patterns": [
+          "\\bcloud (devops )?engineer\\b",
+          "\\bsite reliability engineer\\b",
+          "\\bsre\\b",
+          "\\bplatform engineer\\b"
+        ]
+      },
+      "exclude_patterns": [],
+      "exclude_patterns_added_vs_roles_json": [],
+      "added_exclude_reason": null,
+      "ambiguous_title_examples": [
+        "AI Platform Engineer",
+        "Cloud Engineer-II",
+        "Data Platform Engineer (unmatched)"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T174139Z_4496f922_feasibility",
+        "api_count_primary_variant": 822,
+        "raw_rows_own_queries": 1825,
+        "title_matched_rows": 1097,
+        "clean": 854,
+        "yield_clean_per_raw": 0.468,
+        "near_dup_rate_of_unique_ids_pct": 13.1,
+        "distinct_employers": 536,
+        "top_employer_share_pct": 1.6,
+        "effective_number_of_employers": 304.4,
+        "canonical_title_share_pct": 39.3,
+        "canonical_title_clean_n": 336,
+        "description_ge_200_chars_pct": 99.9,
+        "salary_valid_labels": 76,
+        "last_7_days_inflow_lower_bound": 214,
+        "pages_used": 37,
+        "variants_capped_by_record_limit": [
+          "devops engineer",
+          "cloud engineer",
+          "platform engineer"
+        ],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    },
+    {
+      "role": "Business Analyst",
+      "domain": "Business, Finance & Management",
+      "status": "core",
+      "country": "in",
+      "definition": "Elicits requirements and analyses business processes/systems. Includes IT business analyst titles.",
+      "query_variants": [
+        {
+          "query": "business analyst",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "1263",
+            "raw": "500",
+            "title_matched": "370",
+            "marginal_clean": "330"
+          }
+        },
+        {
+          "query": "systems analyst",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "262",
+            "raw": "262",
+            "title_matched": "192",
+            "marginal_clean": "147"
+          }
+        },
+        {
+          "query": "functional analyst",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "102",
+            "raw": "102",
+            "title_matched": "75",
+            "marginal_clean": "59"
+          }
+        },
+        {
+          "query": "product analyst",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "187",
+            "raw": "187",
+            "title_matched": "106",
+            "marginal_clean": "81"
+          }
+        }
+      ],
+      "dropped_variants": [],
+      "include_patterns": {
+        "canonical_pattern": "\\bbusiness analyst\\b",
+        "synonym_patterns": [
+          "\\bsystems? analyst\\b",
+          "\\bfunctional analyst\\b",
+          "\\bproduct analyst\\b"
+        ]
+      },
+      "exclude_patterns": [],
+      "exclude_patterns_added_vs_roles_json": [],
+      "added_exclude_reason": null,
+      "ambiguous_title_examples": [
+        "Workday HCM Functional Analyst (ERP-functional)",
+        "Finance Systems Analyst (D365)",
+        "Vice President, Product Analyst"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T174139Z_4496f922_feasibility",
+        "api_count_primary_variant": 1263,
+        "raw_rows_own_queries": 1051,
+        "title_matched_rows": 870,
+        "clean": 663,
+        "yield_clean_per_raw": 0.631,
+        "near_dup_rate_of_unique_ids_pct": 7.6,
+        "distinct_employers": 383,
+        "top_employer_share_pct": 5.0,
+        "effective_number_of_employers": 145.8,
+        "canonical_title_share_pct": 55.2,
+        "canonical_title_clean_n": 366,
+        "description_ge_200_chars_pct": 100.0,
+        "salary_valid_labels": 41,
+        "last_7_days_inflow_lower_bound": 184,
+        "pages_used": 23,
+        "variants_capped_by_record_limit": [
+          "business analyst"
+        ],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    },
+    {
+      "role": "Product Manager",
+      "domain": "Business, Finance & Management",
+      "status": "core",
+      "country": "in",
+      "definition": "Owns product strategy and roadmap. Includes product owner titles.",
+      "query_variants": [
+        {
+          "query": "product manager",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "1823",
+            "raw": "500",
+            "title_matched": "349",
+            "marginal_clean": "325"
+          }
+        },
+        {
+          "query": "product owner",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "291",
+            "raw": "291",
+            "title_matched": "282",
+            "marginal_clean": "260"
+          }
+        },
+        {
+          "query": "associate product manager",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "88",
+            "raw": "88",
+            "title_matched": "49",
+            "marginal_clean": "39"
+          }
+        }
+      ],
+      "dropped_variants": [],
+      "include_patterns": {
+        "canonical_pattern": "\\bproduct manager\\b",
+        "synonym_patterns": [
+          "\\bproduct owner\\b"
+        ]
+      },
+      "exclude_patterns": [],
+      "exclude_patterns_added_vs_roles_json": [],
+      "added_exclude_reason": null,
+      "ambiguous_title_examples": [
+        "Data & Analytics Sales Product Owner",
+        "Product Marketing Manager (unmatched)"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T174139Z_4496f922_feasibility",
+        "api_count_primary_variant": 1823,
+        "raw_rows_own_queries": 879,
+        "title_matched_rows": 694,
+        "clean": 628,
+        "yield_clean_per_raw": 0.714,
+        "near_dup_rate_of_unique_ids_pct": 6.5,
+        "distinct_employers": 382,
+        "top_employer_share_pct": 4.0,
+        "effective_number_of_employers": 169.3,
+        "canonical_title_share_pct": 58.3,
+        "canonical_title_clean_n": 366,
+        "description_ge_200_chars_pct": 100.0,
+        "salary_valid_labels": 35,
+        "last_7_days_inflow_lower_bound": 242,
+        "pages_used": 18,
+        "variants_capped_by_record_limit": [
+          "product manager"
+        ],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    },
+    {
+      "role": "Project Manager",
+      "domain": "Business, Finance & Management",
+      "status": "core",
+      "country": "in",
+      "definition": "Plans and delivers projects/programmes. Includes programme manager, delivery manager and scrum master titles.",
+      "query_variants": [
+        {
+          "query": "project manager",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "1836",
+            "raw": "500",
+            "title_matched": "314",
+            "marginal_clean": "295"
+          }
+        },
+        {
+          "query": "program manager",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "1294",
+            "raw": "500",
+            "title_matched": "400",
+            "marginal_clean": "312"
+          }
+        },
+        {
+          "query": "delivery manager",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "423",
+            "raw": "423",
+            "title_matched": "248",
+            "marginal_clean": "199"
+          }
+        },
+        {
+          "query": "scrum master",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "133",
+            "raw": "133",
+            "title_matched": "131",
+            "marginal_clean": "115"
+          }
+        }
+      ],
+      "dropped_variants": [],
+      "include_patterns": {
+        "canonical_pattern": "\\bproject manager\\b",
+        "synonym_patterns": [
+          "\\bprogram(me)? manager\\b",
+          "\\bdelivery manager\\b",
+          "\\bscrum master\\b"
+        ]
+      },
+      "exclude_patterns": [
+        "\\b(construction|civil|site|interior|real estate|mep)\\b"
+      ],
+      "exclude_patterns_added_vs_roles_json": [],
+      "added_exclude_reason": null,
+      "ambiguous_title_examples": [
+        "Scrum Master (agile role, not a manager of projects)",
+        "Project Manager - Construction (excluded by rule)",
+        "Digital Marketing Project Manager (ambiguous_multi)"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T174139Z_4496f922_feasibility",
+        "api_count_primary_variant": 1836,
+        "raw_rows_own_queries": 1556,
+        "title_matched_rows": 1106,
+        "clean": 932,
+        "yield_clean_per_raw": 0.599,
+        "near_dup_rate_of_unique_ids_pct": 8.0,
+        "distinct_employers": 581,
+        "top_employer_share_pct": 5.2,
+        "effective_number_of_employers": 159.0,
+        "canonical_title_share_pct": 33.4,
+        "canonical_title_clean_n": 311,
+        "description_ge_200_chars_pct": 100.0,
+        "salary_valid_labels": 63,
+        "last_7_days_inflow_lower_bound": 417,
+        "pages_used": 32,
+        "variants_capped_by_record_limit": [
+          "project manager",
+          "program manager"
+        ],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    },
+    {
+      "role": "Digital Marketing",
+      "domain": "Business, Finance & Management",
+      "status": "core",
+      "country": "in",
+      "definition": "Plans and runs online marketing (SEO, paid, performance, social).",
+      "query_variants": [
+        {
+          "query": "digital marketing",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "390",
+            "raw": "390",
+            "title_matched": "369",
+            "marginal_clean": "349"
+          }
+        },
+        {
+          "query": "seo specialist",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "54",
+            "raw": "54",
+            "title_matched": "39",
+            "marginal_clean": "35"
+          }
+        },
+        {
+          "query": "performance marketing",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "180",
+            "raw": "180",
+            "title_matched": "173",
+            "marginal_clean": "161"
+          }
+        },
+        {
+          "query": "growth marketer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "15",
+            "raw": "15",
+            "title_matched": "10",
+            "marginal_clean": "10"
+          }
+        }
+      ],
+      "dropped_variants": [],
+      "include_patterns": {
+        "canonical_pattern": "\\bdigital marketing\\b",
+        "synonym_patterns": [
+          "\\bseo (specialist|executive|analyst|manager)\\b",
+          "\\bperformance marketing\\b",
+          "\\bgrowth marketer\\b",
+          "\\bsocial media marketing\\b"
+        ]
+      },
+      "exclude_patterns": [],
+      "exclude_patterns_added_vs_roles_json": [],
+      "added_exclude_reason": null,
+      "ambiguous_title_examples": [
+        "Senior Marketing Executive, Digital Channels (unmatched)",
+        "Creative Designer (Performance Marketing) (ambiguous_multi)"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T174139Z_4496f922_feasibility",
+        "api_count_primary_variant": 390,
+        "raw_rows_own_queries": 639,
+        "title_matched_rows": 593,
+        "clean": 555,
+        "yield_clean_per_raw": 0.869,
+        "near_dup_rate_of_unique_ids_pct": 4.8,
+        "distinct_employers": 418,
+        "top_employer_share_pct": 2.3,
+        "effective_number_of_employers": 248.8,
+        "canonical_title_share_pct": 62.7,
+        "canonical_title_clean_n": 348,
+        "description_ge_200_chars_pct": 99.8,
+        "salary_valid_labels": 123,
+        "last_7_days_inflow_lower_bound": 86,
+        "pages_used": 15,
+        "variants_capped_by_record_limit": [],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    },
+    {
+      "role": "Graphic Designer",
+      "domain": "Media, Design & Creative",
+      "status": "core",
+      "country": "in",
+      "definition": "Produces visual/graphic design work. Includes visual designer and creative designer titles.",
+      "query_variants": [
+        {
+          "query": "graphic designer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "571",
+            "raw": "500",
+            "title_matched": "404",
+            "marginal_clean": "377"
+          }
+        },
+        {
+          "query": "visual designer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "73",
+            "raw": "73",
+            "title_matched": "41",
+            "marginal_clean": "34"
+          }
+        },
+        {
+          "query": "creative designer",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "74",
+            "raw": "74",
+            "title_matched": "39",
+            "marginal_clean": "22"
+          }
+        }
+      ],
+      "dropped_variants": [],
+      "include_patterns": {
+        "canonical_pattern": "\\bgraphic designer\\b",
+        "synonym_patterns": [
+          "\\bvisual designer\\b",
+          "\\bcreative designer\\b"
+        ]
+      },
+      "exclude_patterns": [
+        "\\bmotion graphics? designer\\b"
+      ],
+      "exclude_patterns_added_vs_roles_json": [
+        "\\bmotion graphics? designer\\b"
+      ],
+      "added_exclude_reason": "manual sample showed 'Motion Graphic Designer' entering the role; motion/video design has a different skill set",
+      "ambiguous_title_examples": [
+        "Motion Graphic Designer (video/motion; see added exclude)",
+        "UI/UX & Graphic Designer (ambiguous_multi)"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T174139Z_4496f922_feasibility",
+        "api_count_primary_variant": 571,
+        "raw_rows_own_queries": 647,
+        "title_matched_rows": 495,
+        "clean": 443,
+        "yield_clean_per_raw": 0.685,
+        "near_dup_rate_of_unique_ids_pct": 4.5,
+        "distinct_employers": 388,
+        "top_employer_share_pct": 1.8,
+        "effective_number_of_employers": 309.1,
+        "canonical_title_share_pct": 85.1,
+        "canonical_title_clean_n": 377,
+        "description_ge_200_chars_pct": 100.0,
+        "salary_valid_labels": 65,
+        "last_7_days_inflow_lower_bound": 116,
+        "pages_used": 14,
+        "variants_capped_by_record_limit": [
+          "graphic designer"
+        ],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    }
+  ],
+  "conditional_roles": [
+    {
+      "role": "UX Designer",
+      "domain": "Media, Design & Creative",
+      "status": "conditional",
+      "country": "in",
+      "definition": "Designs user experience / interfaces for digital products. Includes product designer titles.",
+      "query_variants": [
+        {
+          "query": "ux designer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "238",
+            "raw": "238",
+            "title_matched": "183",
+            "marginal_clean": "168"
+          }
+        },
+        {
+          "query": "product designer",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "293",
+            "raw": "293",
+            "title_matched": "193",
+            "marginal_clean": "168"
+          }
+        },
+        {
+          "query": "user experience designer",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "19",
+            "raw": "19",
+            "title_matched": "13",
+            "marginal_clean": "9"
+          }
+        }
+      ],
+      "dropped_variants": [],
+      "include_patterns": {
+        "canonical_pattern": "\\bux designer\\b",
+        "synonym_patterns": [
+          "\\bui ux designer\\b",
+          "\\bux ui designer\\b",
+          "\\buser experience designer\\b",
+          "\\bproduct designer\\b"
+        ]
+      },
+      "exclude_patterns": [],
+      "exclude_patterns_added_vs_roles_json": [],
+      "added_exclude_reason": null,
+      "ambiguous_title_examples": [
+        "Product Design Engineer (unmatched)",
+        "Product Designer (may be industrial design)"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T174139Z_4496f922_feasibility",
+        "api_count_primary_variant": 238,
+        "raw_rows_own_queries": 550,
+        "title_matched_rows": 390,
+        "clean": 345,
+        "yield_clean_per_raw": 0.627,
+        "near_dup_rate_of_unique_ids_pct": 7.0,
+        "distinct_employers": 264,
+        "top_employer_share_pct": 3.2,
+        "effective_number_of_employers": 164.2,
+        "canonical_title_share_pct": 43.5,
+        "canonical_title_clean_n": 150,
+        "description_ge_200_chars_pct": 100.0,
+        "salary_valid_labels": 42,
+        "last_7_days_inflow_lower_bound": 68,
+        "pages_used": 12,
+        "variants_capped_by_record_limit": [],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    },
+    {
+      "role": "Financial Analyst",
+      "domain": "Business, Finance & Management",
+      "status": "conditional",
+      "country": "in",
+      "definition": "Financial planning, reporting and analysis. Includes FP&A and investment analyst titles.",
+      "query_variants": [
+        {
+          "query": "financial analyst",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "587",
+            "raw": "587",
+            "title_matched": "343",
+            "marginal_clean": "263"
+          }
+        },
+        {
+          "query": "fp&a analyst",
+          "search_param": "title_only",
+          "confidence_tier": "canonical",
+          "measured_2026-09-29": {
+            "api_count": "59",
+            "raw": "59",
+            "title_matched": "33",
+            "marginal_clean": "16"
+          }
+        },
+        {
+          "query": "investment analyst",
+          "search_param": "title_only",
+          "confidence_tier": "medium",
+          "measured_2026-09-29": {
+            "api_count": "56",
+            "raw": "56",
+            "title_matched": "12",
+            "marginal_clean": "9"
+          }
+        }
+      ],
+      "dropped_variants": [
+        {
+          "query": "finance analyst",
+          "reason": "Adzuna stems finance~financial: returned the identical 587 postings, 0 new clean",
+          "measured_2026-09-29": {
+            "api_count": "587",
+            "raw": "587",
+            "title_matched": "343",
+            "marginal_clean": "0"
+          }
+        }
+      ],
+      "include_patterns": {
+        "canonical_pattern": "\\bfinancial analyst\\b",
+        "synonym_patterns": [
+          "\\bfinance analyst\\b",
+          "\\bfp a analyst\\b",
+          "\\bfpa analyst\\b",
+          "\\binvestment analyst\\b"
+        ]
+      },
+      "exclude_patterns": [],
+      "exclude_patterns_added_vs_roles_json": [],
+      "added_exclude_reason": null,
+      "ambiguous_title_examples": [
+        "Financial Plan & Analysis Analyst (unmatched by strict rule; matched in the sensitivity config)",
+        "Financial Reporting Analyst (unmatched)"
+      ],
+      "measured_baseline_2026_09_29": {
+        "source_run": "20260929T175840Z_b181dc01_deepen",
+        "api_count_primary_variant": 587,
+        "raw_rows_own_queries": 1289,
+        "title_matched_rows": 737,
+        "clean": 292,
+        "yield_clean_per_raw": 0.227,
+        "near_dup_rate_of_unique_ids_pct": 9.5,
+        "distinct_employers": 178,
+        "top_employer_share_pct": 5.5,
+        "effective_number_of_employers": 70.1,
+        "canonical_title_share_pct": 65.1,
+        "canonical_title_clean_n": 190,
+        "description_ge_200_chars_pct": 100.0,
+        "salary_valid_labels": 9,
+        "last_7_days_inflow_lower_bound": 67,
+        "pages_used": 28,
+        "variants_capped_by_record_limit": [],
+        "note": "Counts are for the official STRICT rules in config/roles.json (before the exclude/variant edits in this spec)"
+      }
+    }
+  ],
+  "conditional_family": {
+    "name": "Security (merged title families)",
+    "status": "conditional",
+    "domain": "Technology & Data",
+    "members": [
+      {
+        "role": "Security Engineer",
+        "query_variants": [
+          {
+            "query": "security engineer",
+            "search_param": "title_only",
+            "confidence_tier": "canonical",
+            "measured_2026-09-29": {
+              "api_count": "811",
+              "raw": "811",
+              "title_matched": "404",
+              "marginal_clean": "374"
+            }
+          }
+        ],
+        "include_patterns": [
+          "\\bsecurity engineer\\b"
+        ],
+        "overlap_group": "security",
+        "priority": 1,
+        "measured_clean": 374,
+        "api_count": 811
+      },
+      {
+        "role": "Information Security Analyst",
+        "query_variants": [
+          {
+            "query": "information security analyst",
+            "search_param": "title_only",
+            "confidence_tier": "canonical",
+            "measured_2026-09-29": {
+              "api_count": "39",
+              "raw": "39",
+              "title_matched": "24",
+              "marginal_clean": "19"
+            }
+          }
+        ],
+        "include_patterns": [
+          "\\binformation security analyst\\b"
+        ],
+        "overlap_group": "security",
+        "priority": 2,
+        "measured_clean": 19,
+        "api_count": 39
+      },
+      {
+        "role": "Cybersecurity Engineer",
+        "query_variants": [
+          {
+            "query": "cybersecurity engineer",
+            "search_param": "title_only",
+            "confidence_tier": "canonical",
+            "measured_2026-09-29": {
+              "api_count": "78",
+              "raw": "78",
+              "title_matched": "36",
+              "marginal_clean": "30"
+            }
+          }
+        ],
+        "include_patterns": [
+          "\\bcyber ?security engineer\\b"
+        ],
+        "overlap_group": "security",
+        "priority": 2,
+        "measured_clean": 61,
+        "api_count": 78
+      },
+      {
+        "role": "Information Security Engineer",
+        "query_variants": [
+          {
+            "query": "information security engineer",
+            "search_param": "title_only",
+            "confidence_tier": "canonical",
+            "measured_2026-09-29": {
+              "api_count": "72",
+              "raw": "72",
+              "title_matched": "54",
+              "marginal_clean": "0"
+            }
+          }
+        ],
+        "include_patterns": [
+          "\\binformation security engineer\\b"
+        ],
+        "overlap_group": "security",
+        "priority": 2,
+        "measured_clean": 36,
+        "api_count": 72
+      },
+      {
+        "role": "Cybersecurity Analyst",
+        "query_variants": [
+          {
+            "query": "cybersecurity analyst",
+            "search_param": "title_only",
+            "confidence_tier": "canonical",
+            "measured_2026-09-29": {
+              "api_count": "27",
+              "raw": "27",
+              "title_matched": "10",
+              "marginal_clean": "8"
+            }
+          }
+        ],
+        "include_patterns": [
+          "\\bcyber ?security analyst\\b"
+        ],
+        "overlap_group": "security",
+        "priority": 2,
+        "measured_clean": 8,
+        "api_count": 27
+      }
+    ],
+    "merged_clean_measured": 510,
+    "note": "No single family reaches 400 (best 374). Merging is a team decision, not applied automatically."
+  },
+  "promotion_rule_conditional_to_core": {
+    "rule": "A conditional role is promoted only when, after incremental collection and the same QC gates, clean >= 400 AND canonical-title clean >= 300 AND mapping precision >= 90% on the manual sample.",
+    "evidence_path": "Weekly inflow lower bounds measured 2026-09-29: UX Designer 68/week, Financial Analyst 67/week (clean, before dedup)."
+  },
+  "excluded_domains": {
+    "Engineering": "Mechanical 256 / Electrical 210 / Quality 269 clean (exhausted); recall-tolerant sensitivity 396 / 373 / 266 - none reaches 400",
+    "Architecture & Construction": "'architect' count is 72.1% IT architects, 2.5% likely building architects",
+    "Healthcare": "India title counts 5-154 for 5 of 6 roles (feasibility_analysis.md)",
+    "Logistics / Transport / Supply Chain": "India title counts 20-107 (feasibility_analysis.md)",
+    "Energy / Environment": "India title counts 4-32 (feasibility_analysis.md)"
+  },
+  "mapping_rules": {
+    "normalisation": "lowercase, strip accents, non-alphanumerics -> single space (scripts/role_mapping.py normalize_title)",
+    "statuses": [
+      "matched",
+      "excluded_by_rule",
+      "ambiguous_multi",
+      "unmatched"
+    ],
+    "confidence_tiers": {
+      "high": "title matches the role's canonical pattern (first include pattern)",
+      "medium": "title matches a synonym pattern (e.g. product owner, delivery manager, systems analyst)",
+      "none": "unmatched / ambiguous_multi / excluded_by_rule are NEVER assigned a role"
+    },
+    "overlap": "only inside a declared overlap_group (security) by priority; any other multi-role match is ambiguous_multi",
+    "unmatched_handling": "kept in raw, listed in variant_title_inspection.csv for periodic review; never forced into a role",
+    "language_rule": "flag (do not delete) postings whose description is not predominantly English (one Korean title found in a 12-title sample); decide inclusion at processing time",
+    "circularity_guard": "role label = f(title). Any later ML feature set must exclude title tokens and must be checked for the role phrase in the snippet (48.1% of snippets contain the role rule; 27.7% restate the full title)"
+  },
+  "deduplication": {
+    "order": [
+      "exact adzuna id (across queries AND runs)",
+      "near-duplicate key = normalised title + normalised employer + first 150 normalised description chars",
+      "employer cap"
+    ],
+    "employer_cap_fraction_of_role": 0.05,
+    "cap_applies_after_near_dup": true,
+    "missing_employer_never_capped": true,
+    "cross_query": "a posting returned by several title variants is one posting; keep earliest collected_at and record all query_variants that returned it",
+    "cross_run": "id seen in a later weekly increment is not new; reposts (new id, same near-dup key) count once, first created date kept",
+    "logging": "every removal written with role, employer, reason, kept id"
+  },
+  "minimum_sample_requirements": {
+    "clean_per_core_role_min": 400,
+    "clean_per_role_skill_frequency_floor": 300,
+    "canonical_title_clean_min": 300,
+    "distinct_employers_min": 100,
+    "effective_number_of_employers_min": 50,
+    "top_employer_share_max_pct": 6,
+    "near_dup_rate_of_unique_ids_max_pct": 20,
+    "description_nonempty_min_pct": 99,
+    "description_ge_200_chars_min_pct": 95,
+    "mapping_precision_min_pct_on_manual_sample": 90,
+    "manual_precision_sample_size_per_role": 50,
+    "salary_descriptive_min_valid_per_role": 30,
+    "salary_model_min_valid_pooled": 750,
+    "salary_model_min_per_class": 250,
+    "adzuna_snapshots_min_for_freshness_view": 4,
+    "trends_min_weekly_points_per_skill": 260,
+    "trends_min_nonzero_week_share": 0.8,
+    "skill_min_postings": 20,
+    "skill_min_share_of_role_pct": 2,
+    "justification_file": "report/dataset_design.md section 8",
+    "measured_gaps": {
+      "salary_valid_core_now": 532,
+      "roles_below_30_salary_labels": [
+        "Data Analyst",
+        "Data Engineer",
+        "Financial Analyst",
+        "Security (merged)"
+      ]
+    }
+  },
+  "collection_plan": {
+    "baseline": {
+      "status": "already collected 2026-09-29 (runs/ directory)",
+      "core_clean": 6437,
+      "core_pages_used": 234
+    },
+    "incremental_weekly": {
+      "weeks": 3,
+      "max_days_old": 7,
+      "estimated_calls_per_week": "60-75",
+      "purpose": "fresh postings, salary-label growth, conditional-role promotion"
+    },
+    "skill_prevalence_count_probe": {
+      "calls_per_snapshot": "~300 (10 roles x 30 skills, 90-day window)",
+      "snapshots": 2,
+      "role": "validation/recall signal beside snippet mining; NOT a replacement (title_only denominators include non-role titles)"
+    },
+    "requires_before_starting": "written confirmation from Adzuna that academic use may continue beyond the 14-day trial (terms of service)"
+  }
+}

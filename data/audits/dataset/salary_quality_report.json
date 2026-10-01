@@ -1,0 +1,474 @@
+{
+ "core_uncapped": {
+  "both_min_and_max_present": 599,
+  "informational_counts": {
+   "one_sided": 3,
+   "point_value": 108
+  },
+  "invalid_reason_counts": {
+   "below_floor": 77,
+   "non_positive": 2
+  },
+  "rows": 6662,
+  "salary_invalid": 79,
+  "salary_missing": 6060,
+  "salary_predicted": 0,
+  "salary_present": 602,
+  "salary_present_pct": 9.0,
+  "salary_valid_under_working_screen": 523,
+  "snippet_mentions_among_salaried": {
+   "hourly": 0,
+   "inr_or_rupee": 37,
+   "lpa_or_lakh": 21,
+   "per_annum_or_annual": 4,
+   "per_month_or_monthly": 20,
+   "usd_or_dollar": 10
+  },
+  "valid_midpoint_distribution_raw_units": {
+   "max": 5000000.0,
+   "median": 850000.0,
+   "min": 100000.0,
+   "n": 523,
+   "p25": 500000.0,
+   "p5": 240000.0,
+   "p75": 1850000.0,
+   "p95": 3500000.0
+  }
+ },
+ "currency_field_in_source": false,
+ "earlier_figures_for_comparison": {
+  "core_rows": 6662,
+  "invalid": 79,
+  "missing": 6060,
+  "predicted": 0,
+  "present": 602,
+  "valid_under_screen": 523
+ },
+ "final_core_analysis_dataset": {
+  "both_min_and_max_present": 599,
+  "informational_counts": {
+   "one_sided": 3,
+   "point_value": 108
+  },
+  "invalid_reason_counts": {
+   "below_floor": 77,
+   "non_positive": 2
+  },
+  "rows": 6533,
+  "salary_invalid": 79,
+  "salary_missing": 5931,
+  "salary_predicted": 0,
+  "salary_present": 602,
+  "salary_present_pct": 9.2,
+  "salary_valid_under_working_screen": 523,
+  "snippet_mentions_among_salaried": {
+   "hourly": 0,
+   "inr_or_rupee": 37,
+   "lpa_or_lakh": 21,
+   "per_annum_or_annual": 4,
+   "per_month_or_monthly": 20,
+   "usd_or_dollar": 10
+  },
+  "valid_midpoint_distribution_raw_units": {
+   "max": 5000000.0,
+   "median": 850000.0,
+   "min": 100000.0,
+   "n": 523,
+   "p25": 500000.0,
+   "p5": 240000.0,
+   "p75": 1850000.0,
+   "p95": 3500000.0
+  }
+ },
+ "final_core_by_role": {
+  "Business Analyst": {
+   "both_min_and_max_present": 60,
+   "informational_counts": {
+    "point_value": 16
+   },
+   "invalid_reason_counts": {
+    "below_floor": 3
+   },
+   "rows": 870,
+   "salary_invalid": 3,
+   "salary_missing": 810,
+   "salary_predicted": 0,
+   "salary_present": 60,
+   "salary_present_pct": 6.9,
+   "salary_valid_under_working_screen": 57,
+   "snippet_mentions_among_salaried": {
+    "hourly": 0,
+    "inr_or_rupee": 4,
+    "lpa_or_lakh": 1,
+    "per_annum_or_annual": 0,
+    "per_month_or_monthly": 1,
+    "usd_or_dollar": 0
+   },
+   "valid_midpoint_distribution_raw_units": {
+    "max": 4500000.0,
+    "median": 800000.0,
+    "min": 135000.0,
+    "n": 57,
+    "p25": 600000.0,
+    "p5": 162000.0,
+    "p75": 1800000.0,
+    "p95": 3250000.0
+   }
+  },
+  "Data Analyst": {
+   "both_min_and_max_present": 34,
+   "informational_counts": {
+    "point_value": 6
+   },
+   "invalid_reason_counts": {
+    "below_floor": 4
+   },
+   "rows": 526,
+   "salary_invalid": 4,
+   "salary_missing": 492,
+   "salary_predicted": 0,
+   "salary_present": 34,
+   "salary_present_pct": 6.5,
+   "salary_valid_under_working_screen": 30,
+   "snippet_mentions_among_salaried": {
+    "hourly": 0,
+    "inr_or_rupee": 1,
+    "lpa_or_lakh": 0,
+    "per_annum_or_annual": 0,
+    "per_month_or_monthly": 1,
+    "usd_or_dollar": 1
+   },
+   "valid_midpoint_distribution_raw_units": {
+    "max": 4200000.0,
+    "median": 600000.0,
+    "min": 210000.0,
+    "n": 30,
+    "p25": 450000.0,
+    "p5": 217000.0,
+    "p75": 1500000.0,
+    "p95": 3000000.0
+   }
+  },
+  "Data Engineer": {
+   "both_min_and_max_present": 21,
+   "informational_counts": {
+    "point_value": 3
+   },
+   "invalid_reason_counts": {
+    "below_floor": 1
+   },
+   "rows": 466,
+   "salary_invalid": 1,
+   "salary_missing": 445,
+   "salary_predicted": 0,
+   "salary_present": 21,
+   "salary_present_pct": 4.5,
+   "salary_valid_under_working_screen": 20,
+   "snippet_mentions_among_salaried": {
+    "hourly": 0,
+    "inr_or_rupee": 0,
+    "lpa_or_lakh": 2,
+    "per_annum_or_annual": 0,
+    "per_month_or_monthly": 0,
+    "usd_or_dollar": 0
+   },
+   "valid_midpoint_distribution_raw_units": {
+    "max": 3950000.0,
+    "median": 2000000.0,
+    "min": 600000.0,
+    "n": 20,
+    "p25": 1700000.0,
+    "p5": 600000.0,
+    "p75": 2300000.0,
+    "p95": 3950000.0
+   }
+  },
+  "Data Scientist": {
+   "both_min_and_max_present": 47,
+   "informational_counts": {
+    "point_value": 15
+   },
+   "invalid_reason_counts": {
+    "below_floor": 5
+   },
+   "rows": 626,
+   "salary_invalid": 5,
+   "salary_missing": 579,
+   "salary_predicted": 0,
+   "salary_present": 47,
+   "salary_present_pct": 7.5,
+   "salary_valid_under_working_screen": 42,
+   "snippet_mentions_among_salaried": {
+    "hourly": 0,
+    "inr_or_rupee": 4,
+    "lpa_or_lakh": 4,
+    "per_annum_or_annual": 0,
+    "per_month_or_monthly": 0,
+    "usd_or_dollar": 0
+   },
+   "valid_midpoint_distribution_raw_units": {
+    "max": 4500000.0,
+    "median": 1800000.0,
+    "min": 540000.0,
+    "n": 42,
+    "p25": 1100000.0,
+    "p5": 600000.0,
+    "p75": 2700000.0,
+    "p95": 3500000.0
+   }
+  },
+  "DevOps / Cloud Engineer": {
+   "both_min_and_max_present": 85,
+   "informational_counts": {
+    "one_sided": 1,
+    "point_value": 18
+   },
+   "invalid_reason_counts": {
+    "below_floor": 10
+   },
+   "rows": 909,
+   "salary_invalid": 10,
+   "salary_missing": 823,
+   "salary_predicted": 0,
+   "salary_present": 86,
+   "salary_present_pct": 9.5,
+   "salary_valid_under_working_screen": 76,
+   "snippet_mentions_among_salaried": {
+    "hourly": 0,
+    "inr_or_rupee": 6,
+    "lpa_or_lakh": 5,
+    "per_annum_or_annual": 0,
+    "per_month_or_monthly": 0,
+    "usd_or_dollar": 0
+   },
+   "valid_midpoint_distribution_raw_units": {
+    "max": 4500000.0,
+    "median": 1500000.0,
+    "min": 300000.0,
+    "n": 76,
+    "p25": 850000.0,
+    "p5": 450000.0,
+    "p75": 2200000.0,
+    "p95": 3600000.0
+   }
+  },
+  "Digital Marketing": {
+   "both_min_and_max_present": 144,
+   "informational_counts": {
+    "point_value": 10
+   },
+   "invalid_reason_counts": {
+    "below_floor": 19,
+    "non_positive": 1
+   },
+   "rows": 562,
+   "salary_invalid": 20,
+   "salary_missing": 418,
+   "salary_predicted": 0,
+   "salary_present": 144,
+   "salary_present_pct": 25.6,
+   "salary_valid_under_working_screen": 124,
+   "snippet_mentions_among_salaried": {
+    "hourly": 0,
+    "inr_or_rupee": 12,
+    "lpa_or_lakh": 4,
+    "per_annum_or_annual": 4,
+    "per_month_or_monthly": 14,
+    "usd_or_dollar": 1
+   },
+   "valid_midpoint_distribution_raw_units": {
+    "max": 3900000.0,
+    "median": 525000.0,
+    "min": 125000.0,
+    "n": 124,
+    "p25": 350000.0,
+    "p5": 210000.0,
+    "p75": 850000.0,
+    "p95": 2000000.0
+   }
+  },
+  "Graphic Designer": {
+   "both_min_and_max_present": 70,
+   "informational_counts": {
+    "point_value": 2
+   },
+   "invalid_reason_counts": {
+    "below_floor": 5,
+    "non_positive": 1
+   },
+   "rows": 418,
+   "salary_invalid": 6,
+   "salary_missing": 348,
+   "salary_predicted": 0,
+   "salary_present": 70,
+   "salary_present_pct": 16.7,
+   "salary_valid_under_working_screen": 64,
+   "snippet_mentions_among_salaried": {
+    "hourly": 0,
+    "inr_or_rupee": 3,
+    "lpa_or_lakh": 0,
+    "per_annum_or_annual": 0,
+    "per_month_or_monthly": 2,
+    "usd_or_dollar": 0
+   },
+   "valid_midpoint_distribution_raw_units": {
+    "max": 4500000.0,
+    "median": 450000.0,
+    "min": 150000.0,
+    "n": 64,
+    "p25": 350000.0,
+    "p5": 250000.0,
+    "p75": 800000.0,
+    "p95": 3960000.0
+   }
+  },
+  "Product Manager": {
+   "both_min_and_max_present": 43,
+   "informational_counts": {
+    "one_sided": 1,
+    "point_value": 14
+   },
+   "invalid_reason_counts": {
+    "below_floor": 9
+   },
+   "rows": 635,
+   "salary_invalid": 9,
+   "salary_missing": 591,
+   "salary_predicted": 0,
+   "salary_present": 44,
+   "salary_present_pct": 6.9,
+   "salary_valid_under_working_screen": 35,
+   "snippet_mentions_among_salaried": {
+    "hourly": 0,
+    "inr_or_rupee": 0,
+    "lpa_or_lakh": 0,
+    "per_annum_or_annual": 0,
+    "per_month_or_monthly": 0,
+    "usd_or_dollar": 1
+   },
+   "valid_midpoint_distribution_raw_units": {
+    "max": 5000000.0,
+    "median": 1450000.0,
+    "min": 125000.0,
+    "n": 35,
+    "p25": 600000.0,
+    "p5": 135000.0,
+    "p75": 3350000.0,
+    "p95": 4500000.0
+   }
+  },
+  "Project Manager": {
+   "both_min_and_max_present": 33,
+   "informational_counts": {
+    "one_sided": 1,
+    "point_value": 7
+   },
+   "invalid_reason_counts": {
+    "below_floor": 5
+   },
+   "rows": 315,
+   "salary_invalid": 5,
+   "salary_missing": 281,
+   "salary_predicted": 0,
+   "salary_present": 34,
+   "salary_present_pct": 10.8,
+   "salary_valid_under_working_screen": 29,
+   "snippet_mentions_among_salaried": {
+    "hourly": 0,
+    "inr_or_rupee": 2,
+    "lpa_or_lakh": 1,
+    "per_annum_or_annual": 0,
+    "per_month_or_monthly": 2,
+    "usd_or_dollar": 0
+   },
+   "valid_midpoint_distribution_raw_units": {
+    "max": 3750000.0,
+    "median": 1500000.0,
+    "min": 600000.0,
+    "n": 29,
+    "p25": 1000000.0,
+    "p5": 600000.0,
+    "p75": 2600000.0,
+    "p95": 3640000.0
+   }
+  },
+  "Software Engineer": {
+   "both_min_and_max_present": 62,
+   "informational_counts": {
+    "point_value": 17
+   },
+   "invalid_reason_counts": {
+    "below_floor": 16
+   },
+   "rows": 1206,
+   "salary_invalid": 16,
+   "salary_missing": 1144,
+   "salary_predicted": 0,
+   "salary_present": 62,
+   "salary_present_pct": 5.1,
+   "salary_valid_under_working_screen": 46,
+   "snippet_mentions_among_salaried": {
+    "hourly": 0,
+    "inr_or_rupee": 5,
+    "lpa_or_lakh": 4,
+    "per_annum_or_annual": 0,
+    "per_month_or_monthly": 0,
+    "usd_or_dollar": 7
+   },
+   "valid_midpoint_distribution_raw_units": {
+    "max": 3799461.0,
+    "median": 1250000.0,
+    "min": 100000.0,
+    "n": 46,
+    "p25": 600000.0,
+    "p5": 100000.0,
+    "p75": 2000000.0,
+    "p95": 2750000.0
+   }
+  }
+ },
+ "full_validated_dataset": {
+  "both_min_and_max_present": 714,
+  "informational_counts": {
+   "one_sided": 3,
+   "point_value": 130
+  },
+  "invalid_reason_counts": {
+   "below_floor": 89,
+   "non_positive": 2
+  },
+  "rows": 8489,
+  "salary_invalid": 91,
+  "salary_missing": 7772,
+  "salary_predicted": 0,
+  "salary_present": 717,
+  "salary_present_pct": 8.4,
+  "salary_valid_under_working_screen": 626,
+  "snippet_mentions_among_salaried": {
+   "hourly": 0,
+   "inr_or_rupee": 42,
+   "lpa_or_lakh": 26,
+   "per_annum_or_annual": 8,
+   "per_month_or_monthly": 22,
+   "usd_or_dollar": 11
+  },
+  "valid_midpoint_distribution_raw_units": {
+   "max": 5000000.0,
+   "median": 900000.0,
+   "min": 100000.0,
+   "n": 626,
+   "p25": 520000.0,
+   "p5": 240000.0,
+   "p75": 1900000.0,
+   "p95": 3500000.0
+  }
+ },
+ "locations_of_salaried_final_core": {
+  "India": 602
+ },
+ "not_done": "No salary bands, no model, no currency or period normalisation; the supervised target is a later-phase decision.",
+ "period_field_in_source": false,
+ "salary_currency_interpretation": "unresolved (country=in; not provided by the API)",
+ "salary_period_interpretation": "unresolved",
+ "screen_definition": "salary_passes_plausibility_screen = present, not Adzuna-predicted, min <= max, and 100,000 <= value <= 10,000,000 in RAW units. A numeric screen only; it does not assert annual pay or INR"
+}

@@ -1,0 +1,730 @@
+{
+ "adjacent_record_count": 614,
+ "build_timestamp": "2026-09-29T19:26:32Z",
+ "conditional_record_count": 1213,
+ "config_sha256": {
+  "dataset_build.json": "b44ca6d921be1bb49aeb250d7e9a1f19580c2cf30d95da36e56c6b9aac23d760",
+  "roles.json": "5d858ab9a92a0fea81f73fc6dac31da5d8abcd1c8eef509d824e33580e6c09b2"
+ },
+ "core_record_count": {
+  "final_analysis_dataset_after_cap": 6533,
+  "uncapped": 6662
+ },
+ "dataset_version": "1.0.0-final",
+ "downstream_status": "Preprocessing, EDA, modelling and other analytics have NOT started",
+ "employer_cap_policy": {
+  "applied": true,
+  "applies_to": "core roles, in the FINAL CORE ANALYSIS dataset only (the full validated dataset keeps every row and flags them)",
+  "cap_per_employer_within_role": "max(1, floor(0.05 x role rows before cap))",
+  "exclusions_file": "data/audits/dataset/employer_cap_exclusions.csv",
+  "fraction": 0.05,
+  "missing_employer": "never capped, never counted as an employer",
+  "records_removed": 129,
+  "tie_break": "keep the most recent created, then the smallest numeric job id"
+ },
+ "employer_statistics": {
+  "core_after_cap": {
+   "effective_number_of_employers": 373.6,
+   "rows": 6533,
+   "rows_with_employer": 6532,
+   "top_employer_count": 190,
+   "top_employer_percentage": 2.91,
+   "unique_employers": 2605
+  },
+  "core_before_cap": {
+   "effective_number_of_employers": 261.1,
+   "rows": 6662,
+   "rows_with_employer": 6661,
+   "top_employer_count": 292,
+   "top_employer_percentage": 4.38,
+   "unique_employers": 2605
+  },
+  "per_role_file": "data/audits/dataset/employer_cap_audit.json",
+  "unique_employers_full_validated": 3053
+ },
+ "final_retained_count": 8489,
+ "finalization_complete": true,
+ "id_deduplicated_count": 16663,
+ "near_deduplicated_count": 15332,
+ "output_files": {
+  "career_market_core_analysis": {
+   "content_sha256": "a61a5df33ccbb1e817dfc4e5e0999afd8a4b54a8ea5abf11b844327a0efbaa71",
+   "csv": "data/processed/adzuna/career_market_core_analysis.csv",
+   "parquet": "data/processed/adzuna/career_market_core_analysis.parquet",
+   "rows": 6533
+  },
+  "career_market_full_validated": {
+   "content_sha256": "1a533b8f9a783f7e065c253acb911a4f1a8338cfb3e3f2ee1ea16b1d42b658a0",
+   "csv": "data/processed/adzuna/career_market_full_validated.csv",
+   "parquet": "data/processed/adzuna/career_market_full_validated.parquet",
+   "rows": 8489
+  }
+ },
+ "pandas": "2.3.3",
+ "project_manager_status": {
+  "adjacent_families_kept_separate": {
+   "Delivery Manager": 133,
+   "Program Manager": 371,
+   "Scrum Master": 110
+  },
+  "count_after_cap": 315,
+  "count_uncapped": 317,
+  "mapping_policy": "canonical-only",
+  "no_records_fabricated_or_mapping_relaxed": true,
+  "reason": "below minimum dataset-size target (400)",
+  "status": "conditional"
+ },
+ "python": "3.10.13",
+ "raw_files_unchanged_verified_by_sha256": true,
+ "raw_record_count": 25572,
+ "raw_source_files": [
+  {
+   "bytes": 926396,
+   "path": "data/raw/adzuna/adzuna_business_analyst_2026-09-29.json",
+   "records": 625,
+   "sha256": "c47b9fdd5c85556dcb56de8bb92f96e42bdb6e1daafec56686591701289e13ec"
+  },
+  {
+   "bytes": 911807,
+   "path": "data/raw/adzuna/adzuna_data_analyst_2026-09-29.json",
+   "records": 625,
+   "sha256": "f931d2775be6d2c93f62be6870ad8494d9ebd236e6b3fff2402cfd4ae21e52c7"
+  },
+  {
+   "bytes": 960742,
+   "path": "data/raw/adzuna/adzuna_digital_marketing_2026-09-29.json",
+   "records": 625,
+   "sha256": "f5cb9bf74a8ca585ed13a53f6d25802cfed80a5fb05ee87a01f27b8c23da3196"
+  },
+  {
+   "bytes": 935021,
+   "path": "data/raw/adzuna/adzuna_software_engineer_2026-09-29.json",
+   "records": 625,
+   "sha256": "efcf3ab8c0111cf78e31386e1e515c40c23c80e2ba3feeb1fd8e251e64ef4e89"
+  },
+  {
+   "bytes": 100185,
+   "path": "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_data_analyst__bi_analyst.jsonl",
+   "records": 63,
+   "sha256": "e6bc227cf4be98f0b1318b7d53384e8130266f042d3eae031ef73fb7ff88c390"
+  },
+  {
+   "bytes": 71572,
+   "path": "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_data_analyst__business_intelligence_analyst.jsonl",
+   "records": 44,
+   "sha256": "2421c9345d6c38a4f63148ba080db246abf874e2668cbb0e440f7d0acd52d71e"
+  },
+  {
+   "bytes": 160255,
+   "path": "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_data_analyst__data_analyst.jsonl",
+   "records": 100,
+   "sha256": "301beb3527e65f5e606dfa35673e1e4d3bfaa6b78953a96bb759dcd871d3b4c0"
+  },
+  {
+   "bytes": 161255,
+   "path": "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_data_analyst__reporting_analyst.jsonl",
+   "records": 100,
+   "sha256": "f0cb32c9cd8051a23b99a0ff9e17ede837d1e4d44e263a23e517aa22b8b8e20c"
+  },
+  {
+   "bytes": 169500,
+   "path": "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_digital_marketing__digital_marketing.jsonl",
+   "records": 100,
+   "sha256": "d069424aa94a80ec8c988be3eeba7aedf861406a19c5efb917a58439c6a21b79"
+  },
+  {
+   "bytes": 25021,
+   "path": "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_digital_marketing__growth_marketer.jsonl",
+   "records": 15,
+   "sha256": "ce5db07438e699d5f57d4acccedde69e702a00aca8ba6db94060471f9c9ea15e"
+  },
+  {
+   "bytes": 169653,
+   "path": "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_digital_marketing__performance_marketing.jsonl",
+   "records": 100,
+   "sha256": "050f74b1f2f8582da9bdcb692f72aff2f6da6b523ad3f5e730f7c37399fff3e9"
+  },
+  {
+   "bytes": 89718,
+   "path": "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_digital_marketing__seo_specialist.jsonl",
+   "records": 54,
+   "sha256": "d83f2e41af1c6b791a16d77b07c5589117a1ea081b1e5aeab0bb4279cc846968"
+  },
+  {
+   "bytes": 161959,
+   "path": "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_security_engineer__security_engineer.jsonl",
+   "records": 100,
+   "sha256": "9f26cbdf2655f787239d5654d9fa4d03317a0b24efb0c9545c31801ee55f9523"
+  },
+  {
+   "bytes": 817904,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_architect_contamination_audit__architect.jsonl",
+   "records": 500,
+   "sha256": "e74ff03e4715499622e3bb64bc1ad88cc08d317a2856b923ed34eda53fc8e20e"
+  },
+  {
+   "bytes": 815882,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_business_analyst__business_analyst.jsonl",
+   "records": 500,
+   "sha256": "7a34b324667e0f37e734884b2b3a5588c711bdc8b0a764d01566e074f94e7f8a"
+  },
+  {
+   "bytes": 167454,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_business_analyst__functional_analyst.jsonl",
+   "records": 102,
+   "sha256": "42af6b6b0b8cf17a28a56bd19964aadc2a2ab5ecd218dd12d3aeb6c3f0bdf079"
+  },
+  {
+   "bytes": 305835,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_business_analyst__product_analyst.jsonl",
+   "records": 187,
+   "sha256": "134731c94151ce82a1284d07700354240e3d84d1083eec2ca4000dcefb683124"
+  },
+  {
+   "bytes": 426222,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_business_analyst__systems_analyst.jsonl",
+   "records": 262,
+   "sha256": "fff9cd398bc88ae017fd28020ef4753e90eb4ed41c5b8dd645065abdf0534cf6"
+  },
+  {
+   "bytes": 44025,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_cybersecurity_analyst__cybersecurity_analyst.jsonl",
+   "records": 27,
+   "sha256": "32f0d3a5281077a0201553710101722c35ec4163246b401129113c0612a0fee2"
+  },
+  {
+   "bytes": 127013,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_cybersecurity_engineer__cybersecurity_engineer.jsonl",
+   "records": 78,
+   "sha256": "674477c9adcac284b202ee3ed438ca79ece36d75ae40c58e4d76df419110c63e"
+  },
+  {
+   "bytes": 100563,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_analyst__bi_analyst.jsonl",
+   "records": 63,
+   "sha256": "9c85e9b4315d327351a17a86c616ddcc2db74679929061e0d6f84850f6dfbf26"
+  },
+  {
+   "bytes": 71836,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_analyst__business_intelligence_analyst.jsonl",
+   "records": 44,
+   "sha256": "024b973bc0e2b8ed6e6e08e08b150c4e23491dba3a3deae02d77438c3a7bd675"
+  },
+  {
+   "bytes": 802941,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_analyst__data_analyst.jsonl",
+   "records": 500,
+   "sha256": "08cb2ed113c2e6a73639fa78ea86f9d9f200c704046169e5b9fb76e3f11ffb30"
+  },
+  {
+   "bytes": 418622,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_analyst__reporting_analyst.jsonl",
+   "records": 259,
+   "sha256": "93f5b7e7aa8949a8b2561c829816fb9f64ded8de6dbc7b2693d761e456a34fc4"
+  },
+  {
+   "bytes": 308952,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_engineer__analytics_engineer.jsonl",
+   "records": 191,
+   "sha256": "7d19a9858828ff3cd7207faa1c6fecb249b328bd17b5cdb77f31c06143127b94"
+  },
+  {
+   "bytes": 67924,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_engineer__big_data_engineer.jsonl",
+   "records": 42,
+   "sha256": "8070d563ceca1d97bfcd6c932e82f410b88e9b7855ff348c46019d507bc9de9a"
+  },
+  {
+   "bytes": 807516,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_engineer__data_engineer.jsonl",
+   "records": 500,
+   "sha256": "53d335b75f7bfb0b3c60727c896c68bf8e312e96ba264bc2bb8f61bf791c95c4"
+  },
+  {
+   "bytes": 70893,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_engineer__etl_developer.jsonl",
+   "records": 44,
+   "sha256": "1ec04cd0907d8408b50f4597175e7ca833905452eccd61e3f5029f0ff55953fd"
+  },
+  {
+   "bytes": 379167,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_scientist__applied_scientist.jsonl",
+   "records": 236,
+   "sha256": "2466ae4354dae5760a2a5cf27181141451015942271f50159a3e581da1a5e65c"
+  },
+  {
+   "bytes": 808286,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_scientist__data_scientist.jsonl",
+   "records": 500,
+   "sha256": "1e4b16e26f65ea60e1ef3a3144f175de4d8834aeed5edf571b74a1729e92246c"
+  },
+  {
+   "bytes": 343438,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_scientist__machine_learning_engineer.jsonl",
+   "records": 212,
+   "sha256": "b37aacb7d43ac6aa335103713c66bef1172856e8aed1bbd03333d24ab3f5f8ae"
+  },
+  {
+   "bytes": 812254,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_devops_cloud_engineer__cloud_engineer.jsonl",
+   "records": 500,
+   "sha256": "74a84624ff73feb05cdfb8b92752a62371e77d6fd2c548d02fbf364fa6e374d6"
+  },
+  {
+   "bytes": 808170,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_devops_cloud_engineer__devops_engineer.jsonl",
+   "records": 500,
+   "sha256": "80be43a1a93f0605439136263c67cc0e759de308c3158d6dd492efd89bbf06bc"
+  },
+  {
+   "bytes": 813839,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_devops_cloud_engineer__platform_engineer.jsonl",
+   "records": 500,
+   "sha256": "3a8771efb27baa04bcd4ca0710549d42ba21b62259903ba2f785105e93ea4272"
+  },
+  {
+   "bytes": 529265,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_devops_cloud_engineer__site_reliability_engineer.jsonl",
+   "records": 325,
+   "sha256": "07cafae8bdd22ae9bc665fa643356663be5b0b2b93615a0dd67e2e55f2e9b471"
+  },
+  {
+   "bytes": 659751,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_digital_marketing__digital_marketing.jsonl",
+   "records": 390,
+   "sha256": "9da6dbc6fbe39f0e18f72e66f102f9facf3e7cccdc990ce13b0ad181eb2e236a"
+  },
+  {
+   "bytes": 25111,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_digital_marketing__growth_marketer.jsonl",
+   "records": 15,
+   "sha256": "ad50b757a97b9626a6fed7f219ba1722a99655d4e2c73a96a3f84b300925011c"
+  },
+  {
+   "bytes": 306448,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_digital_marketing__performance_marketing.jsonl",
+   "records": 180,
+   "sha256": "bdc0384103216379421d544157d5b8fb1ab2851ccd4bf869f1ff4bd27910425d"
+  },
+  {
+   "bytes": 90042,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_digital_marketing__seo_specialist.jsonl",
+   "records": 54,
+   "sha256": "0409fd2616c706accec94450eca6e9af9266f804b1c28d60b1c4a8a11a3186fd"
+  },
+  {
+   "bytes": 126145,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_electrical_engineer__electrical_design_engineer.jsonl",
+   "records": 77,
+   "sha256": "d7f25979c819120813712cf781e045e4bd3c8927e44ee1981936898fa5087ce9"
+  },
+  {
+   "bytes": 818024,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_electrical_engineer__electrical_engineer.jsonl",
+   "records": 500,
+   "sha256": "b9bcb93d28d343eb2186aefa6f5e1424bd9807e9b4e8e66eab11d00b6fb6f5a2"
+  },
+  {
+   "bytes": 822076,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_financial_analyst__finance_analyst.jsonl",
+   "records": 500,
+   "sha256": "e1e719303a1fe76f28c07fce7779801649b6448c7372422593993ee37acb9fb5"
+  },
+  {
+   "bytes": 823076,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_financial_analyst__financial_analyst.jsonl",
+   "records": 500,
+   "sha256": "b1788128348ccc78f900cf311b7f22ca7881e403a3a153c5d25b2d2ef450a4e6"
+  },
+  {
+   "bytes": 96952,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_financial_analyst__fp_a_analyst.jsonl",
+   "records": 59,
+   "sha256": "fe72ba6a757bea3d793a627b3d520ef2ff82ab9c3014c2be3676c0eb16af6941"
+  },
+  {
+   "bytes": 93677,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_financial_analyst__investment_analyst.jsonl",
+   "records": 56,
+   "sha256": "4a38db42cbd065cf0f5131d2840d398db6939ff040ad9be2939e7b5d4860e9d8"
+  },
+  {
+   "bytes": 124662,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_graphic_designer__creative_designer.jsonl",
+   "records": 74,
+   "sha256": "c05e978df7853a8dc681f5986a69562406efa715b51a72da24f6e1eaf3306848"
+  },
+  {
+   "bytes": 839081,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_graphic_designer__graphic_designer.jsonl",
+   "records": 500,
+   "sha256": "c1315f0346834c1df1f2c78454d165a6eff245f7923070fa18333d0a546003c9"
+  },
+  {
+   "bytes": 119874,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_graphic_designer__visual_designer.jsonl",
+   "records": 73,
+   "sha256": "d525795b7653dec2fa04a47892d15ca4161e63a440b291d2a6d2c6c7004c5ca7"
+  },
+  {
+   "bytes": 63966,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_information_security_analyst__information_security_analyst.jsonl",
+   "records": 39,
+   "sha256": "9d51213fbcea149d06eee818bdd6f80c23210bb20349e2eadee3f7b4631dede9"
+  },
+  {
+   "bytes": 117892,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_information_security_engineer__information_security_engineer.jsonl",
+   "records": 72,
+   "sha256": "f79b41f213094542a4eb605bd82629ae0984d75153606a48249e589dc4cf43db"
+  },
+  {
+   "bytes": 121618,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_mechanical_engineer__cad_engineer.jsonl",
+   "records": 75,
+   "sha256": "ac233b97069ba387d9c0e28915997577669de5f889e2e656f2dcacec3f6bd22c"
+  },
+  {
+   "bytes": 187765,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_mechanical_engineer__mechanical_design_engineer.jsonl",
+   "records": 114,
+   "sha256": "9bc67865567a256e578fa21f5ad5310e52dc69ccb9a284d70d14e5120af5f0e7"
+  },
+  {
+   "bytes": 818054,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_mechanical_engineer__mechanical_engineer.jsonl",
+   "records": 500,
+   "sha256": "9beb60ba60ed8b84711ce96bfb6e2bf17965e79780928fcc021ab8c8595afc2f"
+  },
+  {
+   "bytes": 144881,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_product_manager__associate_product_manager.jsonl",
+   "records": 88,
+   "sha256": "eefb274a1d52fd0d9413e7050a44be159c3a3893f4a07bb0a0d09bb9f1187000"
+  },
+  {
+   "bytes": 819294,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_product_manager__product_manager.jsonl",
+   "records": 500,
+   "sha256": "aced235fde3ec091988138c81600b7122b3351f94358eeeafba00ba0d39db060"
+  },
+  {
+   "bytes": 470180,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_product_manager__product_owner.jsonl",
+   "records": 291,
+   "sha256": "ef2fb7f5a50222d7e282a8cad07f35bf251e173f32334e6e78afab09604c1c8a"
+  },
+  {
+   "bytes": 691982,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_project_manager__delivery_manager.jsonl",
+   "records": 423,
+   "sha256": "ea6fac1723bd788b37002b82a548daa6d8c3f556356418ebce1c37a76a6b8424"
+  },
+  {
+   "bytes": 819474,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_project_manager__program_manager.jsonl",
+   "records": 500,
+   "sha256": "c898d453a2129b25496e02a24897b5845a085c33ee46bcfc9eb7c7b756b0dc62"
+  },
+  {
+   "bytes": 827950,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_project_manager__project_manager.jsonl",
+   "records": 500,
+   "sha256": "4a9a643d86d8cd606353390e30d823a9f340ecdc7f5fb56ee375e5dafaf88508"
+  },
+  {
+   "bytes": 214677,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_project_manager__scrum_master.jsonl",
+   "records": 133,
+   "sha256": "a332748a919173111a67e3623b71eb16edd94db496459e5b79d4bdb0c4eef4b5"
+  },
+  {
+   "bytes": 289705,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_quality_engineer__quality_assurance_engineer.jsonl",
+   "records": 178,
+   "sha256": "df84dc64c5d795a57cf429e600a6c798fca74fbca1ca0ebc308a5a398515d626"
+  },
+  {
+   "bytes": 807509,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_quality_engineer__quality_engineer.jsonl",
+   "records": 500,
+   "sha256": "5c45fccbff8970779492cfed15f04e42daaf07285f6b366af4a0ba7c62df3c21"
+  },
+  {
+   "bytes": 810451,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_security_engineer__security_engineer.jsonl",
+   "records": 500,
+   "sha256": "8e7d0f33efdcf9144c36625941e3a4993e4edce21deb698a80227556c6be6587"
+  },
+  {
+   "bytes": 811512,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_software_engineer__application_developer.jsonl",
+   "records": 500,
+   "sha256": "62434e367cabbac7bff6cc25309eef9d563d4facf215326bf432d008ce228885"
+  },
+  {
+   "bytes": 813154,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_software_engineer__software_developer.jsonl",
+   "records": 500,
+   "sha256": "66a57cb48064a0e8b592c43d126fc758397467d1bfa59a2e9d3b1b9575ae5d4e"
+  },
+  {
+   "bytes": 244887,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_software_engineer__software_development_engineer.jsonl",
+   "records": 150,
+   "sha256": "f9a00934cd826c9e0d1049d21845a722311c1538942c9c8b7bd373ba0857a03a"
+  },
+  {
+   "bytes": 806456,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_software_engineer__software_engineer.jsonl",
+   "records": 500,
+   "sha256": "55bf40116f340b873ef197630fa71f3e95ce08cd0b2c7349f425a80f5859d371"
+  },
+  {
+   "bytes": 476483,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_ux_designer__product_designer.jsonl",
+   "records": 293,
+   "sha256": "bb6caf70d324dfc223200b0b1910fe8cae73c7454ca06373a6ac7a160cbd6ea8"
+  },
+  {
+   "bytes": 31180,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_ux_designer__user_experience_designer.jsonl",
+   "records": 19,
+   "sha256": "9492d9e8abdbc8ea9a3573f54d9aa9d945158d95e3493dc5b21a7fda25eeb790"
+  },
+  {
+   "bytes": 384414,
+   "path": "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_ux_designer__ux_designer.jsonl",
+   "records": 238,
+   "sha256": "7248d156fb52e8f24deee4ea4cb84b088b65cda23df78617d8ea23025704daf3"
+  },
+  {
+   "bytes": 100248,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_data_analyst__bi_analyst.jsonl",
+   "records": 63,
+   "sha256": "d7f96e1295ce40eddb3c6d5cb634cc30dd4c0ee63a2c9dda483f8384aff732da"
+  },
+  {
+   "bytes": 71616,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_data_analyst__business_intelligence_analyst.jsonl",
+   "records": 44,
+   "sha256": "ff89daa9418d8f187c5feb677e994b0d78fbfc1baf8c0036b34b7f4125eb50a3"
+  },
+  {
+   "bytes": 1344461,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_data_analyst__data_analyst.jsonl",
+   "records": 842,
+   "sha256": "5412e430dedfb66493ae7b5a2d41b4022b17e7752ce957a71523a3bc20159e64"
+  },
+  {
+   "bytes": 417327,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_data_analyst__reporting_analyst.jsonl",
+   "records": 259,
+   "sha256": "3e598f76b3bee45a274bf740088056c7d85934e537979caa3f453e1679a84b1d"
+  },
+  {
+   "bytes": 125760,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_electrical_engineer__electrical_design_engineer.jsonl",
+   "records": 77,
+   "sha256": "de0fe74552457a79aefe9156fc79ff3801e3c578626fe58145025ca5daa9ac7e"
+  },
+  {
+   "bytes": 946369,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_electrical_engineer__electrical_engineer.jsonl",
+   "records": 580,
+   "sha256": "df35d3d31b9e7d5956f95c352ff432da9de2365d76ee4228ce30bfbee210e7e2"
+  },
+  {
+   "bytes": 962225,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_financial_analyst__finance_analyst.jsonl",
+   "records": 587,
+   "sha256": "a61f85c85d9459b58c2cd29e9aa3d3e48d31073564b0e0bb7b9f77928687b25e"
+  },
+  {
+   "bytes": 963399,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_financial_analyst__financial_analyst.jsonl",
+   "records": 587,
+   "sha256": "5a3eff8d466a1836ec778a086ae9cfcff08f70d09bc9dc486c9267f486d5b6d8"
+  },
+  {
+   "bytes": 96657,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_financial_analyst__fp_a_analyst.jsonl",
+   "records": 59,
+   "sha256": "ee0b3b241f2a6f7c630f23928ee708aa19d6110a9faabf2d533421b7a3fbad96"
+  },
+  {
+   "bytes": 93397,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_financial_analyst__investment_analyst.jsonl",
+   "records": 56,
+   "sha256": "34f7c5aeae1e55fae97857677a8e035ebfe775c2fa531b595b928431d8a3fe09"
+  },
+  {
+   "bytes": 121243,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_mechanical_engineer__cad_engineer.jsonl",
+   "records": 75,
+   "sha256": "b7bef7ff6e59547f60c8f6b82b65982f5162ff231c0cfd0570f917f2c868a151"
+  },
+  {
+   "bytes": 187195,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_mechanical_engineer__mechanical_design_engineer.jsonl",
+   "records": 114,
+   "sha256": "1b0da6de251278d1a401d4897bb0a6d155913c0b08d9302ffad0a6af47bf642e"
+  },
+  {
+   "bytes": 925863,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_mechanical_engineer__mechanical_engineer.jsonl",
+   "records": 567,
+   "sha256": "c6cb83ca5c641b5a861514368bdaf0bd649540525819ff628ff5b04cee213984"
+  },
+  {
+   "bytes": 288815,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_quality_engineer__quality_assurance_engineer.jsonl",
+   "records": 178,
+   "sha256": "7575d52780ff088d33fcfed0c39c70b48e5e832d746c4ddd6404a908929da8dd"
+  },
+  {
+   "bytes": 1297873,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_quality_engineer__quality_engineer.jsonl",
+   "records": 807,
+   "sha256": "3b27fcffb1321c36c31dde421b1145e3fbf8088d8a61201ab63941319d420d0c"
+  },
+  {
+   "bytes": 1308780,
+   "path": "data/raw/adzuna/runs/20260929T175840Z_b181dc01_deepen/records_in_security_engineer__security_engineer.jsonl",
+   "records": 811,
+   "sha256": "bc5e67a27f056cbe9a52f5a7f50be8b60c1203c34c6643a25e3011dd62ea4661"
+  },
+  {
+   "bytes": 44079,
+   "path": "data/raw/adzuna/runs/20260929T180809Z_8ad616c4_security_full/records_in_cybersecurity_analyst__cybersecurity_analyst.jsonl",
+   "records": 27,
+   "sha256": "90af0bc4640490d22d1f7e6c3ffc7d0458ea6a751750295b3cab6a739e2cc7ae"
+  },
+  {
+   "bytes": 127169,
+   "path": "data/raw/adzuna/runs/20260929T180809Z_8ad616c4_security_full/records_in_cybersecurity_engineer__cybersecurity_engineer.jsonl",
+   "records": 78,
+   "sha256": "948e7746b3da518374b495fc26d3245879cf3e4bb2df9db55aa4c9b495303e92"
+  },
+  {
+   "bytes": 64044,
+   "path": "data/raw/adzuna/runs/20260929T180809Z_8ad616c4_security_full/records_in_information_security_analyst__information_security_analyst.jsonl",
+   "records": 39,
+   "sha256": "c1753d30ef19786015bab6e9ee5d538c53eb57e5ab44860fe7cf507397cdc24c"
+  },
+  {
+   "bytes": 118036,
+   "path": "data/raw/adzuna/runs/20260929T180809Z_8ad616c4_security_full/records_in_information_security_engineer__information_security_engineer.jsonl",
+   "records": 72,
+   "sha256": "04896e7b1b11c5e8df5dd1abc7d9eb26e8fb355e6ca8445beefaa26cc09cd636"
+  },
+  {
+   "bytes": 1314457,
+   "path": "data/raw/adzuna/runs/20260929T180809Z_8ad616c4_security_full/records_in_security_engineer__security_engineer.jsonl",
+   "records": 811,
+   "sha256": "45a59901ae50725df0f1454761965465bf9d1315f1991451f1ee3ec7c2586b31"
+  }
+ ],
+ "reproducibility_status": {
+  "detail": "data/audits/dataset/reproducibility_check.json",
+  "matches_main_outputs": true,
+  "result": "PASS",
+  "runs": 2
+ },
+ "role_counts": {
+  "conditional_and_adjacent": {
+   "Cybersecurity Analyst": 8,
+   "Cybersecurity Engineer": 64,
+   "Delivery Manager": 133,
+   "Financial Analyst": 346,
+   "Information Security Analyst": 22,
+   "Information Security Engineer": 45,
+   "Program Manager": 371,
+   "Scrum Master": 110,
+   "Security Engineer": 378,
+   "UX Designer": 350
+  },
+  "core": {
+   "Business Analyst": {
+    "final_after_cap": 870,
+    "uncapped": 873
+   },
+   "Data Analyst": {
+    "final_after_cap": 526,
+    "uncapped": 526
+   },
+   "Data Engineer": {
+    "final_after_cap": 466,
+    "uncapped": 470
+   },
+   "Data Scientist": {
+    "final_after_cap": 626,
+    "uncapped": 691
+   },
+   "DevOps / Cloud Engineer": {
+    "final_after_cap": 909,
+    "uncapped": 910
+   },
+   "Digital Marketing": {
+    "final_after_cap": 562,
+    "uncapped": 562
+   },
+   "Graphic Designer": {
+    "final_after_cap": 418,
+    "uncapped": 418
+   },
+   "Product Manager": {
+    "final_after_cap": 635,
+    "uncapped": 635
+   },
+   "Project Manager": {
+    "final_after_cap": 315,
+    "uncapped": 317
+   },
+   "Software Engineer": {
+    "final_after_cap": 1206,
+    "uncapped": 1260
+   }
+  }
+ },
+ "role_status": {
+  "Business Analyst": "core",
+  "Data Analyst": "core",
+  "Data Engineer": "core",
+  "Data Scientist": "core",
+  "DevOps / Cloud Engineer": "core",
+  "Digital Marketing": "core",
+  "Graphic Designer": "core",
+  "Product Manager": "core",
+  "Project Manager": "conditional_limited",
+  "Software Engineer": "core"
+ },
+ "salary_statistics": {
+  "core_uncapped": {
+   "rows": 6662,
+   "salary_invalid": 79,
+   "salary_missing": 6060,
+   "salary_predicted": 0,
+   "salary_present": 602,
+   "salary_valid_under_working_screen": 523
+  },
+  "file": "data/audits/dataset/salary_quality_report.json",
+  "final_core_analysis_dataset": {
+   "rows": 6533,
+   "salary_invalid": 79,
+   "salary_missing": 5931,
+   "salary_predicted": 0,
+   "salary_present": 602,
+   "salary_valid_under_working_screen": 523
+  },
+  "salary_currency_interpretation": "unresolved",
+  "salary_period_interpretation": "unresolved"
+ },
+ "source_file_count": 91,
+ "validation_status": {
+  "details": "data/audits/dataset/mapping_validation_status.json",
+  "independent_human_validation": "PENDING",
+  "mapping_spot_check": "AI-assisted, complete (not independent)",
+  "role_assignment": "title-based"
+ }
+}

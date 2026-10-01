@@ -1,0 +1,211 @@
+{
+  "api_usage": {
+    "per_run": {
+      "20260929T174012Z_b5985163_smoke": {
+        "started": "2026-09-29T17:40:12Z",
+        "finished": "2026-09-29T17:40:54Z",
+        "queries": 9,
+        "successful_pages": 16,
+        "failed_attempts_http": 0,
+        "final_empty_page_calls_estimated": 0,
+        "estimated_total_calls": 16,
+        "retries": 0,
+        "http_429": 0,
+        "min_gap_setting_seconds": 2.6,
+        "failed_attempt_status_counts": {}
+      },
+      "20260929T174139Z_4496f922_feasibility": {
+        "started": "2026-09-29T17:41:39Z",
+        "finished": "2026-09-29T17:57:32Z",
+        "queries": 57,
+        "successful_pages": 330,
+        "failed_attempts_http": 0,
+        "final_empty_page_calls_estimated": 0,
+        "estimated_total_calls": 330,
+        "retries": 0,
+        "http_429": 0,
+        "min_gap_setting_seconds": 2.6,
+        "failed_attempt_status_counts": {}
+      },
+      "20260929T175840Z_b181dc01_deepen": {
+        "started": "2026-09-29T17:58:40Z",
+        "finished": "2026-09-29T18:07:28Z",
+        "queries": 16,
+        "successful_pages": 123,
+        "failed_attempts_http": 9,
+        "final_empty_page_calls_estimated": 0,
+        "estimated_total_calls": 132,
+        "retries": 9,
+        "http_429": 0,
+        "min_gap_setting_seconds": 2.6,
+        "failed_attempt_status_counts": {
+          "503": 9
+        }
+      },
+      "20260929T180809Z_8ad616c4_security_full": {
+        "started": "2026-09-29T18:08:09Z",
+        "finished": "2026-09-29T18:09:09Z",
+        "queries": 5,
+        "successful_pages": 23,
+        "failed_attempts_http": 0,
+        "final_empty_page_calls_estimated": 0,
+        "estimated_total_calls": 23,
+        "retries": 0,
+        "http_429": 0,
+        "min_gap_setting_seconds": 2.6,
+        "failed_attempt_status_counts": {}
+      }
+    },
+    "coverage_probe": {
+      "calls": 141,
+      "started_utc": "2026-09-29T17:20:10.717962+00:00",
+      "errors": 0,
+      "assumed_pace_seconds_per_call": 3.0,
+      "estimated_end_utc": "2026-09-29T17:27:13.717962+00:00"
+    },
+    "legacy_team_pull": {
+      "pull_date_in_log": "2026-09-29",
+      "categories": 4,
+      "estimated_calls": 52,
+      "note": "Made with a DIFFERENT app id (utm_source in its redirect URLs differs from the current key's), so probably a separate quota. Time of day unknown."
+    },
+    "logged_calls_by_utc_date": {
+      "2026-09-29": {
+        "page": 492,
+        "failed_attempt": 9,
+        "probe": 141,
+        "total": 642
+      }
+    },
+    "peak_calls_in_any_clock_minute": {
+      "minute_utc": "2026-09-29T17:43",
+      "calls": 23
+    },
+    "clock_minutes_over_25": 0,
+    "overlapping_run_windows": [],
+    "estimated_project_calls_2026-09-29_utc_from_logs": 642,
+    "estimated_project_calls_2026-09-29_utc_from_logs_note": "Runs + coverage probe only. Excludes ~6 hand-made calls in the chat session that day (not logged) and the legacy team pull (different app id).",
+    "documented_daily_limit": 250
+  },
+  "credentials": {
+    "env_file_exists": true,
+    "env_file_git_ignored": true,
+    "env_file_tracked_now": false,
+    "env_file_ever_committed": false,
+    "current_app_key": {
+      "found_in_working_tree_files": [],
+      "working_tree_file_count": 0,
+      "tracked_files_containing_it_now": [],
+      "commits_in_history_that_add_or_remove_it": 0,
+      "kind": "secret"
+    },
+    "current_app_id": {
+      "found_in_working_tree_files": [
+        "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_data_analyst__bi_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_data_analyst__business_intelligence_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_data_analyst__data_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_data_analyst__reporting_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_digital_marketing__digital_marketing.jsonl",
+        "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_digital_marketing__growth_marketer.jsonl",
+        "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_digital_marketing__performance_marketing.jsonl",
+        "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_digital_marketing__seo_specialist.jsonl",
+        "data/raw/adzuna/runs/20260929T174012Z_b5985163_smoke/records_in_security_engineer__security_engineer.jsonl",
+        "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_architect_contamination_audit__architect.jsonl",
+        "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_business_analyst__business_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_business_analyst__functional_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_business_analyst__product_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_business_analyst__systems_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_cybersecurity_analyst__cybersecurity_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_cybersecurity_engineer__cybersecurity_engineer.jsonl",
+        "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_analyst__bi_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_analyst__business_intelligence_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_analyst__data_analyst.jsonl",
+        "data/raw/adzuna/runs/20260929T174139Z_4496f922_feasibility/records_in_data_analyst__reporting_analyst.jsonl"
+      ],
+      "working_tree_file_count": 87,
+      "tracked_files_containing_it_now": [],
+      "commits_in_history_that_add_or_remove_it": 0,
+      "kind": "identifier (appears in Adzuna redirect URLs as utm_source)"
+    },
+    "other_app_ids_in_committed_redirect_urls": {
+      "count": 1,
+      "note": "identifier Adzuna embeds in redirect_url; not a secret key"
+    },
+    "hardcoded_key_like_assignment_in_tracked_files": 0
+  },
+  "repository": {
+    "remotes_configured": [
+      [
+        "origin",
+        "https://github.com/anusanth26/Career-Market-Intelligence"
+      ],
+      [
+        "origin",
+        "https://github.com/anusanth26/Career-Market-Intelligence"
+      ]
+    ],
+    "branch": "main",
+    "commit_count": 22,
+    "tracked_raw_files_now": [
+      {
+        "path": "data/raw/adzuna/adzuna_business_analyst_2026-09-29.json",
+        "bytes": 926396
+      },
+      {
+        "path": "data/raw/adzuna/adzuna_data_analyst_2026-09-29.json",
+        "bytes": 911807
+      },
+      {
+        "path": "data/raw/adzuna/adzuna_digital_marketing_2026-09-29.json",
+        "bytes": 960742
+      },
+      {
+        "path": "data/raw/adzuna/adzuna_software_engineer_2026-09-29.json",
+        "bytes": 935021
+      },
+      {
+        "path": "data/raw/adzuna/pull_log_2026-09-29.json",
+        "bytes": 186
+      }
+    ],
+    "history_commits_touching_data_raw": [
+      {
+        "commit": "6d70da1|2026-09-29|Add Adzuna pull log for collection",
+        "file": "data/raw/adzuna/pull_log_2026-09-29.json"
+      },
+      {
+        "commit": "c1fda9c|2026-09-29|Add raw Adzuna data: Business Analyst category",
+        "file": "data/raw/adzuna/adzuna_business_analyst_2026-09-29.json"
+      },
+      {
+        "commit": "215b8ee|2026-09-29|Add raw Adzuna data: Digital Marketing category",
+        "file": "data/raw/adzuna/adzuna_digital_marketing_2026-09-29.json"
+      },
+      {
+        "commit": "9d358c9|2026-09-29|Add raw Adzuna data: Software Engineer category",
+        "file": "data/raw/adzuna/adzuna_software_engineer_2026-09-29.json"
+      },
+      {
+        "commit": "c9ddf6b|2026-09-29|Add raw Adzuna data: Data Analyst category",
+        "file": "data/raw/adzuna/adzuna_data_analyst_2026-09-29.json"
+      }
+    ],
+    "untracked_adzuna_data_not_ignored": [
+      "data/raw/adzuna/coverage_2026-09-29.json",
+      "data/raw/adzuna/runs/",
+      "data/raw/trends/"
+    ],
+    "untracked_runs_dir_bytes": 41173731,
+    "gitignore_lines": [
+      ".env",
+      "data/raw/*",
+      "!data/raw/.gitkeep",
+      "!data/raw/adzuna/",
+      "!data/raw/adzuna/*.json",
+      "!data/raw/trends/",
+      "!data/raw/trends/*",
+      "",
+      "__pycache__/"
+    ]
+  }
+}

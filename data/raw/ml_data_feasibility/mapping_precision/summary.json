@@ -1,0 +1,457 @@
+{
+ "seed": 20260930,
+ "rubric": "\nGate 4 labels + metrics. Reads samples.json (seed 20260930) produced by mapping_precision_sample.py.\n\nLABELLING RUBRIC (fixed before labelling; judged against the role CONCEPT, not merely against our own synonym list):\n  correct   : the title clearly names the role (any seniority, domain prefix, or documented exact synonym of the core job)\n  ambiguous : matched via a documented synonym/variant that is a materially different or debatable job family\n              (e.g. scrum master, ERP functional analyst, product owner, ML engineer), or a hybrid title, or a people-manager role\n  incorrect : the title matched a pattern but the job is a different family (or is meant to be excluded)\nLabels below were assigned MANUALLY by the reviewer (an AI assistant) - they are NOT produced or validated by the mapping code and\nmust be spot-checked by at least one team member (recommended: independent re-label of 15 titles per role, report agreement).\nAnything not listed as ambiguous/incorrect below was judged correct. Reason codes allow sensitivity analysis.\n\n    python data/raw/ml_data_feasibility/mapping_precision_labels.py\n",
+ "summary": {
+  "Software Engineer": {
+   "sample_n": 50,
+   "correct": 46,
+   "ambiguous": 4,
+   "incorrect": 0,
+   "precision_pct": 100.0,
+   "ambiguity_rate_pct": 8.0,
+   "strict_precision_pct_ambiguous_as_incorrect": 92.0,
+   "lenient_precision_pct_if_team_defines_family_as_in_role": null,
+   "lenient_families": [],
+   "precision_by_tier_pct": {
+    "canonical": 100.0,
+    "synonym": 100.0
+   },
+   "tier_counts": {
+    "canonical_n": 42,
+    "synonym_n": 8
+   },
+   "ci95_precision_wilson_pct": [
+    92.3,
+    100.0
+   ],
+   "unmatched_sample_n": 15,
+   "unmatched_pool_distinct_titles": 300,
+   "unmatched_clear_false_negatives": 6,
+   "unmatched_ambiguous": 1,
+   "unmatched_fn_rate_in_sample_pct": 40.0,
+   "est_distinct_false_negative_titles_in_pool": 120,
+   "false_negative_pattern": "developer titles without the words 'software developer' (Backend/Sr./AI Developer, 'Software Cloud Developer', 'Software Engineering Lead')",
+   "clean_n": 875,
+   "canonical_clean_n": 735,
+   "gate_precision_ge_90": true,
+   "gate_clean_ge_400": true,
+   "gate_canonical_ge_300": true,
+   "passes_all_three": true,
+   "false_positive_examples": [],
+   "ambiguous_examples": [
+    "Application Developer",
+    "Application Developer",
+    "Senior Application Developer",
+    "Software Engineer Manager, Commerce Infrastructure, Health and Home"
+   ]
+  },
+  "Data Analyst": {
+   "sample_n": 50,
+   "correct": 43,
+   "ambiguous": 7,
+   "incorrect": 0,
+   "precision_pct": 100.0,
+   "ambiguity_rate_pct": 14.0,
+   "strict_precision_pct_ambiguous_as_incorrect": 86.0,
+   "lenient_precision_pct_if_team_defines_family_as_in_role": null,
+   "lenient_families": [],
+   "precision_by_tier_pct": {
+    "canonical": 100.0,
+    "synonym": 100.0
+   },
+   "tier_counts": {
+    "canonical_n": 46,
+    "synonym_n": 4
+   },
+   "ci95_precision_wilson_pct": [
+    91.8,
+    100.0
+   ],
+   "unmatched_sample_n": 30,
+   "unmatched_pool_distinct_titles": 316,
+   "unmatched_clear_false_negatives": 4,
+   "unmatched_ambiguous": 5,
+   "unmatched_fn_rate_in_sample_pct": 13.3,
+   "est_distinct_false_negative_titles_in_pool": 42,
+   "false_negative_pattern": "BI-reporting titles ('BI Reporting Analyst', 'Senior Insights Analyst - Power BI')",
+   "clean_n": 473,
+   "canonical_clean_n": 432,
+   "gate_precision_ge_90": true,
+   "gate_clean_ge_400": true,
+   "gate_canonical_ge_300": true,
+   "passes_all_three": true,
+   "false_positive_examples": [],
+   "ambiguous_examples": [
+    "Data Analyst II (Sharepoint/ PowerApps/ Power Automate Developer)- Only Bangalore Based Candidates",
+    "Lead Data Analyst - Cyber Incident Review",
+    "Senior Data Analyst/Programmer",
+    "Business/Data Analyst - Training & Certification"
+   ]
+  },
+  "Data Scientist": {
+   "sample_n": 50,
+   "correct": 34,
+   "ambiguous": 16,
+   "incorrect": 0,
+   "precision_pct": 100.0,
+   "ambiguity_rate_pct": 32.0,
+   "strict_precision_pct_ambiguous_as_incorrect": 68.0,
+   "lenient_precision_pct_if_team_defines_family_as_in_role": 100.0,
+   "lenient_families": [
+    "family:ml_engineer"
+   ],
+   "precision_by_tier_pct": {
+    "canonical": 100.0,
+    "synonym": 100.0
+   },
+   "tier_counts": {
+    "canonical_n": 30,
+    "synonym_n": 20
+   },
+   "ci95_precision_wilson_pct": [
+    89.8,
+    100.0
+   ],
+   "unmatched_sample_n": 15,
+   "unmatched_pool_distinct_titles": 136,
+   "unmatched_clear_false_negatives": 5,
+   "unmatched_ambiguous": 1,
+   "unmatched_fn_rate_in_sample_pct": 33.3,
+   "est_distinct_false_negative_titles_in_pool": 45,
+   "false_negative_pattern": "'Data Science' noun forms ('Data Science Internship', 'Data Science & ML Senior Associate', 'Applied AI Scientist')",
+   "clean_n": 604,
+   "canonical_clean_n": 347,
+   "gate_precision_ge_90": true,
+   "gate_clean_ge_400": true,
+   "gate_canonical_ge_300": true,
+   "passes_all_three": true,
+   "false_positive_examples": [],
+   "ambiguous_examples": [
+    "Machine Learning Engineer",
+    "Sr Machine Learning Engineer",
+    "Machine Learning Engineer, Amazon Music - Catalog Quality",
+    "Senior Machine Learning Engineer"
+   ]
+  },
+  "Data Engineer": {
+   "sample_n": 50,
+   "correct": 45,
+   "ambiguous": 5,
+   "incorrect": 0,
+   "precision_pct": 100.0,
+   "ambiguity_rate_pct": 10.0,
+   "strict_precision_pct_ambiguous_as_incorrect": 90.0,
+   "lenient_precision_pct_if_team_defines_family_as_in_role": 100.0,
+   "lenient_families": [
+    "family:analytics_engineer"
+   ],
+   "precision_by_tier_pct": {
+    "canonical": 100.0,
+    "synonym": 100.0
+   },
+   "tier_counts": {
+    "canonical_n": 41,
+    "synonym_n": 9
+   },
+   "ci95_precision_wilson_pct": [
+    92.1,
+    100.0
+   ],
+   "unmatched_sample_n": 15,
+   "unmatched_pool_distinct_titles": 161,
+   "unmatched_clear_false_negatives": 4,
+   "unmatched_ambiguous": 2,
+   "unmatched_fn_rate_in_sample_pct": 26.7,
+   "est_distinct_false_negative_titles_in_pool": 43,
+   "false_negative_pattern": "'Data Engineering' noun forms, 'SSIS Developer (ETL)'",
+   "clean_n": 410,
+   "canonical_clean_n": 328,
+   "gate_precision_ge_90": true,
+   "gate_clean_ge_400": true,
+   "gate_canonical_ge_300": true,
+   "passes_all_three": true,
+   "false_positive_examples": [],
+   "ambiguous_examples": [
+    "Manager- ETL Developer",
+    "SAP Analytics Engineer (Datasphere)- India",
+    "FBS Associate Analytics Engineer",
+    "Senior Analytics Engineer"
+   ]
+  },
+  "DevOps / Cloud Engineer": {
+   "sample_n": 50,
+   "correct": 46,
+   "ambiguous": 4,
+   "incorrect": 0,
+   "precision_pct": 100.0,
+   "ambiguity_rate_pct": 8.0,
+   "strict_precision_pct_ambiguous_as_incorrect": 92.0,
+   "lenient_precision_pct_if_team_defines_family_as_in_role": null,
+   "lenient_families": [],
+   "precision_by_tier_pct": {
+    "canonical": 100.0,
+    "synonym": 100.0
+   },
+   "tier_counts": {
+    "canonical_n": 24,
+    "synonym_n": 26
+   },
+   "ci95_precision_wilson_pct": [
+    92.3,
+    100.0
+   ],
+   "unmatched_sample_n": 15,
+   "unmatched_pool_distinct_titles": 358,
+   "unmatched_clear_false_negatives": 5,
+   "unmatched_ambiguous": 2,
+   "unmatched_fn_rate_in_sample_pct": 33.3,
+   "est_distinct_false_negative_titles_in_pool": 119,
+   "false_negative_pattern": "reordered forms ('Senior Engineer, DevOps', 'DevOps / Infrastructure Engineer', 'Cloud Services Engineer')",
+   "clean_n": 854,
+   "canonical_clean_n": 336,
+   "gate_precision_ge_90": true,
+   "gate_clean_ge_400": true,
+   "gate_canonical_ge_300": true,
+   "passes_all_three": true,
+   "false_positive_examples": [],
+   "ambiguous_examples": [
+    "Platform Engineer (Cybersecurity Platform)",
+    "Lead Platform Engineer",
+    "Platform Engineer- Automation, Testing,Kubernetes- Skylar AI Platform",
+    "Senior Platform Engineer (SAP Basis Hana)"
+   ]
+  },
+  "Business Analyst": {
+   "sample_n": 50,
+   "correct": 28,
+   "ambiguous": 20,
+   "incorrect": 2,
+   "precision_pct": 93.3,
+   "ambiguity_rate_pct": 40.0,
+   "strict_precision_pct_ambiguous_as_incorrect": 56.0,
+   "lenient_precision_pct_if_team_defines_family_as_in_role": 95.7,
+   "lenient_families": [
+    "family:systems_functional_analyst"
+   ],
+   "precision_by_tier_pct": {
+    "canonical": 100.0,
+    "synonym": 66.7
+   },
+   "tier_counts": {
+    "canonical_n": 24,
+    "synonym_n": 26
+   },
+   "ci95_precision_wilson_pct": [
+    78.7,
+    98.2
+   ],
+   "unmatched_sample_n": 30,
+   "unmatched_pool_distinct_titles": 179,
+   "unmatched_clear_false_negatives": 2,
+   "unmatched_ambiguous": 5,
+   "unmatched_fn_rate_in_sample_pct": 6.7,
+   "est_distinct_false_negative_titles_in_pool": 12,
+   "false_negative_pattern": "'Business Process Analyst', 'Senior Analyst Business Systems'",
+   "clean_n": 663,
+   "canonical_clean_n": 366,
+   "gate_precision_ge_90": true,
+   "gate_clean_ge_400": true,
+   "gate_canonical_ge_300": true,
+   "passes_all_three": true,
+   "false_positive_examples": [
+    "Physical Security Systems Analyst",
+    "Website Security Support - Product Analyst"
+   ],
+   "ambiguous_examples": [
+    "Senior Finance Systems Analyst",
+    "System Analyst SAP",
+    "HR Systems Analyst",
+    "Mid Level SAP ERP Systems Analyst OTC"
+   ]
+  },
+  "Product Manager": {
+   "sample_n": 50,
+   "correct": 32,
+   "ambiguous": 18,
+   "incorrect": 0,
+   "precision_pct": 100.0,
+   "ambiguity_rate_pct": 36.0,
+   "strict_precision_pct_ambiguous_as_incorrect": 64.0,
+   "lenient_precision_pct_if_team_defines_family_as_in_role": 100.0,
+   "lenient_families": [
+    "family:product_owner"
+   ],
+   "precision_by_tier_pct": {
+    "canonical": 100.0,
+    "synonym": null
+   },
+   "tier_counts": {
+    "canonical_n": 33,
+    "synonym_n": 17
+   },
+   "ci95_precision_wilson_pct": [
+    89.3,
+    100.0
+   ],
+   "unmatched_sample_n": 15,
+   "unmatched_pool_distinct_titles": 134,
+   "unmatched_clear_false_negatives": 2,
+   "unmatched_ambiguous": 0,
+   "unmatched_fn_rate_in_sample_pct": 13.3,
+   "est_distinct_false_negative_titles_in_pool": 18,
+   "false_negative_pattern": "'Digital Product Management - Associate'",
+   "clean_n": 628,
+   "canonical_clean_n": 366,
+   "gate_precision_ge_90": true,
+   "gate_clean_ge_400": true,
+   "gate_canonical_ge_300": true,
+   "passes_all_three": true,
+   "false_positive_examples": [],
+   "ambiguous_examples": [
+    "Senior Manager Data Science and AI Technical Product Owner Mumbai",
+    "Product Owner, Electrical Engineering Software",
+    "Product Owner, Electrical Engineering Software",
+    "Product Owner"
+   ]
+  },
+  "Project Manager": {
+   "sample_n": 50,
+   "correct": 17,
+   "ambiguous": 30,
+   "incorrect": 3,
+   "precision_pct": 85.0,
+   "ambiguity_rate_pct": 60.0,
+   "strict_precision_pct_ambiguous_as_incorrect": 34.0,
+   "lenient_precision_pct_if_team_defines_family_as_in_role": 93.2,
+   "lenient_families": [
+    "family:delivery_manager",
+    "family:program_manager"
+   ],
+   "precision_by_tier_pct": {
+    "canonical": 94.4,
+    "synonym": 0.0
+   },
+   "tier_counts": {
+    "canonical_n": 21,
+    "synonym_n": 29
+   },
+   "ci95_precision_wilson_pct": [
+    64.0,
+    94.8
+   ],
+   "unmatched_sample_n": 30,
+   "unmatched_pool_distinct_titles": 263,
+   "unmatched_clear_false_negatives": 6,
+   "unmatched_ambiguous": 8,
+   "unmatched_fn_rate_in_sample_pct": 20.0,
+   "est_distinct_false_negative_titles_in_pool": 53,
+   "false_negative_pattern": "'Project Management' noun forms ('Manager - Project Management', 'Project Management Specialist')",
+   "clean_n": 932,
+   "canonical_clean_n": 311,
+   "gate_precision_ge_90": false,
+   "gate_clean_ge_400": true,
+   "gate_canonical_ge_300": true,
+   "passes_all_three": false,
+   "false_positive_examples": [
+    "Service Delivery Manager",
+    "Senior Service Delivery Manager - AMS",
+    "Project Manager - Projects & Interiors"
+   ],
+   "ambiguous_examples": [
+    "Delivery Manager",
+    "Senior Scrum Master / Delivery Manager",
+    "Delivery Manager Operations",
+    "Identity and Access Management Scrum Master"
+   ]
+  },
+  "Digital Marketing": {
+   "sample_n": 50,
+   "correct": 47,
+   "ambiguous": 3,
+   "incorrect": 0,
+   "precision_pct": 100.0,
+   "ambiguity_rate_pct": 6.0,
+   "strict_precision_pct_ambiguous_as_incorrect": 94.0,
+   "lenient_precision_pct_if_team_defines_family_as_in_role": null,
+   "lenient_families": [],
+   "precision_by_tier_pct": {
+    "canonical": 100.0,
+    "synonym": 100.0
+   },
+   "tier_counts": {
+    "canonical_n": 28,
+    "synonym_n": 22
+   },
+   "ci95_precision_wilson_pct": [
+    92.4,
+    100.0
+   ],
+   "unmatched_sample_n": 15,
+   "unmatched_pool_distinct_titles": 28,
+   "unmatched_clear_false_negatives": 6,
+   "unmatched_ambiguous": 5,
+   "unmatched_fn_rate_in_sample_pct": 40.0,
+   "est_distinct_false_negative_titles_in_pool": 11,
+   "false_negative_pattern": "SEO titles other than 'SEO specialist/executive/analyst/manager' ('SEO Expert', 'SEO and Growth Specialist', 'Senior Marketing Executive, Digital Channels')",
+   "clean_n": 555,
+   "canonical_clean_n": 348,
+   "gate_precision_ge_90": true,
+   "gate_clean_ge_400": true,
+   "gate_canonical_ge_300": true,
+   "passes_all_three": true,
+   "false_positive_examples": [],
+   "ambiguous_examples": [
+    "Work From Home Social Media Manager Digital Marketing Sector Earn",
+    "Outbound Marketing - Monetization, Monetization, Performance Marketing",
+    "GTM Engineer \u2013 Performance Marketing"
+   ]
+  },
+  "Graphic Designer": {
+   "sample_n": 50,
+   "correct": 36,
+   "ambiguous": 11,
+   "incorrect": 3,
+   "precision_pct": 92.3,
+   "ambiguity_rate_pct": 22.0,
+   "strict_precision_pct_ambiguous_as_incorrect": 72.0,
+   "lenient_precision_pct_if_team_defines_family_as_in_role": null,
+   "lenient_families": [],
+   "precision_by_tier_pct": {
+    "canonical": 92.1,
+    "synonym": 100.0
+   },
+   "tier_counts": {
+    "canonical_n": 44,
+    "synonym_n": 6
+   },
+   "ci95_precision_wilson_pct": [
+    79.7,
+    97.3
+   ],
+   "unmatched_sample_n": 30,
+   "unmatched_pool_distinct_titles": 99,
+   "unmatched_clear_false_negatives": 10,
+   "unmatched_ambiguous": 5,
+   "unmatched_fn_rate_in_sample_pct": 33.3,
+   "est_distinct_false_negative_titles_in_pool": 33,
+   "false_negative_pattern": "'Graphic Design ___' noun forms and 'Graphics Designer' (Graphic Design Intern/Specialist/Contractor/Consultant)",
+   "clean_n": 443,
+   "canonical_clean_n": 377,
+   "gate_precision_ge_90": true,
+   "gate_clean_ge_400": true,
+   "gate_canonical_ge_300": true,
+   "passes_all_three": true,
+   "false_positive_examples": [
+    "Motion Graphic Designer",
+    "Motion Graphic Designer & Video Editor",
+    "Motion Graphic Designer"
+   ],
+   "ambiguous_examples": [
+    "Graphic Designer / 3D Visualizer / Video Editor",
+    "We Are Hiring Graphic Designer Cum Branding Executive",
+    "Senior Creative Designer",
+    "Senior Creative Designer"
+   ]
+  }
+ }
+}

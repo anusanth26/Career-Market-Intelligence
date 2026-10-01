@@ -1,0 +1,31 @@
+{
+  "run_id": "20260929T174012Z_b5985163_smoke",
+  "queries": 9,
+  "rows_total": 676,
+  "title_only_sent_for_every_query": true,
+  "max_days_old_sent": [
+    90
+  ],
+  "sort_by_sent": [
+    "date"
+  ],
+  "rows_older_than_90_day_window": 0,
+  "queries_created_sorted_desc": 9,
+  "queries_not_sorted_desc": [],
+  "pages_contiguous_from_1_in_every_query": true,
+  "duplicate_ids_within_a_single_query_total": 0,
+  "api_count_logged_for_every_query": true,
+  "queries_with_zero_results": [],
+  "http_failures_total": 0,
+  "retries_total": 0,
+  "failed_attempt_log_entries": 0,
+  "failed_status_counts": {},
+  "queries_not_complete": [],
+  "api_count_varied_within_query": [],
+  "mapping_status_counts": {
+    "unmatched": 223,
+    "matched": 445,
+    "ambiguous_multi": 8
+  },
+  "credentials_present_in_run_files": false
+}

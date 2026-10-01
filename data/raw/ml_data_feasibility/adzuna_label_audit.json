@@ -1,0 +1,378 @@
+{
+  "definition": "clean postings = official strict title rules, dedup, 5% employer cap; India; 90-day window",
+  "runs_used": {
+    "core+UX": "20260929T174139Z_4496f922_feasibility",
+    "Data Analyst/Financial Analyst": "20260929T175840Z_b181dc01_deepen",
+    "security families": "20260929T180809Z_8ad616c4_security_full"
+  },
+  "A_class_distribution": {
+    "per_role": {
+      "Software Engineer": {
+        "n": 875,
+        "distinct_employers": 403,
+        "top_employer_share": 0.053,
+        "missing_employer": 0
+      },
+      "Data Analyst": {
+        "n": 473,
+        "distinct_employers": 348,
+        "top_employer_share": 0.019,
+        "missing_employer": 0
+      },
+      "Data Scientist": {
+        "n": 604,
+        "distinct_employers": 319,
+        "top_employer_share": 0.055,
+        "missing_employer": 0
+      },
+      "Data Engineer": {
+        "n": 410,
+        "distinct_employers": 259,
+        "top_employer_share": 0.039,
+        "missing_employer": 0
+      },
+      "DevOps / Cloud Engineer": {
+        "n": 854,
+        "distinct_employers": 536,
+        "top_employer_share": 0.016,
+        "missing_employer": 0
+      },
+      "Business Analyst": {
+        "n": 663,
+        "distinct_employers": 383,
+        "top_employer_share": 0.05,
+        "missing_employer": 0
+      },
+      "Product Manager": {
+        "n": 628,
+        "distinct_employers": 382,
+        "top_employer_share": 0.04,
+        "missing_employer": 0
+      },
+      "Project Manager": {
+        "n": 932,
+        "distinct_employers": 581,
+        "top_employer_share": 0.052,
+        "missing_employer": 0
+      },
+      "Digital Marketing": {
+        "n": 555,
+        "distinct_employers": 418,
+        "top_employer_share": 0.023,
+        "missing_employer": 1
+      },
+      "Graphic Designer": {
+        "n": 443,
+        "distinct_employers": 388,
+        "top_employer_share": 0.018,
+        "missing_employer": 0
+      },
+      "UX Designer": {
+        "n": 345,
+        "distinct_employers": 264,
+        "top_employer_share": 0.032,
+        "missing_employer": 0
+      },
+      "Financial Analyst": {
+        "n": 292,
+        "distinct_employers": 178,
+        "top_employer_share": 0.055,
+        "missing_employer": 0
+      },
+      "Security (merged)": {
+        "n": 498,
+        "distinct_employers": 348,
+        "top_employer_share": 0.016,
+        "missing_employer": 0
+      }
+    },
+    "core_10_total": 6437,
+    "with_conditional_total": 7572,
+    "majority_class_share_core": 0.145,
+    "imbalance_ratio_core_max_over_min": 2.27,
+    "distinct_employers_core": 2638,
+    "ids_shared_between_roles": 0
+  },
+  "B_role_classification_circularity": {
+    "per_role": {
+      "Software Engineer": {
+        "n": 875,
+        "snippet_matches_own_title_rule_pct": 35.1,
+        "full_title_appears_in_snippet_pct": 19.7
+      },
+      "Data Analyst": {
+        "n": 473,
+        "snippet_matches_own_title_rule_pct": 39.1,
+        "full_title_appears_in_snippet_pct": 26.0
+      },
+      "Data Scientist": {
+        "n": 604,
+        "snippet_matches_own_title_rule_pct": 46.0,
+        "full_title_appears_in_snippet_pct": 22.8
+      },
+      "Data Engineer": {
+        "n": 410,
+        "snippet_matches_own_title_rule_pct": 46.6,
+        "full_title_appears_in_snippet_pct": 30.0
+      },
+      "DevOps / Cloud Engineer": {
+        "n": 854,
+        "snippet_matches_own_title_rule_pct": 47.5,
+        "full_title_appears_in_snippet_pct": 28.7
+      },
+      "Business Analyst": {
+        "n": 663,
+        "snippet_matches_own_title_rule_pct": 43.3,
+        "full_title_appears_in_snippet_pct": 22.3
+      },
+      "Product Manager": {
+        "n": 628,
+        "snippet_matches_own_title_rule_pct": 49.4,
+        "full_title_appears_in_snippet_pct": 26.9
+      },
+      "Project Manager": {
+        "n": 932,
+        "snippet_matches_own_title_rule_pct": 52.6,
+        "full_title_appears_in_snippet_pct": 29.8
+      },
+      "Digital Marketing": {
+        "n": 555,
+        "snippet_matches_own_title_rule_pct": 70.5,
+        "full_title_appears_in_snippet_pct": 36.8
+      },
+      "Graphic Designer": {
+        "n": 443,
+        "snippet_matches_own_title_rule_pct": 56.7,
+        "full_title_appears_in_snippet_pct": 41.1
+      }
+    },
+    "overall_snippet_matches_own_title_rule_pct": 48.1,
+    "overall_full_title_in_snippet_pct": 27.7,
+    "note": "Labels are a deterministic function of the title (100% by construction). A title-blind model is only valid if title tokens are removed from the features and the snippet does not restate the title."
+  },
+  "C_salary": {
+    "core_10_clean": 6437,
+    "core_salary_any": 611,
+    "core_salary_valid_after_floor_ceiling": 532,
+    "core_salary_presence_pct": 9.5,
+    "all_13_salary_valid": 604,
+    "salary_valid_per_role": {
+      "Software Engineer": 38,
+      "Data Analyst": 29,
+      "Data Scientist": 42,
+      "Data Engineer": 20,
+      "DevOps / Cloud Engineer": 76,
+      "Business Analyst": 41,
+      "Product Manager": 35,
+      "Project Manager": 63,
+      "Digital Marketing": 123,
+      "Graphic Designer": 65,
+      "UX Designer": 42,
+      "Financial Analyst": 9,
+      "Security (merged)": 21
+    },
+    "roles_with_at_least_30_salary_labels": [
+      "Business Analyst",
+      "Data Scientist",
+      "DevOps / Cloud Engineer",
+      "Digital Marketing",
+      "Graphic Designer",
+      "Product Manager",
+      "Project Manager",
+      "Software Engineer",
+      "UX Designer"
+    ],
+    "roles_with_fewer_than_30": [
+      "Data Analyst",
+      "Data Engineer",
+      "Financial Analyst",
+      "Security (merged)"
+    ],
+    "predicted_flag_1_count": 0,
+    "salary_mid_quantiles_core_valid": {
+      "p5": 240000.0,
+      "p25": 500000.0,
+      "p50": 900000.0,
+      "p75": 1950000.0,
+      "p95": 3600000.0,
+      "min": 100000.0,
+      "max": 5000000.0,
+      "n": 532
+    },
+    "range_width_max_over_min_quantiles": {
+      "p5": 1.1111111111111112,
+      "p25": 1.25,
+      "p50": 1.5,
+      "p75": 2.0,
+      "p95": 5.0,
+      "min": 1.0256410256410255,
+      "max": 48.0,
+      "n": 506
+    },
+    "point_salary_share_pct": 15.6,
+    "distinct_employers_among_salaried_core": 297,
+    "top5_employers_share_of_salaried_core_pct": 19.2,
+    "band_class_counts": {
+      "3_quantile_bands": {
+        "cutpoints": [
+          600000.0,
+          1500000.0
+        ],
+        "class_counts": {
+          "0": 158,
+          "1": 193,
+          "2": 181
+        }
+      },
+      "4_quantile_bands": {
+        "cutpoints": [
+          500000.0,
+          900000.0,
+          1950000.0
+        ],
+        "class_counts": {
+          "0": 124,
+          "1": 138,
+          "2": 136,
+          "3": 134
+        }
+      }
+    },
+    "snippets_mentioning_monthly_pct": 3.3,
+    "snippets_mentioning_lpa_or_lakh_pct": 3.6,
+    "currency_field_in_api": false,
+    "location_consistency": {
+      "India": 611
+    },
+    "presence_by_title_seniority_cue": {
+      "senior": 4.6,
+      "junior": 27.1,
+      "unspecified": 11.5
+    }
+  },
+  "D_seniority": {
+    "native_seniority_field_in_adzuna": false,
+    "title_cue_distribution_core": {
+      "no_title_cue": 4127,
+      "senior_or_lead": 2177,
+      "junior_or_entry": 133
+    },
+    "title_cue_share_pct": {
+      "no_title_cue": 64.1,
+      "senior_or_lead": 33.8,
+      "junior_or_entry": 2.1
+    },
+    "snippets_with_years_of_experience_pct": 17.0,
+    "title_cue_vs_years_in_snippet_crosstab": {
+      "junior_or_entry|0-2y": 14,
+      "junior_or_entry|3-6y": 3,
+      "junior_or_entry|7y+": 2,
+      "no_title_cue|0-2y": 210,
+      "no_title_cue|3-6y": 367,
+      "no_title_cue|7y+": 222,
+      "senior_or_lead|0-2y": 16,
+      "senior_or_lead|3-6y": 112,
+      "senior_or_lead|7y+": 148
+    },
+    "note": "Any seniority label here is derived from the title or snippet, i.e. not a ground-truth field."
+  },
+  "E_snippet_and_skills": {
+    "lexicon_size": 95,
+    "per_role": {
+      "Software Engineer": {
+        "mean_distinct_skills_in_snippet": 0.6,
+        "pct_zero_skills": 69.9,
+        "pct_three_or_more": 7.1
+      },
+      "Data Analyst": {
+        "mean_distinct_skills_in_snippet": 0.7,
+        "pct_zero_skills": 67.9,
+        "pct_three_or_more": 9.5
+      },
+      "Data Scientist": {
+        "mean_distinct_skills_in_snippet": 0.72,
+        "pct_zero_skills": 56.6,
+        "pct_three_or_more": 6.6
+      },
+      "Data Engineer": {
+        "mean_distinct_skills_in_snippet": 1.44,
+        "pct_zero_skills": 50.7,
+        "pct_three_or_more": 22.2
+      },
+      "DevOps / Cloud Engineer": {
+        "mean_distinct_skills_in_snippet": 1.38,
+        "pct_zero_skills": 46.3,
+        "pct_three_or_more": 21.5
+      },
+      "Business Analyst": {
+        "mean_distinct_skills_in_snippet": 0.45,
+        "pct_zero_skills": 68.6,
+        "pct_three_or_more": 3.0
+      },
+      "Product Manager": {
+        "mean_distinct_skills_in_snippet": 0.48,
+        "pct_zero_skills": 66.1,
+        "pct_three_or_more": 2.5
+      },
+      "Project Manager": {
+        "mean_distinct_skills_in_snippet": 0.64,
+        "pct_zero_skills": 64.9,
+        "pct_three_or_more": 6.9
+      },
+      "Digital Marketing": {
+        "mean_distinct_skills_in_snippet": 0.73,
+        "pct_zero_skills": 51.2,
+        "pct_three_or_more": 5.2
+      },
+      "Graphic Designer": {
+        "mean_distinct_skills_in_snippet": 0.31,
+        "pct_zero_skills": 77.9,
+        "pct_three_or_more": 1.4
+      }
+    },
+    "overall_pct_zero_skills": 61.9,
+    "overall_pct_three_or_more": 8.7,
+    "description_length": {
+      "p5": 500,
+      "p25": 500,
+      "p50": 500,
+      "p75": 500,
+      "p95": 500,
+      "min": 112,
+      "max": 500,
+      "n": 6437
+    },
+    "truncated_pct": 98.7,
+    "boilerplate_phrase_in_snippet_pct": 9.3,
+    "boilerplate_in_first_200_chars_pct": 7.2,
+    "caveat": "Lexicon detection recall on full postings is NOT measurable from Adzuna alone (no full text, no gold labels)."
+  },
+  "F_leakage_structure": {
+    "rows_in_repeated_employer_title_families_pct": 14.0,
+    "employers_with_more_than_10_core_postings": 73,
+    "largest_employer_share_of_core_pct": 3.26,
+    "distinct_employers_core": 2638,
+    "created_date_range": [
+      "2026-07-01",
+      "2026-09-29"
+    ],
+    "postings_by_calendar_week": {
+      "2026-07-w1": 46,
+      "2026-07-w2": 51,
+      "2026-07-w3": 87,
+      "2026-07-w4": 71,
+      "2026-07-w5": 46,
+      "2026-08-w1": 143,
+      "2026-08-w2": 242,
+      "2026-08-w3": 232,
+      "2026-08-w4": 355,
+      "2026-08-w5": 154,
+      "2026-09-w1": 470,
+      "2026-09-w2": 776,
+      "2026-09-w3": 1238,
+      "2026-09-w4": 2233,
+      "2026-09-w5": 293
+    },
+    "share_of_postings_in_last_30_days_of_window_pct": 79.2
+  }
+}

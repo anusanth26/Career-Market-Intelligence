@@ -1,0 +1,223 @@
+{
+  "country": "in",
+  "unique_architect_titled_postings_analyzed": 512,
+  "counts": {
+    "likely_it_architect": 369,
+    "ambiguous": 130,
+    "likely_building_architect": 13
+  },
+  "percent": {
+    "likely_it_architect": 72.1,
+    "ambiguous": 25.4,
+    "likely_building_architect": 2.5
+  },
+  "top_titles": {
+    "likely_it_architect": [
+      [
+        "Enterprise Architect",
+        8
+      ],
+      [
+        "Security Architect",
+        8
+      ],
+      [
+        "Technology Architect",
+        6
+      ],
+      [
+        "AI Architect",
+        6
+      ],
+      [
+        "Data Architect",
+        5
+      ],
+      [
+        "Data Architect - Data Engineering 4D",
+        4
+      ],
+      [
+        "Application Architect-Microsoft Business Applications",
+        4
+      ],
+      [
+        "Business Solution Architect",
+        3
+      ],
+      [
+        "AI Infrastructure Architect",
+        3
+      ],
+      [
+        "Solution Architect",
+        3
+      ],
+      [
+        "Principal Solutions Architect, State and Local Government, Public Sector, India",
+        3
+      ],
+      [
+        "Principal Digital Architect",
+        3
+      ],
+      [
+        "Principal Architect, Data Architecture & Design",
+        3
+      ],
+      [
+        "Enterprise Application Architect",
+        3
+      ],
+      [
+        "Technical Architect",
+        3
+      ],
+      [
+        "Solutions Acceleration Architect, Google Cloud",
+        3
+      ],
+      [
+        "Architect - Application Development S 4D",
+        2
+      ],
+      [
+        "Architect - Application Development N 4D",
+        2
+      ],
+      [
+        "Cloud Architect",
+        2
+      ],
+      [
+        "Sr. Cloud Architect",
+        2
+      ]
+    ],
+    "ambiguous": [
+      [
+        "Architect",
+        12
+      ],
+      [
+        "Senior Architect",
+        6
+      ],
+      [
+        "Junior Architect",
+        5
+      ],
+      [
+        "Business Architect",
+        4
+      ],
+      [
+        "OCP Networking Architect",
+        4
+      ],
+      [
+        "Cybersecurity Architect",
+        3
+      ],
+      [
+        "UI Architect",
+        3
+      ],
+      [
+        "Principal Architect",
+        3
+      ],
+      [
+        "Principal Architect - Payments & Ledger",
+        2
+      ],
+      [
+        "eCommerce Sr. Front End Architect",
+        2
+      ],
+      [
+        "Large Language Model Architect",
+        2
+      ],
+      [
+        "Performance Engineering Architect",
+        2
+      ],
+      [
+        "BPM Architect and Analyst",
+        2
+      ],
+      [
+        "Architect (India Office)",
+        2
+      ],
+      [
+        "Senior Manager - SnowFlake Architect",
+        2
+      ],
+      [
+        "Business Process Architect",
+        2
+      ],
+      [
+        "Principal SW Architect",
+        2
+      ],
+      [
+        "Teamcenter Architect",
+        2
+      ],
+      [
+        "Sr. Architect",
+        2
+      ],
+      [
+        "Architect, Applications Development",
+        1
+      ]
+    ],
+    "likely_building_architect": [
+      [
+        "BIM Architect",
+        3
+      ],
+      [
+        "Customer Delivery Architect | 10 years exp, SP routing platforms, architectural and validation expertise",
+        2
+      ],
+      [
+        "Senior Interior Designer/Interior Architect",
+        1
+      ],
+      [
+        "Lead Landscape Architect",
+        1
+      ],
+      [
+        "Principal Landscape Architect - Architecture",
+        1
+      ],
+      [
+        "BIM Architect. Iconic project in Mumbai.",
+        1
+      ],
+      [
+        "Building Architect/ Draftsman",
+        1
+      ],
+      [
+        "Architect / Architectural Designer",
+        1
+      ],
+      [
+        "Assistant Landscape Architect - Architecture",
+        1
+      ],
+      [
+        "BIM Architect -Fire & Life Safety",
+        1
+      ]
+    ]
+  },
+  "method": "Rule-based on title tokens only. 'ambiguous' includes bare titles such as 'Architect' or 'Senior Architect' and titles with both IT and building cues. Sample = the most recent postings returned by title_only='architect' (sort_by=date), NOT a random sample."
+}

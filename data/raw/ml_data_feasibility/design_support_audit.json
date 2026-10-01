@@ -1,0 +1,1323 @@
+{
+  "per_role": {
+    "Software Engineer": {
+      "source_run": "20260929T174139Z_4496f922_feasibility",
+      "api_count_by_variant": {
+        "software engineer": 9129,
+        "software developer": 1937,
+        "software development engineer": 1166,
+        "application developer": 528
+      },
+      "api_count_primary_variant": 9129,
+      "raw_rows_own_queries": 1650,
+      "title_matched_rows": 1350,
+      "exact_dup_removed": 232,
+      "near_dup_removed": 195,
+      "employer_cap_removed": 48,
+      "clean": 875,
+      "yield_clean_per_raw": 0.53,
+      "near_dup_rate_of_unique_ids_pct": 17.4,
+      "title_match_rate_of_raw_pct": 81.8,
+      "distinct_employers": 403,
+      "top_employer_share_pct": 5.3,
+      "effective_number_of_employers_1_over_sum_share_sq": 125.6,
+      "mapping_tier_canonical_title_pct": 84.0,
+      "mapping_tier_synonym_pct": 16.0,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 99.8,
+      "description_len_min_median": [
+        122,
+        500
+      ],
+      "created_min_max": [
+        "2026-07-14",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 526,
+        "1": 158,
+        "2": 54,
+        "3": 43,
+        "4": 29,
+        "5": 13,
+        "6": 8,
+        "7": 29,
+        "8": 6,
+        "9": 1,
+        "10": 6,
+        "11": 2
+      },
+      "last_7_days_inflow_clean_lower_bound": null,
+      "pull_reached_back_past_7_days_for_all_variants": false,
+      "pages_used_to_collect": 33,
+      "queries": 4,
+      "variants_capped_by_record_limit": [
+        "software engineer",
+        "software developer",
+        "software development engineer",
+        "application developer"
+      ]
+    },
+    "Data Analyst": {
+      "source_run": "20260929T175840Z_b181dc01_deepen",
+      "api_count_by_variant": {
+        "data analyst": 842,
+        "bi analyst": 63,
+        "business intelligence analyst": 44,
+        "reporting analyst": 259
+      },
+      "api_count_primary_variant": 842,
+      "raw_rows_own_queries": 1208,
+      "title_matched_rows": 540,
+      "exact_dup_removed": 33,
+      "near_dup_removed": 34,
+      "employer_cap_removed": 0,
+      "clean": 473,
+      "yield_clean_per_raw": 0.392,
+      "near_dup_rate_of_unique_ids_pct": 6.7,
+      "title_match_rate_of_raw_pct": 44.7,
+      "distinct_employers": 348,
+      "top_employer_share_pct": 1.9,
+      "effective_number_of_employers_1_over_sum_share_sq": 256.9,
+      "mapping_tier_canonical_title_pct": 91.3,
+      "mapping_tier_synonym_pct": 8.7,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        282,
+        500
+      ],
+      "created_min_max": [
+        "2026-07-01",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 98,
+        "1": 68,
+        "2": 66,
+        "3": 38,
+        "4": 49,
+        "5": 33,
+        "6": 28,
+        "7": 46,
+        "8": 10,
+        "9": 8,
+        "10": 11,
+        "11": 9,
+        "12": 9
+      },
+      "last_7_days_inflow_clean_lower_bound": 98,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 26,
+      "queries": 4,
+      "variants_capped_by_record_limit": []
+    },
+    "Data Scientist": {
+      "source_run": "20260929T174139Z_4496f922_feasibility",
+      "api_count_by_variant": {
+        "data scientist": 1264,
+        "machine learning engineer": 212,
+        "applied scientist": 236
+      },
+      "api_count_primary_variant": 1264,
+      "raw_rows_own_queries": 948,
+      "title_matched_rows": 768,
+      "exact_dup_removed": 19,
+      "near_dup_removed": 83,
+      "employer_cap_removed": 62,
+      "clean": 604,
+      "yield_clean_per_raw": 0.637,
+      "near_dup_rate_of_unique_ids_pct": 11.1,
+      "title_match_rate_of_raw_pct": 81.0,
+      "distinct_employers": 319,
+      "top_employer_share_pct": 5.5,
+      "effective_number_of_employers_1_over_sum_share_sq": 95.1,
+      "mapping_tier_canonical_title_pct": 57.5,
+      "mapping_tier_synonym_pct": 42.5,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        393,
+        500.0
+      ],
+      "created_min_max": [
+        "2026-07-02",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 198,
+        "1": 155,
+        "2": 115,
+        "3": 28,
+        "4": 17,
+        "5": 10,
+        "6": 20,
+        "7": 23,
+        "8": 14,
+        "9": 8,
+        "10": 6,
+        "11": 4,
+        "12": 6
+      },
+      "last_7_days_inflow_clean_lower_bound": 198,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 20,
+      "queries": 3,
+      "variants_capped_by_record_limit": [
+        "data scientist"
+      ]
+    },
+    "Data Engineer": {
+      "source_run": "20260929T174139Z_4496f922_feasibility",
+      "api_count_by_variant": {
+        "data engineer": 2805,
+        "etl developer": 44,
+        "big data engineer": 42,
+        "analytics engineer": 191
+      },
+      "api_count_primary_variant": 2805,
+      "raw_rows_own_queries": 777,
+      "title_matched_rows": 522,
+      "exact_dup_removed": 35,
+      "near_dup_removed": 77,
+      "employer_cap_removed": 0,
+      "clean": 410,
+      "yield_clean_per_raw": 0.528,
+      "near_dup_rate_of_unique_ids_pct": 15.8,
+      "title_match_rate_of_raw_pct": 67.2,
+      "distinct_employers": 259,
+      "top_employer_share_pct": 3.9,
+      "effective_number_of_employers_1_over_sum_share_sq": 110.7,
+      "mapping_tier_canonical_title_pct": 80.0,
+      "mapping_tier_synonym_pct": 20.0,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 99.3,
+      "description_len_min_median": [
+        112,
+        500.0
+      ],
+      "created_min_max": [
+        "2026-07-05",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 271,
+        "1": 27,
+        "2": 25,
+        "3": 17,
+        "4": 26,
+        "5": 11,
+        "6": 8,
+        "7": 6,
+        "8": 5,
+        "9": 3,
+        "10": 6,
+        "11": 3,
+        "12": 2
+      },
+      "last_7_days_inflow_clean_lower_bound": null,
+      "pull_reached_back_past_7_days_for_all_variants": false,
+      "pages_used_to_collect": 16,
+      "queries": 4,
+      "variants_capped_by_record_limit": [
+        "data engineer"
+      ]
+    },
+    "DevOps / Cloud Engineer": {
+      "source_run": "20260929T174139Z_4496f922_feasibility",
+      "api_count_by_variant": {
+        "devops engineer": 822,
+        "cloud engineer": 842,
+        "site reliability engineer": 325,
+        "platform engineer": 990
+      },
+      "api_count_primary_variant": 822,
+      "raw_rows_own_queries": 1825,
+      "title_matched_rows": 1097,
+      "exact_dup_removed": 114,
+      "near_dup_removed": 129,
+      "employer_cap_removed": 0,
+      "clean": 854,
+      "yield_clean_per_raw": 0.468,
+      "near_dup_rate_of_unique_ids_pct": 13.1,
+      "title_match_rate_of_raw_pct": 60.1,
+      "distinct_employers": 536,
+      "top_employer_share_pct": 1.6,
+      "effective_number_of_employers_1_over_sum_share_sq": 304.4,
+      "mapping_tier_canonical_title_pct": 39.3,
+      "mapping_tier_synonym_pct": 60.7,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 99.9,
+      "description_len_min_median": [
+        142,
+        500.0
+      ],
+      "created_min_max": [
+        "2026-07-04",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 214,
+        "1": 193,
+        "2": 150,
+        "3": 134,
+        "4": 78,
+        "5": 21,
+        "6": 14,
+        "7": 19,
+        "8": 8,
+        "9": 9,
+        "10": 5,
+        "11": 6,
+        "12": 3
+      },
+      "last_7_days_inflow_clean_lower_bound": 214,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 37,
+      "queries": 4,
+      "variants_capped_by_record_limit": [
+        "devops engineer",
+        "cloud engineer",
+        "platform engineer"
+      ]
+    },
+    "Business Analyst": {
+      "source_run": "20260929T174139Z_4496f922_feasibility",
+      "api_count_by_variant": {
+        "business analyst": 1263,
+        "systems analyst": 262,
+        "functional analyst": 102,
+        "product analyst": 187
+      },
+      "api_count_primary_variant": 1263,
+      "raw_rows_own_queries": 1051,
+      "title_matched_rows": 870,
+      "exact_dup_removed": 145,
+      "near_dup_removed": 55,
+      "employer_cap_removed": 7,
+      "clean": 663,
+      "yield_clean_per_raw": 0.631,
+      "near_dup_rate_of_unique_ids_pct": 7.6,
+      "title_match_rate_of_raw_pct": 82.8,
+      "distinct_employers": 383,
+      "top_employer_share_pct": 5.0,
+      "effective_number_of_employers_1_over_sum_share_sq": 145.8,
+      "mapping_tier_canonical_title_pct": 55.2,
+      "mapping_tier_synonym_pct": 44.8,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        221,
+        500
+      ],
+      "created_min_max": [
+        "2026-07-02",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 184,
+        "1": 159,
+        "2": 119,
+        "3": 52,
+        "4": 36,
+        "5": 36,
+        "6": 16,
+        "7": 24,
+        "8": 6,
+        "9": 10,
+        "10": 9,
+        "11": 6,
+        "12": 6
+      },
+      "last_7_days_inflow_clean_lower_bound": 184,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 23,
+      "queries": 4,
+      "variants_capped_by_record_limit": [
+        "business analyst"
+      ]
+    },
+    "Product Manager": {
+      "source_run": "20260929T174139Z_4496f922_feasibility",
+      "api_count_by_variant": {
+        "product manager": 1823,
+        "product owner": 291,
+        "associate product manager": 88
+      },
+      "api_count_primary_variant": 1823,
+      "raw_rows_own_queries": 879,
+      "title_matched_rows": 694,
+      "exact_dup_removed": 22,
+      "near_dup_removed": 44,
+      "employer_cap_removed": 0,
+      "clean": 628,
+      "yield_clean_per_raw": 0.714,
+      "near_dup_rate_of_unique_ids_pct": 6.5,
+      "title_match_rate_of_raw_pct": 79.0,
+      "distinct_employers": 382,
+      "top_employer_share_pct": 4.0,
+      "effective_number_of_employers_1_over_sum_share_sq": 169.3,
+      "mapping_tier_canonical_title_pct": 58.3,
+      "mapping_tier_synonym_pct": 41.7,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        388,
+        500.0
+      ],
+      "created_min_max": [
+        "2026-07-01",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 242,
+        "1": 177,
+        "2": 46,
+        "3": 26,
+        "4": 30,
+        "5": 32,
+        "6": 16,
+        "7": 17,
+        "8": 8,
+        "9": 11,
+        "10": 10,
+        "11": 7,
+        "12": 6
+      },
+      "last_7_days_inflow_clean_lower_bound": 242,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 18,
+      "queries": 3,
+      "variants_capped_by_record_limit": [
+        "product manager"
+      ]
+    },
+    "Project Manager": {
+      "source_run": "20260929T174139Z_4496f922_feasibility",
+      "api_count_by_variant": {
+        "project manager": 1836,
+        "program manager": 1294,
+        "delivery manager": 423,
+        "scrum master": 133
+      },
+      "api_count_primary_variant": 1836,
+      "raw_rows_own_queries": 1556,
+      "title_matched_rows": 1106,
+      "exact_dup_removed": 44,
+      "near_dup_removed": 85,
+      "employer_cap_removed": 45,
+      "clean": 932,
+      "yield_clean_per_raw": 0.599,
+      "near_dup_rate_of_unique_ids_pct": 8.0,
+      "title_match_rate_of_raw_pct": 71.1,
+      "distinct_employers": 581,
+      "top_employer_share_pct": 5.2,
+      "effective_number_of_employers_1_over_sum_share_sq": 159.0,
+      "mapping_tier_canonical_title_pct": 33.4,
+      "mapping_tier_synonym_pct": 66.6,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        204,
+        500.0
+      ],
+      "created_min_max": [
+        "2026-07-02",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 417,
+        "1": 258,
+        "2": 70,
+        "3": 42,
+        "4": 46,
+        "5": 23,
+        "6": 16,
+        "7": 25,
+        "8": 6,
+        "9": 8,
+        "10": 12,
+        "11": 4,
+        "12": 5
+      },
+      "last_7_days_inflow_clean_lower_bound": 417,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 32,
+      "queries": 4,
+      "variants_capped_by_record_limit": [
+        "project manager",
+        "program manager"
+      ]
+    },
+    "Digital Marketing": {
+      "source_run": "20260929T174139Z_4496f922_feasibility",
+      "api_count_by_variant": {
+        "digital marketing": 390,
+        "seo specialist": 54,
+        "performance marketing": 180,
+        "growth marketer": 15
+      },
+      "api_count_primary_variant": 390,
+      "raw_rows_own_queries": 639,
+      "title_matched_rows": 593,
+      "exact_dup_removed": 10,
+      "near_dup_removed": 28,
+      "employer_cap_removed": 0,
+      "clean": 555,
+      "yield_clean_per_raw": 0.869,
+      "near_dup_rate_of_unique_ids_pct": 4.8,
+      "title_match_rate_of_raw_pct": 92.8,
+      "distinct_employers": 418,
+      "top_employer_share_pct": 2.3,
+      "effective_number_of_employers_1_over_sum_share_sq": 248.8,
+      "mapping_tier_canonical_title_pct": 62.7,
+      "mapping_tier_synonym_pct": 37.3,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 99.8,
+      "description_len_min_median": [
+        189,
+        500
+      ],
+      "created_min_max": [
+        "2026-07-01",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 86,
+        "1": 92,
+        "2": 62,
+        "3": 47,
+        "4": 51,
+        "5": 69,
+        "6": 43,
+        "7": 36,
+        "8": 21,
+        "9": 12,
+        "10": 22,
+        "11": 7,
+        "12": 7
+      },
+      "last_7_days_inflow_clean_lower_bound": 86,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 15,
+      "queries": 4,
+      "variants_capped_by_record_limit": []
+    },
+    "Graphic Designer": {
+      "source_run": "20260929T174139Z_4496f922_feasibility",
+      "api_count_by_variant": {
+        "graphic designer": 571,
+        "visual designer": 73,
+        "creative designer": 74
+      },
+      "api_count_primary_variant": 571,
+      "raw_rows_own_queries": 647,
+      "title_matched_rows": 495,
+      "exact_dup_removed": 31,
+      "near_dup_removed": 21,
+      "employer_cap_removed": 0,
+      "clean": 443,
+      "yield_clean_per_raw": 0.685,
+      "near_dup_rate_of_unique_ids_pct": 4.5,
+      "title_match_rate_of_raw_pct": 76.5,
+      "distinct_employers": 388,
+      "top_employer_share_pct": 1.8,
+      "effective_number_of_employers_1_over_sum_share_sq": 309.1,
+      "mapping_tier_canonical_title_pct": 85.1,
+      "mapping_tier_synonym_pct": 14.9,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        273,
+        500
+      ],
+      "created_min_max": [
+        "2026-07-03",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 116,
+        "1": 83,
+        "2": 68,
+        "3": 47,
+        "4": 50,
+        "5": 35,
+        "6": 31,
+        "7": 6,
+        "8": 1,
+        "9": 1,
+        "11": 3,
+        "12": 2
+      },
+      "last_7_days_inflow_clean_lower_bound": 116,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 14,
+      "queries": 3,
+      "variants_capped_by_record_limit": [
+        "graphic designer"
+      ]
+    },
+    "UX Designer": {
+      "source_run": "20260929T174139Z_4496f922_feasibility",
+      "api_count_by_variant": {
+        "ux designer": 238,
+        "product designer": 293,
+        "user experience designer": 19
+      },
+      "api_count_primary_variant": 238,
+      "raw_rows_own_queries": 550,
+      "title_matched_rows": 390,
+      "exact_dup_removed": 19,
+      "near_dup_removed": 26,
+      "employer_cap_removed": 0,
+      "clean": 345,
+      "yield_clean_per_raw": 0.627,
+      "near_dup_rate_of_unique_ids_pct": 7.0,
+      "title_match_rate_of_raw_pct": 70.9,
+      "distinct_employers": 264,
+      "top_employer_share_pct": 3.2,
+      "effective_number_of_employers_1_over_sum_share_sq": 164.2,
+      "mapping_tier_canonical_title_pct": 43.5,
+      "mapping_tier_synonym_pct": 56.5,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        202,
+        500
+      ],
+      "created_min_max": [
+        "2026-07-01",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 68,
+        "1": 52,
+        "2": 59,
+        "3": 33,
+        "4": 33,
+        "5": 24,
+        "6": 20,
+        "7": 13,
+        "8": 10,
+        "9": 15,
+        "10": 6,
+        "11": 3,
+        "12": 9
+      },
+      "last_7_days_inflow_clean_lower_bound": 68,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 12,
+      "queries": 3,
+      "variants_capped_by_record_limit": []
+    },
+    "Financial Analyst": {
+      "source_run": "20260929T175840Z_b181dc01_deepen",
+      "api_count_by_variant": {
+        "financial analyst": 587,
+        "finance analyst": 587,
+        "fp&a analyst": 59,
+        "investment analyst": 56
+      },
+      "api_count_primary_variant": 587,
+      "raw_rows_own_queries": 1289,
+      "title_matched_rows": 737,
+      "exact_dup_removed": 367,
+      "near_dup_removed": 35,
+      "employer_cap_removed": 43,
+      "clean": 292,
+      "yield_clean_per_raw": 0.227,
+      "near_dup_rate_of_unique_ids_pct": 9.5,
+      "title_match_rate_of_raw_pct": 57.2,
+      "distinct_employers": 178,
+      "top_employer_share_pct": 5.5,
+      "effective_number_of_employers_1_over_sum_share_sq": 70.1,
+      "mapping_tier_canonical_title_pct": 65.1,
+      "mapping_tier_synonym_pct": 34.9,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        407,
+        500.0
+      ],
+      "created_min_max": [
+        "2026-07-01",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 67,
+        "1": 38,
+        "2": 40,
+        "3": 39,
+        "4": 23,
+        "5": 11,
+        "6": 16,
+        "7": 29,
+        "8": 7,
+        "9": 6,
+        "10": 5,
+        "11": 5,
+        "12": 6
+      },
+      "last_7_days_inflow_clean_lower_bound": 67,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 28,
+      "queries": 4,
+      "variants_capped_by_record_limit": []
+    },
+    "Security Engineer": {
+      "source_run": "20260929T180809Z_8ad616c4_security_full",
+      "api_count_by_variant": {
+        "security engineer": 811
+      },
+      "api_count_primary_variant": 811,
+      "raw_rows_own_queries": 811,
+      "title_matched_rows": 406,
+      "exact_dup_removed": 2,
+      "near_dup_removed": 30,
+      "employer_cap_removed": 0,
+      "clean": 374,
+      "yield_clean_per_raw": 0.461,
+      "near_dup_rate_of_unique_ids_pct": 7.4,
+      "title_match_rate_of_raw_pct": 50.1,
+      "distinct_employers": 263,
+      "top_employer_share_pct": 2.1,
+      "effective_number_of_employers_1_over_sum_share_sq": 189.0,
+      "mapping_tier_canonical_title_pct": 100.0,
+      "mapping_tier_synonym_pct": 0.0,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        221,
+        500.0
+      ],
+      "created_min_max": [
+        "2026-07-02",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 75,
+        "1": 57,
+        "2": 52,
+        "3": 25,
+        "4": 46,
+        "5": 20,
+        "6": 19,
+        "7": 35,
+        "8": 8,
+        "9": 14,
+        "10": 9,
+        "11": 7,
+        "12": 7
+      },
+      "last_7_days_inflow_clean_lower_bound": 75,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 17,
+      "queries": 1,
+      "variants_capped_by_record_limit": []
+    },
+    "Information Security Analyst": {
+      "source_run": "20260929T180809Z_8ad616c4_security_full",
+      "api_count_by_variant": {
+        "information security analyst": 39
+      },
+      "api_count_primary_variant": 39,
+      "raw_rows_own_queries": 39,
+      "title_matched_rows": 24,
+      "exact_dup_removed": 0,
+      "near_dup_removed": 2,
+      "employer_cap_removed": 3,
+      "clean": 19,
+      "yield_clean_per_raw": 0.487,
+      "near_dup_rate_of_unique_ids_pct": 8.3,
+      "title_match_rate_of_raw_pct": 61.5,
+      "distinct_employers": 19,
+      "top_employer_share_pct": 5.3,
+      "effective_number_of_employers_1_over_sum_share_sq": 19.0,
+      "mapping_tier_canonical_title_pct": 100.0,
+      "mapping_tier_synonym_pct": 0.0,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        358,
+        500
+      ],
+      "created_min_max": [
+        "2026-07-14",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 5,
+        "1": 2,
+        "3": 5,
+        "4": 1,
+        "5": 1,
+        "6": 2,
+        "9": 1,
+        "10": 1,
+        "11": 1
+      },
+      "last_7_days_inflow_clean_lower_bound": 5,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 1,
+      "queries": 1,
+      "variants_capped_by_record_limit": []
+    },
+    "Cybersecurity Engineer": {
+      "source_run": "20260929T180809Z_8ad616c4_security_full",
+      "api_count_by_variant": {
+        "cybersecurity engineer": 78
+      },
+      "api_count_primary_variant": 78,
+      "raw_rows_own_queries": 78,
+      "title_matched_rows": 78,
+      "exact_dup_removed": 3,
+      "near_dup_removed": 13,
+      "employer_cap_removed": 1,
+      "clean": 61,
+      "yield_clean_per_raw": 0.782,
+      "near_dup_rate_of_unique_ids_pct": 17.3,
+      "title_match_rate_of_raw_pct": 100.0,
+      "distinct_employers": 51,
+      "top_employer_share_pct": 4.9,
+      "effective_number_of_employers_1_over_sum_share_sq": 44.8,
+      "mapping_tier_canonical_title_pct": 100.0,
+      "mapping_tier_synonym_pct": 0.0,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        500,
+        500
+      ],
+      "created_min_max": [
+        "2026-07-02",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 13,
+        "1": 18,
+        "2": 3,
+        "3": 8,
+        "4": 6,
+        "6": 1,
+        "7": 5,
+        "8": 2,
+        "9": 2,
+        "10": 1,
+        "12": 2
+      },
+      "last_7_days_inflow_clean_lower_bound": 13,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 2,
+      "queries": 1,
+      "variants_capped_by_record_limit": []
+    },
+    "Information Security Engineer": {
+      "source_run": "20260929T180809Z_8ad616c4_security_full",
+      "api_count_by_variant": {
+        "information security engineer": 72
+      },
+      "api_count_primary_variant": 72,
+      "raw_rows_own_queries": 72,
+      "title_matched_rows": 108,
+      "exact_dup_removed": 54,
+      "near_dup_removed": 10,
+      "employer_cap_removed": 8,
+      "clean": 36,
+      "yield_clean_per_raw": 0.5,
+      "near_dup_rate_of_unique_ids_pct": 18.5,
+      "title_match_rate_of_raw_pct": 150.0,
+      "distinct_employers": 30,
+      "top_employer_share_pct": 5.6,
+      "effective_number_of_employers_1_over_sum_share_sq": 27.0,
+      "mapping_tier_canonical_title_pct": 100.0,
+      "mapping_tier_synonym_pct": 0.0,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        500,
+        500.0
+      ],
+      "created_min_max": [
+        "2026-07-05",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 7,
+        "1": 3,
+        "2": 8,
+        "3": 5,
+        "4": 5,
+        "5": 1,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "10": 2,
+        "12": 1
+      },
+      "last_7_days_inflow_clean_lower_bound": 7,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 2,
+      "queries": 1,
+      "variants_capped_by_record_limit": []
+    },
+    "Cybersecurity Analyst": {
+      "source_run": "20260929T180809Z_8ad616c4_security_full",
+      "api_count_by_variant": {
+        "cybersecurity analyst": 27
+      },
+      "api_count_primary_variant": 27,
+      "raw_rows_own_queries": 27,
+      "title_matched_rows": 10,
+      "exact_dup_removed": 0,
+      "near_dup_removed": 2,
+      "employer_cap_removed": 0,
+      "clean": 8,
+      "yield_clean_per_raw": 0.296,
+      "near_dup_rate_of_unique_ids_pct": 20.0,
+      "title_match_rate_of_raw_pct": 37.0,
+      "distinct_employers": 8,
+      "top_employer_share_pct": 12.5,
+      "effective_number_of_employers_1_over_sum_share_sq": 8.0,
+      "mapping_tier_canonical_title_pct": 100.0,
+      "mapping_tier_synonym_pct": 0.0,
+      "description_nonempty_pct": 100.0,
+      "description_ge_200_chars_pct": 100.0,
+      "description_len_min_median": [
+        500,
+        500.0
+      ],
+      "created_min_max": [
+        "2026-07-13",
+        "2026-09-29"
+      ],
+      "clean_by_weeks_ago_0_is_latest": {
+        "0": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1,
+        "8": 1,
+        "11": 1
+      },
+      "last_7_days_inflow_clean_lower_bound": 2,
+      "pull_reached_back_past_7_days_for_all_variants": true,
+      "pages_used_to_collect": 1,
+      "queries": 1,
+      "variants_capped_by_record_limit": []
+    }
+  },
+  "api_budget": {
+    "documented_limits_from_terms_of_service": "25/min, 250/day, 1000/week, 2500/month",
+    "pages_in_collection_runs_this_date": 492,
+    "coverage_probe_calls": 141,
+    "failed_attempts_503": 9,
+    "approx_total_hits_on_2026-09-29_excl_a_few_manual_curl_tests": 633,
+    "pages_for_10_core_roles_full_baseline": 234,
+    "note": "collection-run pages exclude the 9 failed attempts; the smoke run is counted separately above"
+  },
+  "raw_field_presence": {
+    "rows": 15663,
+    "top_level_nonempty_pct": {
+      "__CLASS__": 100.0,
+      "adref": 100.0,
+      "category": 100.0,
+      "company": 100.0,
+      "contract_time": 58.7,
+      "contract_type": 15.0,
+      "created": 100.0,
+      "description": 100.0,
+      "id": 100.0,
+      "latitude": 46.2,
+      "location": 100.0,
+      "longitude": 46.2,
+      "redirect_url": 100.0,
+      "salary_is_predicted": 100.0,
+      "salary_max": 7.0,
+      "salary_min": 7.0,
+      "title": 100.0
+    },
+    "nested_nonempty_pct": {
+      "company.display_name": 100.0,
+      "category.tag": 100.0,
+      "location.area>=2_levels": 64.4,
+      "location.display_name": 100.0
+    }
+  },
+  "manual_precision_sample": {
+    "Software Engineer": [
+      "Software Developer for AI Products",
+      "Principal Software Engineer",
+      "Software Development Engineer II",
+      "Junior Application Developer",
+      "Senior Staff Software Engineer",
+      "Senior Software Engineer (Chorus Dev) - PA26ITOFFQ3059",
+      "Software Engineer, ML Ops and Platform",
+      "Software Development Engineer II, AWS OpenSearch",
+      "Software Engineer, Principal",
+      "Senior Software Engineer_Golang Developer",
+      "Application Developer \u2013 Cloud Full Stack",
+      "System Software Engineer II"
+    ],
+    "Data Analyst": [
+      "Manager Data Analyst",
+      "Senior Data Analyst",
+      "Senior Data Analyst Data Analytics",
+      "Visual Data Analyst - Fully Remote",
+      "Data Analyst (Python/SQL)",
+      "Data Analyst",
+      "Reliability Data Analyst",
+      "Senior Data Analyst",
+      "Senior Data Analyst",
+      "Lead - Data Analyst",
+      "Data Analyst Internship in Ahmedabad",
+      "Market Data Analyst"
+    ],
+    "Data Scientist": [
+      "Data Scientist",
+      "Senior Data Scientist I",
+      "Lead Machine Learning Engineer (MLops)",
+      "Senior Data Scientist, Blades Fleet Engineering",
+      "Data Scientist/Digitalization Engineer \u2013 System Standard Parts (m/f/d)",
+      "Applied Scientist-II, Amazon Music - Search Science, Amazon Music \u2013 Search Science",
+      "Data Scientist",
+      "Senior Staff Machine Learning Engineer",
+      "Principal Applied Scientist- Foundation Models, Agents & Decision Intelligence",
+      "Data Scientist",
+      "Applied Scientist, International Machine Learning",
+      "Senior Lead Data Scientist"
+    ],
+    "Data Engineer": [
+      "Lead Data Engineer",
+      "Data Engineer (Elasticsearch  Datawarehousing)",
+      "Data Engineer - R01571442",
+      "Senior Analytics Engineer",
+      "Data Engineer III - Analytics Engineer (Databricks)",
+      "Sr Data Engineer - 100% Remote",
+      "Etl Developer",
+      "Senior Data Engineer",
+      "Senior Data Engineer (India - Remote)",
+      "BIG Data Engineer",
+      "Azure Data Engineer",
+      "Senior Data Engineer"
+    ],
+    "DevOps / Cloud Engineer": [
+      "DevOps Engineer Associate",
+      "DevOps Engineer",
+      "Cloud Engineer-II",
+      "Site Reliability Engineer",
+      "DevOps Engineer",
+      "Senior Devops Engineer I",
+      "AI Platform Engineer",
+      "Site Reliability Engineer",
+      "DevOps Engineer",
+      "Principal Cloud Engineer - AWS",
+      "Site Reliability Engineer",
+      "Devops Engineer"
+    ],
+    "Business Analyst": [
+      "Back Office/Post-Trade Business Analyst",
+      "Lead Business functional Analyst, VP",
+      "Finance Systems Analyst (D365 Finance & Operations)",
+      "Senior IT Business Analyst \u2013 Oracle",
+      "Manager Business Analyst",
+      "Workday HCM Functional Analyst",
+      "Senior Oracle Fusion Business Analyst \u2013 Invoice to Cash",
+      "Systems Analyst II (IND)",
+      "Vice President, Product Analyst",
+      "Senior Business Analyst",
+      "IT functional analyst",
+      "Business Analyst II"
+    ],
+    "Product Manager": [
+      "Software Download OTA Product owner",
+      "Senior Product Manager, Service Delivery Standard Work",
+      "Senior Product Owner",
+      "Product Manager-Personal Loan-Product Manager",
+      "Senior Digital Product Manager",
+      "Product Owner II",
+      "Product Manager, Payroll Integrations",
+      "Product Owner \u2014 Reference and Market Data",
+      "Associate Product Manager - Power & Magnetics",
+      "Executive Director - Senior AI Product Manager",
+      "Data & Analytics Sales Product Owner, Analytics, Business Analytics",
+      "Digital Product Manager"
+    ],
+    "Project Manager": [
+      "Principal, Technical Program Manager",
+      "Technical Project Manager",
+      "Lead Program Manager",
+      "Delivery Manager",
+      "Senior Project Manager",
+      "Project Manager",
+      "Scrum Master",
+      "Program Manager, EHS, Data Centers",
+      "Part-Time Project Manager",
+      "Program Manager",
+      "Staff Technical Program Manager",
+      "Project Manager - Finance"
+    ],
+    "Digital Marketing": [
+      "Digital Marketing Assistant",
+      "VP-Digital Marketing,Mashreq NEO.Marketing and Cust Exp-Cust Insight and Exp",
+      "Performance Marketing Associate",
+      "Digital Marketing Specialist",
+      "Digital Marketing Account Manager - Intern",
+      "Founding Growth Marketer",
+      "SEO & Digital Marketing Specialist",
+      "D2C SEO SPECIALIST (SKINCARE MUST)",
+      "Digital Marketing Internship",
+      "Performance Marketing Executive",
+      "Digital Marketing Professional",
+      "Digital Marketing Team Lead"
+    ],
+    "Graphic Designer": [
+      "Graphic Designer",
+      "Graphic Designer",
+      "Senior Graphic Designer",
+      "Marketing Content & Graphic Designer",
+      "Jr.Graphic Designer",
+      "Graphic Designer",
+      "Visual Designer, Display Creative Services",
+      "Graphic Designer \u2014 Volunteer",
+      "Graphic Designer",
+      "Motion Graphic Designer",
+      "Urgent Job Opening for Graphic Designer, Surat",
+      "Senior Graphic Designer"
+    ],
+    "UX Designer": [
+      "Senior UX Designer, International Emerging Stores (IES)",
+      "UX Designer I, EU INTech Partner Growth Experience",
+      "Product Designer",
+      "Senior Product Designer",
+      "Freelance UI/UX Designer",
+      "L4 - Team Leader - UI/UX Designer",
+      "Product Designer",
+      "UX Designer",
+      "Lead Product Designer",
+      "Sr. Product Designer",
+      "UI/UX Designer",
+      "[\uc81c\ud488\ubd80\ubb38] \ud504\ub85c\ub355\ud2b8 \ub514\uc790\uc774\ub108(Product Designer)"
+    ],
+    "Financial Analyst": [
+      "Financial Analyst, Renewable Energy",
+      "Sr. Financial Analyst, Cloud Infrastructure",
+      "Business Financial Analyst",
+      "Financial Analyst-Services Deliver",
+      "Financial Analyst",
+      "FP&A Analyst [T500-29251]",
+      "Financial Analyst I, FOAA Leases",
+      "Finance Analyst - Seeds FC Finance AMEA",
+      "Assistant Finance Analyst",
+      "Financial Analyst, Senior",
+      "Freight & Logistics Finance Analyst",
+      "Senior Financial Analyst"
+    ],
+    "Security Engineer": [
+      "Lead Security Engineer - Penetration Testing & AI Security",
+      "Principal Security Engineer",
+      "Staff Security Engineer",
+      "Product Security Engineer",
+      "Application Security Engineer - Assistant Vice President",
+      "Senior Security Engineer \u2013 Platform",
+      "Senior Security Engineer - Customer Engineering",
+      "Cloud Security Engineer (Oracle Cloud Infrastructure - OCI)",
+      "Network Security Engineer",
+      "Security Engineer WAF and SSLO (L2)",
+      "Infrastructure & Cloud Security Engineer",
+      "OT Security Engineer, Cyber Risk"
+    ],
+    "Information Security Analyst": [
+      "Senior Information Security Analyst",
+      "Information Security Analyst",
+      "Senior Information Security Analyst",
+      "Senior Information Security Analyst",
+      "Information Security Analyst",
+      "Senior Information Security Analyst (IT Risk)",
+      "Information Security Analyst",
+      "Information Security Analyst",
+      "Information Security Analyst II",
+      "Information Security Analyst",
+      "Senior Information Security Analyst",
+      "Principal Information Security Analyst, ITC"
+    ],
+    "Cybersecurity Engineer": [
+      "Senior Cyber security Engineer",
+      "Lead OT Cyber Security Engineer",
+      "Cyber Security Engineer",
+      "Cybersecurity Engineer \u2013 Engineering",
+      "Cyber Security Engineer",
+      "Cyber Security Engineer",
+      "Cybersecurity Engineer - Product Cybersecurity",
+      "Senior Cybersecurity Engineer (Palo Alto, Microsoft Defender) (Remote - US EST Shift)",
+      "Cyber Security Engineer",
+      "EM - DI - Automotive Cyber Security Engineer",
+      "Sr. Cybersecurity Engineer",
+      "Operational Technology Cybersecurity Engineer-2"
+    ],
+    "Information Security Engineer": [
+      "Associate Information Security Engineer",
+      "Senior Information Security Engineer, Identity Security Engineering",
+      "Senior Information Security Engineer 1",
+      "Senior Information Security Engineer",
+      "Lead Information Security Engineer-AppSec Champion",
+      "Information Security Engineer 1",
+      "Senior Information Security Engineer",
+      "Information Security Engineer",
+      "Senior Information Security Engineer",
+      "Information Security Engineer",
+      "Senior Information Security Engineer, ITC",
+      "Information Security Engineer"
+    ],
+    "Cybersecurity Analyst": [
+      "Senior Cybersecurity Analyst - Policy Based Access",
+      "Cybersecurity Analyst",
+      "Lead Cybersecurity Analyst",
+      "Cybersecurity Analyst",
+      "Sr Cybersecurity Analyst",
+      "GRC - Prin Cybersecurity Analyst",
+      "Cybersecurity Analyst \u2013 Attack Surface Management & Attack Path Analysis",
+      "Opening for Cybersecurity Analyst in Pharmaceutical company for BKC location"
+    ]
+  },
+  "adzuna_category_label_by_role_top3": {
+    "Software Engineer": [
+      [
+        "IT Jobs",
+        787
+      ],
+      [
+        "Engineering Jobs",
+        81
+      ],
+      [
+        "Accounting & Finance Jobs",
+        3
+      ]
+    ],
+    "Data Analyst": [
+      [
+        "IT Jobs",
+        377
+      ],
+      [
+        "Accounting & Finance Jobs",
+        37
+      ],
+      [
+        "Engineering Jobs",
+        15
+      ]
+    ],
+    "Data Scientist": [
+      [
+        "IT Jobs",
+        498
+      ],
+      [
+        "Scientific & QA Jobs",
+        50
+      ],
+      [
+        "Engineering Jobs",
+        42
+      ]
+    ],
+    "Data Engineer": [
+      [
+        "IT Jobs",
+        378
+      ],
+      [
+        "Engineering Jobs",
+        26
+      ],
+      [
+        "Consultancy Jobs",
+        3
+      ]
+    ],
+    "DevOps / Cloud Engineer": [
+      [
+        "IT Jobs",
+        843
+      ],
+      [
+        "Engineering Jobs",
+        9
+      ],
+      [
+        "Trade & Construction Jobs",
+        1
+      ]
+    ],
+    "Business Analyst": [
+      [
+        "IT Jobs",
+        583
+      ],
+      [
+        "Accounting & Finance Jobs",
+        40
+      ],
+      [
+        "HR & Recruitment Jobs",
+        8
+      ]
+    ],
+    "Product Manager": [
+      [
+        "IT Jobs",
+        504
+      ],
+      [
+        "Engineering Jobs",
+        53
+      ],
+      [
+        "Accounting & Finance Jobs",
+        28
+      ]
+    ],
+    "Project Manager": [
+      [
+        "IT Jobs",
+        656
+      ],
+      [
+        "Engineering Jobs",
+        101
+      ],
+      [
+        "Accounting & Finance Jobs",
+        25
+      ]
+    ],
+    "Digital Marketing": [
+      [
+        "PR, Advertising & Marketing Jobs",
+        479
+      ],
+      [
+        "IT Jobs",
+        43
+      ],
+      [
+        "Creative & Design Jobs",
+        10
+      ]
+    ],
+    "Graphic Designer": [
+      [
+        "Creative & Design Jobs",
+        277
+      ],
+      [
+        "PR, Advertising & Marketing Jobs",
+        106
+      ],
+      [
+        "IT Jobs",
+        51
+      ]
+    ]
+  }
+}

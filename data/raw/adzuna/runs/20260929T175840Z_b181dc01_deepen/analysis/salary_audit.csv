@@ -1,0 +1,7 @@
+country,role,clean_postings,salary_min_count,salary_max_count,salary_both_count,salary_any_count,salary_percentage,predicted_count,predicted_percentage,suspicious_below_floor,suspicious_above_ceiling,suspicious_min_gt_max,point_salary_min_eq_max,salary_valid_count_after_floor_ceiling,salary_floor,salary_ceiling
+in,Data Analyst,473,33,33,33,33,7.0,0,0.0,4,0,0,6,29,100000,10000000
+in,Security Engineer,374,14,14,14,14,3.7,0,0.0,1,0,0,2,13,100000,10000000
+in,Financial Analyst,292,12,12,12,12,4.1,0,0.0,3,0,0,5,9,100000,10000000
+in,Mechanical Engineer,256,26,26,26,26,10.2,0,0.0,2,0,0,6,24,100000,10000000
+in,Electrical Engineer,210,21,21,21,21,10.0,0,0.0,3,0,0,3,18,100000,10000000
+in,Quality Engineer,269,31,31,31,31,11.5,0,0.0,4,0,0,3,27,100000,10000000

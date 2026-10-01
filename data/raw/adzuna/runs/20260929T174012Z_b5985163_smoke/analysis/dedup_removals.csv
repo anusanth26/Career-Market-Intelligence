@@ -1,0 +1,34 @@
+role,adzuna_id,employer,title,reason,kept_id,query_variant
+Data Analyst,5899843917,JPMorganChase,"Data Analyst - Tableau, Power BI - Associate",exact_id_duplicate,5899843917,bi analyst
+Data Analyst,5902729265,FairMoney,BI - Business Intelligence Analyst,exact_id_duplicate,5902729265,business intelligence analyst
+Data Analyst,5901777130,FairMoney,BI - Business Intelligence Analyst,exact_id_duplicate,5901777130,business intelligence analyst
+Data Analyst,5899868943,Brillio,Lead Data Analyst (US Regulatory Reporting) - R01571259,exact_id_duplicate,5899868943,reporting analyst
+Data Analyst,5899536745,Kraken,"Data Analyst, Regulatory Analytics and Reporting",exact_id_duplicate,5899536745,reporting analyst
+Data Analyst,5887521034,Unison Group,"Senior Data Analyst - SQL, BI Reporting & SAP BW",exact_id_duplicate,5887521034,reporting analyst
+Data Analyst,5887521051,Unison Group,"Senior Data Analyst - SQL, BI Reporting & SAP BW",exact_id_duplicate,5887521051,reporting analyst
+Data Analyst,5901777130,FairMoney,BI - Business Intelligence Analyst,near_duplicate(title+company+desc_prefix),5902729265,bi analyst
+Data Analyst,5887521051,Unison Group,"Senior Data Analyst - SQL, BI Reporting & SAP BW",near_duplicate(title+company+desc_prefix),5887521034,bi analyst
+Data Analyst,5877386679,Workplace Options,Business Intelligence Analyst,near_duplicate(title+company+desc_prefix),5889535164,business intelligence analyst
+Data Analyst,5825361230,Applied Materials,Business Intelligence Analyst,near_duplicate(title+company+desc_prefix),5826674517,business intelligence analyst
+Data Analyst,5785803419,Eastman,Business Intelligence Analyst II,near_duplicate(title+company+desc_prefix),5877582847,business intelligence analyst
+Security Engineer,5900808819,CGI,Senior Cloud Security Engineer,near_duplicate(title+company+desc_prefix),5901693413,security engineer
+Security Engineer,5900529881,Vultr,"Security Engineer, GIOC",near_duplicate(title+company+desc_prefix),5900738722,security engineer
+Security Engineer,5900357030,UnitedHealth Group,Senior Manager Info Security Engineer - Cryptography & Certification Management,near_duplicate(title+company+desc_prefix),5900357037,security engineer
+Security Engineer,5898501787,Rubrik,Security Engineer - Identity and Access,near_duplicate(title+company+desc_prefix),5899328575,security engineer
+Digital Marketing,5898313397,Weekday AI,Digital Marketing Manager,near_duplicate(title+company+desc_prefix),5900529917,digital marketing
+Digital Marketing,5895805080,Anatta Design,AI Creative Lead — Digital Marketing (India),near_duplicate(title+company+desc_prefix),5898469426,digital marketing
+Digital Marketing,5888093303,Ladybird Web Solution Pvt Ltd,Digital Marketing Internship,near_duplicate(title+company+desc_prefix),5888693600,digital marketing
+Digital Marketing,5851021045,Regent College London,SEO Specialist,near_duplicate(title+company+desc_prefix),5853714161,seo specialist
+Digital Marketing,5899536757,Bitpanda,Senior Performance Marketing Specialist,near_duplicate(title+company+desc_prefix),5899536857,performance marketing
+Digital Marketing,5895065970,Weekday AI,Graphics Designer - Performance Marketing,near_duplicate(title+company+desc_prefix),5895065971,performance marketing
+Digital Marketing,5893471250,TransPerfect,Senior Performance Marketing Manager,near_duplicate(title+company+desc_prefix),5893471252,performance marketing
+Digital Marketing,5884579568,Virallens,Performance Marketing Specialist,near_duplicate(title+company+desc_prefix),5885974603,performance marketing
+Digital Marketing,5875786029,Lokal App,Performance Marketing Executive - Content (Telugu)- Dostt,near_duplicate(title+company+desc_prefix),5876949022,performance marketing
+GROUP:security,5902912989,Nike,"Lead Information Security Engineer, ITC",near_duplicate(title+company+desc_prefix),5902917997,security engineer
+GROUP:security,5900808819,CGI,Senior Cloud Security Engineer,near_duplicate(title+company+desc_prefix),5901693413,security engineer
+GROUP:security,5900529881,Vultr,"Security Engineer, GIOC",near_duplicate(title+company+desc_prefix),5900738722,security engineer
+GROUP:security,5900357030,UnitedHealth Group,Senior Manager Info Security Engineer - Cryptography & Certification Management,near_duplicate(title+company+desc_prefix),5900357037,security engineer
+GROUP:security,5898501787,Rubrik,Security Engineer - Identity and Access,near_duplicate(title+company+desc_prefix),5899328575,security engineer
+GROUP:security,5897952312,Nike,"Principal Information Security Engineer, ITC",near_duplicate(title+company+desc_prefix),5898488941,security engineer
+GROUP:security,5897049450,Unisys,SOC Detection and Response - Engineer Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5897062123,security engineer
+GROUP:security,5898488941,Nike,"Principal Information Security Engineer, ITC",employer_cap(>2 per employer),,security engineer

@@ -1,0 +1,171 @@
+{
+  "_comment": "Configuration for scripts/build_dataset.py. Mapping rules are read from config/roles.json (unchanged); only the overrides below are applied on top of them. Nothing here calls any API.",
+  "dataset_version": "1.0.0-final",
+  "sources": {
+    "raw_root": "data/raw/adzuna",
+    "legacy_glob": "adzuna_*.json",
+    "legacy_pull_log": "pull_log_2026-09-29.json",
+    "runs_dir": "runs",
+    "run_records_glob": "records_*.jsonl",
+    "non_record_files_ignored": [
+      "coverage_*.json (count-only probe, not postings)",
+      "pull_log_*.json (metadata)"
+    ]
+  },
+  "dedup": {
+    "near_duplicate_description_chars": 150,
+    "representative_for_same_id": "records with full run provenance first, then earliest collected_at, then run name, file, page, position",
+    "representative_for_near_duplicate_group": "most recent created, then smallest numeric job id",
+    "employer_cap_fraction_flag_only": 0.05,
+    "near_duplicate_confirmation": "candidate groups from the 150-char key are merged only when the full normalized snippet is identical (templated postings with different requirements after char 150 are kept)"
+  },
+  "quality": {
+    "window_days": 90,
+    "window_start_source": "earliest run_manifest window_start (calendar-day, 00:00 UTC)",
+    "short_description_chars": 200,
+    "non_english_ratio_threshold": 0.3,
+    "salary": {
+      "floor": 100000,
+      "ceiling": 10000000,
+      "assumption": "Numeric plausibility screen only (100,000 to 10,000,000). The Adzuna response has no currency or period field; salary period/currency interpretation is UNRESOLVED and is not asserted as a source fact."
+    },
+    "future_tolerance_hours": 14,
+    "future_tolerance_note": "Adzuna 'created' values carry a 'Z' suffix but run up to ~4.9 h AHEAD of the collection clock (max created 22:51 vs collection ending 18:09 UTC on the same day), consistent with India local time (UTC+5:30) labelled as UTC. A record is 'future' only if created exceeds the latest collection time by more than 14 h (the largest UTC offset)."
+  },
+  "targets": {
+    "clean_per_core_role": 400,
+    "canonical_per_core_role": 300,
+    "distinct_employers_per_role": 100,
+    "top_employer_pct_max": 6.0,
+    "effective_employers_min": 50
+  },
+  "scope": {
+    "core": {
+      "Technology & Data": [
+        "Software Engineer",
+        "Data Analyst",
+        "Data Scientist",
+        "Data Engineer",
+        "DevOps / Cloud Engineer"
+      ],
+      "Business, Finance & Management": [
+        "Business Analyst",
+        "Product Manager",
+        "Project Manager",
+        "Digital Marketing"
+      ],
+      "Media & Design": [
+        "Graphic Designer"
+      ]
+    },
+    "conditional": {
+      "UX Designer": "UX Designer",
+      "Financial Analyst": "Financial Analyst",
+      "Security Engineer": "Security (conditional family)",
+      "Information Security Analyst": "Security (conditional family)",
+      "Cybersecurity Engineer": "Security (conditional family)",
+      "Information Security Engineer": "Security (conditional family)",
+      "Cybersecurity Analyst": "Security (conditional family)"
+    },
+    "adjacent_not_core": [
+      "Program Manager",
+      "Delivery Manager",
+      "Scrum Master"
+    ],
+    "excluded_domain_roles": [
+      "Mechanical Engineer",
+      "Electrical Engineer",
+      "Quality Engineer",
+      "Architect (contamination audit)"
+    ]
+  },
+  "legacy_query_to_role": {
+    "data analyst": "Data Analyst",
+    "software engineer": "Software Engineer",
+    "digital marketing": "Digital Marketing",
+    "business analyst": "Business Analyst"
+  },
+  "role_rule_overrides": {
+    "_decision": "Project Manager handled as Option C: core Project Manager = canonical 'project manager' titles only; program / delivery / scrum-master titles become separate ADJACENT families. Evidence: previous 50-title manual audit found canonical titles 17 correct / 3 ambiguous / 1 incorrect, while 0 of 29 sampled program, delivery and scrum-master titles were correct (all ambiguous or incorrect, including every 'service delivery' title). No variant is validated, so Option B collapses into Option A. See report/dataset_documentation.md.",
+    "replace": {
+      "Project Manager": {
+        "match": [
+          "\\bproject manager\\b"
+        ],
+        "exclude": [
+          "\\b(construction|civil|site|interiors?|real estate|mep|architecture|architectural|bim)\\b"
+        ],
+        "overlap_group": "project_family",
+        "priority": 3
+      },
+      "Graphic Designer": {
+        "exclude": [
+          "\\bmotion graphics? designer\\b"
+        ]
+      }
+    },
+    "add": [
+      {
+        "role": "Program Manager",
+        "domain": "Business, Finance & Management",
+        "match": [
+          "\\bprogram(me)? manager\\b"
+        ],
+        "exclude": [],
+        "overlap_group": "project_family",
+        "priority": 2
+      },
+      {
+        "role": "Delivery Manager",
+        "domain": "Business, Finance & Management",
+        "match": [
+          "\\bdelivery manager\\b"
+        ],
+        "exclude": [
+          "\\bservice delivery\\b"
+        ],
+        "overlap_group": "project_family",
+        "priority": 1
+      },
+      {
+        "role": "Scrum Master",
+        "domain": "Business, Finance & Management",
+        "match": [
+          "\\bscrum master\\b"
+        ],
+        "exclude": [],
+        "overlap_group": "project_family",
+        "priority": 1
+      }
+    ],
+    "_graphic_designer_note": "Motion-graphics designer titles are excluded from Graphic Designer (motion/video design is a different skill set). Evidence: 3 incorrect of 39 judged in the earlier 50-title audit and 3 incorrect of 15 judged in a fresh 20-title sample (pre-fix). This is the only recurring incorrect pattern for the role. Applied only in this build config; config/roles.json is unchanged."
+  },
+  "final_policy": {
+    "employer_cap": {
+      "fraction": 0.05,
+      "applies_to": "core roles, in the FINAL CORE ANALYSIS dataset only (the full validated dataset keeps every row and flags them)",
+      "cap_per_employer_within_role": "max(1, floor(0.05 x role rows before cap))",
+      "tie_break": "keep the most recent created, then the smallest numeric job id",
+      "missing_employer": "never capped, never counted as an employer"
+    },
+    "forced_conditional_roles": {
+      "Project Manager": {
+        "reason": "below minimum dataset-size target",
+        "mapping_policy": "canonical-only",
+        "adjacent_families_kept_separate": [
+          "Program Manager",
+          "Delivery Manager",
+          "Scrum Master"
+        ]
+      }
+    },
+    "salary": {
+      "period_interpretation": "unresolved",
+      "currency_interpretation": "unresolved (country=in; not provided by the API)"
+    },
+    "human_validation": {
+      "seed": 20261003,
+      "titles_per_core_role": 15
+    }
+  }
+}

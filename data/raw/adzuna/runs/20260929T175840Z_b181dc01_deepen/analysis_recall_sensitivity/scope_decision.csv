@@ -1,0 +1,7 @@
+domain,canonical_role,tier,api_count,raw_count,title_match_count,clean_count,salary_percentage,capped_by_max_records,decision,reason
+Technology & Data,Data Analyst,firm,842,1208,540,473,7.0,False,DEFINITELY INCLUDE,clean_count 473 >= 400 (measured)
+Technology & Data,Security Engineer,probe,811,811,404,374,3.7,False,CONDITIONAL,borderline: 200 <= clean 374 < 400
+"Business, Finance & Management",Financial Analyst,firm,587,1289,815,311,3.9,False,CONDITIONAL,borderline: 200 <= clean 311 < 400
+Engineering,Mechanical Engineer,conditional,567,756,576,396,9.3,False,CONDITIONAL,borderline: 200 <= clean 396 < 400
+Engineering,Electrical Engineer,conditional,580,657,516,373,8.0,False,CONDITIONAL,borderline: 200 <= clean 373 < 400
+Engineering,Quality Engineer,conditional,807,985,317,266,11.3,False,CONDITIONAL,borderline: 200 <= clean 266 < 400

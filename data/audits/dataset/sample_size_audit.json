@@ -1,0 +1,758 @@
+{
+ "per_role": {
+  "Business Analyst": {
+   "after_id_dedup": 1543,
+   "after_near_dedup": 1470,
+   "after_quality_filtering_final_candidate_count": 873,
+   "after_title_mapping_any_query": 1109,
+   "canonical_title_count": 561,
+   "employer_cap_n_per_employer": 43,
+   "employer_cap_rows_flagged_over_cap": 3,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 147.4,
+    "rows": 870,
+    "rows_with_employer": 870,
+    "top_employer_count": 43,
+    "top_employer_percentage": 4.94,
+    "unique_employers": 476
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 141.1,
+    "rows": 873,
+    "rows_with_employer": 873,
+    "top_employer_count": 46,
+    "top_employer_percentage": 5.27,
+    "unique_employers": 476
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {
+    "outside_90_day_window": 236
+   },
+   "raw_count": 1676,
+   "target_checks": {
+    "all_targets_met_capped_view": true,
+    "all_targets_met_uncapped": true,
+    "canonical_ge_300": true,
+    "canonical_ge_300_capped_view": true,
+    "clean_ge_400": true,
+    "clean_ge_400_capped_view": true,
+    "effective_employers_ge_50_capped_view": true,
+    "effective_employers_ge_50_uncapped": true,
+    "employers_ge_100": true,
+    "employers_ge_100_capped_view": true,
+    "top_employer_le_6pct_capped_view": true,
+    "top_employer_le_6pct_uncapped": true
+   },
+   "unique_employers": 476
+  },
+  "Cybersecurity Analyst": {
+   "after_id_dedup": 27,
+   "after_near_dedup": 23,
+   "after_quality_filtering_final_candidate_count": 8,
+   "after_title_mapping_any_query": 8,
+   "canonical_title_count": 8,
+   "employer_cap_n_per_employer": 1,
+   "employer_cap_rows_flagged_over_cap": 0,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 8.0,
+    "rows": 8,
+    "rows_with_employer": 8,
+    "top_employer_count": 1,
+    "top_employer_percentage": 12.5,
+    "unique_employers": 8
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 8.0,
+    "rows": 8,
+    "rows_with_employer": 8,
+    "top_employer_count": 1,
+    "top_employer_percentage": 12.5,
+    "unique_employers": 8
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 54,
+   "unique_employers": 8
+  },
+  "Cybersecurity Engineer": {
+   "after_id_dedup": 78,
+   "after_near_dedup": 73,
+   "after_quality_filtering_final_candidate_count": 64,
+   "after_title_mapping_any_query": 64,
+   "canonical_title_count": 64,
+   "employer_cap_n_per_employer": 3,
+   "employer_cap_rows_flagged_over_cap": 1,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 44.6,
+    "rows": 63,
+    "rows_with_employer": 63,
+    "top_employer_count": 3,
+    "top_employer_percentage": 4.76,
+    "unique_employers": 51
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 42.7,
+    "rows": 64,
+    "rows_with_employer": 64,
+    "top_employer_count": 4,
+    "top_employer_percentage": 6.25,
+    "unique_employers": 51
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 156,
+   "unique_employers": 51
+  },
+  "Data Analyst": {
+   "after_id_dedup": 1435,
+   "after_near_dedup": 1313,
+   "after_quality_filtering_final_candidate_count": 526,
+   "after_title_mapping_any_query": 700,
+   "canonical_title_count": 481,
+   "employer_cap_n_per_employer": 26,
+   "employer_cap_rows_flagged_over_cap": 0,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 264.5,
+    "rows": 526,
+    "rows_with_employer": 526,
+    "top_employer_count": 10,
+    "top_employer_percentage": 1.9,
+    "unique_employers": 376
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 264.5,
+    "rows": 526,
+    "rows_with_employer": 526,
+    "top_employer_count": 10,
+    "top_employer_percentage": 1.9,
+    "unique_employers": 376
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {
+    "outside_90_day_window": 174
+   },
+   "raw_count": 3006,
+   "target_checks": {
+    "all_targets_met_capped_view": true,
+    "all_targets_met_uncapped": true,
+    "canonical_ge_300": true,
+    "canonical_ge_300_capped_view": true,
+    "clean_ge_400": true,
+    "clean_ge_400_capped_view": true,
+    "effective_employers_ge_50_capped_view": true,
+    "effective_employers_ge_50_uncapped": true,
+    "employers_ge_100": true,
+    "employers_ge_100_capped_view": true,
+    "top_employer_le_6pct_capped_view": true,
+    "top_employer_le_6pct_uncapped": true
+   },
+   "unique_employers": 376
+  },
+  "Data Engineer": {
+   "after_id_dedup": 755,
+   "after_near_dedup": 670,
+   "after_quality_filtering_final_candidate_count": 470,
+   "after_title_mapping_any_query": 470,
+   "canonical_title_count": 385,
+   "employer_cap_n_per_employer": 23,
+   "employer_cap_rows_flagged_over_cap": 4,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 106.8,
+    "rows": 466,
+    "rows_with_employer": 466,
+    "top_employer_count": 23,
+    "top_employer_percentage": 4.94,
+    "unique_employers": 279
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 98.9,
+    "rows": 470,
+    "rows_with_employer": 470,
+    "top_employer_count": 27,
+    "top_employer_percentage": 5.74,
+    "unique_employers": 279
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 777,
+   "target_checks": {
+    "all_targets_met_capped_view": true,
+    "all_targets_met_uncapped": true,
+    "canonical_ge_300": true,
+    "canonical_ge_300_capped_view": true,
+    "clean_ge_400": true,
+    "clean_ge_400_capped_view": true,
+    "effective_employers_ge_50_capped_view": true,
+    "effective_employers_ge_50_uncapped": true,
+    "employers_ge_100": true,
+    "employers_ge_100_capped_view": true,
+    "top_employer_le_6pct_capped_view": true,
+    "top_employer_le_6pct_uncapped": true
+   },
+   "unique_employers": 279
+  },
+  "Data Scientist": {
+   "after_id_dedup": 945,
+   "after_near_dedup": 869,
+   "after_quality_filtering_final_candidate_count": 691,
+   "after_title_mapping_any_query": 691,
+   "canonical_title_count": 355,
+   "employer_cap_n_per_employer": 34,
+   "employer_cap_rows_flagged_over_cap": 65,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 96.2,
+    "rows": 626,
+    "rows_with_employer": 626,
+    "top_employer_count": 34,
+    "top_employer_percentage": 5.43,
+    "unique_employers": 325
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 37.5,
+    "rows": 691,
+    "rows_with_employer": 691,
+    "top_employer_count": 99,
+    "top_employer_percentage": 14.33,
+    "unique_employers": 325
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 948,
+   "target_checks": {
+    "all_targets_met_capped_view": true,
+    "all_targets_met_uncapped": false,
+    "canonical_ge_300": true,
+    "canonical_ge_300_capped_view": true,
+    "clean_ge_400": true,
+    "clean_ge_400_capped_view": true,
+    "effective_employers_ge_50_capped_view": true,
+    "effective_employers_ge_50_uncapped": false,
+    "employers_ge_100": true,
+    "employers_ge_100_capped_view": true,
+    "top_employer_le_6pct_capped_view": true,
+    "top_employer_le_6pct_uncapped": false
+   },
+   "unique_employers": 325
+  },
+  "Delivery Manager": {
+   "after_id_dedup": null,
+   "after_near_dedup": null,
+   "after_quality_filtering_final_candidate_count": 133,
+   "after_title_mapping_any_query": 133,
+   "canonical_title_count": 133,
+   "employer_cap_n_per_employer": 6,
+   "employer_cap_rows_flagged_over_cap": 0,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 79.3,
+    "rows": 133,
+    "rows_with_employer": 133,
+    "top_employer_count": 4,
+    "top_employer_percentage": 3.01,
+    "unique_employers": 101
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 79.3,
+    "rows": 133,
+    "rows_with_employer": 133,
+    "top_employer_count": 4,
+    "top_employer_percentage": 3.01,
+    "unique_employers": 101
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": null,
+   "unique_employers": 101
+  },
+  "DevOps / Cloud Engineer": {
+   "after_id_dedup": 1699,
+   "after_near_dedup": 1559,
+   "after_quality_filtering_final_candidate_count": 910,
+   "after_title_mapping_any_query": 910,
+   "canonical_title_count": 351,
+   "employer_cap_n_per_employer": 45,
+   "employer_cap_rows_flagged_over_cap": 1,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 183.7,
+    "rows": 909,
+    "rows_with_employer": 909,
+    "top_employer_count": 45,
+    "top_employer_percentage": 4.95,
+    "unique_employers": 540
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 180.4,
+    "rows": 910,
+    "rows_with_employer": 910,
+    "top_employer_count": 46,
+    "top_employer_percentage": 5.05,
+    "unique_employers": 540
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 1825,
+   "target_checks": {
+    "all_targets_met_capped_view": true,
+    "all_targets_met_uncapped": true,
+    "canonical_ge_300": true,
+    "canonical_ge_300_capped_view": true,
+    "clean_ge_400": true,
+    "clean_ge_400_capped_view": true,
+    "effective_employers_ge_50_capped_view": true,
+    "effective_employers_ge_50_uncapped": true,
+    "employers_ge_100": true,
+    "employers_ge_100_capped_view": true,
+    "top_employer_le_6pct_capped_view": true,
+    "top_employer_le_6pct_uncapped": true
+   },
+   "unique_employers": 540
+  },
+  "Digital Marketing": {
+   "after_id_dedup": 1134,
+   "after_near_dedup": 1103,
+   "after_quality_filtering_final_candidate_count": 562,
+   "after_title_mapping_any_query": 873,
+   "canonical_title_count": 355,
+   "employer_cap_n_per_employer": 28,
+   "employer_cap_rows_flagged_over_cap": 0,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 250.8,
+    "rows": 562,
+    "rows_with_employer": 561,
+    "top_employer_count": 13,
+    "top_employer_percentage": 2.32,
+    "unique_employers": 422
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 250.8,
+    "rows": 562,
+    "rows_with_employer": 561,
+    "top_employer_count": 13,
+    "top_employer_percentage": 2.32,
+    "unique_employers": 422
+   },
+   "missing_employer_rows": 1,
+   "quality_excluded": {
+    "outside_90_day_window": 311
+   },
+   "raw_count": 1533,
+   "target_checks": {
+    "all_targets_met_capped_view": true,
+    "all_targets_met_uncapped": true,
+    "canonical_ge_300": true,
+    "canonical_ge_300_capped_view": true,
+    "clean_ge_400": true,
+    "clean_ge_400_capped_view": true,
+    "effective_employers_ge_50_capped_view": true,
+    "effective_employers_ge_50_uncapped": true,
+    "employers_ge_100": true,
+    "employers_ge_100_capped_view": true,
+    "top_employer_le_6pct_capped_view": true,
+    "top_employer_le_6pct_uncapped": true
+   },
+   "unique_employers": 422
+  },
+  "Financial Analyst": {
+   "after_id_dedup": 684,
+   "after_near_dedup": 625,
+   "after_quality_filtering_final_candidate_count": 346,
+   "after_title_mapping_any_query": 346,
+   "canonical_title_count": 240,
+   "employer_cap_n_per_employer": 17,
+   "employer_cap_rows_flagged_over_cap": 41,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 65.6,
+    "rows": 305,
+    "rows_with_employer": 305,
+    "top_employer_count": 17,
+    "top_employer_percentage": 5.57,
+    "unique_employers": 178
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 27.6,
+    "rows": 346,
+    "rows_with_employer": 346,
+    "top_employer_count": 56,
+    "top_employer_percentage": 16.18,
+    "unique_employers": 178
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 2404,
+   "unique_employers": 178
+  },
+  "Graphic Designer": {
+   "after_id_dedup": 626,
+   "after_near_dedup": 592,
+   "after_quality_filtering_final_candidate_count": 418,
+   "after_title_mapping_any_query": 418,
+   "canonical_title_count": 352,
+   "employer_cap_n_per_employer": 20,
+   "employer_cap_rows_flagged_over_cap": 0,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 287.4,
+    "rows": 418,
+    "rows_with_employer": 418,
+    "top_employer_count": 8,
+    "top_employer_percentage": 1.91,
+    "unique_employers": 365
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 287.4,
+    "rows": 418,
+    "rows_with_employer": 418,
+    "top_employer_count": 8,
+    "top_employer_percentage": 1.91,
+    "unique_employers": 365
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 647,
+   "target_checks": {
+    "all_targets_met_capped_view": true,
+    "all_targets_met_uncapped": true,
+    "canonical_ge_300": true,
+    "canonical_ge_300_capped_view": true,
+    "clean_ge_400": true,
+    "clean_ge_400_capped_view": true,
+    "effective_employers_ge_50_capped_view": true,
+    "effective_employers_ge_50_uncapped": true,
+    "employers_ge_100": true,
+    "employers_ge_100_capped_view": true,
+    "top_employer_le_6pct_capped_view": true,
+    "top_employer_le_6pct_uncapped": true
+   },
+   "unique_employers": 365
+  },
+  "Information Security Analyst": {
+   "after_id_dedup": 39,
+   "after_near_dedup": 37,
+   "after_quality_filtering_final_candidate_count": 22,
+   "after_title_mapping_any_query": 22,
+   "canonical_title_count": 22,
+   "employer_cap_n_per_employer": 1,
+   "employer_cap_rows_flagged_over_cap": 3,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 19.0,
+    "rows": 19,
+    "rows_with_employer": 19,
+    "top_employer_count": 1,
+    "top_employer_percentage": 5.26,
+    "unique_employers": 19
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 16.1,
+    "rows": 22,
+    "rows_with_employer": 22,
+    "top_employer_count": 3,
+    "top_employer_percentage": 13.64,
+    "unique_employers": 19
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 78,
+   "unique_employers": 19
+  },
+  "Information Security Engineer": {
+   "after_id_dedup": 72,
+   "after_near_dedup": 62,
+   "after_quality_filtering_final_candidate_count": 45,
+   "after_title_mapping_any_query": 45,
+   "canonical_title_count": 45,
+   "employer_cap_n_per_employer": 2,
+   "employer_cap_rows_flagged_over_cap": 9,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 27.0,
+    "rows": 36,
+    "rows_with_employer": 36,
+    "top_employer_count": 2,
+    "top_employer_percentage": 5.56,
+    "unique_employers": 30
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 19.3,
+    "rows": 45,
+    "rows_with_employer": 45,
+    "top_employer_count": 5,
+    "top_employer_percentage": 11.11,
+    "unique_employers": 30
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 144,
+   "unique_employers": 30
+  },
+  "Product Manager": {
+   "after_id_dedup": 855,
+   "after_near_dedup": 806,
+   "after_quality_filtering_final_candidate_count": 635,
+   "after_title_mapping_any_query": 635,
+   "canonical_title_count": 370,
+   "employer_cap_n_per_employer": 31,
+   "employer_cap_rows_flagged_over_cap": 0,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 168.5,
+    "rows": 635,
+    "rows_with_employer": 635,
+    "top_employer_count": 25,
+    "top_employer_percentage": 3.94,
+    "unique_employers": 382
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 168.5,
+    "rows": 635,
+    "rows_with_employer": 635,
+    "top_employer_count": 25,
+    "top_employer_percentage": 3.94,
+    "unique_employers": 382
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 879,
+   "target_checks": {
+    "all_targets_met_capped_view": true,
+    "all_targets_met_uncapped": true,
+    "canonical_ge_300": true,
+    "canonical_ge_300_capped_view": true,
+    "clean_ge_400": true,
+    "clean_ge_400_capped_view": true,
+    "effective_employers_ge_50_capped_view": true,
+    "effective_employers_ge_50_uncapped": true,
+    "employers_ge_100": true,
+    "employers_ge_100_capped_view": true,
+    "top_employer_le_6pct_capped_view": true,
+    "top_employer_le_6pct_uncapped": true
+   },
+   "unique_employers": 382
+  },
+  "Program Manager": {
+   "after_id_dedup": null,
+   "after_near_dedup": null,
+   "after_quality_filtering_final_candidate_count": 371,
+   "after_title_mapping_any_query": 371,
+   "canonical_title_count": 371,
+   "employer_cap_n_per_employer": 18,
+   "employer_cap_rows_flagged_over_cap": 76,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 68.4,
+    "rows": 295,
+    "rows_with_employer": 295,
+    "top_employer_count": 18,
+    "top_employer_percentage": 6.1,
+    "unique_employers": 184
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 14.3,
+    "rows": 371,
+    "rows_with_employer": 371,
+    "top_employer_count": 93,
+    "top_employer_percentage": 25.07,
+    "unique_employers": 184
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": null,
+   "unique_employers": 184
+  },
+  "Project Manager": {
+   "after_id_dedup": 1504,
+   "after_near_dedup": 1397,
+   "after_quality_filtering_final_candidate_count": 317,
+   "after_title_mapping_any_query": 317,
+   "canonical_title_count": 317,
+   "employer_cap_n_per_employer": 15,
+   "employer_cap_rows_flagged_over_cap": 2,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 132.1,
+    "rows": 315,
+    "rows_with_employer": 315,
+    "top_employer_count": 15,
+    "top_employer_percentage": 4.76,
+    "unique_employers": 245
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 123.3,
+    "rows": 317,
+    "rows_with_employer": 317,
+    "top_employer_count": 17,
+    "top_employer_percentage": 5.36,
+    "unique_employers": 245
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 1556,
+   "target_checks": {
+    "all_targets_met_capped_view": false,
+    "all_targets_met_uncapped": false,
+    "canonical_ge_300": true,
+    "canonical_ge_300_capped_view": true,
+    "clean_ge_400": false,
+    "clean_ge_400_capped_view": false,
+    "effective_employers_ge_50_capped_view": true,
+    "effective_employers_ge_50_uncapped": true,
+    "employers_ge_100": true,
+    "employers_ge_100_capped_view": true,
+    "top_employer_le_6pct_capped_view": true,
+    "top_employer_le_6pct_uncapped": true
+   },
+   "unique_employers": 245
+  },
+  "Scrum Master": {
+   "after_id_dedup": null,
+   "after_near_dedup": null,
+   "after_quality_filtering_final_candidate_count": 110,
+   "after_title_mapping_any_query": 110,
+   "canonical_title_count": 110,
+   "employer_cap_n_per_employer": 5,
+   "employer_cap_rows_flagged_over_cap": 1,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 64.2,
+    "rows": 109,
+    "rows_with_employer": 109,
+    "top_employer_count": 5,
+    "top_employer_percentage": 4.59,
+    "unique_employers": 85
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 61.7,
+    "rows": 110,
+    "rows_with_employer": 110,
+    "top_employer_count": 6,
+    "top_employer_percentage": 5.45,
+    "unique_employers": 85
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": null,
+   "unique_employers": 85
+  },
+  "Security (conditional family, merged view)": {
+   "after_quality_filtering_final_candidate_count": 517,
+   "members": {
+    "Cybersecurity Analyst": 8,
+    "Cybersecurity Engineer": 64,
+    "Information Security Analyst": 22,
+    "Information Security Engineer": 45,
+    "Security Engineer": 378
+   },
+   "note": "Merging the five families is a team decision; they are stored as separate role values.",
+   "unique_employers": 348
+  },
+  "Security Engineer": {
+   "after_id_dedup": 811,
+   "after_near_dedup": 727,
+   "after_quality_filtering_final_candidate_count": 378,
+   "after_title_mapping_any_query": 378,
+   "canonical_title_count": 378,
+   "employer_cap_n_per_employer": 18,
+   "employer_cap_rows_flagged_over_cap": 0,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 188.5,
+    "rows": 378,
+    "rows_with_employer": 378,
+    "top_employer_count": 8,
+    "top_employer_percentage": 2.12,
+    "unique_employers": 263
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 188.5,
+    "rows": 378,
+    "rows_with_employer": 378,
+    "top_employer_count": 8,
+    "top_employer_percentage": 2.12,
+    "unique_employers": 263
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 2222,
+   "unique_employers": 263
+  },
+  "Software Engineer": {
+   "after_id_dedup": 2043,
+   "after_near_dedup": 1842,
+   "after_quality_filtering_final_candidate_count": 1260,
+   "after_title_mapping_any_query": 1365,
+   "canonical_title_count": 1085,
+   "employer_cap_n_per_employer": 63,
+   "employer_cap_rows_flagged_over_cap": 54,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 107.1,
+    "rows": 1206,
+    "rows_with_employer": 1206,
+    "top_employer_count": 63,
+    "top_employer_percentage": 5.22,
+    "unique_employers": 506
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 72.4,
+    "rows": 1260,
+    "rows_with_employer": 1260,
+    "top_employer_count": 97,
+    "top_employer_percentage": 7.7,
+    "unique_employers": 506
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {
+    "outside_90_day_window": 105
+   },
+   "raw_count": 2275,
+   "target_checks": {
+    "all_targets_met_capped_view": true,
+    "all_targets_met_uncapped": false,
+    "canonical_ge_300": true,
+    "canonical_ge_300_capped_view": true,
+    "clean_ge_400": true,
+    "clean_ge_400_capped_view": true,
+    "effective_employers_ge_50_capped_view": true,
+    "effective_employers_ge_50_uncapped": true,
+    "employers_ge_100": true,
+    "employers_ge_100_capped_view": true,
+    "top_employer_le_6pct_capped_view": true,
+    "top_employer_le_6pct_uncapped": false
+   },
+   "unique_employers": 506
+  },
+  "UX Designer": {
+   "after_id_dedup": 528,
+   "after_near_dedup": 492,
+   "after_quality_filtering_final_candidate_count": 350,
+   "after_title_mapping_any_query": 350,
+   "canonical_title_count": 152,
+   "employer_cap_n_per_employer": 17,
+   "employer_cap_rows_flagged_over_cap": 0,
+   "employer_concentration_5pct_cap_view": {
+    "effective_number_of_employers": 166.4,
+    "rows": 350,
+    "rows_with_employer": 350,
+    "top_employer_count": 11,
+    "top_employer_percentage": 3.14,
+    "unique_employers": 266
+   },
+   "employer_concentration_uncapped": {
+    "effective_number_of_employers": 166.4,
+    "rows": 350,
+    "rows_with_employer": 350,
+    "top_employer_count": 11,
+    "top_employer_percentage": 3.14,
+    "unique_employers": 266
+   },
+   "missing_employer_rows": 0,
+   "quality_excluded": {},
+   "raw_count": 550,
+   "unique_employers": 266
+  }
+ },
+ "stage_definitions": {
+  "after_id_dedup": "unique job ids among them",
+  "after_near_dedup": "records surviving near-duplicate removal that the role's queries retrieved",
+  "after_quality_filtering_final_candidate_count": "final dataset rows with role = this role (may include rows retrieved by other roles' queries)",
+  "after_title_mapping_any_query": "surviving records whose TITLE maps to the role, whichever query retrieved them",
+  "raw_count": "raw rows returned by the role's own queries (before any dedup)"
+ },
+ "targets": {
+  "canonical_per_core_role": 300,
+  "clean_per_core_role": 400,
+  "distinct_employers_per_role": 100,
+  "effective_employers_min": 50,
+  "top_employer_pct_max": 6.0
+ }
+}

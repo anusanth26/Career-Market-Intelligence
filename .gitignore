@@ -1,5 +1,13 @@
 .env
-data/raw/*
-!data/raw/.gitkeep
-!data/raw/adzuna/
-!data/raw/adzuna/*.json
+# data/raw/*
+# !data/raw/.gitkeep
+# !data/raw/adzuna/
+# !data/raw/adzuna/*.json
+# !data/raw/trends/
+# !data/raw/trends/*
+
+__pycache__/
+
+# # Processed/audit outputs contain Adzuna text (terms unresolved): do not commit
+# data/processed/
+# data/audits/

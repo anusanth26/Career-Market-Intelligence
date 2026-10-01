@@ -1,0 +1,21 @@
+country,role,clean_postings,salary_min_count,salary_max_count,salary_both_count,salary_any_count,salary_percentage,predicted_count,predicted_percentage,suspicious_below_floor,suspicious_above_ceiling,suspicious_min_gt_max,point_salary_min_eq_max,salary_valid_count_after_floor_ceiling,salary_floor,salary_ceiling
+in,Software Engineer,875,50,50,50,50,5.7,0,0.0,12,0,0,14,38,100000,10000000
+in,Data Analyst,305,23,23,23,23,7.5,0,0.0,2,0,0,5,21,100000,10000000
+in,Data Scientist,604,47,47,47,47,7.8,0,0.0,5,0,0,15,42,100000,10000000
+in,Data Engineer,410,21,21,21,21,5.1,0,0.0,1,0,0,3,20,100000,10000000
+in,DevOps / Cloud Engineer,854,86,85,85,86,10.1,0,0.0,10,0,0,18,76,100000,10000000
+in,Security Engineer,232,10,10,10,10,4.3,0,0.0,1,0,0,1,9,100000,10000000
+in,Information Security Analyst,19,0,0,0,0,0.0,0,0.0,0,0,0,0,0,100000,10000000
+in,Cybersecurity Engineer,55,5,5,5,5,9.1,0,0.0,0,0,0,1,5,100000,10000000
+in,Information Security Engineer,36,3,3,3,3,8.3,0,0.0,0,0,0,2,3,100000,10000000
+in,Cybersecurity Analyst,8,0,0,0,0,0.0,0,0.0,0,0,0,0,0,100000,10000000
+in,Business Analyst,663,44,44,44,44,6.6,0,0.0,3,0,0,12,41,100000,10000000
+in,Financial Analyst,251,12,12,12,12,4.8,0,0.0,3,0,0,5,9,100000,10000000
+in,Product Manager,628,44,43,43,44,7.0,0,0.0,9,0,0,14,35,100000,10000000
+in,Project Manager,932,72,71,71,72,7.7,0,0.0,9,0,0,16,63,100000,10000000
+in,Digital Marketing,555,143,143,143,143,25.8,0,0.0,20,0,0,10,123,100000,10000000
+in,Mechanical Engineer,241,22,22,22,22,9.1,0,0.0,2,0,0,5,20,100000,10000000
+in,Electrical Engineer,187,13,13,13,13,7.0,0,0.0,3,0,0,2,10,100000,10000000
+in,Quality Engineer,154,13,13,13,13,8.4,0,0.0,3,0,0,1,10,100000,10000000
+in,UX Designer,345,47,47,47,47,13.6,0,0.0,5,0,0,4,42,100000,10000000
+in,Graphic Designer,443,71,71,71,71,16.0,0,0.0,6,0,0,3,65,100000,10000000

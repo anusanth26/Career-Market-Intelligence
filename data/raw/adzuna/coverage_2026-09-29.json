@@ -1,0 +1,759 @@
+{
+  "pulled": "2026-09-29T17:20:10.717962+00:00",
+  "max_days_old": 90,
+  "query_type": "title_only",
+  "results": [
+    {
+      "domain": "Technology & Data",
+      "role": "software engineer",
+      "in": {
+        "count": 9126,
+        "mean_salary": 1221768.54
+      },
+      "gb": {
+        "count": 2798,
+        "mean_salary": 79010.57
+      },
+      "us": {
+        "count": 49341,
+        "mean_salary": 165254.94
+      }
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "data analyst",
+      "in": {
+        "count": 839,
+        "mean_salary": 985107.14
+      },
+      "gb": {
+        "count": 566,
+        "mean_salary": 56337.13
+      },
+      "us": {
+        "count": 4840,
+        "mean_salary": 99782.83
+      }
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "data scientist",
+      "in": {
+        "count": 1262,
+        "mean_salary": 1541588.24
+      },
+      "gb": {
+        "count": 554,
+        "mean_salary": 76867.16
+      },
+      "us": {
+        "count": 5140,
+        "mean_salary": 151514.69
+      }
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "data engineer",
+      "in": {
+        "count": 2805,
+        "mean_salary": 1680704.94
+      },
+      "gb": {
+        "count": 1176,
+        "mean_salary": 81747.22
+      },
+      "us": {
+        "count": 13550,
+        "mean_salary": 143672.38
+      }
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "machine learning engineer",
+      "in": {
+        "count": 212,
+        "mean_salary": 1414600
+      },
+      "gb": {
+        "count": 199,
+        "mean_salary": 95906.37
+      },
+      "us": {
+        "count": 2984,
+        "mean_salary": 161746.12
+      }
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "devops engineer",
+      "in": {
+        "count": 822,
+        "mean_salary": 1255700.25
+      },
+      "gb": {
+        "count": 395,
+        "mean_salary": 89758.35
+      },
+      "us": {
+        "count": 2812,
+        "mean_salary": 151033.62
+      }
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "cybersecurity analyst",
+      "in": {
+        "count": 27,
+        "mean_salary": 315000
+      },
+      "gb": {
+        "count": 7,
+        "mean_salary": null
+      },
+      "us": {
+        "count": 592,
+        "mean_salary": 110811.17
+      }
+    },
+    {
+      "domain": "Technology & Data",
+      "role": "cloud engineer",
+      "in": {
+        "count": 842,
+        "mean_salary": 1452302.63
+      },
+      "gb": {
+        "count": 365,
+        "mean_salary": 72000.38
+      },
+      "us": {
+        "count": 5147,
+        "mean_salary": 162022.9
+      }
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "business analyst",
+      "in": {
+        "count": 1263,
+        "mean_salary": 1086753.09
+      },
+      "gb": {
+        "count": 960,
+        "mean_salary": 75788.68
+      },
+      "us": {
+        "count": 8908,
+        "mean_salary": 105618.26
+      }
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "financial analyst",
+      "in": {
+        "count": 587,
+        "mean_salary": 485614.57
+      },
+      "gb": {
+        "count": 658,
+        "mean_salary": 53738.28
+      },
+      "us": {
+        "count": 6065,
+        "mean_salary": 98549.35
+      }
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "accountant",
+      "in": {
+        "count": 1560,
+        "mean_salary": 910762.58
+      },
+      "gb": {
+        "count": 11170,
+        "mean_salary": 44972.66
+      },
+      "us": {
+        "count": 10871,
+        "mean_salary": 85160.43
+      }
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "project manager",
+      "in": {
+        "count": 1836,
+        "mean_salary": 1257574.71
+      },
+      "gb": {
+        "count": 5301,
+        "mean_salary": 71143.15
+      },
+      "us": {
+        "count": 42440,
+        "mean_salary": 119026.42
+      }
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "product manager",
+      "in": {
+        "count": 1822,
+        "mean_salary": 1693402.61
+      },
+      "gb": {
+        "count": 1639,
+        "mean_salary": 73474.28
+      },
+      "us": {
+        "count": 23620,
+        "mean_salary": 163046.25
+      }
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "digital marketing",
+      "in": {
+        "count": 389,
+        "mean_salary": 517677.08
+      },
+      "gb": {
+        "count": 329,
+        "mean_salary": 38599.31
+      },
+      "us": {
+        "count": 1375,
+        "mean_salary": 78305.71
+      }
+    },
+    {
+      "domain": "Business, Finance & Management",
+      "role": "human resources",
+      "in": {
+        "count": 417,
+        "mean_salary": 663710
+      },
+      "gb": {
+        "count": 3084,
+        "mean_salary": 43236.28
+      },
+      "us": {
+        "count": 7587,
+        "mean_salary": 82434.78
+      }
+    },
+    {
+      "domain": "Healthcare",
+      "role": "registered nurse",
+      "in": {
+        "count": 13,
+        "mean_salary": 1462000
+      },
+      "gb": {
+        "count": 2089,
+        "mean_salary": 47125.09
+      },
+      "us": {
+        "count": 87398,
+        "mean_salary": 101214.74
+      }
+    },
+    {
+      "domain": "Healthcare",
+      "role": "pharmacist",
+      "in": {
+        "count": 154,
+        "mean_salary": 1203171.25
+      },
+      "gb": {
+        "count": 429,
+        "mean_salary": 59403.82
+      },
+      "us": {
+        "count": 16934,
+        "mean_salary": 135798.18
+      }
+    },
+    {
+      "domain": "Healthcare",
+      "role": "physiotherapist",
+      "in": {
+        "count": 36,
+        "mean_salary": 513590.91
+      },
+      "gb": {
+        "count": 303,
+        "mean_salary": 47164.46
+      },
+      "us": {
+        "count": 507,
+        "mean_salary": 68660.9
+      }
+    },
+    {
+      "domain": "Healthcare",
+      "role": "radiographer",
+      "in": {
+        "count": 6,
+        "mean_salary": null
+      },
+      "gb": {
+        "count": 259,
+        "mean_salary": 53046.04
+      },
+      "us": {
+        "count": 355,
+        "mean_salary": 99922.27
+      }
+    },
+    {
+      "domain": "Healthcare",
+      "role": "clinical research associate",
+      "in": {
+        "count": 5,
+        "mean_salary": null
+      },
+      "gb": {
+        "count": 32,
+        "mean_salary": 47250
+      },
+      "us": {
+        "count": 670,
+        "mean_salary": 113210.79
+      }
+    },
+    {
+      "domain": "Healthcare",
+      "role": "medical coder",
+      "in": {
+        "count": 36,
+        "mean_salary": 1023333.33
+      },
+      "gb": {
+        "count": 3,
+        "mean_salary": 43333.33
+      },
+      "us": {
+        "count": 394,
+        "mean_salary": 83724.59
+      }
+    },
+    {
+      "domain": "Engineering",
+      "role": "mechanical engineer",
+      "in": {
+        "count": 567,
+        "mean_salary": 896201.92
+      },
+      "gb": {
+        "count": 2529,
+        "mean_salary": 53085.09
+      },
+      "us": {
+        "count": 11799,
+        "mean_salary": 109806.09
+      }
+    },
+    {
+      "domain": "Engineering",
+      "role": "electrical engineer",
+      "in": {
+        "count": 580,
+        "mean_salary": 861705.88
+      },
+      "gb": {
+        "count": 3246,
+        "mean_salary": 53015.92
+      },
+      "us": {
+        "count": 14320,
+        "mean_salary": 113394.7
+      }
+    },
+    {
+      "domain": "Engineering",
+      "role": "civil engineer",
+      "in": {
+        "count": 234,
+        "mean_salary": 905793.1
+      },
+      "gb": {
+        "count": 1383,
+        "mean_salary": 59045.44
+      },
+      "us": {
+        "count": 6666,
+        "mean_salary": 83551.31
+      }
+    },
+    {
+      "domain": "Engineering",
+      "role": "chemical engineer",
+      "in": {
+        "count": 18,
+        "mean_salary": 650000
+      },
+      "gb": {
+        "count": 22,
+        "mean_salary": 53943.14
+      },
+      "us": {
+        "count": 627,
+        "mean_salary": 87258.87
+      }
+    },
+    {
+      "domain": "Engineering",
+      "role": "quality engineer",
+      "in": {
+        "count": 807,
+        "mean_salary": 963107.84
+      },
+      "gb": {
+        "count": 931,
+        "mean_salary": 51584.22
+      },
+      "us": {
+        "count": 6909,
+        "mean_salary": 107732.44
+      }
+    },
+    {
+      "domain": "Engineering",
+      "role": "manufacturing engineer",
+      "in": {
+        "count": 188,
+        "mean_salary": 865264.71
+      },
+      "gb": {
+        "count": 811,
+        "mean_salary": 52975.06
+      },
+      "us": {
+        "count": 7592,
+        "mean_salary": 107848.66
+      }
+    },
+    {
+      "domain": "Logistics, Transport & Supply Chain",
+      "role": "supply chain analyst",
+      "in": {
+        "count": 90,
+        "mean_salary": 536000
+      },
+      "gb": {
+        "count": 21,
+        "mean_salary": 43800
+      },
+      "us": {
+        "count": 593,
+        "mean_salary": 93992.9
+      }
+    },
+    {
+      "domain": "Logistics, Transport & Supply Chain",
+      "role": "logistics coordinator",
+      "in": {
+        "count": 20,
+        "mean_salary": 358333.33
+      },
+      "gb": {
+        "count": 149,
+        "mean_salary": 34014.21
+      },
+      "us": {
+        "count": 914,
+        "mean_salary": 56455.65
+      }
+    },
+    {
+      "domain": "Logistics, Transport & Supply Chain",
+      "role": "warehouse manager",
+      "in": {
+        "count": 73,
+        "mean_salary": 748040
+      },
+      "gb": {
+        "count": 242,
+        "mean_salary": 42781.63
+      },
+      "us": {
+        "count": 2822,
+        "mean_salary": 112992.4
+      }
+    },
+    {
+      "domain": "Logistics, Transport & Supply Chain",
+      "role": "procurement specialist",
+      "in": {
+        "count": 107,
+        "mean_salary": 392175
+      },
+      "gb": {
+        "count": 113,
+        "mean_salary": 52357.22
+      },
+      "us": {
+        "count": 1016,
+        "mean_salary": 82325.7
+      }
+    },
+    {
+      "domain": "Logistics, Transport & Supply Chain",
+      "role": "transport planner",
+      "in": {
+        "count": 22,
+        "mean_salary": 707550
+      },
+      "gb": {
+        "count": 375,
+        "mean_salary": 39513.69
+      },
+      "us": {
+        "count": 406,
+        "mean_salary": 86589.3
+      }
+    },
+    {
+      "domain": "Energy & Environment",
+      "role": "solar engineer",
+      "in": {
+        "count": 32,
+        "mean_salary": 400000
+      },
+      "gb": {
+        "count": 54,
+        "mean_salary": 44882.39
+      },
+      "us": {
+        "count": 161,
+        "mean_salary": 129193.87
+      }
+    },
+    {
+      "domain": "Energy & Environment",
+      "role": "environmental engineer",
+      "in": {
+        "count": 14,
+        "mean_salary": null
+      },
+      "gb": {
+        "count": 89,
+        "mean_salary": 48082.27
+      },
+      "us": {
+        "count": 1455,
+        "mean_salary": 88817.79
+      }
+    },
+    {
+      "domain": "Energy & Environment",
+      "role": "energy analyst",
+      "in": {
+        "count": 25,
+        "mean_salary": 250000
+      },
+      "gb": {
+        "count": 19,
+        "mean_salary": 34186.57
+      },
+      "us": {
+        "count": 212,
+        "mean_salary": 98828.19
+      }
+    },
+    {
+      "domain": "Energy & Environment",
+      "role": "sustainability analyst",
+      "in": {
+        "count": 4,
+        "mean_salary": null
+      },
+      "gb": {
+        "count": 11,
+        "mean_salary": 37666.67
+      },
+      "us": {
+        "count": 82,
+        "mean_salary": 104484.73
+      }
+    },
+    {
+      "domain": "Energy & Environment",
+      "role": "health and safety officer",
+      "in": {
+        "count": 7,
+        "mean_salary": null
+      },
+      "gb": {
+        "count": 214,
+        "mean_salary": 40709.6
+      },
+      "us": {
+        "count": 102,
+        "mean_salary": 101121.51
+      }
+    },
+    {
+      "domain": "Media, Design & Creative",
+      "role": "graphic designer",
+      "in": {
+        "count": 571,
+        "mean_salary": 675612.54
+      },
+      "gb": {
+        "count": 140,
+        "mean_salary": 42834.75
+      },
+      "us": {
+        "count": 1213,
+        "mean_salary": 68205.24
+      }
+    },
+    {
+      "domain": "Media, Design & Creative",
+      "role": "ux designer",
+      "in": {
+        "count": 238,
+        "mean_salary": 1010214.29
+      },
+      "gb": {
+        "count": 133,
+        "mean_salary": 69554.58
+      },
+      "us": {
+        "count": 1119,
+        "mean_salary": 142045.25
+      }
+    },
+    {
+      "domain": "Media, Design & Creative",
+      "role": "content writer",
+      "in": {
+        "count": 183,
+        "mean_salary": 373445.95
+      },
+      "gb": {
+        "count": 11,
+        "mean_salary": 42500
+      },
+      "us": {
+        "count": 114,
+        "mean_salary": 75324.39
+      }
+    },
+    {
+      "domain": "Media, Design & Creative",
+      "role": "video editor",
+      "in": {
+        "count": 286,
+        "mean_salary": 500458.18
+      },
+      "gb": {
+        "count": 64,
+        "mean_salary": 69611.11
+      },
+      "us": {
+        "count": 254,
+        "mean_salary": 64726.93
+      }
+    },
+    {
+      "domain": "Media, Design & Creative",
+      "role": "social media manager",
+      "in": {
+        "count": 138,
+        "mean_salary": 561567.57
+      },
+      "gb": {
+        "count": 128,
+        "mean_salary": 41511.04
+      },
+      "us": {
+        "count": 562,
+        "mean_salary": 82470.87
+      }
+    },
+    {
+      "domain": "Architecture & Construction",
+      "role": "architect",
+      "in": {
+        "count": 3532,
+        "mean_salary": 2206553.25
+      },
+      "gb": {
+        "count": 2404,
+        "mean_salary": 93221.33
+      },
+      "us": {
+        "count": 29301,
+        "mean_salary": 166413.25
+      }
+    },
+    {
+      "domain": "Architecture & Construction",
+      "role": "quantity surveyor",
+      "in": {
+        "count": 57,
+        "mean_salary": 602500
+      },
+      "gb": {
+        "count": 3740,
+        "mean_salary": 66067.01
+      },
+      "us": {
+        "count": 210,
+        "mean_salary": 126019.42
+      }
+    },
+    {
+      "domain": "Architecture & Construction",
+      "role": "site engineer",
+      "in": {
+        "count": 504,
+        "mean_salary": 1058932.69
+      },
+      "gb": {
+        "count": 1057,
+        "mean_salary": 72713.62
+      },
+      "us": {
+        "count": 3639,
+        "mean_salary": 130772.04
+      }
+    },
+    {
+      "domain": "Architecture & Construction",
+      "role": "bim modeller",
+      "in": {
+        "count": 99,
+        "mean_salary": 400000
+      },
+      "gb": {
+        "count": 6,
+        "mean_salary": 34500
+      },
+      "us": {
+        "count": 82,
+        "mean_salary": 84091.27
+      }
+    },
+    {
+      "domain": "Architecture & Construction",
+      "role": "construction manager",
+      "in": {
+        "count": 131,
+        "mean_salary": 741818.18
+      },
+      "gb": {
+        "count": 833,
+        "mean_salary": 71282.08
+      },
+      "us": {
+        "count": 10712,
+        "mean_salary": 115195.22
+      }
+    }
+  ]
+}

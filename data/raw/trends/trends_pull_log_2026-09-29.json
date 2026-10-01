@@ -1,0 +1,66 @@
+{
+  "pull_date": "2026-09-29",
+  "timeframe": "today 5-y",
+  "anchor": "SQL",
+  "category": 0,
+  "geos": {
+    "IN": "IN",
+    "US": "US",
+    "GB": "GB",
+    "WORLD": ""
+  },
+  "batches": [
+    {
+      "geo": "IN",
+      "batch": 1,
+      "terms": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Tableau",
+        "Excel"
+      ],
+      "file": "trends_IN_batch01_2026-09-29.csv",
+      "rows": 262
+    },
+    {
+      "geo": "US",
+      "batch": 1,
+      "terms": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Tableau",
+        "Excel"
+      ],
+      "file": "trends_US_batch01_2026-09-29.csv",
+      "rows": 262
+    },
+    {
+      "geo": "GB",
+      "batch": 1,
+      "terms": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Tableau",
+        "Excel"
+      ],
+      "file": "trends_GB_batch01_2026-09-29.csv",
+      "rows": 262
+    },
+    {
+      "geo": "WORLD",
+      "batch": 1,
+      "terms": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Tableau",
+        "Excel"
+      ],
+      "file": "trends_WORLD_batch01_2026-09-29.csv",
+      "rows": 262
+    }
+  ]
+}

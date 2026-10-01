@@ -1,0 +1,1405 @@
+{
+ "seed": 20261001,
+ "roles": {
+  "Software Engineer": [
+   {
+    "i": 1,
+    "job_id": "5864434547",
+    "title": "Historian System and Software Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 2,
+    "job_id": "5866922827",
+    "title": "Software Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 3,
+    "job_id": "5869171304",
+    "title": "Staff Software Development Engineer - DevOps",
+    "tier": "canonical"
+   },
+   {
+    "i": 4,
+    "job_id": "5876718714",
+    "title": "Senior Software Engineer, YouTube Live, Creator Platform",
+    "tier": "canonical"
+   },
+   {
+    "i": 5,
+    "job_id": "5876949162",
+    "title": "Software Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 6,
+    "job_id": "5887892553",
+    "title": "Software Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 7,
+    "job_id": "5888771191",
+    "title": "Senior Software Developer - D365 CE",
+    "tier": "canonical"
+   },
+   {
+    "i": 8,
+    "job_id": "5888968649",
+    "title": "Senior Software Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 9,
+    "job_id": "5889501167",
+    "title": "Systems/Software Engineer II (Platform diagnostics software development)",
+    "tier": "canonical"
+   },
+   {
+    "i": 10,
+    "job_id": "5890768854",
+    "title": "Software Development Engineer 3 - Microsoft Dynamics Developer",
+    "tier": "canonical"
+   },
+   {
+    "i": 11,
+    "job_id": "5896030195",
+    "title": "Software Developer Intern",
+    "tier": "canonical"
+   },
+   {
+    "i": 12,
+    "job_id": "5896366402",
+    "title": "Software Development Engineer II",
+    "tier": "canonical"
+   },
+   {
+    "i": 13,
+    "job_id": "5896658312",
+    "title": "Staff Software Developer, Salesforce",
+    "tier": "canonical"
+   },
+   {
+    "i": 14,
+    "job_id": "5896675600",
+    "title": "Software Development Engineer, Customer Experience and Business Trends",
+    "tier": "canonical"
+   },
+   {
+    "i": 15,
+    "job_id": "5900730527",
+    "title": "Software Engineer-Java Angular",
+    "tier": "canonical"
+   },
+   {
+    "i": 16,
+    "job_id": "5900743817",
+    "title": "Software Engineer II, ITC",
+    "tier": "canonical"
+   },
+   {
+    "i": 17,
+    "job_id": "5901762425",
+    "title": "Lead Software Engineer (Back-End Engineer)",
+    "tier": "canonical"
+   },
+   {
+    "i": 18,
+    "job_id": "5902729718",
+    "title": "SENIOR SOFTWARE ENGINEER - Embedded C++",
+    "tier": "canonical"
+   },
+   {
+    "i": 19,
+    "job_id": "5902909514",
+    "title": "Sr. Software Engineer- C++",
+    "tier": "canonical"
+   },
+   {
+    "i": 20,
+    "job_id": "5902913391",
+    "title": "Staff Software Development Engineer",
+    "tier": "canonical"
+   }
+  ],
+  "Data Analyst": [
+   {
+    "i": 1,
+    "job_id": "5808699201",
+    "title": "Senior HR Analytics Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 2,
+    "job_id": "5832798151",
+    "title": "Operational Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 3,
+    "job_id": "5845819993",
+    "title": "Drone Data Analyst and Drone Operations Manager Bhubaneswar",
+    "tier": "canonical"
+   },
+   {
+    "i": 4,
+    "job_id": "5845820418",
+    "title": "Data Analyst Data Science Chennai Tamil Nadu India",
+    "tier": "canonical"
+   },
+   {
+    "i": 5,
+    "job_id": "5849135074",
+    "title": "Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 6,
+    "job_id": "5851860321",
+    "title": "Flight Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 7,
+    "job_id": "5854880219",
+    "title": "Data Analyst -Survey Administration",
+    "tier": "canonical"
+   },
+   {
+    "i": 8,
+    "job_id": "5861793318",
+    "title": "Senior Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 9,
+    "job_id": "5867038166",
+    "title": "Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 10,
+    "job_id": "5868794225",
+    "title": "Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 11,
+    "job_id": "5869814087",
+    "title": "Sr. Data Analyst (Data Science)",
+    "tier": "canonical"
+   },
+   {
+    "i": 12,
+    "job_id": "5871276654",
+    "title": "Quantitative Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 13,
+    "job_id": "5876013496",
+    "title": "Senior Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 14,
+    "job_id": "5876718084",
+    "title": "Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 15,
+    "job_id": "5876872332",
+    "title": "Senior Business Intelligence Analyst, Global Sales",
+    "tier": "synonym"
+   },
+   {
+    "i": 16,
+    "job_id": "5887521034",
+    "title": "Senior Data Analyst - SQL, BI Reporting & SAP BW",
+    "tier": "canonical"
+   },
+   {
+    "i": 17,
+    "job_id": "5887951604",
+    "title": "Litigation Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 18,
+    "job_id": "5888775257",
+    "title": "Senior Data Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 19,
+    "job_id": "5898488442",
+    "title": "Data Analyst, EDT Data Strategy & Marketing",
+    "tier": "canonical"
+   },
+   {
+    "i": 20,
+    "job_id": "5900357011",
+    "title": "Senior Data Analyst",
+    "tier": "canonical"
+   }
+  ],
+  "Data Scientist": [
+   {
+    "i": 1,
+    "job_id": "5802152645",
+    "title": "Senior Machine Learning Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 2,
+    "job_id": "5829195104",
+    "title": "Applied Scientist, Alexa International Tech",
+    "tier": "synonym"
+   },
+   {
+    "i": 3,
+    "job_id": "5830611823",
+    "title": "Applied Scientist II, Alexa AI",
+    "tier": "synonym"
+   },
+   {
+    "i": 4,
+    "job_id": "5832093736",
+    "title": "Machine Learning Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 5,
+    "job_id": "5862785824",
+    "title": "Machine Learning Engineer - APAC",
+    "tier": "synonym"
+   },
+   {
+    "i": 6,
+    "job_id": "5875742181",
+    "title": "Lead Machine Learning Engineer (MLops)",
+    "tier": "synonym"
+   },
+   {
+    "i": 7,
+    "job_id": "5876010793",
+    "title": "Data Scientist",
+    "tier": "canonical"
+   },
+   {
+    "i": 8,
+    "job_id": "5876291852",
+    "title": "DATA SCIENTIST / AI-ML / GEN AI ENGINEER",
+    "tier": "canonical"
+   },
+   {
+    "i": 9,
+    "job_id": "5876698693",
+    "title": "HR Data Scientist (People Analytics & Automation)",
+    "tier": "canonical"
+   },
+   {
+    "i": 10,
+    "job_id": "5877287393",
+    "title": "AVP - Data Scientist & AI Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 11,
+    "job_id": "5878678000",
+    "title": "Applied Scientist II, Translation Services",
+    "tier": "synonym"
+   },
+   {
+    "i": 12,
+    "job_id": "5879142487",
+    "title": "Principal Data Scientist - Credit Risk/Lending",
+    "tier": "canonical"
+   },
+   {
+    "i": 13,
+    "job_id": "5879362888",
+    "title": "Senior Applied Scientist, Amazon Music - Search Science, Amazon Music - Search Science",
+    "tier": "synonym"
+   },
+   {
+    "i": 14,
+    "job_id": "5887956728",
+    "title": "Principal Clinical Data Scientist",
+    "tier": "canonical"
+   },
+   {
+    "i": 15,
+    "job_id": "5892689824",
+    "title": "Senior Staff Machine Learning Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 16,
+    "job_id": "5894082565",
+    "title": "AI/ML Data Scientist",
+    "tier": "canonical"
+   },
+   {
+    "i": 17,
+    "job_id": "5895401011",
+    "title": "Machine Learning Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 18,
+    "job_id": "5897176790",
+    "title": "Machine Learning Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 19,
+    "job_id": "5901252795",
+    "title": "Sr Applied Scientist, Amazon Shipping",
+    "tier": "synonym"
+   },
+   {
+    "i": 20,
+    "job_id": "5902287312",
+    "title": "Data Scientist III",
+    "tier": "canonical"
+   }
+  ],
+  "Data Engineer": [
+   {
+    "i": 1,
+    "job_id": "5832087737",
+    "title": "Data Engineer - Amazon Flex, Flex Analytics",
+    "tier": "canonical"
+   },
+   {
+    "i": 2,
+    "job_id": "5832798135",
+    "title": "ETL Developer",
+    "tier": "synonym"
+   },
+   {
+    "i": 3,
+    "job_id": "5832798233",
+    "title": "Big Data Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 4,
+    "job_id": "5859757280",
+    "title": "Data Engineer- Senior Associate- Analytics as Service - Operate",
+    "tier": "canonical"
+   },
+   {
+    "i": 5,
+    "job_id": "5871278980",
+    "title": "ETL Developer (ODI)",
+    "tier": "synonym"
+   },
+   {
+    "i": 6,
+    "job_id": "5875084318",
+    "title": "Data Engineer-Data Platforms-AWS",
+    "tier": "canonical"
+   },
+   {
+    "i": 7,
+    "job_id": "5878277485",
+    "title": "Analytics Engineer Intern",
+    "tier": "synonym"
+   },
+   {
+    "i": 8,
+    "job_id": "5890613486",
+    "title": "Ab Initio ETL Developer",
+    "tier": "synonym"
+   },
+   {
+    "i": 9,
+    "job_id": "5894230944",
+    "title": "Data Engineer - ETL Development",
+    "tier": "canonical"
+   },
+   {
+    "i": 10,
+    "job_id": "5897068106",
+    "title": "Specialist Data Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 11,
+    "job_id": "5898505377",
+    "title": "Data Engineer / Senior Data Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 12,
+    "job_id": "5899864392",
+    "title": "Sr. Security Data Engineer & Developer, Security Data Platform",
+    "tier": "canonical"
+   },
+   {
+    "i": 13,
+    "job_id": "5900348940",
+    "title": "Data Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 14,
+    "job_id": "5900354539",
+    "title": "Data Engineer III GBS IND",
+    "tier": "canonical"
+   },
+   {
+    "i": 15,
+    "job_id": "5900748323",
+    "title": "Data Engineer II",
+    "tier": "canonical"
+   },
+   {
+    "i": 16,
+    "job_id": "5900808802",
+    "title": "Senior Data Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 17,
+    "job_id": "5900875379",
+    "title": "Senior Data Engineer – Spark Streaming & Kafka",
+    "tier": "canonical"
+   },
+   {
+    "i": 18,
+    "job_id": "5900876224",
+    "title": "Lead Data Engineer- MS Fabric",
+    "tier": "canonical"
+   },
+   {
+    "i": 19,
+    "job_id": "5901762429",
+    "title": "Senior GCP Data Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 20,
+    "job_id": "5902942187",
+    "title": "Data Engineer- Customer Recommender",
+    "tier": "canonical"
+   }
+  ],
+  "DevOps / Cloud Engineer": [
+   {
+    "i": 1,
+    "job_id": "5822050828",
+    "title": "Site Reliability Engineer 2",
+    "tier": "synonym"
+   },
+   {
+    "i": 2,
+    "job_id": "5831396032",
+    "title": "Site Reliability Engineer - Lead",
+    "tier": "synonym"
+   },
+   {
+    "i": 3,
+    "job_id": "5855494816",
+    "title": "Senior Site Reliability Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 4,
+    "job_id": "5856198115",
+    "title": "Azure Senior Site Reliability Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 5,
+    "job_id": "5860533562",
+    "title": "Devops Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 6,
+    "job_id": "5862288626",
+    "title": "Senior DevOps Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 7,
+    "job_id": "5869153521",
+    "title": "Senior Backend & Cloud Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 8,
+    "job_id": "5872125792",
+    "title": "Sr Site Reliability Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 9,
+    "job_id": "5876534844",
+    "title": "Senior Data Platform Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 10,
+    "job_id": "5878278215",
+    "title": "Threat Intelligence Platform Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 11,
+    "job_id": "5882274729",
+    "title": "Site Reliability Engineer - Devops, AWS, Python/GO - 4 to 8 years",
+    "tier": "synonym"
+   },
+   {
+    "i": 12,
+    "job_id": "5882766041",
+    "title": "Senior DevOps Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 13,
+    "job_id": "5887208051",
+    "title": "Azure DevOps Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 14,
+    "job_id": "5889221319",
+    "title": "AWS DevOps Engineer (with Networking Skills)",
+    "tier": "canonical"
+   },
+   {
+    "i": 15,
+    "job_id": "5894129291",
+    "title": "AI/ML Site Reliability Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 16,
+    "job_id": "5895362318",
+    "title": "DevOps Engineer, Actimize",
+    "tier": "canonical"
+   },
+   {
+    "i": 17,
+    "job_id": "5897038409",
+    "title": "Staff Platform Engineer",
+    "tier": "synonym"
+   },
+   {
+    "i": 18,
+    "job_id": "5902068580",
+    "title": "Devops Engineer",
+    "tier": "canonical"
+   },
+   {
+    "i": 19,
+    "job_id": "5902068603",
+    "title": "PLATFORM ENGINEER",
+    "tier": "synonym"
+   },
+   {
+    "i": 20,
+    "job_id": "5902535307",
+    "title": "Senior DevOps Engineer - Tieto Banktech",
+    "tier": "canonical"
+   }
+  ],
+  "Business Analyst": [
+   {
+    "i": 1,
+    "job_id": "5812865596",
+    "title": "Group Product Analyst II",
+    "tier": "synonym"
+   },
+   {
+    "i": 2,
+    "job_id": "5848387185",
+    "title": "Senior Product Analyst",
+    "tier": "synonym"
+   },
+   {
+    "i": 3,
+    "job_id": "5850380679",
+    "title": "Business Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 4,
+    "job_id": "5860541862",
+    "title": "Security System Analyst- Level 1",
+    "tier": "synonym"
+   },
+   {
+    "i": 5,
+    "job_id": "5860799309",
+    "title": "Product Analyst, Java/J2EE",
+    "tier": "synonym"
+   },
+   {
+    "i": 6,
+    "job_id": "5862885365",
+    "title": "UK Tax - Global Innovation and Investment Incentives (Gi3 UK) - Business Analyst - Senior Tax Services – Bengaluru",
+    "tier": "canonical"
+   },
+   {
+    "i": 7,
+    "job_id": "5869200745",
+    "title": "Oracle Fusion Controls and System Analyst",
+    "tier": "synonym"
+   },
+   {
+    "i": 8,
+    "job_id": "5879907685",
+    "title": "Lead Business Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 9,
+    "job_id": "5885970300",
+    "title": "Business Analyst Lead",
+    "tier": "canonical"
+   },
+   {
+    "i": 10,
+    "job_id": "5886664665",
+    "title": "Senior Associate - Business Analyst​",
+    "tier": "canonical"
+   },
+   {
+    "i": 11,
+    "job_id": "5888520901",
+    "title": "Business Analyst - Presales",
+    "tier": "canonical"
+   },
+   {
+    "i": 12,
+    "job_id": "5888744464",
+    "title": "Senior Business Analyst - Cloud Migration - M/SM Level",
+    "tier": "canonical"
+   },
+   {
+    "i": 13,
+    "job_id": "5889497944",
+    "title": "Finance Change Business Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 14,
+    "job_id": "5891903629",
+    "title": "Associate Manager Business Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 15,
+    "job_id": "5891903898",
+    "title": "Sr Systems Analyst (Oracle Fusion experience)- Hyderabad- Hybrid (2nd shift)",
+    "tier": "synonym"
+   },
+   {
+    "i": 16,
+    "job_id": "5894231011",
+    "title": "Business Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 17,
+    "job_id": "5897176733",
+    "title": "Senior Business Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 18,
+    "job_id": "5898655759",
+    "title": "Business Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 19,
+    "job_id": "5900734611",
+    "title": "Senior Business Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 20,
+    "job_id": "5902286324",
+    "title": "Business & Systems Analyst (BSA) - Remote",
+    "tier": "synonym"
+   }
+  ],
+  "Product Manager": [
+   {
+    "i": 1,
+    "job_id": "5841954870",
+    "title": "Senior Vice President, POM Product Owner",
+    "tier": "synonym"
+   },
+   {
+    "i": 2,
+    "job_id": "5850376467",
+    "title": "Associate Product Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 3,
+    "job_id": "5855472291",
+    "title": "Product Owner - Veribranch",
+    "tier": "synonym"
+   },
+   {
+    "i": 4,
+    "job_id": "5861231757",
+    "title": "Finance Product Owner Associate",
+    "tier": "synonym"
+   },
+   {
+    "i": 5,
+    "job_id": "5876947455",
+    "title": "Product Owner Banking Rails Money Movement",
+    "tier": "synonym"
+   },
+   {
+    "i": 6,
+    "job_id": "5887938724",
+    "title": "Product Owner",
+    "tier": "synonym"
+   },
+   {
+    "i": 7,
+    "job_id": "5887966952",
+    "title": "SFS Product Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 8,
+    "job_id": "5889345240",
+    "title": "Product Manager, Grid-Tie / On-Grid Inverter",
+    "tier": "canonical"
+   },
+   {
+    "i": 9,
+    "job_id": "5889526623",
+    "title": "Product Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 10,
+    "job_id": "5891403652",
+    "title": "Senior Product Manager Tech, EU INTech - PGX",
+    "tier": "canonical"
+   },
+   {
+    "i": 11,
+    "job_id": "5892973377",
+    "title": "Product Owner",
+    "tier": "synonym"
+   },
+   {
+    "i": 12,
+    "job_id": "5893831264",
+    "title": "Product Owner - Design Automation",
+    "tier": "synonym"
+   },
+   {
+    "i": 13,
+    "job_id": "5894179640",
+    "title": "Product Owner",
+    "tier": "synonym"
+   },
+   {
+    "i": 14,
+    "job_id": "5895349242",
+    "title": "Sr. Product Manager, Progression Intelligence",
+    "tier": "canonical"
+   },
+   {
+    "i": 15,
+    "job_id": "5895355940",
+    "title": "Staff Product Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 16,
+    "job_id": "5895470027",
+    "title": "Principal Product Manager - Business Onboarding Verification",
+    "tier": "canonical"
+   },
+   {
+    "i": 17,
+    "job_id": "5898165768",
+    "title": "Senior Product Manager - Pro Onboarding",
+    "tier": "canonical"
+   },
+   {
+    "i": 18,
+    "job_id": "5901482418",
+    "title": "Software Lifecycle Product Owner",
+    "tier": "synonym"
+   },
+   {
+    "i": 19,
+    "job_id": "5901697406",
+    "title": "Product Manager-ILG (Infrastructure & Logistics Group)-Product Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 20,
+    "job_id": "5902911786",
+    "title": "Product Manager-SALARIED PERSONAL LOANS-NEW-Product Manager",
+    "tier": "canonical"
+   }
+  ],
+  "Project Manager": [
+   {
+    "i": 1,
+    "job_id": "5851144631",
+    "title": "Delivery/ Project Manager - Capital Markets & Trading - - (BFSI)[Shephali]",
+    "tier": "canonical"
+   },
+   {
+    "i": 2,
+    "job_id": "5859117877",
+    "title": "Project Manager /Scrum Master",
+    "tier": "canonical"
+   },
+   {
+    "i": 3,
+    "job_id": "5881150969",
+    "title": "Project Manager - Salesforce Process & Delivery, Officer",
+    "tier": "canonical"
+   },
+   {
+    "i": 4,
+    "job_id": "5889553005",
+    "title": "Technical Project Manager-(CCAAS & Voice Bot Delivery)",
+    "tier": "canonical"
+   },
+   {
+    "i": 5,
+    "job_id": "5889571712",
+    "title": "Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 6,
+    "job_id": "5889577056",
+    "title": "CargoWise Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 7,
+    "job_id": "5890486978",
+    "title": "Project Manager - SaT - GOV - SaT - TCF - Infrastructure Advisory - Ahmedabad",
+    "tier": "canonical"
+   },
+   {
+    "i": 8,
+    "job_id": "5890612504",
+    "title": "GCP Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 9,
+    "job_id": "5890613566",
+    "title": "Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 10,
+    "job_id": "5890802153",
+    "title": "Assistant Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 11,
+    "job_id": "5890814684",
+    "title": "Senior Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 12,
+    "job_id": "5891403973",
+    "title": "Project Manager -Scrum Master - Assistant Vice President",
+    "tier": "canonical"
+   },
+   {
+    "i": 13,
+    "job_id": "5891689173",
+    "title": "Assistant Project Manager (LPG Commercial)",
+    "tier": "canonical"
+   },
+   {
+    "i": 14,
+    "job_id": "5892855217",
+    "title": "Marketing Project Manager Associate",
+    "tier": "canonical"
+   },
+   {
+    "i": 15,
+    "job_id": "5893187953",
+    "title": "Senior Project Manager – Oil & Gas / Industrial Projects - Thane",
+    "tier": "canonical"
+   },
+   {
+    "i": 16,
+    "job_id": "5894087604",
+    "title": "Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 17,
+    "job_id": "5894099544",
+    "title": "People Experience & Change Specialist (Associate Project Manager)",
+    "tier": "canonical"
+   },
+   {
+    "i": 18,
+    "job_id": "5895356567",
+    "title": "Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 19,
+    "job_id": "5895358266",
+    "title": "Sr Project Manager, Professional Services",
+    "tier": "canonical"
+   },
+   {
+    "i": 20,
+    "job_id": "5895406670",
+    "title": "Assistant Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 21,
+    "job_id": "5895535246",
+    "title": "SAP Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 22,
+    "job_id": "5896068570",
+    "title": "Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 23,
+    "job_id": "5896367433",
+    "title": "Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 24,
+    "job_id": "5896613853",
+    "title": "Junior Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 25,
+    "job_id": "5897038938",
+    "title": "Assistant Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 26,
+    "job_id": "5897039501",
+    "title": "Associate Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 27,
+    "job_id": "5897044606",
+    "title": "Sr. Technology Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 28,
+    "job_id": "5897054374",
+    "title": "Senior Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 29,
+    "job_id": "5897060346",
+    "title": "Technical Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 30,
+    "job_id": "5897296398",
+    "title": "Project Manager Observability",
+    "tier": "canonical"
+   },
+   {
+    "i": 31,
+    "job_id": "5897335681",
+    "title": "Finance Integration Project Manager (Post Merger Integration)",
+    "tier": "canonical"
+   },
+   {
+    "i": 32,
+    "job_id": "5897949675",
+    "title": "Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 33,
+    "job_id": "5898178930",
+    "title": "NPDI Project Manager Products and Solutions - Engineering Senior Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 34,
+    "job_id": "5898179016",
+    "title": "Senior Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 35,
+    "job_id": "5898399968",
+    "title": "SAP Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 36,
+    "job_id": "5898490897",
+    "title": "Innovation Portfolio & Project Manager - IMEA",
+    "tier": "canonical"
+   },
+   {
+    "i": 37,
+    "job_id": "5899259783",
+    "title": "Data Center Project Manager – Network Connectivity & Structured Cabling",
+    "tier": "canonical"
+   },
+   {
+    "i": 38,
+    "job_id": "5899281352",
+    "title": "Sr. Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 39,
+    "job_id": "5899328299",
+    "title": "Project Manager - Data",
+    "tier": "canonical"
+   },
+   {
+    "i": 40,
+    "job_id": "5899510821",
+    "title": "Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 41,
+    "job_id": "5899510939",
+    "title": "Technical Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 42,
+    "job_id": "5899840661",
+    "title": "Senior Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 43,
+    "job_id": "5899847580",
+    "title": "Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 44,
+    "job_id": "5899854600",
+    "title": "Technical Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 45,
+    "job_id": "5899871250",
+    "title": "Project Manager - Flare Systems | Heavy Engineering | Oil & Gas | Pressure Vessels",
+    "tier": "canonical"
+   },
+   {
+    "i": 46,
+    "job_id": "5900183995",
+    "title": "Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 47,
+    "job_id": "5902841827",
+    "title": "Project Manager - India",
+    "tier": "canonical"
+   },
+   {
+    "i": 48,
+    "job_id": "5902913222",
+    "title": "Project Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 49,
+    "job_id": "5902913760",
+    "title": "Project Manager Observability",
+    "tier": "canonical"
+   },
+   {
+    "i": 50,
+    "job_id": "5902913853",
+    "title": "Customer Project Manager",
+    "tier": "canonical"
+   }
+  ],
+  "Digital Marketing": [
+   {
+    "i": 1,
+    "job_id": "5793986993",
+    "title": "SEO Specialist",
+    "tier": "synonym"
+   },
+   {
+    "i": 2,
+    "job_id": "5815241059",
+    "title": "Digital Marketing Faculty",
+    "tier": "canonical"
+   },
+   {
+    "i": 3,
+    "job_id": "5816439324",
+    "title": "Digital Marketing Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 4,
+    "job_id": "5832798272",
+    "title": "Digital Marketing Specialist",
+    "tier": "canonical"
+   },
+   {
+    "i": 5,
+    "job_id": "5842589805",
+    "title": "Digital Marketing Executive And Seo Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 6,
+    "job_id": "5849116304",
+    "title": "Growth Manager - Performance Marketing",
+    "tier": "synonym"
+   },
+   {
+    "i": 7,
+    "job_id": "5854847264",
+    "title": "Content and Creative Strategist Digital Marketing Agency D2C",
+    "tier": "canonical"
+   },
+   {
+    "i": 8,
+    "job_id": "5857748633",
+    "title": "Digital Marketing Executive",
+    "tier": "canonical"
+   },
+   {
+    "i": 9,
+    "job_id": "5858121092",
+    "title": "Digital Marketing",
+    "tier": "canonical"
+   },
+   {
+    "i": 10,
+    "job_id": "5866126796",
+    "title": "Digital Marketing & Creative Operations Manager",
+    "tier": "canonical"
+   },
+   {
+    "i": 11,
+    "job_id": "5879902508",
+    "title": "Performance Marketing Manager",
+    "tier": "synonym"
+   },
+   {
+    "i": 12,
+    "job_id": "5884155779",
+    "title": "MOC Performance Marketing Sr Exec/Asst Mngr M/F 5-6YRS(7-11 LPA)",
+    "tier": "synonym"
+   },
+   {
+    "i": 13,
+    "job_id": "5885447126",
+    "title": "Digital Marketing Specialist Content Marketing India GDC Gurugram New Delhi",
+    "tier": "canonical"
+   },
+   {
+    "i": 14,
+    "job_id": "5885450808",
+    "title": "Digital Marketing Account Manager - Intern",
+    "tier": "canonical"
+   },
+   {
+    "i": 15,
+    "job_id": "5891693404",
+    "title": "Business Development Manager — Agency Sales, US Clients (Digital Marketing Experience Required)",
+    "tier": "canonical"
+   },
+   {
+    "i": 16,
+    "job_id": "5891878416",
+    "title": "Sr. Digital Marketing Analyst",
+    "tier": "canonical"
+   },
+   {
+    "i": 17,
+    "job_id": "5894623404",
+    "title": "Digital Marketing Executive",
+    "tier": "canonical"
+   },
+   {
+    "i": 18,
+    "job_id": "5895239840",
+    "title": "WordPress Developer & SEO Specialist",
+    "tier": "synonym"
+   },
+   {
+    "i": 19,
+    "job_id": "5899029225",
+    "title": "Performance Marketing Manager",
+    "tier": "synonym"
+   },
+   {
+    "i": 20,
+    "job_id": "5902841838",
+    "title": "Performance Marketing Specialist - Dostt Supply",
+    "tier": "synonym"
+   }
+  ],
+  "Graphic Designer": [
+   {
+    "i": 1,
+    "job_id": "5836575902",
+    "title": "Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 2,
+    "job_id": "5840369677",
+    "title": "Lead Digital Visual Designer",
+    "tier": "synonym"
+   },
+   {
+    "i": 3,
+    "job_id": "5842613329",
+    "title": "Senior Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 4,
+    "job_id": "5847243722",
+    "title": "Graphic designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 5,
+    "job_id": "5854847275",
+    "title": "Graphic Designer Marketing and Design",
+    "tier": "canonical"
+   },
+   {
+    "i": 6,
+    "job_id": "5856196294",
+    "title": "Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 7,
+    "job_id": "5857139875",
+    "title": "AI Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 8,
+    "job_id": "5860534840",
+    "title": "Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 9,
+    "job_id": "5860977404",
+    "title": "Senior Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 10,
+    "job_id": "5861792455",
+    "title": "Video Editor and Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 11,
+    "job_id": "5872936948",
+    "title": "Senior Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 12,
+    "job_id": "5876947821",
+    "title": "Graphic Designer Multitasking Wizard",
+    "tier": "canonical"
+   },
+   {
+    "i": 13,
+    "job_id": "5880953054",
+    "title": "Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 14,
+    "job_id": "5886402711",
+    "title": "Senior Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 15,
+    "job_id": "5889221399",
+    "title": "Creative Designer",
+    "tier": "synonym"
+   },
+   {
+    "i": 16,
+    "job_id": "5889557101",
+    "title": "Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 17,
+    "job_id": "5891690222",
+    "title": "Graduate Trainee- Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 18,
+    "job_id": "5896613742",
+    "title": "Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 19,
+    "job_id": "5897294743",
+    "title": "Multimedia Graphic Designer",
+    "tier": "canonical"
+   },
+   {
+    "i": 20,
+    "job_id": "5899844231",
+    "title": "Lead Visual Designer",
+    "tier": "synonym"
+   }
+  ]
+ }
+}

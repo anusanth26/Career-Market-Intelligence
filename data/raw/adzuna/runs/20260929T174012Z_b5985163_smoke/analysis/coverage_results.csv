@@ -1,0 +1,14 @@
+level,domain,canonical_role,tier,query_variant,country,api_count,raw_count,title_match_count,exact_duplicates_removed,near_duplicates_removed,employer_cap_removed,clean_count,salary_count,salary_percentage,collection_timestamp,unmatched_count,excluded_by_rule_count,ambiguous_multi_count,mapped_to_other_role_count,capped_by_max_records,query_status,api_count_sum_over_variants,yield_clean_per_raw,employer_cap_n,projected_clean_if_fully_pulled_UPPER_BOUND_inferred
+variant,Technology & Data,Data Analyst,firm,data analyst,in,842,100,52,0,0,0,52,5,9.6,2026-09-29T17:40:17Z,40,0,4,4,True,complete,,,,
+variant,Technology & Data,Data Analyst,firm,bi analyst,in,63,63,26,1,2,0,23,1,4.3,2026-09-29T17:40:22Z,32,0,0,5,False,complete,,,,
+variant,Technology & Data,Data Analyst,firm,business intelligence analyst,in,44,44,31,2,3,0,26,3,11.5,2026-09-29T17:40:26Z,12,0,0,1,False,complete,,,,
+variant,Technology & Data,Data Analyst,firm,reporting analyst,in,259,100,4,4,0,0,0,0,0.0,2026-09-29T17:40:31Z,91,0,0,5,True,complete,,,,
+role,Technology & Data,Data Analyst,firm,ALL_VARIANTS,in,842,307,113,7,5,0,101,9,8.9,2026-09-29T17:40:54Z,,,,,True,complete,1208,0.329,5,397
+variant,Technology & Data,Security Engineer,probe,security engineer,in,811,100,52,0,4,0,48,3,6.2,2026-09-29T17:40:37Z,25,0,1,22,True,complete,,,,
+role,Technology & Data,Security Engineer,probe,ALL_VARIANTS,in,811,100,52,0,4,0,48,3,6.2,2026-09-29T17:40:54Z,,,,,True,complete,811,0.48,2,389
+variant,"Business, Finance & Management",Digital Marketing,firm,digital marketing,in,390,100,96,0,3,0,93,29,31.2,2026-09-29T17:40:42Z,3,0,1,0,True,complete,,,,
+variant,"Business, Finance & Management",Digital Marketing,firm,seo specialist,in,54,54,39,0,1,0,38,10,26.3,2026-09-29T17:40:45Z,15,0,0,0,False,complete,,,,
+variant,"Business, Finance & Management",Digital Marketing,firm,performance marketing,in,180,100,98,0,5,0,93,16,17.2,2026-09-29T17:40:52Z,0,0,2,0,True,complete,,,,
+variant,"Business, Finance & Management",Digital Marketing,firm,growth marketer,in,15,15,10,0,0,0,10,5,50.0,2026-09-29T17:40:54Z,5,0,0,0,False,complete,,,,
+role,"Business, Finance & Management",Digital Marketing,firm,ALL_VARIANTS,in,390,269,243,0,9,0,234,60,25.6,2026-09-29T17:40:54Z,,,,,True,complete,639,0.87,11,556
+group,Technology & Data,GROUP:security (all members combined),probe,ALL_MEMBERS,in,,,65,0,7,1,57,3,5.3,2026-09-29T17:40:54Z,,,,,,,,,,

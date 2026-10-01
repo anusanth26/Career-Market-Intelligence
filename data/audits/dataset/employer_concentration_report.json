@@ -1,0 +1,820 @@
+{
+ "core_overall": {
+  "effective_number_of_employers": 261.1,
+  "rows": 6662,
+  "rows_with_employer": 6661,
+  "top_employer_count": 292,
+  "top_employer_percentage": 4.38,
+  "unique_employers": 2605
+ },
+ "employer_cap_status": "The 5%-per-employer cap is part of the collection design but was NEVER applied to raw data; earlier analysis applied it only when computing clean counts. The FULL validated dataset does NOT remove rows for it (`employer_cap_5pct_retained` flags them); scripts/finalize_dataset.py applies the cap deterministically to build the final core analysis dataset. These are the UNCAPPED statistics.",
+ "employers_with_more_than_10_core_postings": 78,
+ "per_role": {
+  "Business Analyst": {
+   "capped_view": {
+    "effective_number_of_employers": 147.4,
+    "rows": 870,
+    "rows_with_employer": 870,
+    "top_employer_count": 43,
+    "top_employer_percentage": 4.94,
+    "unique_employers": 476
+   },
+   "top_employers_uncapped": [
+    [
+     "Amazon",
+     46
+    ],
+    [
+     "Accenture",
+     19
+    ],
+    [
+     "Thermo Fisher Scientific",
+     19
+    ],
+    [
+     "Capco",
+     15
+    ],
+    [
+     "State Street",
+     12
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 141.1,
+    "rows": 873,
+    "rows_with_employer": 873,
+    "top_employer_count": 46,
+    "top_employer_percentage": 5.27,
+    "unique_employers": 476
+   }
+  },
+  "Cybersecurity Analyst": {
+   "capped_view": {
+    "effective_number_of_employers": 8.0,
+    "rows": 8,
+    "rows_with_employer": 8,
+    "top_employer_count": 1,
+    "top_employer_percentage": 12.5,
+    "unique_employers": 8
+   },
+   "top_employers_uncapped": [
+    [
+     "Applied Materials",
+     1
+    ],
+    [
+     "Talisman HR Solutions",
+     1
+    ],
+    [
+     "Roche",
+     1
+    ],
+    [
+     "DexCom",
+     1
+    ],
+    [
+     "TerraPay",
+     1
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 8.0,
+    "rows": 8,
+    "rows_with_employer": 8,
+    "top_employer_count": 1,
+    "top_employer_percentage": 12.5,
+    "unique_employers": 8
+   }
+  },
+  "Cybersecurity Engineer": {
+   "capped_view": {
+    "effective_number_of_employers": 44.6,
+    "rows": 63,
+    "rows_with_employer": 63,
+    "top_employer_count": 3,
+    "top_employer_percentage": 4.76,
+    "unique_employers": 51
+   },
+   "top_employers_uncapped": [
+    [
+     "GE Vernova",
+     4
+    ],
+    [
+     "Bread Financial",
+     2
+    ],
+    [
+     "Yokogawa",
+     2
+    ],
+    [
+     "Magna International",
+     2
+    ],
+    [
+     "Trane Technologies",
+     2
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 42.7,
+    "rows": 64,
+    "rows_with_employer": 64,
+    "top_employer_count": 4,
+    "top_employer_percentage": 6.25,
+    "unique_employers": 51
+   }
+  },
+  "Data Analyst": {
+   "capped_view": {
+    "effective_number_of_employers": 264.5,
+    "rows": 526,
+    "rows_with_employer": 526,
+    "top_employer_count": 10,
+    "top_employer_percentage": 1.9,
+    "unique_employers": 376
+   },
+   "top_employers_uncapped": [
+    [
+     "EXL",
+     10
+    ],
+    [
+     "Capco",
+     7
+    ],
+    [
+     "NTT America, Inc.",
+     5
+    ],
+    [
+     "MAXGEN TECHNOLOGIES PRIVATE LIMITED",
+     5
+    ],
+    [
+     "Hitachi",
+     4
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 264.5,
+    "rows": 526,
+    "rows_with_employer": 526,
+    "top_employer_count": 10,
+    "top_employer_percentage": 1.9,
+    "unique_employers": 376
+   }
+  },
+  "Data Engineer": {
+   "capped_view": {
+    "effective_number_of_employers": 106.8,
+    "rows": 466,
+    "rows_with_employer": 466,
+    "top_employer_count": 23,
+    "top_employer_percentage": 4.94,
+    "unique_employers": 279
+   },
+   "top_employers_uncapped": [
+    [
+     "Tata Consultancy Services",
+     27
+    ],
+    [
+     "Amazon",
+     15
+    ],
+    [
+     "PricewaterhouseCoopers",
+     15
+    ],
+    [
+     "Accenture",
+     10
+    ],
+    [
+     "BSR & Co",
+     9
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 98.9,
+    "rows": 470,
+    "rows_with_employer": 470,
+    "top_employer_count": 27,
+    "top_employer_percentage": 5.74,
+    "unique_employers": 279
+   }
+  },
+  "Data Scientist": {
+   "capped_view": {
+    "effective_number_of_employers": 96.2,
+    "rows": 626,
+    "rows_with_employer": 626,
+    "top_employer_count": 34,
+    "top_employer_percentage": 5.43,
+    "unique_employers": 325
+   },
+   "top_employers_uncapped": [
+    [
+     "Amazon",
+     99
+    ],
+    [
+     "Amgen",
+     25
+    ],
+    [
+     "ADCI - Karnataka",
+     25
+    ],
+    [
+     "Warner Bros. Discovery",
+     11
+    ],
+    [
+     "Microsoft Corporation",
+     10
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 37.5,
+    "rows": 691,
+    "rows_with_employer": 691,
+    "top_employer_count": 99,
+    "top_employer_percentage": 14.33,
+    "unique_employers": 325
+   }
+  },
+  "Delivery Manager": {
+   "capped_view": {
+    "effective_number_of_employers": 79.3,
+    "rows": 133,
+    "rows_with_employer": 133,
+    "top_employer_count": 4,
+    "top_employer_percentage": 3.01,
+    "unique_employers": 101
+   },
+   "top_employers_uncapped": [
+    [
+     "Infosys Limited",
+     4
+    ],
+    [
+     "EPAM Systems",
+     4
+    ],
+    [
+     "Genpact",
+     4
+    ],
+    [
+     "BP",
+     3
+    ],
+    [
+     "Hitachi",
+     3
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 79.3,
+    "rows": 133,
+    "rows_with_employer": 133,
+    "top_employer_count": 4,
+    "top_employer_percentage": 3.01,
+    "unique_employers": 101
+   }
+  },
+  "DevOps / Cloud Engineer": {
+   "capped_view": {
+    "effective_number_of_employers": 183.7,
+    "rows": 909,
+    "rows_with_employer": 909,
+    "top_employer_count": 45,
+    "top_employer_percentage": 4.95,
+    "unique_employers": 540
+   },
+   "top_employers_uncapped": [
+    [
+     "Accenture",
+     46
+    ],
+    [
+     "London Stock Exchange Group",
+     14
+    ],
+    [
+     "Infosys Limited",
+     14
+    ],
+    [
+     "Vrinda International",
+     12
+    ],
+    [
+     "Kyndryl",
+     10
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 180.4,
+    "rows": 910,
+    "rows_with_employer": 910,
+    "top_employer_count": 46,
+    "top_employer_percentage": 5.05,
+    "unique_employers": 540
+   }
+  },
+  "Digital Marketing": {
+   "capped_view": {
+    "effective_number_of_employers": 250.8,
+    "rows": 562,
+    "rows_with_employer": 561,
+    "top_employer_count": 13,
+    "top_employer_percentage": 2.32,
+    "unique_employers": 422
+   },
+   "top_employers_uncapped": [
+    [
+     "Lokal App",
+     13
+    ],
+    [
+     "Happiest Resume",
+     11
+    ],
+    [
+     "Weekday AI",
+     10
+    ],
+    [
+     "Hirestar job Bank",
+     5
+    ],
+    [
+     "one75mbhrm pvt ltd",
+     5
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 250.8,
+    "rows": 562,
+    "rows_with_employer": 561,
+    "top_employer_count": 13,
+    "top_employer_percentage": 2.32,
+    "unique_employers": 422
+   }
+  },
+  "Financial Analyst": {
+   "capped_view": {
+    "effective_number_of_employers": 65.6,
+    "rows": 305,
+    "rows_with_employer": 305,
+    "top_employer_count": 17,
+    "top_employer_percentage": 5.57,
+    "unique_employers": 178
+   },
+   "top_employers_uncapped": [
+    [
+     "Amazon",
+     56
+    ],
+    [
+     "HP",
+     19
+    ],
+    [
+     "ADCI - Karnataka",
+     11
+    ],
+    [
+     "American Express",
+     11
+    ],
+    [
+     "Mercor",
+     10
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 27.6,
+    "rows": 346,
+    "rows_with_employer": 346,
+    "top_employer_count": 56,
+    "top_employer_percentage": 16.18,
+    "unique_employers": 178
+   }
+  },
+  "Graphic Designer": {
+   "capped_view": {
+    "effective_number_of_employers": 287.4,
+    "rows": 418,
+    "rows_with_employer": 418,
+    "top_employer_count": 8,
+    "top_employer_percentage": 1.91,
+    "unique_employers": 365
+   },
+   "top_employers_uncapped": [
+    [
+     "Weekday AI",
+     8
+    ],
+    [
+     "Happiest Resume",
+     6
+    ],
+    [
+     "Cogniter Technologies",
+     5
+    ],
+    [
+     "Amazon",
+     3
+    ],
+    [
+     "Tekion",
+     3
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 287.4,
+    "rows": 418,
+    "rows_with_employer": 418,
+    "top_employer_count": 8,
+    "top_employer_percentage": 1.91,
+    "unique_employers": 365
+   }
+  },
+  "Information Security Analyst": {
+   "capped_view": {
+    "effective_number_of_employers": 19.0,
+    "rows": 19,
+    "rows_with_employer": 19,
+    "top_employer_count": 1,
+    "top_employer_percentage": 5.26,
+    "unique_employers": 19
+   },
+   "top_employers_uncapped": [
+    [
+     "Nike",
+     3
+    ],
+    [
+     "Equitas Small Finance Bank",
+     2
+    ],
+    [
+     "AJAIA",
+     1
+    ],
+    [
+     "Applied Materials",
+     1
+    ],
+    [
+     "NTT America, Inc.",
+     1
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 16.1,
+    "rows": 22,
+    "rows_with_employer": 22,
+    "top_employer_count": 3,
+    "top_employer_percentage": 13.64,
+    "unique_employers": 19
+   }
+  },
+  "Information Security Engineer": {
+   "capped_view": {
+    "effective_number_of_employers": 27.0,
+    "rows": 36,
+    "rows_with_employer": 36,
+    "top_employer_count": 2,
+    "top_employer_percentage": 5.56,
+    "unique_employers": 30
+   },
+   "top_employers_uncapped": [
+    [
+     "Nike",
+     5
+    ],
+    [
+     "UnitedHealth Group",
+     4
+    ],
+    [
+     "Wells Fargo Bank",
+     4
+    ],
+    [
+     "Wells Fargo",
+     4
+    ],
+    [
+     "MoonPay",
+     2
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 19.3,
+    "rows": 45,
+    "rows_with_employer": 45,
+    "top_employer_count": 5,
+    "top_employer_percentage": 11.11,
+    "unique_employers": 30
+   }
+  },
+  "Product Manager": {
+   "capped_view": {
+    "effective_number_of_employers": 168.5,
+    "rows": 635,
+    "rows_with_employer": 635,
+    "top_employer_count": 25,
+    "top_employer_percentage": 3.94,
+    "unique_employers": 382
+   },
+   "top_employers_uncapped": [
+    [
+     "Amazon",
+     25
+    ],
+    [
+     "Tangem",
+     12
+    ],
+    [
+     "BNY Mellon",
+     11
+    ],
+    [
+     "Barclays",
+     9
+    ],
+    [
+     "UnitedHealth Group",
+     8
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 168.5,
+    "rows": 635,
+    "rows_with_employer": 635,
+    "top_employer_count": 25,
+    "top_employer_percentage": 3.94,
+    "unique_employers": 382
+   }
+  },
+  "Program Manager": {
+   "capped_view": {
+    "effective_number_of_employers": 68.4,
+    "rows": 295,
+    "rows_with_employer": 295,
+    "top_employer_count": 18,
+    "top_employer_percentage": 6.1,
+    "unique_employers": 184
+   },
+   "top_employers_uncapped": [
+    [
+     "Amazon",
+     93
+    ],
+    [
+     "Google",
+     19
+    ],
+    [
+     "ADCI HYD 13 SEZ",
+     10
+    ],
+    [
+     "ADCI - Karnataka",
+     8
+    ],
+    [
+     "ASSPL - Karnataka",
+     8
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 14.3,
+    "rows": 371,
+    "rows_with_employer": 371,
+    "top_employer_count": 93,
+    "top_employer_percentage": 25.07,
+    "unique_employers": 184
+   }
+  },
+  "Project Manager": {
+   "capped_view": {
+    "effective_number_of_employers": 132.1,
+    "rows": 315,
+    "rows_with_employer": 315,
+    "top_employer_count": 15,
+    "top_employer_percentage": 4.76,
+    "unique_employers": 245
+   },
+   "top_employers_uncapped": [
+    [
+     "Cushman & Wakefield",
+     17
+    ],
+    [
+     "Jobgether",
+     10
+    ],
+    [
+     "Hitachi",
+     5
+    ],
+    [
+     "Capco",
+     4
+    ],
+    [
+     "Kyndryl",
+     4
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 123.3,
+    "rows": 317,
+    "rows_with_employer": 317,
+    "top_employer_count": 17,
+    "top_employer_percentage": 5.36,
+    "unique_employers": 245
+   }
+  },
+  "Scrum Master": {
+   "capped_view": {
+    "effective_number_of_employers": 64.2,
+    "rows": 109,
+    "rows_with_employer": 109,
+    "top_employer_count": 5,
+    "top_employer_percentage": 4.59,
+    "unique_employers": 85
+   },
+   "top_employers_uncapped": [
+    [
+     "Amgen",
+     6
+    ],
+    [
+     "Infosys Limited",
+     4
+    ],
+    [
+     "embIND Embitel Technologies",
+     3
+    ],
+    [
+     "PricewaterhouseCoopers",
+     3
+    ],
+    [
+     "S&P Global",
+     3
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 61.7,
+    "rows": 110,
+    "rows_with_employer": 110,
+    "top_employer_count": 6,
+    "top_employer_percentage": 5.45,
+    "unique_employers": 85
+   }
+  },
+  "Security Engineer": {
+   "capped_view": {
+    "effective_number_of_employers": 188.5,
+    "rows": 378,
+    "rows_with_employer": 378,
+    "top_employer_count": 8,
+    "top_employer_percentage": 2.12,
+    "unique_employers": 263
+   },
+   "top_employers_uncapped": [
+    [
+     "Tekion",
+     8
+    ],
+    [
+     "Amazon",
+     6
+    ],
+    [
+     "SNSIN",
+     6
+    ],
+    [
+     "Unisys",
+     4
+    ],
+    [
+     "Tata Consultancy Services",
+     4
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 188.5,
+    "rows": 378,
+    "rows_with_employer": 378,
+    "top_employer_count": 8,
+    "top_employer_percentage": 2.12,
+    "unique_employers": 263
+   }
+  },
+  "Software Engineer": {
+   "capped_view": {
+    "effective_number_of_employers": 107.1,
+    "rows": 1206,
+    "rows_with_employer": 1206,
+    "top_employer_count": 63,
+    "top_employer_percentage": 5.22,
+    "unique_employers": 506
+   },
+   "top_employers_uncapped": [
+    [
+     "Amazon",
+     97
+    ],
+    [
+     "Accenture",
+     83
+    ],
+    [
+     "Google",
+     21
+    ],
+    [
+     "UPS",
+     18
+    ],
+    [
+     "ADCI - Karnataka",
+     16
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 72.4,
+    "rows": 1260,
+    "rows_with_employer": 1260,
+    "top_employer_count": 97,
+    "top_employer_percentage": 7.7,
+    "unique_employers": 506
+   }
+  },
+  "UX Designer": {
+   "capped_view": {
+    "effective_number_of_employers": 166.4,
+    "rows": 350,
+    "rows_with_employer": 350,
+    "top_employer_count": 11,
+    "top_employer_percentage": 3.14,
+    "unique_employers": 266
+   },
+   "top_employers_uncapped": [
+    [
+     "Amazon",
+     11
+    ],
+    [
+     "Staffnixcom",
+     10
+    ],
+    [
+     "Infosys Limited",
+     7
+    ],
+    [
+     "Sprinklr",
+     4
+    ],
+    [
+     "OKX",
+     4
+    ]
+   ],
+   "uncapped": {
+    "effective_number_of_employers": 166.4,
+    "rows": 350,
+    "rows_with_employer": 350,
+    "top_employer_count": 11,
+    "top_employer_percentage": 3.14,
+    "unique_employers": 266
+   }
+  }
+ },
+ "rows_missing_employer_core": 1,
+ "targets": {
+  "distinct_employers_min": 100,
+  "effective_employers_min": 50,
+  "top_employer_pct_max": 6.0
+ }
+}

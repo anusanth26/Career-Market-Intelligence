@@ -1,0 +1,335 @@
+{
+ "requests_completed": [
+  "B1",
+  "B1_repeat2",
+  "B1_repeat3",
+  "B2",
+  "B3",
+  "G1_direct_with_SQL",
+  "L1_mid_anchor"
+ ],
+ "note": "All 7 planned requests completed (B1, B1_repeat2, B1_repeat3, B2, B3, L1_mid_anchor, G1_direct_with_SQL). Trends returned HTTP 429 on requests 6 and 7 of 7 and recovered after 60-120 s waits; the job was stopped before its own analysis step, so the analysis was re-run offline on the saved CSVs.",
+ "batch_means": {
+  "B1": {
+   "SQL": 32.5,
+   "Python": 67.11,
+   "Docker": 5.79,
+   "Kubernetes": 2.85,
+   "Tableau": 2.75
+  },
+  "B1_repeat2": {
+   "SQL": 32.5,
+   "Python": 67.11,
+   "Docker": 5.79,
+   "Kubernetes": 2.85,
+   "Tableau": 2.75
+  },
+  "B1_repeat3": {
+   "SQL": 32.5,
+   "Python": 67.11,
+   "Docker": 5.79,
+   "Kubernetes": 2.85,
+   "Tableau": 2.75
+  },
+  "B2": {
+   "SQL": 31.2,
+   "Power BI": 6.27,
+   "Figma": 5.73,
+   "SEO": 7.88,
+   "Jira": 3.66
+  },
+  "B3": {
+   "SQL": 65.41,
+   "Terraform": 4.15,
+   "Snowflake": 4.89,
+   "Photoshop": 21.69,
+   "Docker": 11.67
+  },
+  "G1_direct_with_SQL": {
+   "SQL": 65.42,
+   "Terraform": 4.15,
+   "Snowflake": 4.89,
+   "Tableau": 5.6,
+   "Kubernetes": 5.93
+  },
+  "L1_mid_anchor": {
+   "Photoshop": 69.61,
+   "Terraform": 13.21,
+   "Snowflake": 15.7,
+   "Tableau": 18.06,
+   "Kubernetes": 18.95
+  }
+ },
+ "R1_repeatability_B1x3": {
+  "SQL": {
+   "mean": 32.5,
+   "median_abs_diff": 0.0,
+   "p95_abs_diff": 0.0,
+   "max_abs_diff": 0.0,
+   "min_pearson_r": 1.0,
+   "identical": true
+  },
+  "Python": {
+   "mean": 67.11,
+   "median_abs_diff": 0.0,
+   "p95_abs_diff": 0.0,
+   "max_abs_diff": 0.0,
+   "min_pearson_r": 1.0,
+   "identical": true
+  },
+  "Docker": {
+   "mean": 5.79,
+   "median_abs_diff": 0.0,
+   "p95_abs_diff": 0.0,
+   "max_abs_diff": 0.0,
+   "min_pearson_r": 1.0,
+   "identical": true
+  },
+  "Kubernetes": {
+   "mean": 2.85,
+   "median_abs_diff": 0.0,
+   "p95_abs_diff": 0.0,
+   "max_abs_diff": 0.0,
+   "min_pearson_r": 1.0,
+   "identical": true
+  },
+  "Tableau": {
+   "mean": 2.75,
+   "median_abs_diff": 0.0,
+   "p95_abs_diff": 0.0,
+   "max_abs_diff": 0.0,
+   "min_pearson_r": 1.0,
+   "identical": true
+  }
+ },
+ "R2_companion_independence": {
+  "Docker/SQL": {
+   "B1": 0.1783,
+   "B3": 0.1784,
+   "rel_diff_pct": 0.1
+  },
+  "Docker_series_pearson_B1_B3": 0.93,
+  "SQL_series_pearson": {
+   "B1_B2": 0.9988,
+   "B1_B3": 0.9995,
+   "B2_B3": 0.9993
+  }
+ },
+ "levels_on_SQL_scale_by_batch": {
+  "Python": {
+   "B1": 2.0651
+  },
+  "Docker": {
+   "B1": 0.1783,
+   "B3": 0.1784
+  },
+  "Kubernetes": {
+   "B1": 0.0879
+  },
+  "Tableau": {
+   "B1": 0.0846
+  },
+  "Power BI": {
+   "B2": 0.201
+  },
+  "Figma": {
+   "B2": 0.1835
+  },
+  "SEO": {
+   "B2": 0.2525
+  },
+  "Jira": {
+   "B2": 0.1173
+  },
+  "Terraform": {
+   "B3": 0.0634
+  },
+  "Snowflake": {
+   "B3": 0.0747
+  },
+  "Photoshop": {
+   "B3": 0.3315
+  }
+ },
+ "R3_chain_vs_direct": {
+  "mid_anchor": "Photoshop",
+  "mid_over_SQL_from_B3": 0.3315,
+  "mid_mean_points_in_L1": 69.61,
+  "per_skill": {
+   "Terraform": {
+    "direct_batch": "B3",
+    "direct_over_SQL": 0.0634,
+    "direct_mean_points": 4.15,
+    "direct_meets_res_rule_ge10": false,
+    "chained_over_SQL": 0.0629,
+    "L1_mean_points": 13.21,
+    "L1_meets_res_rule_ge10": true,
+    "rel_error_pct": 0.7,
+    "series_pearson_L1_vs_direct": 0.9554,
+    "zero_week_share_direct": 0.0,
+    "zero_week_share_L1": 0.0
+   },
+   "Snowflake": {
+    "direct_batch": "B3",
+    "direct_over_SQL": 0.0747,
+    "direct_mean_points": 4.89,
+    "direct_meets_res_rule_ge10": false,
+    "chained_over_SQL": 0.0748,
+    "L1_mean_points": 15.7,
+    "L1_meets_res_rule_ge10": true,
+    "rel_error_pct": 0.1,
+    "series_pearson_L1_vs_direct": 0.9681,
+    "zero_week_share_direct": 0.0,
+    "zero_week_share_L1": 0.0
+   },
+   "Tableau": {
+    "direct_batch": "B1",
+    "direct_over_SQL": 0.0846,
+    "direct_mean_points": 2.75,
+    "direct_meets_res_rule_ge10": false,
+    "chained_over_SQL": 0.086,
+    "L1_mean_points": 18.06,
+    "L1_meets_res_rule_ge10": true,
+    "rel_error_pct": 1.7,
+    "series_pearson_L1_vs_direct": 0.9343,
+    "zero_week_share_direct": 0.0,
+    "zero_week_share_L1": 0.0
+   },
+   "Kubernetes": {
+    "direct_batch": "B1",
+    "direct_over_SQL": 0.0879,
+    "direct_mean_points": 2.85,
+    "direct_meets_res_rule_ge10": false,
+    "chained_over_SQL": 0.0902,
+    "L1_mean_points": 18.95,
+    "L1_meets_res_rule_ge10": true,
+    "rel_error_pct": 2.7,
+    "series_pearson_L1_vs_direct": 0.8924,
+    "zero_week_share_direct": 0.0,
+    "zero_week_share_L1": 0.0
+   }
+  }
+ },
+ "resolution_summary": {
+  "terms_with_mean_lt_10_in_survey_batches": [
+   "Docker(B1)",
+   "Figma(B2)",
+   "Jira(B2)",
+   "Kubernetes(B1)",
+   "Power BI(B2)",
+   "SEO(B2)",
+   "Snowflake(B3)",
+   "Tableau(B1)",
+   "Terraform(B3)"
+  ]
+ },
+ "R3_chain_vs_G1_direct": {
+  "Terraform": {
+   "G1_direct_over_SQL": 0.0634,
+   "G1_direct_mean_points": 4.15,
+   "chained_via_Photoshop_over_SQL": 0.0629,
+   "survey_batch_direct_over_SQL": 0.0634,
+   "chain_vs_G1_rel_error_pct": 0.7,
+   "direct_vs_direct_rel_diff_pct": 0.0,
+   "series_pearson_chained_L1_vs_G1": 0.9554,
+   "integer_levels_used_G1": 5,
+   "integer_levels_used_L1": 15
+  },
+  "Snowflake": {
+   "G1_direct_over_SQL": 0.0747,
+   "G1_direct_mean_points": 4.89,
+   "chained_via_Photoshop_over_SQL": 0.0748,
+   "survey_batch_direct_over_SQL": 0.0747,
+   "chain_vs_G1_rel_error_pct": 0.1,
+   "direct_vs_direct_rel_diff_pct": 0.0,
+   "series_pearson_chained_L1_vs_G1": 0.9681,
+   "integer_levels_used_G1": 9,
+   "integer_levels_used_L1": 21
+  },
+  "Tableau": {
+   "G1_direct_over_SQL": 0.0857,
+   "G1_direct_mean_points": 5.6,
+   "chained_via_Photoshop_over_SQL": 0.086,
+   "survey_batch_direct_over_SQL": 0.0846,
+   "chain_vs_G1_rel_error_pct": 0.4,
+   "direct_vs_direct_rel_diff_pct": 1.3,
+   "series_pearson_chained_L1_vs_G1": 0.9859,
+   "integer_levels_used_G1": 11,
+   "integer_levels_used_L1": 26
+  },
+  "Kubernetes": {
+   "G1_direct_over_SQL": 0.0907,
+   "G1_direct_mean_points": 5.93,
+   "chained_via_Photoshop_over_SQL": 0.0902,
+   "survey_batch_direct_over_SQL": 0.0879,
+   "chain_vs_G1_rel_error_pct": 0.5,
+   "direct_vs_direct_rel_diff_pct": 3.1,
+   "series_pearson_chained_L1_vs_G1": 0.9652,
+   "integer_levels_used_G1": 6,
+   "integer_levels_used_L1": 20
+  }
+ },
+ "cross_day_stability": {
+  "Python/SQL": {
+   "2026-09-29_request": 2.0636,
+   "2026-09-30_request": 2.0651,
+   "rel_diff_pct": 0.1,
+   "series_pearson_same_weeks": 0.9996,
+   "overlapping_weeks": 262
+  },
+  "Tableau/SQL": {
+   "2026-09-29_request": 0.0842,
+   "2026-09-30_request": 0.0846,
+   "rel_diff_pct": 0.4,
+   "series_pearson_same_weeks": 0.9679,
+   "overlapping_weeks": 262
+  },
+  "SQL_series_pearson_same_weeks": 0.9985,
+  "overlapping_weeks": 262,
+  "companions_differ": "yesterday: SQL,Python,Power BI,Tableau,Excel; today B1: SQL,Python,Docker,Kubernetes,Tableau"
+ },
+ "anchor_series_properties": {
+  "SQL_in_B3": {
+   "cv": 0.282,
+   "linear_drift_pct_of_mean_per_year": -15.9
+  },
+  "Python_in_B1": {
+   "cv": 0.209,
+   "linear_drift_pct_of_mean_per_year": -9.7
+  },
+  "Photoshop_in_L1": {
+   "cv": 0.171,
+   "linear_drift_pct_of_mean_per_year": -7.4
+  },
+  "Docker_in_B3": {
+   "cv": 0.155,
+   "linear_drift_pct_of_mean_per_year": 1.5
+  }
+ },
+ "resolution_effect": {
+  "Terraform": {
+   "direct_batch_mean": 4.15,
+   "ladder_batch_mean": 13.21,
+   "distinct_levels_direct": 5,
+   "distinct_levels_ladder": 15
+  },
+  "Snowflake": {
+   "direct_batch_mean": 4.89,
+   "ladder_batch_mean": 15.7,
+   "distinct_levels_direct": 9,
+   "distinct_levels_ladder": 21
+  },
+  "Tableau": {
+   "direct_batch_mean": 2.75,
+   "ladder_batch_mean": 18.06,
+   "distinct_levels_direct": 6,
+   "distinct_levels_ladder": 26
+  },
+  "Kubernetes": {
+   "direct_batch_mean": 2.85,
+   "ladder_batch_mean": 18.95,
+   "distinct_levels_direct": 4,
+   "distinct_levels_ladder": 20
+  }
+ }
+}

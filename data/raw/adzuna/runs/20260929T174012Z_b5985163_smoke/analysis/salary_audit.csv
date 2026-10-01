@@ -1,0 +1,4 @@
+country,role,clean_postings,salary_min_count,salary_max_count,salary_both_count,salary_any_count,salary_percentage,predicted_count,predicted_percentage,suspicious_below_floor,suspicious_above_ceiling,suspicious_min_gt_max,point_salary_min_eq_max,salary_valid_count_after_floor_ceiling,salary_floor,salary_ceiling
+in,Data Analyst,101,9,9,9,9,8.9,0,0.0,1,0,0,1,8,100000,10000000
+in,Security Engineer,48,3,3,3,3,6.2,0,0.0,0,0,0,0,3,100000,10000000
+in,Digital Marketing,234,60,60,60,60,25.6,0,0.0,10,0,0,3,50,100000,10000000

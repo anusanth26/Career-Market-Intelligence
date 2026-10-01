@@ -1,0 +1,21 @@
+role,sample_index,job_id,title,mapping_tier,label,reason_code
+Graphic Designer,1,5836575902,Graphic Designer,canonical,correct,
+Graphic Designer,2,5840369677,Lead Digital Visual Designer,synonym,ambiguous,visual_designer_digital
+Graphic Designer,3,5842613329,Senior Graphic Designer,canonical,correct,
+Graphic Designer,4,5847243722,Graphic designer,canonical,correct,
+Graphic Designer,5,5854472111,Marketing Content & Graphic Designer,canonical,ambiguous,hybrid_role
+Graphic Designer,6,5854880174,Graphic Designer,canonical,correct,
+Graphic Designer,7,5856196294,Graphic Designer,canonical,correct,
+Graphic Designer,8,5859123393,Visual Designer - Platform,synonym,ambiguous,visual_designer_product
+Graphic Designer,9,5859768315,"Urgent Job Opening for Graphic Designer, Surat",canonical,correct,
+Graphic Designer,10,5876279336,Executive- Graphic Designer,canonical,correct,
+Graphic Designer,11,5879665843,Graphic Designer,canonical,correct,
+Graphic Designer,12,5884158894,Product Visual Designer,synonym,ambiguous,visual_designer_product
+Graphic Designer,13,5887778359,Bid Co-ordinator and Graphic Designer,canonical,ambiguous,hybrid_role
+Graphic Designer,14,5889214807,Motion Graphic Designer,canonical,incorrect,motion_graphics_designer
+Graphic Designer,15,5889552337,Graphic Designer,canonical,correct,
+Graphic Designer,16,5895031366,Graphic Designer - Brand & Digital,canonical,correct,
+Graphic Designer,17,5895239225,Motion Graphic Designer  Video Editor,canonical,incorrect,motion_graphics_designer
+Graphic Designer,18,5898127212,Motion Graphic Designer,canonical,incorrect,motion_graphics_designer
+Graphic Designer,19,5899975908,Graphic Designer,canonical,correct,
+Graphic Designer,20,5900616148,Graphic Designer,canonical,correct,

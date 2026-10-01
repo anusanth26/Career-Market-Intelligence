@@ -1,0 +1,282 @@
+{
+ "checks": {
+  "all_final_roles_in_scope": true,
+  "all_final_rows_have_job_id_and_title": true,
+  "core_roles_failing_targets": [
+   "Software Engineer",
+   "Data Scientist",
+   "Project Manager"
+  ],
+  "core_roles_failing_targets_capped_view": [
+   "Project Manager"
+  ],
+  "core_targets_all_met": false,
+  "created_all_within_window": true,
+  "job_ids_unique": true,
+  "no_empty_descriptions": true,
+  "no_excluded_domain_roles_in_final": true,
+  "no_future_created_beyond_tz_tolerance": true,
+  "no_network_calls_in_pipeline": true,
+  "no_records_silently_dropped": true,
+  "raw_files_unchanged": true
+ },
+ "date_checks": {
+  "created_after_latest_collection_time_within_tz_tolerance": 320,
+  "created_timezone_note": "Adzuna 'created' values carry a 'Z' suffix but run up to ~4.9 h AHEAD of the collection clock (max created 22:51 vs collection ending 18:09 UTC on the same day), consistent with India local time (UTC+5:30) labelled as UTC. A record is 'future' only if created exceeds the latest collection time by more than 14 h (the largest UTC offset).",
+  "earliest_created_survivor": "2019-05-17T21:02:38Z",
+  "final_dates_with_more_than_one_posting": 91,
+  "final_distinct_created_dates": 91,
+  "final_earliest": "2026-07-01T02:28:12Z",
+  "final_latest": "2026-09-29T22:51:31Z",
+  "final_max_postings_on_one_date": 520,
+  "future_dates_beyond_tolerance": 0,
+  "impossible_dates_before_2000_or_after_2100": 0,
+  "latest_collection_timestamp": "2026-09-29T18:09:09Z",
+  "latest_created_minus_latest_collection_hours": 4.71,
+  "outside_90_day_window": 835,
+  "parse_failures": 0,
+  "survivors_checked": 15332,
+  "window_start": "2026-07-01T00:00:00Z"
+ },
+ "description_checks": {
+  "empty": 0,
+  "final_length_distribution": {
+   "max": 500,
+   "median": 500,
+   "min": 112,
+   "n": 8489,
+   "p25": 500,
+   "p5": 500,
+   "p75": 500,
+   "p95": 500
+  },
+  "limitation": "Adzuna returns only a ~500-character snippet; any later skill frequency is a lower bound.",
+  "non_english_suspected": 5,
+  "short_lt_200": 8,
+  "truncated_pct": 98.7,
+  "truncated_with_ellipsis": 8382
+ },
+ "employer_checks": {
+  "missing_employer_rows": 1,
+  "unique_employers_final": 3053
+ },
+ "exclusion_reasons": {
+  "quality_filter:outside_90_day_window": 826,
+  "role_assignment:ambiguous_multi": 91,
+  "role_assignment:excluded_by_rule": 203,
+  "role_assignment:excluded_domain": 1249,
+  "role_assignment:unmatched": 4474
+ },
+ "location_checks": {
+  "final_location_country_counts": {
+   "India": 8489
+  },
+  "non_india_country_rows": 0,
+  "rows_with_empty_area": 0,
+  "rows_with_lat_long": 3869,
+  "rows_with_region_level": 5584,
+  "rows_without_location_display": 0
+ },
+ "missing_values_final": {
+  "also_seen_in": {
+   "missing": 5825,
+   "pct": 68.6
+  },
+  "category_label": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "category_tag": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "collection_date": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "collection_method": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "collection_timestamp": {
+   "missing": 544,
+   "pct": 6.4
+  },
+  "contract_time": {
+   "missing": 3470,
+   "pct": 40.9
+  },
+  "contract_type": {
+   "missing": 7181,
+   "pct": 84.6
+  },
+  "created": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "created_date": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "description_is_truncated": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "description_length": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "description_raw": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "description_short_flag": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "domain": {
+   "missing": 1827,
+   "pct": 21.5
+  },
+  "employer": {
+   "missing": 1,
+   "pct": 0.0
+  },
+  "employer_cap_5pct_retained": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "employer_missing": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "employer_normalized": {
+   "missing": 1,
+   "pct": 0.0
+  },
+  "id_dup_count": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "job_id": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "language_flag": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "latitude": {
+   "missing": 4620,
+   "pct": 54.4
+  },
+  "location_area": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "location_country": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "location_display": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "location_has_region": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "location_region": {
+   "missing": 2905,
+   "pct": 34.2
+  },
+  "longitude": {
+   "missing": 4620,
+   "pct": 54.4
+  },
+  "mapping_tier": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "near_dup_group_size": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "near_dup_key": {
+   "missing": 4,
+   "pct": 0.0
+  },
+  "query_roles_seen": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "role": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "role_group": {
+   "missing": 614,
+   "pct": 7.2
+  },
+  "role_scope": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "salary_flags": {
+   "missing": 8295,
+   "pct": 97.7
+  },
+  "salary_is_predicted": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "salary_max": {
+   "missing": 7775,
+   "pct": 91.6
+  },
+  "salary_min": {
+   "missing": 7772,
+   "pct": 91.6
+  },
+  "salary_passes_plausibility_screen": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "salary_present": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "source_file": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "source_query": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "source_query_role": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "source_run": {
+   "missing": 0,
+   "pct": 0.0
+  },
+  "title": {
+   "missing": 0,
+   "pct": 0.0
+  }
+ },
+ "pipeline_counts": {
+  "after_id_dedup": 16663,
+  "after_near_dedup": 15332,
+  "excluded_at_quality_filter": 826,
+  "excluded_at_role_assignment": 6017,
+  "final": 8489,
+  "raw_records": 25572
+ },
+ "quality_filter_reason_counts_all_survivors": {
+  "outside_90_day_window": 835,
+  "pass": 14497
+ }
+}

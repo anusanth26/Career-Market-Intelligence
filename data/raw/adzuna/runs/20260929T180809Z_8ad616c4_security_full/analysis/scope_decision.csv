@@ -1,0 +1,6 @@
+domain,canonical_role,tier,api_count,raw_count,title_match_count,clean_count,salary_percentage,capped_by_max_records,decision,reason
+Technology & Data,Security Engineer,probe,811,811,406,374,3.7,False,CONDITIONAL,borderline: 200 <= clean 374 < 400
+Technology & Data,Information Security Analyst,probe,39,39,24,19,0.0,False,EXCLUDE,clean 19 < 200
+Technology & Data,Cybersecurity Engineer,probe,78,78,78,61,8.2,False,EXCLUDE,clean 61 < 200
+Technology & Data,Information Security Engineer,probe,72,72,108,36,8.3,False,EXCLUDE,clean 36 < 200
+Technology & Data,Cybersecurity Analyst,probe,27,27,10,8,0.0,False,EXCLUDE,clean 8 < 200

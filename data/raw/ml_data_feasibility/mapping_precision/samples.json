@@ -1,0 +1,4837 @@
+{
+ "seed": 20260930,
+ "precision": {
+  "Software Engineer": [
+   {
+    "i": 1,
+    "id": "5828945744",
+    "title": "Mobile Application Developer (Native Android & iOS)",
+    "tier": "S",
+    "retrieved_by": "application developer"
+   },
+   {
+    "i": 2,
+    "id": "5850371057",
+    "title": "Application Developer",
+    "tier": "S",
+    "retrieved_by": "application developer"
+   },
+   {
+    "i": 3,
+    "id": "5858375391",
+    "title": "Senior Associate, Application Developer, Consumer Banking Group Technology",
+    "tier": "S",
+    "retrieved_by": "application developer"
+   },
+   {
+    "i": 4,
+    "id": "5868097422",
+    "title": "Application Developer-Python",
+    "tier": "S",
+    "retrieved_by": "application developer"
+   },
+   {
+    "i": 5,
+    "id": "5869817661",
+    "title": "Application Developer",
+    "tier": "S",
+    "retrieved_by": "application developer"
+   },
+   {
+    "i": 6,
+    "id": "5870768949",
+    "title": "Senior CAD Software Engineer - IC design",
+    "tier": "C",
+    "retrieved_by": "cad engineer"
+   },
+   {
+    "i": 7,
+    "id": "5871271705",
+    "title": ".NET Core Application Developer",
+    "tier": "S",
+    "retrieved_by": "application developer"
+   },
+   {
+    "i": 8,
+    "id": "5871276686",
+    "title": "Android Application Developer Native",
+    "tier": "S",
+    "retrieved_by": "application developer"
+   },
+   {
+    "i": 9,
+    "id": "5871530809",
+    "title": "Software Engineer III, Infrastructure, Google Cloud Storage",
+    "tier": "C",
+    "retrieved_by": "cloud engineer"
+   },
+   {
+    "i": 10,
+    "id": "5871787899",
+    "title": "Lead Software Engineer - Salesforce Primary Cloud",
+    "tier": "C",
+    "retrieved_by": "cloud engineer"
+   },
+   {
+    "i": 11,
+    "id": "5876480300",
+    "title": "Senior Software Engineer - Enterprise Linux Platform",
+    "tier": "C",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 12,
+    "id": "5877295667",
+    "title": "Senior Software Engineer, YouTube Live, Creator Platform",
+    "tier": "C",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 13,
+    "id": "5881104838",
+    "title": "Software Engineer I, Machine Learning",
+    "tier": "C",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 14,
+    "id": "5882768833",
+    "title": "Senior Application Developer",
+    "tier": "S",
+    "retrieved_by": "application developer"
+   },
+   {
+    "i": 15,
+    "id": "5887961870",
+    "title": "Software Development Engineer 3",
+    "tier": "C",
+    "retrieved_by": "software developer"
+   },
+   {
+    "i": 16,
+    "id": "5889108508",
+    "title": "Software Development Engineer II",
+    "tier": "C",
+    "retrieved_by": "software developer"
+   },
+   {
+    "i": 17,
+    "id": "5889554480",
+    "title": "Software Development Engineer I-2",
+    "tier": "C",
+    "retrieved_by": "software developer"
+   },
+   {
+    "i": 18,
+    "id": "5889572955",
+    "title": "Lead Software Engineer - ‬‭ Analytics & Data‬ ‭- 10336",
+    "tier": "C",
+    "retrieved_by": "analytics engineer"
+   },
+   {
+    "i": 19,
+    "id": "5890817299",
+    "title": "Software Engineer 3 – Platform Security",
+    "tier": "C",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 20,
+    "id": "5891582078",
+    "title": "Software Engineer II - Cloud Platform",
+    "tier": "C",
+    "retrieved_by": "cloud engineer"
+   },
+   {
+    "i": 21,
+    "id": "5893057374",
+    "title": "Software Developer",
+    "tier": "C",
+    "retrieved_by": "software developer"
+   },
+   {
+    "i": 22,
+    "id": "5893848962",
+    "title": "Software Development Engineer, AI Runtime",
+    "tier": "C",
+    "retrieved_by": "software developer"
+   },
+   {
+    "i": 23,
+    "id": "5893848989",
+    "title": "Sr. Software Development Engineer",
+    "tier": "C",
+    "retrieved_by": "software developer"
+   },
+   {
+    "i": 24,
+    "id": "5894127010",
+    "title": "Staff Firmware & System Software Engineer — Platform Controller and SoC Stack",
+    "tier": "C",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 25,
+    "id": "5894822124",
+    "title": "Senior Software Development Engineer II",
+    "tier": "C",
+    "retrieved_by": "software developer"
+   },
+   {
+    "i": 26,
+    "id": "5896366924",
+    "title": "Staff Software Engineer, Google Cloud",
+    "tier": "C",
+    "retrieved_by": "cloud engineer"
+   },
+   {
+    "i": 27,
+    "id": "5896657627",
+    "title": "Sr Associate Software Engineer Cloud Platform DevOps",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 28,
+    "id": "5897052323",
+    "title": "Senior Full-Stack Software Developer - AI Voice and Communications Platform",
+    "tier": "C",
+    "retrieved_by": "software developer"
+   },
+   {
+    "i": 29,
+    "id": "5897054087",
+    "title": "Senior Software Engineer - Tax Platform",
+    "tier": "C",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 30,
+    "id": "5897055641",
+    "title": "Senior Staff Software Engineer- Monetization Platform",
+    "tier": "C",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 31,
+    "id": "5897063650",
+    "title": "Lead Software Developer(C++, Simulink&Matlab,3-6 years,Bangalore)",
+    "tier": "C",
+    "retrieved_by": "software developer"
+   },
+   {
+    "i": 32,
+    "id": "5897066938",
+    "title": "Software Development Engineer, AFT External Fulfillment",
+    "tier": "C",
+    "retrieved_by": "software developer"
+   },
+   {
+    "i": 33,
+    "id": "5897953354",
+    "title": "Lead Software Developer(C++, Simulink&Matlab,3-6 years,Bangalore)",
+    "tier": "C",
+    "retrieved_by": "software developer"
+   },
+   {
+    "i": 34,
+    "id": "5899536729",
+    "title": "Staff Software Engineer (Platform - Financial Engineering)",
+    "tier": "C",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 35,
+    "id": "5899868480",
+    "title": "Software Development Engineer 2",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 36,
+    "id": "5900355894",
+    "title": "Principal Software Engineer",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 37,
+    "id": "5900356214",
+    "title": "Software Engineer III",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 38,
+    "id": "5900357038",
+    "title": "Senior Software Engineer II",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 39,
+    "id": "5900717827",
+    "title": "Software Engineer 1 , Applied AI",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 40,
+    "id": "5900743341",
+    "title": "Software Engineer I",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 41,
+    "id": "5900751464",
+    "title": "Software Development Engineer",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 42,
+    "id": "5901252777",
+    "title": "Software Development Engineer II - FinTech, FinTech",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 43,
+    "id": "5901252856",
+    "title": "Software Engineer",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 44,
+    "id": "5901253420",
+    "title": "Software Engineer Manager, Commerce Infrastructure, Health and Home",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 45,
+    "id": "5901253674",
+    "title": "Principal Software Engineer",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 46,
+    "id": "5902535253",
+    "title": "Software Engineer, Principal",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 47,
+    "id": "5902580426",
+    "title": "Senior Software Engineer",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 48,
+    "id": "5902729427",
+    "title": "Senior Software Engineer-AI",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 49,
+    "id": "5902910495",
+    "title": "Software Engineer III",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   },
+   {
+    "i": 50,
+    "id": "5902913036",
+    "title": "Software Engineer",
+    "tier": "C",
+    "retrieved_by": "software engineer"
+   }
+  ],
+  "Data Analyst": [
+   {
+    "i": 1,
+    "id": "5797363610",
+    "title": "Reliability Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 2,
+    "id": "5807501339",
+    "title": "Business Intelligence Analyst II",
+    "tier": "S",
+    "retrieved_by": "business intelligence analyst"
+   },
+   {
+    "i": 3,
+    "id": "5814494533",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 4,
+    "id": "5818418582",
+    "title": "Senior Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 5,
+    "id": "5826674517",
+    "title": "Business Intelligence Analyst",
+    "tier": "S",
+    "retrieved_by": "business intelligence analyst"
+   },
+   {
+    "i": 6,
+    "id": "5830641274",
+    "title": "CX Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 7,
+    "id": "5832090748",
+    "title": "Principal Survey Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 8,
+    "id": "5834751705",
+    "title": "Senior Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 9,
+    "id": "5841440298",
+    "title": "Senior Clinical Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 10,
+    "id": "5841921852",
+    "title": "Data Analyst II (Sharepoint/ PowerApps/ Power Automate Developer)- Only Bangalore Based Candidates",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 11,
+    "id": "5844301375",
+    "title": "Financial Data Analyst (Reference Data/Financial Instruments)",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 12,
+    "id": "5849314553",
+    "title": "HR Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 13,
+    "id": "5850339738",
+    "title": "Data Analyst Internship in Ahmedabad",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 14,
+    "id": "5852577088",
+    "title": "Liquidity Reporting- data analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 15,
+    "id": "5852610226",
+    "title": "Data Analyst - Revenue Operations",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 16,
+    "id": "5854877435",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 17,
+    "id": "5854880422",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 18,
+    "id": "5856408833",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 19,
+    "id": "5856941319",
+    "title": "Staff AI & Automation Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 20,
+    "id": "5857745620",
+    "title": "Senior Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 21,
+    "id": "5857746715",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 22,
+    "id": "5858362818",
+    "title": "Sr Data Analyst_Campaign Management Analytics",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 23,
+    "id": "5860533633",
+    "title": "Binary Semantics - Senior Data Analyst - Tableau/Power BI",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 24,
+    "id": "5861793318",
+    "title": "Senior Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 25,
+    "id": "5861793858",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 26,
+    "id": "5868120206",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 27,
+    "id": "5869193558",
+    "title": "Lead Data Analyst - Cyber Incident Review",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 28,
+    "id": "5871991986",
+    "title": "Data Analyst – Power Platform",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 29,
+    "id": "5876480070",
+    "title": "Senior Data Analyst/Programmer",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 30,
+    "id": "5879552231",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 31,
+    "id": "5879665881",
+    "title": "Business Intelligence Analyst",
+    "tier": "S",
+    "retrieved_by": "business intelligence analyst"
+   },
+   {
+    "i": 32,
+    "id": "5879668539",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 33,
+    "id": "5882593417",
+    "title": "Turkish Data Analyst (Remote)",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 34,
+    "id": "5887876245",
+    "title": "Lead - Data Analyst - GBS CRP Data Analytics",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 35,
+    "id": "5889558833",
+    "title": "Treasury ALM Senior Data Analyst, Assistant Manager",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 36,
+    "id": "5890240441",
+    "title": "Azure AI Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 37,
+    "id": "5890803974",
+    "title": "Business/Data Analyst - Training & Certification",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 38,
+    "id": "5892770992",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 39,
+    "id": "5893913372",
+    "title": "Senior Business Data Analyst - (DataBricks, SAP, Azure)",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 40,
+    "id": "5893930269",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 41,
+    "id": "5894130072",
+    "title": "People Business Intelligence Analyst",
+    "tier": "S",
+    "retrieved_by": "business intelligence analyst"
+   },
+   {
+    "i": 42,
+    "id": "5895065880",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 43,
+    "id": "5895353519",
+    "title": "Assistant Manager - Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 44,
+    "id": "5895357304",
+    "title": "Data Analyst - Global Procurement & Planning COE",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 45,
+    "id": "5896647033",
+    "title": "Data Analyst, Stewardship",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 46,
+    "id": "5899537340",
+    "title": "Senior Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 47,
+    "id": "5899868943",
+    "title": "Lead Data Analyst (US Regulatory Reporting) - R01571259",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 48,
+    "id": "5900348948",
+    "title": "Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 49,
+    "id": "5900744967",
+    "title": "Senior MDM Product Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 50,
+    "id": "5902919467",
+    "title": "GBS Data Operations - Maintenance Data Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   }
+  ],
+  "Data Scientist": [
+   {
+    "i": 1,
+    "id": "5788472875",
+    "title": "Machine Learning Engineer",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 2,
+    "id": "5789591344",
+    "title": "Sr Machine Learning Engineer",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 3,
+    "id": "5798265719",
+    "title": "Applied Scientist II - Recommendation Systems",
+    "tier": "S",
+    "retrieved_by": "applied scientist"
+   },
+   {
+    "i": 4,
+    "id": "5819665505",
+    "title": "Machine Learning Engineer, Amazon Music - Catalog Quality",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 5,
+    "id": "5829179062",
+    "title": "Applied Scientist II, Alexa International Tech",
+    "tier": "S",
+    "retrieved_by": "applied scientist"
+   },
+   {
+    "i": 6,
+    "id": "5834764541",
+    "title": "Senior Machine Learning Engineer",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 7,
+    "id": "5836849101",
+    "title": "Staff Machine Learning Engineer",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 8,
+    "id": "5844305252",
+    "title": "Senior Applied Scientist, Alexa Ads",
+    "tier": "S",
+    "retrieved_by": "applied scientist"
+   },
+   {
+    "i": 9,
+    "id": "5845253142",
+    "title": "Senior Machine Learning Engineer",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 10,
+    "id": "5845820481",
+    "title": "Data Scientist Fintech Applied ML",
+    "tier": "C",
+    "retrieved_by": "applied scientist"
+   },
+   {
+    "i": 11,
+    "id": "5859122446",
+    "title": "Senior Machine Learning Engineer",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 12,
+    "id": "5870119149",
+    "title": "Principal Machine Learning Engineer",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 13,
+    "id": "5877287619",
+    "title": "IN_Senior Associate_ Data Scientist_D&A_Advisory_Hyderabad",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 14,
+    "id": "5878276709",
+    "title": "Finance AI Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 15,
+    "id": "5878284918",
+    "title": "Credit Data Scientist (Credit Analytics) - Bengaluru",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 16,
+    "id": "5878629526",
+    "title": "Data Scientist-KMPL Support Services-Analytics",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 17,
+    "id": "5878695312",
+    "title": "Data Scientist II",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 18,
+    "id": "5879139721",
+    "title": "Senior Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 19,
+    "id": "5879561855",
+    "title": "Senior Data Scientist - AI & ML",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 20,
+    "id": "5882502640",
+    "title": "Data Scientist / AI Engineer (Python, ML, RAG) - Tier 1 college only",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 21,
+    "id": "5883281847",
+    "title": "Sr. Engineer - Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 22,
+    "id": "5883711782",
+    "title": "Data Scientist 4A",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 23,
+    "id": "5885450972",
+    "title": "Applied Scientist-Agentic AI",
+    "tier": "S",
+    "retrieved_by": "applied scientist"
+   },
+   {
+    "i": 24,
+    "id": "5888774077",
+    "title": "Senior Machine Learning Engineer-Office of the CTO",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 25,
+    "id": "5889605310",
+    "title": "Senior Associate - Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 26,
+    "id": "5889785904",
+    "title": "Advanced Data Scientist - Machine Learning",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 27,
+    "id": "5890897448",
+    "title": "Lead Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 28,
+    "id": "5891582202",
+    "title": "Lead Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 29,
+    "id": "5891588101",
+    "title": "Senior Data Scientist Marketing Mix Modeling",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 30,
+    "id": "5894222466",
+    "title": "Data Scientist, Fraud Risk Mitigation",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 31,
+    "id": "5895059390",
+    "title": "Machine Learning Engineer, Link",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 32,
+    "id": "5895065476",
+    "title": "Lead Machine Learning Engineer",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 33,
+    "id": "5895382354",
+    "title": "Senior Machine Learning Engineer",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 34,
+    "id": "5897029482",
+    "title": "Machine Learning Engineer II",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 35,
+    "id": "5897040700",
+    "title": "Full-Stack AI Engineer / Data Scientist – Agentic Systems",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 36,
+    "id": "5897045971",
+    "title": "Sr. Machine Learning Engineer",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 37,
+    "id": "5897873954",
+    "title": "Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 38,
+    "id": "5898200150",
+    "title": "Sr Applied Scientist, Amazon Shipping",
+    "tier": "S",
+    "retrieved_by": "applied scientist"
+   },
+   {
+    "i": 39,
+    "id": "5898466641",
+    "title": "Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 40,
+    "id": "5899549783",
+    "title": "Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 41,
+    "id": "5900356110",
+    "title": "Principal Machine Learning Engineer (Prisma AIRS) - NetSec",
+    "tier": "S",
+    "retrieved_by": "machine learning engineer"
+   },
+   {
+    "i": 42,
+    "id": "5900357018",
+    "title": "Associate Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 43,
+    "id": "5900530028",
+    "title": "STAFF, DATA SCIENTIST",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 44,
+    "id": "5900717049",
+    "title": "Data Scientist Associate",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 45,
+    "id": "5900721457",
+    "title": "Expert Clinical Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 46,
+    "id": "5900752020",
+    "title": "Data Scientist-3",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 47,
+    "id": "5901481018",
+    "title": "Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 48,
+    "id": "5901762423",
+    "title": "Principal Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 49,
+    "id": "5902721400",
+    "title": "Senior Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   },
+   {
+    "i": 50,
+    "id": "5902920008",
+    "title": "Senior Data Scientist",
+    "tier": "C",
+    "retrieved_by": "data scientist"
+   }
+  ],
+  "Data Engineer": [
+   {
+    "i": 1,
+    "id": "5809184520",
+    "title": "Big Data Engineer",
+    "tier": "C",
+    "retrieved_by": "big data engineer"
+   },
+   {
+    "i": 2,
+    "id": "5820787356",
+    "title": "Manager- ETL Developer",
+    "tier": "S",
+    "retrieved_by": "etl developer"
+   },
+   {
+    "i": 3,
+    "id": "5822389846",
+    "title": "SAP Analytics Engineer (Datasphere)- India",
+    "tier": "S",
+    "retrieved_by": "analytics engineer"
+   },
+   {
+    "i": 4,
+    "id": "5843196561",
+    "title": "Data Engineer, IN Data Engineering & Analytics",
+    "tier": "C",
+    "retrieved_by": "analytics engineer"
+   },
+   {
+    "i": 5,
+    "id": "5847672049",
+    "title": "C501 - BTA::Application Senior Developer_Data Engineer",
+    "tier": "C",
+    "retrieved_by": "application developer"
+   },
+   {
+    "i": 6,
+    "id": "5849463143",
+    "title": "FBS Associate Analytics Engineer",
+    "tier": "S",
+    "retrieved_by": "analytics engineer"
+   },
+   {
+    "i": 7,
+    "id": "5851857355",
+    "title": "Etl Developer Lead",
+    "tier": "S",
+    "retrieved_by": "etl developer"
+   },
+   {
+    "i": 8,
+    "id": "5856952612",
+    "title": "Oliver Wyman - Data Engineer / Senior Data Engineer - Data and Analytics (DNA) - Gurugram, India",
+    "tier": "C",
+    "retrieved_by": "analytics engineer"
+   },
+   {
+    "i": 9,
+    "id": "5858374844",
+    "title": "ETL DEveloper",
+    "tier": "S",
+    "retrieved_by": "etl developer"
+   },
+   {
+    "i": 10,
+    "id": "5859757280",
+    "title": "Data Engineer- Senior Associate- Analytics as Service - Operate",
+    "tier": "C",
+    "retrieved_by": "analytics engineer"
+   },
+   {
+    "i": 11,
+    "id": "5860532608",
+    "title": "Senior Lead Data Engineer - Devops",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 12,
+    "id": "5869817237",
+    "title": "Java , ETL Developer",
+    "tier": "S",
+    "retrieved_by": "etl developer"
+   },
+   {
+    "i": 13,
+    "id": "5878709154",
+    "title": "Data Engineer II, TSE Operations Analytics",
+    "tier": "C",
+    "retrieved_by": "analytics engineer"
+   },
+   {
+    "i": 14,
+    "id": "5879940863",
+    "title": "Data Engineer III - Data Platform",
+    "tier": "C",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 15,
+    "id": "5890804435",
+    "title": "Data Engineer - Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 16,
+    "id": "5894230944",
+    "title": "Data Engineer - ETL Development",
+    "tier": "C",
+    "retrieved_by": "etl developer"
+   },
+   {
+    "i": 17,
+    "id": "5895875081",
+    "title": "DATA ENGINEER (GCP)",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 18,
+    "id": "5896110855",
+    "title": "Senior Data Engineer (DBT, AWS, SQL)",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 19,
+    "id": "5896366356",
+    "title": "Data Engineer , Business Data Technologies",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 20,
+    "id": "5896612538",
+    "title": "Senior Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 21,
+    "id": "5896675939",
+    "title": "Data Engineer II, Sales Data Services (SDS)",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 22,
+    "id": "5897041598",
+    "title": "Senior Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 23,
+    "id": "5897046092",
+    "title": "Data Engineer III (Remote, IND)",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 24,
+    "id": "5897067172",
+    "title": "Lead AWS Data Engineer (PPM)",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 25,
+    "id": "5897946313",
+    "title": "Senior Analytics Engineer",
+    "tier": "S",
+    "retrieved_by": "analytics engineer"
+   },
+   {
+    "i": 26,
+    "id": "5897949191",
+    "title": "Sr. Associate Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 27,
+    "id": "5897949496",
+    "title": "Oracle PLSQL ETL Developer - Vice President",
+    "tier": "S",
+    "retrieved_by": "etl developer"
+   },
+   {
+    "i": 28,
+    "id": "5898126207",
+    "title": "Lead Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 29,
+    "id": "5898127205",
+    "title": "AWS Data engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 30,
+    "id": "5898128063",
+    "title": "Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 31,
+    "id": "5898129018",
+    "title": "GCP Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 32,
+    "id": "5898467124",
+    "title": "Senior Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 33,
+    "id": "5898506122",
+    "title": "Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 34,
+    "id": "5899555690",
+    "title": "Senior Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 35,
+    "id": "5899838078",
+    "title": "Data Engineer - Manager",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 36,
+    "id": "5899844554",
+    "title": "Data Engineer - GCH",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 37,
+    "id": "5899864392",
+    "title": "Sr. Security Data Engineer & Developer, Security Data Platform",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 38,
+    "id": "5899962022",
+    "title": "Senior Azure Data Engineer – RAG & Databricks",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 39,
+    "id": "5900616358",
+    "title": "Senior ETL Developer",
+    "tier": "S",
+    "retrieved_by": "etl developer"
+   },
+   {
+    "i": 40,
+    "id": "5900748323",
+    "title": "Data Engineer II",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 41,
+    "id": "5900875510",
+    "title": "Lead Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 42,
+    "id": "5900875607",
+    "title": "Lead Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 43,
+    "id": "5901132887",
+    "title": "Data Engineer 2",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 44,
+    "id": "5901872735",
+    "title": "Data Engineer-Pan India",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 45,
+    "id": "5902168642",
+    "title": "Data Engineer-Master Data Management",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 46,
+    "id": "5902358456",
+    "title": "Senior Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 47,
+    "id": "5902729924",
+    "title": "Senior Full Stack Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 48,
+    "id": "5902912193",
+    "title": "IN_Associate_– Data Engineer _GCC_Advisory_Hyderabad",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 49,
+    "id": "5902912949",
+    "title": "IN-Sr Associate_Databricks Data Engineer_GCC_Advisory_Bangalore",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   },
+   {
+    "i": 50,
+    "id": "5902918775",
+    "title": "Microsoft Fabric / Data Engineer",
+    "tier": "C",
+    "retrieved_by": "data engineer"
+   }
+  ],
+  "DevOps / Cloud Engineer": [
+   {
+    "i": 1,
+    "id": "5812882736",
+    "title": "Senior Site Reliability Engineer",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 2,
+    "id": "5819378910",
+    "title": "Senior Site Reliability Engineer",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 3,
+    "id": "5827637899",
+    "title": "DevOps Engineer / Site Reliability Engineer (SRE)",
+    "tier": "C",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 4,
+    "id": "5829199888",
+    "title": "Sr. Site Reliability Engineer, Engineering Stack Support",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 5,
+    "id": "5859420059",
+    "title": "Sr Specialist System Engineering - DevOps Engineer - AI & Pipeline Automation",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 6,
+    "id": "5860548442",
+    "title": "AWS Site Reliability Engineer",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 7,
+    "id": "5860548484",
+    "title": "Senior Site Reliability Engineer",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 8,
+    "id": "5861793709",
+    "title": "Devops Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 9,
+    "id": "5869222043",
+    "title": "DevOps Engineer - Contract",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 10,
+    "id": "5869803420",
+    "title": "DevOps / Cloud Engineer",
+    "tier": "S",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 11,
+    "id": "5871271708",
+    "title": "DevOps Engineer - Mid Level",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 12,
+    "id": "5871278855",
+    "title": "Cloud Engineer",
+    "tier": "S",
+    "retrieved_by": "cloud engineer"
+   },
+   {
+    "i": 13,
+    "id": "5872104728",
+    "title": "Senior DevSecOps/Site Reliability Engineer (AWS)",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 14,
+    "id": "5872126006",
+    "title": "Senior DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 15,
+    "id": "5872936783",
+    "title": "DEVOPS ENGINEER L3",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 16,
+    "id": "5878635394",
+    "title": "Senior Site Reliability Engineer (CI-CD/CTAP/Delivery team)",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 17,
+    "id": "5878703901",
+    "title": "Principal DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 18,
+    "id": "5879551451",
+    "title": "Executive - Full Stack DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 19,
+    "id": "5880845468",
+    "title": "Platform Engineer (Cybersecurity Platform)",
+    "tier": "S",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 20,
+    "id": "5881144782",
+    "title": "Senior Cloud and DevOps Engineer-Azure",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 21,
+    "id": "5881151590",
+    "title": "Senior DevOps Engineer (CI/CD & AI-Enabled Platform)",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 22,
+    "id": "5882274729",
+    "title": "Site Reliability Engineer - Devops, AWS, Python/GO - 4 to 8 years",
+    "tier": "S",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 23,
+    "id": "5882275603",
+    "title": "Lead Platform Engineer",
+    "tier": "S",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 24,
+    "id": "5882499428",
+    "title": "Azure Devops Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 25,
+    "id": "5884512379",
+    "title": "Platform Engineer- Automation, Testing,Kubernetes- Skylar AI Platform",
+    "tier": "S",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 26,
+    "id": "5886325118",
+    "title": "Staff DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 27,
+    "id": "5886394619",
+    "title": "DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 28,
+    "id": "5886402423",
+    "title": "Sr Site Reliability Engineer",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 29,
+    "id": "5887208051",
+    "title": "Azure DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 30,
+    "id": "5887881335",
+    "title": "Sr Cloud Engineer II",
+    "tier": "S",
+    "retrieved_by": "cloud engineer"
+   },
+   {
+    "i": 31,
+    "id": "5887957775",
+    "title": "Senior DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 32,
+    "id": "5889085431",
+    "title": "Senior Cloud Platform Engineer",
+    "tier": "S",
+    "retrieved_by": "cloud engineer"
+   },
+   {
+    "i": 33,
+    "id": "5889518946",
+    "title": "DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 34,
+    "id": "5889525071",
+    "title": "Azure Platform Engineer JobID JC0015837",
+    "tier": "S",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 35,
+    "id": "5889564143",
+    "title": "Cloud Engineer",
+    "tier": "S",
+    "retrieved_by": "cloud engineer"
+   },
+   {
+    "i": 36,
+    "id": "5890785266",
+    "title": "Senior DevOps Engineer (Contract)",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 37,
+    "id": "5890807896",
+    "title": "Senior Platform Engineer (SAP Basis Hana)",
+    "tier": "S",
+    "retrieved_by": "platform engineer"
+   },
+   {
+    "i": 38,
+    "id": "5891901349",
+    "title": "Staff Site Reliability Engineer, Environment Automation",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 39,
+    "id": "5892386676",
+    "title": "Sr. Site Reliability Engineer - GCP, Terraform, Networking, Linux ,Python",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 40,
+    "id": "5893831988",
+    "title": "Senior DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 41,
+    "id": "5894073576",
+    "title": "Senior Site Reliability Engineer, Production Engineering",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 42,
+    "id": "5894769740",
+    "title": "Salesforce DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 43,
+    "id": "5896354346",
+    "title": "Senior DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 44,
+    "id": "5896644820",
+    "title": "SFDC Devops Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 45,
+    "id": "5896648234",
+    "title": "Cloud Engineer",
+    "tier": "S",
+    "retrieved_by": "cloud engineer"
+   },
+   {
+    "i": 46,
+    "id": "5898473740",
+    "title": "Site Reliability Engineer II",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 47,
+    "id": "5899850657",
+    "title": "Site Reliability Engineer",
+    "tier": "S",
+    "retrieved_by": "site reliability engineer"
+   },
+   {
+    "i": 48,
+    "id": "5899863127",
+    "title": "Senior Azure Cloud Platform Engineer",
+    "tier": "S",
+    "retrieved_by": "cloud engineer"
+   },
+   {
+    "i": 49,
+    "id": "5900355071",
+    "title": "Senior DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   },
+   {
+    "i": 50,
+    "id": "5900737381",
+    "title": "Principal AI & DevOps Engineer",
+    "tier": "C",
+    "retrieved_by": "devops engineer"
+   }
+  ],
+  "Business Analyst": [
+   {
+    "i": 1,
+    "id": "5784307650",
+    "title": "Senior Finance Systems Analyst",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 2,
+    "id": "5787167967",
+    "title": "System Analyst SAP",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 3,
+    "id": "5796208546",
+    "title": "HR Systems Analyst",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 4,
+    "id": "5803870389",
+    "title": "Nostro Risk Reporting Business Analyst",
+    "tier": "C",
+    "retrieved_by": "reporting analyst"
+   },
+   {
+    "i": 5,
+    "id": "5831403231",
+    "title": "Business System Analyst",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 6,
+    "id": "5835719342",
+    "title": "Mid Level SAP ERP Systems Analyst OTC",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 7,
+    "id": "5851151916",
+    "title": "RCM Senior AI and Automation Systems Analyst",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 8,
+    "id": "5851859964",
+    "title": "Workday System Analyst - HRIS",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 9,
+    "id": "5859121192",
+    "title": "Product Analyst II",
+    "tier": "S",
+    "retrieved_by": "product analyst"
+   },
+   {
+    "i": 10,
+    "id": "5861224357",
+    "title": "System Analyst",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 11,
+    "id": "5863636581",
+    "title": "Functional Analyst",
+    "tier": "S",
+    "retrieved_by": "functional analyst"
+   },
+   {
+    "i": 12,
+    "id": "5864438745",
+    "title": "Functional Product Analyst (AA) - India",
+    "tier": "S",
+    "retrieved_by": "functional analyst"
+   },
+   {
+    "i": 13,
+    "id": "5872088972",
+    "title": "Credit System Analyst",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 14,
+    "id": "5872118220",
+    "title": "Senior Business Analyst IT - Alternate Investments, Assistant Vice President",
+    "tier": "C",
+    "retrieved_by": "investment analyst"
+   },
+   {
+    "i": 15,
+    "id": "5872128982",
+    "title": "Vice President (VP) Data Business Analyst",
+    "tier": "C",
+    "retrieved_by": "data analyst"
+   },
+   {
+    "i": 16,
+    "id": "5876942228",
+    "title": "System Analyst Us Equities Integration",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 17,
+    "id": "5876942921",
+    "title": "System Analyst Mobile",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 18,
+    "id": "5877486811",
+    "title": "Senior Product Analyst/Senior Analyst",
+    "tier": "S",
+    "retrieved_by": "product analyst"
+   },
+   {
+    "i": 19,
+    "id": "5878626808",
+    "title": "Financial Systems Analyst",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 20,
+    "id": "5878633634",
+    "title": "Functional Analyst, Oracle HCM Center of Excellence",
+    "tier": "S",
+    "retrieved_by": "functional analyst"
+   },
+   {
+    "i": 21,
+    "id": "5878707593",
+    "title": "Business Analyst II, WW FBA, FBA Analytics",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 22,
+    "id": "5879362649",
+    "title": "Business Analyst - AMZL S&OP, S&OP",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 23,
+    "id": "5882754943",
+    "title": "Business Analyst - Associate - Online-GUT",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 24,
+    "id": "5886007102",
+    "title": "Business Analyst, RBS ARTS (Automation Reporting and Tech Sciences)",
+    "tier": "C",
+    "retrieved_by": "reporting analyst"
+   },
+   {
+    "i": 25,
+    "id": "5887875291",
+    "title": "Business Analyst II, GTS Field",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 26,
+    "id": "5887942394",
+    "title": "Business Analyst, Associate",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 27,
+    "id": "5887943452",
+    "title": "Business Analyst AI",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 28,
+    "id": "5888672698",
+    "title": "Business Analyst - Banking at Compunet Connections",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 29,
+    "id": "5888693381",
+    "title": "Business Analyst – Post Sales",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 30,
+    "id": "5889501005",
+    "title": "Junior Business Analyst",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 31,
+    "id": "5889505708",
+    "title": "Physical Security Systems Analyst",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 32,
+    "id": "5890791520",
+    "title": "Workday Systems Analyst- Phenom Specialist",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 33,
+    "id": "5890801884",
+    "title": "Senior Business Systems Analyst, SAP IBP Planning",
+    "tier": "S",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 34,
+    "id": "5891404648",
+    "title": "Workday Prism & Accounting Systems Analyst",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 35,
+    "id": "5891864109",
+    "title": "Business Analyst 2",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 36,
+    "id": "5892384033",
+    "title": "Business Systems Analyst",
+    "tier": "S",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 37,
+    "id": "5892689834",
+    "title": "Senior Business Analyst",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 38,
+    "id": "5893618538",
+    "title": "Business Analyst, ROC, ROC",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 39,
+    "id": "5894314854",
+    "title": "Solution Consultant/Business Analyst - Tieto Banktech (m/f/d)",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 40,
+    "id": "5895351408",
+    "title": "Business Analyst - Specification Management",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 41,
+    "id": "5895373783",
+    "title": "Senior Business Analyst, Sales and Use Tax",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 42,
+    "id": "5896030146",
+    "title": "FS-RISK CONSULTING-FSRM - Basel III Business Analyst _CSTC-SENIOR",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 43,
+    "id": "5897042022",
+    "title": "Business Analyst III – SAP MM/PP",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 44,
+    "id": "5897954950",
+    "title": "Business Analyst III - SAP Order Management",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 45,
+    "id": "5898179069",
+    "title": "SAP Functional Analyst - GTS",
+    "tier": "S",
+    "retrieved_by": "functional analyst"
+   },
+   {
+    "i": 46,
+    "id": "5899326111",
+    "title": "Business Analyst, Global Solutions & Risk Compliance (GSRC)",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 47,
+    "id": "5899329238",
+    "title": "GB Commercial Systems Analyst",
+    "tier": "S",
+    "retrieved_by": "systems analyst"
+   },
+   {
+    "i": 48,
+    "id": "5899851797",
+    "title": "Website Security Support - Product Analyst",
+    "tier": "S",
+    "retrieved_by": "product analyst"
+   },
+   {
+    "i": 49,
+    "id": "5899856192",
+    "title": "Business Analyst",
+    "tier": "C",
+    "retrieved_by": "business analyst"
+   },
+   {
+    "i": 50,
+    "id": "5902919511",
+    "title": "Senior Salesforce CPQ Business Systems Analyst (Techno-Functional)",
+    "tier": "S",
+    "retrieved_by": "business analyst"
+   }
+  ],
+  "Product Manager": [
+   {
+    "i": 1,
+    "id": "5808699352",
+    "title": "Senior Manager Data Science and AI Technical Product Owner Mumbai",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 2,
+    "id": "5835718576",
+    "title": "Associate Product Manager",
+    "tier": "C",
+    "retrieved_by": "associate product manager"
+   },
+   {
+    "i": 3,
+    "id": "5841923498",
+    "title": "Product Owner, Electrical Engineering Software",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 4,
+    "id": "5842763757",
+    "title": "Product Owner, Electrical Engineering Software",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 5,
+    "id": "5847853008",
+    "title": "Product Owner",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 6,
+    "id": "5849141918",
+    "title": "Digital Product Owner – Retail Accounting",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 7,
+    "id": "5850375088",
+    "title": "Associate Product Manager - B2B - SaaS Product",
+    "tier": "C",
+    "retrieved_by": "associate product manager"
+   },
+   {
+    "i": 8,
+    "id": "5850376696",
+    "title": "Data & Analytics Sales Product Owner, Analytics, Business Analytics",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 9,
+    "id": "5850377216",
+    "title": "Hiring Product Owner",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 10,
+    "id": "5857744695",
+    "title": "Product Owner",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 11,
+    "id": "5875721259",
+    "title": "PMO Staff Product Owner (Monitoring & Observability)",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 12,
+    "id": "5876940968",
+    "title": "Product Owner (Crypto)",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 13,
+    "id": "5878696895",
+    "title": "Product Owner II",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 14,
+    "id": "5887880757",
+    "title": "Product Owner - ServiceNow HRSD AI",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 15,
+    "id": "5887955969",
+    "title": "Product Owner Global",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 16,
+    "id": "5889517456",
+    "title": "Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 17,
+    "id": "5889556144",
+    "title": "Staff Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 18,
+    "id": "5889601436",
+    "title": "Product Manager, Amazon Payment Services",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 19,
+    "id": "5890793883",
+    "title": "Product Manager-Loan Against Shares-Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 20,
+    "id": "5890801182",
+    "title": "Senior Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 21,
+    "id": "5892705338",
+    "title": "Senior Product Manager, Amazon Fashion",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 22,
+    "id": "5892941650",
+    "title": "Product Owner / A.PO",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 23,
+    "id": "5893616123",
+    "title": "Senior Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 24,
+    "id": "5894126860",
+    "title": "Product Manager-AFFLUENT-Investment Counselors",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 25,
+    "id": "5894831675",
+    "title": "Product Manager II",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 26,
+    "id": "5895535213",
+    "title": "Sr. Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 27,
+    "id": "5896030109",
+    "title": "Sr Product Owner",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 28,
+    "id": "5897025612",
+    "title": "Senior Product Manager, Service Delivery Standard Work",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 29,
+    "id": "5897037726",
+    "title": "Staff Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 30,
+    "id": "5897053538",
+    "title": "Technical Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 31,
+    "id": "5897061452",
+    "title": "Senior Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 32,
+    "id": "5897063664",
+    "title": "Senior Product Manager (Finance and Account Management)",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 33,
+    "id": "5897067475",
+    "title": "Lead Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 34,
+    "id": "5898165924",
+    "title": "Product Manager Compliance",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 35,
+    "id": "5898166838",
+    "title": "Senior Product Manager - Compliance",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 36,
+    "id": "5899323099",
+    "title": "Senior Digital Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 37,
+    "id": "5899328002",
+    "title": "Senior Product Manager - Technical",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 38,
+    "id": "5899329274",
+    "title": "Senior Associate - Product Owner",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 39,
+    "id": "5899555538",
+    "title": "Product manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 40,
+    "id": "5899835055",
+    "title": "Customer Success & Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 41,
+    "id": "5899863496",
+    "title": "Product Manager III, Technical, Amazon Fulfillment Technologies (AFT)",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 42,
+    "id": "5900354482",
+    "title": "Sr. Product Manager - Tech, Just Walk Out Technology , Physical Store 3P (Just Walk Out Technology)",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 43,
+    "id": "5900731381",
+    "title": "Senior Product Manager – Enterprise Search",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 44,
+    "id": "5901254066",
+    "title": "Senior Digital Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 45,
+    "id": "5901481118",
+    "title": "Senior Staff Product Manager - Data Protection",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 46,
+    "id": "5901702183",
+    "title": "Software Download OTA Product owner",
+    "tier": "S",
+    "retrieved_by": "product owner"
+   },
+   {
+    "i": 47,
+    "id": "5901762198",
+    "title": "Senior Platform Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 48,
+    "id": "5901762302",
+    "title": "Lead Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 49,
+    "id": "5902287128",
+    "title": "Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   },
+   {
+    "i": 50,
+    "id": "5902721606",
+    "title": "Senior Product Manager",
+    "tier": "C",
+    "retrieved_by": "product manager"
+   }
+  ],
+  "Project Manager": [
+   {
+    "i": 1,
+    "id": "5784973990",
+    "title": "Project Manager - Scrum Master",
+    "tier": "C",
+    "retrieved_by": "scrum master"
+   },
+   {
+    "i": 2,
+    "id": "5802288924",
+    "title": "Delivery Manager",
+    "tier": "S",
+    "retrieved_by": "delivery manager"
+   },
+   {
+    "i": 3,
+    "id": "5825361825",
+    "title": "Senior Scrum Master / Delivery Manager",
+    "tier": "S",
+    "retrieved_by": "delivery manager"
+   },
+   {
+    "i": 4,
+    "id": "5831403703",
+    "title": "Delivery Manager Operations",
+    "tier": "S",
+    "retrieved_by": "delivery manager"
+   },
+   {
+    "i": 5,
+    "id": "5841129973",
+    "title": "Identity and Access Management Scrum Master",
+    "tier": "S",
+    "retrieved_by": "scrum master"
+   },
+   {
+    "i": 6,
+    "id": "5851865260",
+    "title": "Scrum Master",
+    "tier": "S",
+    "retrieved_by": "scrum master"
+   },
+   {
+    "i": 7,
+    "id": "5863636157",
+    "title": "SAP Client Delivery Manager",
+    "tier": "S",
+    "retrieved_by": "delivery manager"
+   },
+   {
+    "i": 8,
+    "id": "5867717442",
+    "title": "Service Delivery Manager",
+    "tier": "S",
+    "retrieved_by": "delivery manager"
+   },
+   {
+    "i": 9,
+    "id": "5871787970",
+    "title": "Senior Service Delivery Manager - AMS",
+    "tier": "S",
+    "retrieved_by": "delivery manager"
+   },
+   {
+    "i": 10,
+    "id": "5876872302",
+    "title": "Operations Delivery Manager – Insurance Product Implementation",
+    "tier": "S",
+    "retrieved_by": "delivery manager"
+   },
+   {
+    "i": 11,
+    "id": "5880673293",
+    "title": "Staff Technical Program Manager",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 12,
+    "id": "5887224881",
+    "title": "Program Manager",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 13,
+    "id": "5887227964",
+    "title": "GSI Services Program Manager",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 14,
+    "id": "5887960939",
+    "title": "Delivery Manager - BI, Reporting and Data Visualization 4D",
+    "tier": "S",
+    "retrieved_by": "delivery manager"
+   },
+   {
+    "i": 15,
+    "id": "5890612415",
+    "title": "Program Manager, Account Management",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 16,
+    "id": "5890612504",
+    "title": "GCP Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 17,
+    "id": "5890821829",
+    "title": "Project Manager Specialist III",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 18,
+    "id": "5891404606",
+    "title": "Senior Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 19,
+    "id": "5891888853",
+    "title": "Program Manager I, WFM",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 20,
+    "id": "5891905340",
+    "title": "Engineering Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 21,
+    "id": "5892384035",
+    "title": "Technical Program Manager, AI Garage",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 22,
+    "id": "5892690040",
+    "title": "IT Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 23,
+    "id": "5892765247",
+    "title": "Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 24,
+    "id": "5892855217",
+    "title": "Marketing Project Manager Associate",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 25,
+    "id": "5893057345",
+    "title": "Program Manager Non Tech 3",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 26,
+    "id": "5893476255",
+    "title": "Project Manager – eLearning Solutions (Corporate Learning) | Onsite-Noida | Open to India-based candidates only",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 27,
+    "id": "5894088852",
+    "title": "Integrated Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 28,
+    "id": "5894233572",
+    "title": "Project Manager-Architecture BIM",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 29,
+    "id": "5897044078",
+    "title": "Program Manager II, Service Delivery Standard Work",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 30,
+    "id": "5897062202",
+    "title": "Lead Program Manager",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 31,
+    "id": "5897294845",
+    "title": "Staff Technical Program Manager - Electronics",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 32,
+    "id": "5897336086",
+    "title": "Technical Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 33,
+    "id": "5897680826",
+    "title": "Program Manager II, Buyer Abuse",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 34,
+    "id": "5897938968",
+    "title": "Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 35,
+    "id": "5898126458",
+    "title": "Senior Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 36,
+    "id": "5898178930",
+    "title": "NPDI Project Manager Products and Solutions - Engineering Senior Analyst",
+    "tier": "C",
+    "retrieved_by": "product analyst"
+   },
+   {
+    "i": 37,
+    "id": "5898491863",
+    "title": "Salesforce Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 38,
+    "id": "5898599505",
+    "title": "Program Manager (Security Infrastructure)",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 39,
+    "id": "5899326153",
+    "title": "Sr Program Manager, ASIN Localization",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 40,
+    "id": "5899327078",
+    "title": "Technical Program Manager, Google Search Platforms",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 41,
+    "id": "5899328011",
+    "title": "Senior Technical Program Manager",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 42,
+    "id": "5899510957",
+    "title": "Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 43,
+    "id": "5899511604",
+    "title": "Project Manager - Projects & Interiors",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 44,
+    "id": "5899549725",
+    "title": "Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 45,
+    "id": "5899835709",
+    "title": "Program Manager - Last Mile",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 46,
+    "id": "5901482419",
+    "title": "Senior Technical Program Manager",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 47,
+    "id": "5901762300",
+    "title": "PROJECT MANAGER - Project Management-Infrastructure",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   },
+   {
+    "i": 48,
+    "id": "5901873350",
+    "title": "Technical Program Manager_8 yrs_Hyderabad (Hybrid)",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 49,
+    "id": "5902741296",
+    "title": "Program Manager II, Global Catalog Operations, Amazon",
+    "tier": "S",
+    "retrieved_by": "program manager"
+   },
+   {
+    "i": 50,
+    "id": "5902917839",
+    "title": "Oracle Fusion Technical Project Manager",
+    "tier": "C",
+    "retrieved_by": "project manager"
+   }
+  ],
+  "Digital Marketing": [
+   {
+    "i": 1,
+    "id": "5803910098",
+    "title": "Social Media & Digital Marketing Specialist",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 2,
+    "id": "5805535975",
+    "title": "Digital Marketing Internship",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 3,
+    "id": "5830375261",
+    "title": "Performance Marketing Specialist - Eaze",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 4,
+    "id": "5831404560",
+    "title": "Digital Marketing Evangelist",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 5,
+    "id": "5831404571",
+    "title": "Digital Marketing Evangelist",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 6,
+    "id": "5836227959",
+    "title": "Performance Marketing Executive",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 7,
+    "id": "5839221165",
+    "title": "Digital Marketing Specialist",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 8,
+    "id": "5850339310",
+    "title": "Digital Marketing Specialist SEO Social Media Video Creator Intern",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 9,
+    "id": "5850380241",
+    "title": "Digital Marketing Executive",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 10,
+    "id": "5851141749",
+    "title": "Paid Ads / Performance Marketing Manager - Surat",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 11,
+    "id": "5854442093",
+    "title": "Senior Digital Marketing Associate",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 12,
+    "id": "5854847317",
+    "title": "Vacancies For Digital Marketing Specialists Freshers",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 13,
+    "id": "5854850568",
+    "title": "Digital Marketing Intern",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 14,
+    "id": "5857693090",
+    "title": "SEO Specialist",
+    "tier": "S",
+    "retrieved_by": "seo specialist"
+   },
+   {
+    "i": 15,
+    "id": "5861795874",
+    "title": "Digital Marketing Manager",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 16,
+    "id": "5861795981",
+    "title": "Digital Marketing Manager",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 17,
+    "id": "5864338066",
+    "title": "B2B Growth & Digital Marketing Executive",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 18,
+    "id": "5871276115",
+    "title": "Assistant Manager - Digital Marketing",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 19,
+    "id": "5875204774",
+    "title": "Digital Marketing Manager",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 20,
+    "id": "5876710970",
+    "title": "Digital Marketing Consultant",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 21,
+    "id": "5876938910",
+    "title": "Digital Marketing Manager - Marketing (Fintech)",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 22,
+    "id": "5876946977",
+    "title": "Manager - Performance Marketing",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 23,
+    "id": "5876949122",
+    "title": "Senior Executive, Performance Marketing",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 24,
+    "id": "5878947805",
+    "title": "On-Page SEO Specialist",
+    "tier": "S",
+    "retrieved_by": "seo specialist"
+   },
+   {
+    "i": 25,
+    "id": "5879546447",
+    "title": "Performance Marketing Manager",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 26,
+    "id": "5880855309",
+    "title": "Performance Marketing Executive",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 27,
+    "id": "5884155779",
+    "title": "MOC Performance Marketing Sr Exec/Asst Mngr M/F 5-6YRS(7-11 LPA)",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 28,
+    "id": "5885447175",
+    "title": "Senior Executive Performance Marketing JioCinema",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 29,
+    "id": "5885447768",
+    "title": "Work From Home Social Media Manager Digital Marketing Sector Earn",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 30,
+    "id": "5885450808",
+    "title": "Digital Marketing Account Manager - Intern",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 31,
+    "id": "5885845918",
+    "title": "Senior Performance Marketing Manager - Meta Ads · Remote, India",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 32,
+    "id": "5885974768",
+    "title": "Senior Digital Marketing & SEO Lead",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 33,
+    "id": "5885979334",
+    "title": "Digital Marketing Manager",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 34,
+    "id": "5887125588",
+    "title": "Digital Marketing Manager",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 35,
+    "id": "5887531995",
+    "title": "Digital Marketing Executive (6-10 Years Experience) - Chennai | Up to 18 LPA",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 36,
+    "id": "5888693600",
+    "title": "Digital Marketing Internship",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 37,
+    "id": "5889497853",
+    "title": "Digital Marketing Intern",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 38,
+    "id": "5889500915",
+    "title": "Performance Marketing Associate",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 39,
+    "id": "5889554288",
+    "title": "Performance Marketing Associate",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 40,
+    "id": "5890048315",
+    "title": "Sr. Digital Marketing Manager | Agency on Record for Alcobev Brand",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 41,
+    "id": "5893057282",
+    "title": "Performance Marketing Executive",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 42,
+    "id": "5893471252",
+    "title": "Senior Performance Marketing Manager",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 43,
+    "id": "5893825620",
+    "title": "Founding Growth Marketer",
+    "tier": "S",
+    "retrieved_by": "growth marketer"
+   },
+   {
+    "i": 44,
+    "id": "5897057544",
+    "title": "Senior Performance Marketing Specialist, Paid Media",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 45,
+    "id": "5898478155",
+    "title": "Senior Digital Marketing Specialist",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 46,
+    "id": "5899848967",
+    "title": "Outbound Marketing - Monetization, Monetization, Performance Marketing",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 47,
+    "id": "5900529917",
+    "title": "Digital Marketing Manager",
+    "tier": "C",
+    "retrieved_by": "digital marketing"
+   },
+   {
+    "i": 48,
+    "id": "5900534823",
+    "title": "Performance Marketing & Growth Manager",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 49,
+    "id": "5900808799",
+    "title": "GTM Engineer – Performance Marketing",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   },
+   {
+    "i": 50,
+    "id": "5901556951",
+    "title": "Performance Marketing Executive - Content (Eaze - Tamil)",
+    "tier": "S",
+    "retrieved_by": "performance marketing"
+   }
+  ],
+  "Graphic Designer": [
+   {
+    "i": 1,
+    "id": "5835662694",
+    "title": "AI Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 2,
+    "id": "5840187625",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 3,
+    "id": "5840682276",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 4,
+    "id": "5844303957",
+    "title": "Graphic Designer II",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 5,
+    "id": "5845822262",
+    "title": "Graphic Designer / 3D Visualizer / Video Editor",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 6,
+    "id": "5846299683",
+    "title": "Graphic Designer/ Brand identity",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 7,
+    "id": "5846300460",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 8,
+    "id": "5846555992",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 9,
+    "id": "5853620058",
+    "title": "Motion Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 10,
+    "id": "5856195303",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 11,
+    "id": "5857749719",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 12,
+    "id": "5858360480",
+    "title": "We Are Hiring Graphic Designer Cum Branding Executive",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 13,
+    "id": "5859121651",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 14,
+    "id": "5859122017",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 15,
+    "id": "5867717413",
+    "title": "Senior Creative Designer",
+    "tier": "S",
+    "retrieved_by": "creative designer"
+   },
+   {
+    "i": 16,
+    "id": "5868111799",
+    "title": "Senior Creative Designer",
+    "tier": "S",
+    "retrieved_by": "creative designer"
+   },
+   {
+    "i": 17,
+    "id": "5869803509",
+    "title": "GRAPHIC DESIGNER - Remote",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 18,
+    "id": "5872929995",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 19,
+    "id": "5873074204",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 20,
+    "id": "5876869920",
+    "title": "Graphic Designer - Associate",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 21,
+    "id": "5879552132",
+    "title": "Motion Graphic Designer & Video Editor",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 22,
+    "id": "5879665551",
+    "title": "Graphic designer-Packaging",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 23,
+    "id": "5883094459",
+    "title": "Sr. Graphic Designer | Wellness Brand",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 24,
+    "id": "5886663299",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 25,
+    "id": "5887778359",
+    "title": "Bid Co-ordinator and Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 26,
+    "id": "5889552337",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 27,
+    "id": "5889572076",
+    "title": "Graphic Designer, Andheri East",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 28,
+    "id": "5889578428",
+    "title": "Brand Visual Designer",
+    "tier": "S",
+    "retrieved_by": "visual designer"
+   },
+   {
+    "i": 29,
+    "id": "5890098374",
+    "title": "Graphic designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 30,
+    "id": "5890611927",
+    "title": "Art Director/ Graphic Designer- Creative Advertising Agency- Andheri East Mumbai",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 31,
+    "id": "5892765436",
+    "title": "Graphic Designer & Video editor",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 32,
+    "id": "5894179599",
+    "title": "Graphic Designer (InDesign Expert)",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 33,
+    "id": "5894179638",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 34,
+    "id": "5895238777",
+    "title": "Motion Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 35,
+    "id": "5895239095",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 36,
+    "id": "5895399583",
+    "title": "Creative Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 37,
+    "id": "5896612934",
+    "title": "Visual Designer",
+    "tier": "S",
+    "retrieved_by": "visual designer"
+   },
+   {
+    "i": 38,
+    "id": "5896660057",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 39,
+    "id": "5897294743",
+    "title": "Multimedia Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 40,
+    "id": "5898126939",
+    "title": "Senior Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 41,
+    "id": "5898127094",
+    "title": "Performance Creative Designer (UI / UX)",
+    "tier": "S",
+    "retrieved_by": "ux designer"
+   },
+   {
+    "i": 42,
+    "id": "5898128221",
+    "title": "Visual Designer",
+    "tier": "S",
+    "retrieved_by": "visual designer"
+   },
+   {
+    "i": 43,
+    "id": "5898129574",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 44,
+    "id": "5898472536",
+    "title": "Graphic Designer.",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 45,
+    "id": "5898552047",
+    "title": "Creative Graphic Designer Intern",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 46,
+    "id": "5899028879",
+    "title": "Graphic Designer - Motion Graphics",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 47,
+    "id": "5899976031",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 48,
+    "id": "5900876410",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 49,
+    "id": "5901134327",
+    "title": "Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   },
+   {
+    "i": 50,
+    "id": "5901481050",
+    "title": "Senior Graphic Designer",
+    "tier": "C",
+    "retrieved_by": "graphic designer"
+   }
+  ]
+ },
+ "unmatched": {
+  "Software Engineer": {
+   "pool_distinct_unmatched_titles": 300,
+   "sample": [
+    {
+     "i": 1,
+     "id": "5803870024",
+     "title": "Backend Developer (Python) – GenAI & LLM Applications",
+     "query": "application developer"
+    },
+    {
+     "i": 2,
+     "id": "5830098115",
+     "title": "Assistant Vice President - Application Development",
+     "query": "application developer"
+    },
+    {
+     "i": 3,
+     "id": "5841941251",
+     "title": "AI Developer – Voice AI Application",
+     "query": "application developer"
+    },
+    {
+     "i": 4,
+     "id": "5848357947",
+     "title": "Sr. Developer - Application Development JAVA P 4B",
+     "query": "application developer"
+    },
+    {
+     "i": 5,
+     "id": "5876480431",
+     "title": "Senior Manager, IT Application Development",
+     "query": "application developer"
+    },
+    {
+     "i": 6,
+     "id": "5879873349",
+     "title": "Application Development & Support Analyst",
+     "query": "application developer"
+    },
+    {
+     "i": 7,
+     "id": "5882734836",
+     "title": "Senior Vice President, Application Development Manager",
+     "query": "application developer"
+    },
+    {
+     "i": 8,
+     "id": "5890796364",
+     "title": "Software Cloud Developer",
+     "query": "software developer"
+    },
+    {
+     "i": 9,
+     "id": "5895348505",
+     "title": "Senior Firmware Developer - Thermal Application",
+     "query": "application developer"
+    },
+    {
+     "i": 10,
+     "id": "5895368601",
+     "title": "Sr. Developer - Enterprise Application - Oracle P 4B",
+     "query": "application developer"
+    },
+    {
+     "i": 11,
+     "id": "5898488671",
+     "title": "AI & ML Development Lead-Application Development-Applications Development Engineering",
+     "query": "application developer"
+    },
+    {
+     "i": 12,
+     "id": "5898655923",
+     "title": "Custom Software Engineering Lead - Java Full Stack Development",
+     "query": "software developer"
+    },
+    {
+     "i": 13,
+     "id": "5899863118",
+     "title": "Staff Engineer, Product Software",
+     "query": "software engineer"
+    },
+    {
+     "i": 14,
+     "id": "5900616393",
+     "title": "Technical Lead & Sr Developers Web And Blockchain Applications",
+     "query": "application developer"
+    },
+    {
+     "i": 15,
+     "id": "5902910690",
+     "title": "Senior Software Engineering Manager",
+     "query": "software engineer"
+    }
+   ]
+  },
+  "Data Analyst": {
+   "pool_distinct_unmatched_titles": 316,
+   "sample": [
+    {
+     "i": 1,
+     "id": "5806901440",
+     "title": "Senior Analyst, AI & Data Strategy-1",
+     "query": "data analyst"
+    },
+    {
+     "i": 2,
+     "id": "5822428111",
+     "title": "Financial and Regulatory Reporting Senior Analyst, AS",
+     "query": "reporting analyst"
+    },
+    {
+     "i": 3,
+     "id": "5833601338",
+     "title": "Analyst, Data Operations",
+     "query": "data analyst"
+    },
+    {
+     "i": 4,
+     "id": "5845820258",
+     "title": "Senior HR Analyst HR Data and Reporting Team parental leave coverage",
+     "query": "data analyst"
+    },
+    {
+     "i": 5,
+     "id": "5857951382",
+     "title": "Data Quality Analyst - Senior 2",
+     "query": "data analyst"
+    },
+    {
+     "i": 6,
+     "id": "5858360785",
+     "title": "Tax Data & Operations Analyst",
+     "query": "data analyst"
+    },
+    {
+     "i": 7,
+     "id": "5860532736",
+     "title": "Principal Data Quality Analyst",
+     "query": "data analyst"
+    },
+    {
+     "i": 8,
+     "id": "5862802813",
+     "title": "Research Analyst - Data Annotation",
+     "query": "data analyst"
+    },
+    {
+     "i": 9,
+     "id": "5870790978",
+     "title": "HR Analyst - Workday Data Administration",
+     "query": "data analyst"
+    },
+    {
+     "i": 10,
+     "id": "5878060378",
+     "title": "Sr. Analyst, Global Data Science Supply Chain",
+     "query": "data analyst"
+    },
+    {
+     "i": 11,
+     "id": "5878676501",
+     "title": "Senior Analyst- Trade Accruals - Data operations",
+     "query": "data analyst"
+    },
+    {
+     "i": 12,
+     "id": "5880669393",
+     "title": "Risk Reporting Senior Analyst, Assistant Vice President",
+     "query": "reporting analyst"
+    },
+    {
+     "i": 13,
+     "id": "5881147995",
+     "title": "Sales Data Quality Analyst",
+     "query": "data analyst"
+    },
+    {
+     "i": 14,
+     "id": "5886362820",
+     "title": "Associate Data Governance Analyst",
+     "query": "data analyst"
+    },
+    {
+     "i": 15,
+     "id": "5886394245",
+     "title": "Reporting Analyst II",
+     "query": "reporting analyst"
+    },
+    {
+     "i": 16,
+     "id": "5887960927",
+     "title": "Measurement and Report Senior Analyst",
+     "query": "reporting analyst"
+    },
+    {
+     "i": 17,
+     "id": "5890794731",
+     "title": "Analyst Data & Insight",
+     "query": "data analyst"
+    },
+    {
+     "i": 18,
+     "id": "5890799872",
+     "title": "Lead Analyst/ Associate Consultant-Power BI with paginated reports",
+     "query": "bi analyst"
+    },
+    {
+     "i": 19,
+     "id": "5891981575",
+     "title": "Data Governance Analysts - Collibra & Data Marketplace",
+     "query": "data analyst"
+    },
+    {
+     "i": 20,
+     "id": "5895366966",
+     "title": "Sr. Analyst - Business Data Services 4A",
+     "query": "data analyst"
+    },
+    {
+     "i": 21,
+     "id": "5895662197",
+     "title": "Senior Insights Analyst - Power BI (Italian Speaking)",
+     "query": "bi analyst"
+    },
+    {
+     "i": 22,
+     "id": "5897039139",
+     "title": "BI Reporting Analyst",
+     "query": "bi analyst"
+    },
+    {
+     "i": 23,
+     "id": "5897050510",
+     "title": "Reporting Analyst",
+     "query": "reporting analyst"
+    },
+    {
+     "i": 24,
+     "id": "5897056309",
+     "title": "RevOps SF Analyst and Power BI",
+     "query": "bi analyst"
+    },
+    {
+     "i": 25,
+     "id": "5897949505",
+     "title": "Data Governance and Quality Analyst",
+     "query": "data analyst"
+    },
+    {
+     "i": 26,
+     "id": "5898496957",
+     "title": "Quality Control Analyst - Data",
+     "query": "data analyst"
+    },
+    {
+     "i": 27,
+     "id": "5899323067",
+     "title": "Associate Product Data Optimisation Analyst",
+     "query": "data analyst"
+    },
+    {
+     "i": 28,
+     "id": "5899841139",
+     "title": "Index Data Research Analyst",
+     "query": "data analyst"
+    },
+    {
+     "i": 29,
+     "id": "5901700216",
+     "title": "Record to Report ops Senior Analyst",
+     "query": "reporting analyst"
+    },
+    {
+     "i": 30,
+     "id": "5901703432",
+     "title": "Quality Analyst (Data Collection) IRC304981",
+     "query": "data analyst"
+    }
+   ]
+  },
+  "Data Scientist": {
+   "pool_distinct_unmatched_titles": 136,
+   "sample": [
+    {
+     "i": 1,
+     "id": "5833594851",
+     "title": "Senior Software Development Test Engineer - Applied Science",
+     "query": "applied scientist"
+    },
+    {
+     "i": 2,
+     "id": "5875064386",
+     "title": "Assistant Manager, Global Data Science",
+     "query": "data scientist"
+    },
+    {
+     "i": 3,
+     "id": "5875071762",
+     "title": "Data Science Intership in Ahmedabad",
+     "query": "data scientist"
+    },
+    {
+     "i": 4,
+     "id": "5878060378",
+     "title": "Sr. Analyst, Global Data Science Supply Chain",
+     "query": "data scientist"
+    },
+    {
+     "i": 5,
+     "id": "5879665011",
+     "title": "Director – Data Science & Data Engineering(AI)",
+     "query": "data scientist"
+    },
+    {
+     "i": 6,
+     "id": "5884512320",
+     "title": "Manager, Data Science (Analytics)",
+     "query": "data scientist"
+    },
+    {
+     "i": 7,
+     "id": "5886521535",
+     "title": "Senior Data Science Engineer, India",
+     "query": "data scientist"
+    },
+    {
+     "i": 8,
+     "id": "5890800007",
+     "title": "Senior Advisor, Data Science",
+     "query": "data scientist"
+    },
+    {
+     "i": 9,
+     "id": "5891888550",
+     "title": "IND Applied AI Scientist",
+     "query": "applied scientist"
+    },
+    {
+     "i": 10,
+     "id": "5893825605",
+     "title": "Data Science & ML Senior Associate",
+     "query": "data scientist"
+    },
+    {
+     "i": 11,
+     "id": "5894233473",
+     "title": "Applied Data Science (Fresher)",
+     "query": "data scientist"
+    },
+    {
+     "i": 12,
+     "id": "5897023798",
+     "title": "Principal Applied Science Manager - Foundation Models, Agents & Trust Systems",
+     "query": "applied scientist"
+    },
+    {
+     "i": 13,
+     "id": "5897176784",
+     "title": "Senior Engineering Manager - Applied Machine Learning - AiDP",
+     "query": "machine learning engineer"
+    },
+    {
+     "i": 14,
+     "id": "5902535226",
+     "title": "Senior Risk Analyst – Data Science & Analytics",
+     "query": "data scientist"
+    },
+    {
+     "i": 15,
+     "id": "5902916549",
+     "title": "Senior Specialist, Data Science & Artificial Intelligence( Claude & Copilot)",
+     "query": "data scientist"
+    }
+   ]
+  },
+  "Data Engineer": {
+   "pool_distinct_unmatched_titles": 161,
+   "sample": [
+    {
+     "i": 1,
+     "id": "5858131071",
+     "title": "Senior Database Developer (PL/SQL, ETL)",
+     "query": "etl developer"
+    },
+    {
+     "i": 2,
+     "id": "5878704628",
+     "title": "Hiring Sales Engineer for analytical instruments and software solutions provider",
+     "query": "analytics engineer"
+    },
+    {
+     "i": 3,
+     "id": "5889505872",
+     "title": "SSIS Developer (ETL) JobID JC0015829",
+     "query": "etl developer"
+    },
+    {
+     "i": 4,
+     "id": "5889553058",
+     "title": "Engineering Analytics & Bid Review",
+     "query": "analytics engineer"
+    },
+    {
+     "i": 5,
+     "id": "5897062428",
+     "title": "Master Data Governance Engineer",
+     "query": "data engineer"
+    },
+    {
+     "i": 6,
+     "id": "5897259497",
+     "title": "Microsoft Purview Data Governance Engineer",
+     "query": "data engineer"
+    },
+    {
+     "i": 7,
+     "id": "5899328050",
+     "title": "Manager, Data Engineering",
+     "query": "data engineer"
+    },
+    {
+     "i": 8,
+     "id": "5899836368",
+     "title": "DE&A - Core - Cloud Data Engineering - Azure Data Engineering",
+     "query": "data engineer"
+    },
+    {
+     "i": 9,
+     "id": "5899860410",
+     "title": "IN_Associate_Microsoft Purview Data Governance Engineer_GCC_Advisory_Mumbai",
+     "query": "data engineer"
+    },
+    {
+     "i": 10,
+     "id": "5901134288",
+     "title": "Data Engineering [T500-29647]",
+     "query": "data engineer"
+    },
+    {
+     "i": 11,
+     "id": "5901635886",
+     "title": "Head of Data , ML and AI Platform Engineering",
+     "query": "data engineer"
+    },
+    {
+     "i": 12,
+     "id": "5902168904",
+     "title": "Engineering Intern – Transport Analytics",
+     "query": "analytics engineer"
+    },
+    {
+     "i": 13,
+     "id": "5902448378",
+     "title": "Data Engineering Lead",
+     "query": "data engineer"
+    },
+    {
+     "i": 14,
+     "id": "5902741366",
+     "title": "Data Center Engineering Operations Engineer, HYD-Infinity - DCEO",
+     "query": "data engineer"
+    },
+    {
+     "i": 15,
+     "id": "5902942298",
+     "title": "Sr.Data Engineering",
+     "query": "data engineer"
+    }
+   ]
+  },
+  "DevOps / Cloud Engineer": {
+   "pool_distinct_unmatched_titles": 358,
+   "sample": [
+    {
+     "i": 1,
+     "id": "5860543789",
+     "title": "Engineering Manager (Cloud)",
+     "query": "cloud engineer"
+    },
+    {
+     "i": 2,
+     "id": "5861792822",
+     "title": "DevOps Engineering Enablement-Lead Engineer",
+     "query": "devops engineer"
+    },
+    {
+     "i": 3,
+     "id": "5862282623",
+     "title": "Cloud Services Engineer",
+     "query": "cloud engineer"
+    },
+    {
+     "i": 4,
+     "id": "5871531534",
+     "title": "Data Platform Modernization Engineer - Junior (Databricks)",
+     "query": "platform engineer"
+    },
+    {
+     "i": 5,
+     "id": "5878058585",
+     "title": "Engineer III - Cloud SDET",
+     "query": "cloud engineer"
+    },
+    {
+     "i": 6,
+     "id": "5880669357",
+     "title": "Golang Software Engineering Lead - GenAI platforms - Senior Vice President",
+     "query": "platform engineer"
+    },
+    {
+     "i": 7,
+     "id": "5881116353",
+     "title": "Senior Engineer- Azure DevOps",
+     "query": "devops engineer"
+    },
+    {
+     "i": 8,
+     "id": "5887934595",
+     "title": "Senior Engineer, DevOps",
+     "query": "devops engineer"
+    },
+    {
+     "i": 9,
+     "id": "5889572993",
+     "title": "Connectivity Delivery Engineer, Cloud Interconnection  Wireless",
+     "query": "cloud engineer"
+    },
+    {
+     "i": 10,
+     "id": "5889578633",
+     "title": "Support Engineer (AI/ML & Platform Operations)",
+     "query": "platform engineer"
+    },
+    {
+     "i": 11,
+     "id": "5889600071",
+     "title": "Staff Platform Operations Engineer(Snowflake)",
+     "query": "platform engineer"
+    },
+    {
+     "i": 12,
+     "id": "5892384044",
+     "title": "Senior Software Engineering Manager, Google Cloud",
+     "query": "cloud engineer"
+    },
+    {
+     "i": 13,
+     "id": "5895359464",
+     "title": "Principal AI Engineer — AI & Data Platform",
+     "query": "platform engineer"
+    },
+    {
+     "i": 14,
+     "id": "5901481289",
+     "title": "Lead Developer - Platform Engineering",
+     "query": "platform engineer"
+    },
+    {
+     "i": 15,
+     "id": "5902739613",
+     "title": "DevOps / Infrastructure Engineer",
+     "query": "devops engineer"
+    }
+   ]
+  },
+  "Business Analyst": {
+   "pool_distinct_unmatched_titles": 179,
+   "sample": [
+    {
+     "i": 1,
+     "id": "5803844743",
+     "title": "AI Analyst - Business Analytics and Product Intelligence",
+     "query": "product analyst"
+    },
+    {
+     "i": 2,
+     "id": "5816835212",
+     "title": "Analyst Sr.- Functional SAP FI-CO",
+     "query": "functional analyst"
+    },
+    {
+     "i": 3,
+     "id": "5832080719",
+     "title": "Senior Analyst Business Systems",
+     "query": "systems analyst"
+    },
+    {
+     "i": 4,
+     "id": "5851134682",
+     "title": "Senior Product Complaints Analyst",
+     "query": "product analyst"
+    },
+    {
+     "i": 5,
+     "id": "5854847130",
+     "title": "Remote Senior Billing Systems and Operations Analyst",
+     "query": "systems analyst"
+    },
+    {
+     "i": 6,
+     "id": "5861956149",
+     "title": "Product Developer Analyst - Python & SQL - Officer",
+     "query": "product analyst"
+    },
+    {
+     "i": 7,
+     "id": "5874134411",
+     "title": "Senior Network/Systems Administration Analyst",
+     "query": "systems analyst"
+    },
+    {
+     "i": 8,
+     "id": "5877282383",
+     "title": "Global Investment Banking Product Control – Analyst",
+     "query": "product analyst"
+    },
+    {
+     "i": 9,
+     "id": "5877296663",
+     "title": "ServiceNow Principal Business Process Analyst",
+     "query": "business analyst"
+    },
+    {
+     "i": 10,
+     "id": "5877845466",
+     "title": "Talent Mobility Information System (TMIS) Analyst",
+     "query": "systems analyst"
+    },
+    {
+     "i": 11,
+     "id": "5878649375",
+     "title": "Sr. Analyst, Product Project Management (PET)",
+     "query": "product analyst"
+    },
+    {
+     "i": 12,
+     "id": "5879363488",
+     "title": "Business Senior Technical Lead Analyst",
+     "query": "business analyst"
+    },
+    {
+     "i": 13,
+     "id": "5879551860",
+     "title": "Lead Engineer – 1 - I &O Product and Services Asset Analyst",
+     "query": "product analyst"
+    },
+    {
+     "i": 14,
+     "id": "5882730706",
+     "title": "Analyst Systems IT",
+     "query": "systems analyst"
+    },
+    {
+     "i": 15,
+     "id": "5882774229",
+     "title": "Lead Analyst Business System(Workday Recruiting)",
+     "query": "business analyst"
+    },
+    {
+     "i": 16,
+     "id": "5883282692",
+     "title": "Senior Analyst Business Analytics",
+     "query": "business analyst"
+    },
+    {
+     "i": 17,
+     "id": "5885447565",
+     "title": "Business Operations Analyst Night Shift",
+     "query": "business analyst"
+    },
+    {
+     "i": 18,
+     "id": "5886399168",
+     "title": "Business Interlock Analyst",
+     "query": "business analyst"
+    },
+    {
+     "i": 19,
+     "id": "5887897307",
+     "title": "Analyst, Shared Business Services (Secondaries Real Estate)",
+     "query": "business analyst"
+    },
+    {
+     "i": 20,
+     "id": "5887915338",
+     "title": "Application Testing & Business Process Analyst",
+     "query": "business analyst"
+    },
+    {
+     "i": 21,
+     "id": "5889557540",
+     "title": "Financial Planning Analyst - Business Finance",
+     "query": "business analyst"
+    },
+    {
+     "i": 22,
+     "id": "5893831403",
+     "title": "Analyst - Business Consulting Risk - FS - CNS - RISK - FSRM - Mumbai",
+     "query": "business analyst"
+    },
+    {
+     "i": 23,
+     "id": "5895358240",
+     "title": "Analyst - Business Partner",
+     "query": "business analyst"
+    },
+    {
+     "i": 24,
+     "id": "5897028386",
+     "title": "Tier 1 AI Automation Engineer / Product Support Analyst",
+     "query": "product analyst"
+    },
+    {
+     "i": 25,
+     "id": "5897032467",
+     "title": "Business Operations Analyst II",
+     "query": "business analyst"
+    },
+    {
+     "i": 26,
+     "id": "5897053041",
+     "title": "Analyst - Business Data Services 5B",
+     "query": "business analyst"
+    },
+    {
+     "i": 27,
+     "id": "5899326453",
+     "title": "IGS - Business Analytics Analyst 1 - C09 - DCI",
+     "query": "business analyst"
+    },
+    {
+     "i": 28,
+     "id": "5900721214",
+     "title": "Content Manager - Business Analysts",
+     "query": "business analyst"
+    },
+    {
+     "i": 29,
+     "id": "5900875337",
+     "title": "Lead. SAP TMS Analyst(Transportation Management Systems)",
+     "query": "systems analyst"
+    },
+    {
+     "i": 30,
+     "id": "5901252767",
+     "title": "Sr Systems Integration Analyst",
+     "query": "systems analyst"
+    }
+   ]
+  },
+  "Product Manager": {
+   "pool_distinct_unmatched_titles": 134,
+   "sample": [
+    {
+     "i": 1,
+     "id": "5831403075",
+     "title": "Associate Manager/ Manager- Product Marketing",
+     "query": "associate product manager"
+    },
+    {
+     "i": 2,
+     "id": "5889560000",
+     "title": "Business Development Manager - Low Voltage Switchgear Product",
+     "query": "product manager"
+    },
+    {
+     "i": 3,
+     "id": "5890770213",
+     "title": "VP, Team Manager, P4, Product Support & Services ISG : Job Level - Vice President",
+     "query": "product manager"
+    },
+    {
+     "i": 4,
+     "id": "5890792863",
+     "title": "Asst Product Sales Manager-BRANCH BANKING-Enterprise Business Solutions - EBS",
+     "query": "product manager"
+    },
+    {
+     "i": 5,
+     "id": "5890819199",
+     "title": "Controller - Product Control (Valuations & Analytics) - Assistant Manager",
+     "query": "product manager"
+    },
+    {
+     "i": 6,
+     "id": "5891978892",
+     "title": "Oracle JDE World - Product Configuration (Functional) - SCM - Sales Order Management",
+     "query": "product manager"
+    },
+    {
+     "i": 7,
+     "id": "5897030265",
+     "title": "Director Product Management (Maintenance)",
+     "query": "product manager"
+    },
+    {
+     "i": 8,
+     "id": "5897062030",
+     "title": "Product Expert - Clinical Data Management - India",
+     "query": "product manager"
+    },
+    {
+     "i": 9,
+     "id": "5898466709",
+     "title": "Global Head of Cross-product Operations, Managing Director",
+     "query": "product manager"
+    },
+    {
+     "i": 10,
+     "id": "5898490712",
+     "title": "Digital Product Management - Associate",
+     "query": "product manager"
+    },
+    {
+     "i": 11,
+     "id": "5899256612",
+     "title": "Sales Manager (Holographic Products)",
+     "query": "product manager"
+    },
+    {
+     "i": 12,
+     "id": "5900740284",
+     "title": "Senior Manager, Product Marketing",
+     "query": "product manager"
+    },
+    {
+     "i": 13,
+     "id": "5900747835",
+     "title": "IMU Sales Capture Senior Manager (Products)",
+     "query": "product manager"
+    },
+    {
+     "i": 14,
+     "id": "5900750326",
+     "title": "Senior Associate -Digital Product Management",
+     "query": "product manager"
+    },
+    {
+     "i": 15,
+     "id": "5901700685",
+     "title": "PRO - Chief Manager - Products",
+     "query": "product manager"
+    }
+   ]
+  },
+  "Project Manager": {
+   "pool_distinct_unmatched_titles": 263,
+   "sample": [
+    {
+     "i": 1,
+     "id": "5794731047",
+     "title": "Assistant Manager, Service Delivery, India",
+     "query": "delivery manager"
+    },
+    {
+     "i": 2,
+     "id": "5816842899",
+     "title": "CRM Manager, IT Delivery",
+     "query": "delivery manager"
+    },
+    {
+     "i": 3,
+     "id": "5819875767",
+     "title": "Manager, Media Planning, Media Delivery and Operations",
+     "query": "delivery manager"
+    },
+    {
+     "i": 4,
+     "id": "5829382289",
+     "title": "Assistant General Manager – Delivery Lead (FMCG/ Retail)",
+     "query": "delivery manager"
+    },
+    {
+     "i": 5,
+     "id": "5879901220",
+     "title": "Senior Executive - Program Management",
+     "query": "program manager"
+    },
+    {
+     "i": 6,
+     "id": "5881157474",
+     "title": "Manager / Senior Analyst - Project Delivery Coordinator",
+     "query": "delivery manager"
+    },
+    {
+     "i": 7,
+     "id": "5884773058",
+     "title": "Associate – Program Management (Regulatory Finance Data Strategy)",
+     "query": "program manager"
+    },
+    {
+     "i": 8,
+     "id": "5886325051",
+     "title": "Manager - New Initiatives & Programs",
+     "query": "program manager"
+    },
+    {
+     "i": 9,
+     "id": "5889556074",
+     "title": "Manager II Program Management, Global Catalog Operations",
+     "query": "program manager"
+    },
+    {
+     "i": 10,
+     "id": "5890074006",
+     "title": "Associate Principal - Program & Project Management",
+     "query": "project manager"
+    },
+    {
+     "i": 11,
+     "id": "5890768087",
+     "title": "Program Management Lead - WebOps - Shared (Transformational TPM)",
+     "query": "program manager"
+    },
+    {
+     "i": 12,
+     "id": "5890795146",
+     "title": "Program Management (Business product) - DGM/GM- Lending EMI",
+     "query": "program manager"
+    },
+    {
+     "i": 13,
+     "id": "5891404562",
+     "title": "Manager - Project Management",
+     "query": "project manager"
+    },
+    {
+     "i": 14,
+     "id": "5891692893",
+     "title": "Technical Delivery Team Manager",
+     "query": "delivery manager"
+    },
+    {
+     "i": 15,
+     "id": "5892690161",
+     "title": "Jr Executive - Program Management",
+     "query": "program manager"
+    },
+    {
+     "i": 16,
+     "id": "5893469840",
+     "title": "Operations Manager – Global Delivery & Financial Operations | Onsite, Noida | Open to India-based candidates only",
+     "query": "delivery manager"
+    },
+    {
+     "i": 17,
+     "id": "5895348807",
+     "title": "Client Project Management Manager",
+     "query": "project manager"
+    },
+    {
+     "i": 18,
+     "id": "5895352922",
+     "title": "Manager - Project Planning",
+     "query": "project manager"
+    },
+    {
+     "i": 19,
+     "id": "5895373237",
+     "title": "Program Management Advisor - HIH - Evernorth",
+     "query": "program manager"
+    },
+    {
+     "i": 20,
+     "id": "5897955590",
+     "title": "Assistant Consultant - Project Management",
+     "query": "project manager"
+    },
+    {
+     "i": 21,
+     "id": "5898488043",
+     "title": "Semiconductor Supplier Delivery Performance Management",
+     "query": "delivery manager"
+    },
+    {
+     "i": 22,
+     "id": "5898599476",
+     "title": "Team Leader and Project Management Expert_BID Position",
+     "query": "project manager"
+    },
+    {
+     "i": 23,
+     "id": "5899259027",
+     "title": "Project Management Specialist",
+     "query": "project manager"
+    },
+    {
+     "i": 24,
+     "id": "5899845857",
+     "title": "Delivery Operations Associate Manager - Voice",
+     "query": "delivery manager"
+    },
+    {
+     "i": 25,
+     "id": "5899856116",
+     "title": "Senior Engineering Manager – Technical & Projects",
+     "query": "project manager"
+    },
+    {
+     "i": 26,
+     "id": "5901136150",
+     "title": "Manager / Senior Manager Sales – Luxury Residential Project",
+     "query": "project manager"
+    },
+    {
+     "i": 27,
+     "id": "5901137025",
+     "title": "Manager – Clinic Rollout & Projects",
+     "query": "project manager"
+    },
+    {
+     "i": 28,
+     "id": "5901690096",
+     "title": "Program/Project Management Lead",
+     "query": "project manager"
+    },
+    {
+     "i": 29,
+     "id": "5902535231",
+     "title": "Deputy Manager - Process Training (Training Management/ Training Delivery/ Process Trainer /TNA /TNI / Nesting ) - Hyderabad - REF113652U_2026278897",
+     "query": "delivery manager"
+    },
+    {
+     "i": 30,
+     "id": "5902721489",
+     "title": "Manager, Strategic Programs",
+     "query": "program manager"
+    }
+   ]
+  },
+  "Digital Marketing": {
+   "pool_distinct_unmatched_titles": 28,
+   "sample": [
+    {
+     "i": 1,
+     "id": "5785942388",
+     "title": "AEO/SEO & CRO Specialist",
+     "query": "seo specialist"
+    },
+    {
+     "i": 2,
+     "id": "5786645778",
+     "title": "Product Marketing (B2C Digital Products)",
+     "query": "digital marketing"
+    },
+    {
+     "i": 3,
+     "id": "5821049122",
+     "title": "Marketing Executive – Digital & Brand",
+     "query": "digital marketing"
+    },
+    {
+     "i": 4,
+     "id": "5828584392",
+     "title": "Performance & Growth Marketing Specialist – SEO, AEO & GEO",
+     "query": "seo specialist"
+    },
+    {
+     "i": 5,
+     "id": "5831330728",
+     "title": "Growth & Market Research Intern",
+     "query": "growth marketer"
+    },
+    {
+     "i": 6,
+     "id": "5832074060",
+     "title": "AEO/SEO Content Specialist",
+     "query": "seo specialist"
+    },
+    {
+     "i": 7,
+     "id": "5839221802",
+     "title": "Account Executive, Growth, Mid-Market",
+     "query": "growth marketer"
+    },
+    {
+     "i": 8,
+     "id": "5859124576",
+     "title": "SEO Outreach Specialist",
+     "query": "seo specialist"
+    },
+    {
+     "i": 9,
+     "id": "5859451794",
+     "title": "SEO Expert - Organic Growth Specialist",
+     "query": "seo specialist"
+    },
+    {
+     "i": 10,
+     "id": "5871237935",
+     "title": "SEO Content Writer Specialist",
+     "query": "seo specialist"
+    },
+    {
+     "i": 11,
+     "id": "5876429005",
+     "title": "Marketing-Digital-Head/General Manager-Healthcare Organisation",
+     "query": "digital marketing"
+    },
+    {
+     "i": 12,
+     "id": "5888519415",
+     "title": "Head of SaaS Sales (Growth Stage / Mid-Market focus)",
+     "query": "growth marketer"
+    },
+    {
+     "i": 13,
+     "id": "5889568331",
+     "title": "SEO and Growth Specialist",
+     "query": "seo specialist"
+    },
+    {
+     "i": 14,
+     "id": "5890792029",
+     "title": "SEO Content Specialist",
+     "query": "seo specialist"
+    },
+    {
+     "i": 15,
+     "id": "5897335654",
+     "title": "Senior Marketing Executive, Digital Channels",
+     "query": "digital marketing"
+    }
+   ]
+  },
+  "Graphic Designer": {
+   "pool_distinct_unmatched_titles": 99,
+   "sample": [
+    {
+     "i": 1,
+     "id": "5834753476",
+     "title": "Graphic Design Intern — D2C",
+     "query": "graphic designer"
+    },
+    {
+     "i": 2,
+     "id": "5836592390",
+     "title": "Ecommerce / Digital Designer (Beauty Brands, Creatives)",
+     "query": "creative designer"
+    },
+    {
+     "i": 3,
+     "id": "5840372781",
+     "title": "Principal Designer – AI & Visualization",
+     "query": "visual designer"
+    },
+    {
+     "i": 4,
+     "id": "5841755234",
+     "title": "Creative Director (Creative Design Leadership)",
+     "query": "creative designer"
+    },
+    {
+     "i": 5,
+     "id": "5842782926",
+     "title": "Coordinator- Graphic Design",
+     "query": "graphic designer"
+    },
+    {
+     "i": 6,
+     "id": "5846298756",
+     "title": "Graphic Design Specialist",
+     "query": "graphic designer"
+    },
+    {
+     "i": 7,
+     "id": "5856164943",
+     "title": "Creative Design Intern",
+     "query": "creative designer"
+    },
+    {
+     "i": 8,
+     "id": "5856197579",
+     "title": "Instructional/Graphic Design Management Consultant",
+     "query": "graphic designer"
+    },
+    {
+     "i": 9,
+     "id": "5859122012",
+     "title": "Creative Video Designer",
+     "query": "creative designer"
+    },
+    {
+     "i": 10,
+     "id": "5860543885",
+     "title": "Senior Experiential Designer & Visualizer",
+     "query": "visual designer"
+    },
+    {
+     "i": 11,
+     "id": "5861794165",
+     "title": "WeblineIndia - Creative Web Designer",
+     "query": "creative designer"
+    },
+    {
+     "i": 12,
+     "id": "5868113570",
+     "title": "Sr . Graphics Designer",
+     "query": "graphic designer"
+    },
+    {
+     "i": 13,
+     "id": "5868792867",
+     "title": "Freelance Graphic Web Designer",
+     "query": "graphic designer"
+    },
+    {
+     "i": 14,
+     "id": "5869814725",
+     "title": "Visualization Designer",
+     "query": "visual designer"
+    },
+    {
+     "i": 15,
+     "id": "5870445912",
+     "title": "Motion Graphics Designer (2D, 3D & Video)",
+     "query": "graphic designer"
+    },
+    {
+     "i": 16,
+     "id": "5871063854",
+     "title": "Visual Merchandiser Designer",
+     "query": "visual designer"
+    },
+    {
+     "i": 17,
+     "id": "5871529986",
+     "title": "Design Executive , Prime Video : Creative Marketing",
+     "query": "creative designer"
+    },
+    {
+     "i": 18,
+     "id": "5876480957",
+     "title": "Graphic and Pitch Deck Designer",
+     "query": "graphic designer"
+    },
+    {
+     "i": 19,
+     "id": "5877943393",
+     "title": "Graphics Design Intern",
+     "query": "graphic designer"
+    },
+    {
+     "i": 20,
+     "id": "5878114648",
+     "title": "Senior Motion Graphics Designer - India",
+     "query": "graphic designer"
+    },
+    {
+     "i": 21,
+     "id": "5878637545",
+     "title": "Senior Executive - Graphic Design",
+     "query": "graphic designer"
+    },
+    {
+     "i": 22,
+     "id": "5882729030",
+     "title": "Graphic Design Intern- Founder’s Office",
+     "query": "graphic designer"
+    },
+    {
+     "i": 23,
+     "id": "5887962722",
+     "title": "Sr. Designer - Visual Design 4B",
+     "query": "visual designer"
+    },
+    {
+     "i": 24,
+     "id": "5889681934",
+     "title": "Visual Communication Designer",
+     "query": "visual designer"
+    },
+    {
+     "i": 25,
+     "id": "5889759958",
+     "title": "Graphic Design Contractor",
+     "query": "graphic designer"
+    },
+    {
+     "i": 26,
+     "id": "5895393389",
+     "title": "Media & Graphics Design Senior Analyst",
+     "query": "graphic designer"
+    },
+    {
+     "i": 27,
+     "id": "5896613408",
+     "title": "Creative Design Director",
+     "query": "creative designer"
+    },
+    {
+     "i": 28,
+     "id": "5897044569",
+     "title": "Senior Associate Creative Design O&O Ecommerce",
+     "query": "creative designer"
+    },
+    {
+     "i": 29,
+     "id": "5899838222",
+     "title": "Consultant, Graphic Design",
+     "query": "graphic designer"
+    },
+    {
+     "i": 30,
+     "id": "5901133236",
+     "title": "Graphic Design Intern",
+     "query": "graphic designer"
+    }
+   ]
+  }
+ }
+}

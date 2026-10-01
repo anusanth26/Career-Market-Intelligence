@@ -1,0 +1,422 @@
+{
+ "column_order": [
+  "job_id",
+  "title",
+  "role",
+  "role_scope",
+  "role_status",
+  "domain",
+  "role_group",
+  "mapping_tier",
+  "employer",
+  "employer_normalized",
+  "employer_missing",
+  "description_raw",
+  "location_display",
+  "location_area",
+  "location_country",
+  "location_region",
+  "location_has_region",
+  "latitude",
+  "longitude",
+  "created",
+  "created_date",
+  "category_label",
+  "category_tag",
+  "contract_type",
+  "contract_time",
+  "salary_min",
+  "salary_max",
+  "salary_is_predicted",
+  "salary_present",
+  "salary_flags",
+  "salary_passes_plausibility_screen",
+  "source_run",
+  "source_file",
+  "source_query",
+  "source_query_role",
+  "collection_timestamp",
+  "collection_date",
+  "collection_method",
+  "query_roles_seen",
+  "also_seen_in",
+  "id_dup_count",
+  "near_dup_group_size",
+  "near_dup_key",
+  "employer_cap_status",
+  "in_core_analysis_dataset",
+  "description_length",
+  "description_is_truncated",
+  "description_short_flag",
+  "language_flag"
+ ],
+ "dataset": "career_market",
+ "fields": [
+  {
+   "description": "Adzuna job id (raw `id`), string",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "job_id",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "Original title, unchanged",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "title",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "Role label from TITLE-ONLY rules (config/roles.json + overrides in config/dataset_build.json)",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "role",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "core | conditional | adjacent_not_core",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "role_scope",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "core | conditional_limited (core role failing a dataset target or forced conditional by policy) | conditional | adjacent_not_core",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "role_status",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "Domain for core roles only",
+   "dtype": "object",
+   "missing_pct_full_validated": 21.5,
+   "name": "domain",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "Core: role name; conditional security families: 'Security (conditional family)'; UX/Financial Analyst: own name",
+   "dtype": "object",
+   "missing_pct_full_validated": 7.2,
+   "name": "role_group",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "canonical = first (canonical) title pattern matched; synonym = another documented variant",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "mapping_tier",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "raw company.display_name (may be missing)",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "employer",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "Lowercase alphanumeric normalisation used for grouping",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "employer_normalized",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "True when company.display_name is absent",
+   "dtype": "bool",
+   "missing_pct_full_validated": 0.0,
+   "name": "employer_missing",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "Adzuna description SNIPPET (about 500 characters), unchanged",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "description_raw",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "raw location.display_name",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "location_display",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "raw location.area (list, country first)",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "location_area",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "First element of location_area",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "location_country",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "Second element of location_area, when present",
+   "dtype": "object",
+   "missing_pct_full_validated": 34.2,
+   "name": "location_region",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "location_area has at least two levels",
+   "dtype": "bool",
+   "missing_pct_full_validated": 0.0,
+   "name": "location_has_region",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "raw latitude (about half of postings)",
+   "dtype": "float64",
+   "missing_pct_full_validated": 54.4,
+   "name": "latitude",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "raw longitude",
+   "dtype": "float64",
+   "missing_pct_full_validated": 54.4,
+   "name": "longitude",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "raw created timestamp (UTC string)",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "created",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "Date part of created",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "created_date",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "raw category.label (Adzuna's own category; not a domain label)",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "category_label",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "raw category.tag",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "category_tag",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "raw contract_type (sparse)",
+   "dtype": "object",
+   "missing_pct_full_validated": 84.6,
+   "name": "contract_type",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "raw contract_time",
+   "dtype": "object",
+   "missing_pct_full_validated": 40.9,
+   "name": "contract_time",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "raw salary_min; currency and period are NOT provided by the API (interpretation unresolved)",
+   "dtype": "float64",
+   "missing_pct_full_validated": 91.6,
+   "name": "salary_min",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "raw salary_max",
+   "dtype": "float64",
+   "missing_pct_full_validated": 91.6,
+   "name": "salary_max",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "raw salary_is_predicted ('0'/'1')",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "salary_is_predicted",
+   "origin": "SOURCE"
+  },
+  {
+   "description": "salary_min or salary_max present",
+   "dtype": "bool",
+   "missing_pct_full_validated": 0.0,
+   "name": "salary_present",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "JSON list: adzuna_predicted, min_gt_max, non_positive, below_floor, above_ceiling (invalid); point_value, one_sided (informational)",
+   "dtype": "object",
+   "missing_pct_full_validated": 97.7,
+   "name": "salary_flags",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "Present, not Adzuna-predicted, min <= max, and within a numeric range of 100,000 to 10,000,000. This is a NUMERIC SCREEN ONLY: the API provides no currency or pay-period field and the period interpretation is UNRESOLVED",
+   "dtype": "bool",
+   "missing_pct_full_validated": 0.0,
+   "name": "salary_passes_plausibility_screen",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "Run directory name, or legacy_pull_<date>",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "source_run",
+   "origin": "PROVENANCE"
+  },
+  {
+   "description": "Raw file the kept record came from",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "source_file",
+   "origin": "PROVENANCE"
+  },
+  {
+   "description": "Query text (title_only variant for runs; category name from filename for legacy, confirmed by pull log)",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "source_query",
+   "origin": "PROVENANCE"
+  },
+  {
+   "description": "Config role that requested the posting. NOT the role label",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "source_query_role",
+   "origin": "PROVENANCE"
+  },
+  {
+   "description": "Page fetch time (runs only; null for legacy)",
+   "dtype": "object",
+   "missing_pct_full_validated": 6.4,
+   "name": "collection_timestamp",
+   "origin": "PROVENANCE"
+  },
+  {
+   "description": "Date of collection",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "collection_date",
+   "origin": "PROVENANCE"
+  },
+  {
+   "description": "title_only_date_sorted (audited runs) or legacy_free_text_relevance_sorted",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "collection_method",
+   "origin": "PROVENANCE"
+  },
+  {
+   "description": "JSON list of every query role that retrieved this posting (after dedup merge)",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "query_roles_seen",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "JSON list of other 'run|query' sources that returned the same or a near-duplicate posting",
+   "dtype": "object",
+   "missing_pct_full_validated": 68.6,
+   "name": "also_seen_in",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "Number of raw records with this job id",
+   "dtype": "int64",
+   "missing_pct_full_validated": 0.0,
+   "name": "id_dup_count",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "Number of identical-snippet duplicates merged into this posting (1 = none)",
+   "dtype": "int64",
+   "missing_pct_full_validated": 0.0,
+   "name": "near_dup_group_size",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "Candidate-group hash of normalized title + employer + first 150 description chars (null if any part missing); merging additionally required an identical full snippet",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "near_dup_key",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "core rows: retained | excluded_by_5pct_cap; other partitions: not_applicable. Rows excluded by the cap stay in the full validated dataset",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "employer_cap_status",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "True for core-role rows retained by the employer cap (membership of the final core analysis dataset)",
+   "dtype": "bool",
+   "missing_pct_full_validated": 0.0,
+   "name": "in_core_analysis_dataset",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "Character count of description_raw",
+   "dtype": "int64",
+   "missing_pct_full_validated": 0.0,
+   "name": "description_length",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "description_raw ends with the ellipsis character",
+   "dtype": "bool",
+   "missing_pct_full_validated": 0.0,
+   "name": "description_is_truncated",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "0 < length < 200",
+   "dtype": "bool",
+   "missing_pct_full_validated": 0.0,
+   "name": "description_short_flag",
+   "origin": "DERIVED"
+  },
+  {
+   "description": "non_english_suspected if >30% of alphabetic characters in title+description are non-ASCII (flag only)",
+   "dtype": "object",
+   "missing_pct_full_validated": 0.0,
+   "name": "language_flag",
+   "origin": "DERIVED"
+  }
+ ],
+ "fields_deliberately_not_carried": [
+  "redirect_url",
+  "adref",
+  "title_normalized",
+  "description_normalized",
+  "matched_pattern_index"
+ ],
+ "frozen": true,
+ "origin_legend": {
+  "DERIVED": "computed deterministically",
+  "PROVENANCE": "collection metadata (or file-name derived for the legacy pull)",
+  "SOURCE": "copied unchanged from the Adzuna raw record"
+ },
+ "rules": [
+  "role is TITLE-BASED; never use title, role, source_query_role or mapping_tier as predictive features",
+  "no text normalisation, tokenisation, embeddings or skill vectors are stored",
+  "salary period and currency are unresolved"
+ ],
+ "version": "1.0.0-final",
+ "views": {
+  "career_market_core_analysis": 6533,
+  "career_market_full_validated": 8489
+ }
+}

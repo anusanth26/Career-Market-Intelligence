@@ -1,0 +1,245 @@
+role,adzuna_id,employer,title,reason,kept_id,query_variant
+Security Engineer,5877842275,Technogen India Private Limited,Analyst Information Security / Security Engineer,exact_id_duplicate,5877842275,information security analyst
+Security Engineer,5877842275,Technogen India Private Limited,Analyst Information Security / Security Engineer,exact_id_duplicate,5877842275,information security engineer
+Security Engineer,5900808819,CGI,Senior Cloud Security Engineer,near_duplicate(title+company+desc_prefix),5901693413,security engineer
+Security Engineer,5900529881,Vultr,"Security Engineer, GIOC",near_duplicate(title+company+desc_prefix),5900738722,security engineer
+Security Engineer,5900357030,UnitedHealth Group,Senior Manager Info Security Engineer - Cryptography & Certification Management,near_duplicate(title+company+desc_prefix),5900357037,security engineer
+Security Engineer,5898501787,Rubrik,Security Engineer - Identity and Access,near_duplicate(title+company+desc_prefix),5899328575,security engineer
+Security Engineer,5895371846,Palo Alto Networks,Senior Staff Cloud Security Engineer,near_duplicate(title+company+desc_prefix),5896367712,security engineer
+Security Engineer,5893733499,DeepSource Technologies,"Senior Network Security Engineer - Jeddah, KSA",near_duplicate(title+company+desc_prefix),5895065964,security engineer
+Security Engineer,5891893266,Vultr,"Senior Security Engineer,GIOC",near_duplicate(title+company+desc_prefix),5892690201,security engineer
+Security Engineer,5889219959,LTM,Network Security Engineer,near_duplicate(title+company+desc_prefix),5890074008,security engineer
+Security Engineer,5879142440,Toast,Senior Product Security Engineer,near_duplicate(title+company+desc_prefix),5879142456,security engineer
+Security Engineer,5873184745,Gruve,Senior Infrastructure Security Engineer-L3 (Palo Alto & NGFW),near_duplicate(title+company+desc_prefix),5898178921,security engineer
+Security Engineer,5868418721,The Hartford,Security Engineer I - Palo Alto Technologies,near_duplicate(title+company+desc_prefix),5889517097,security engineer
+Security Engineer,5868418722,The Hartford,Senior Security Engineer - Palo Alto Technologies,near_duplicate(title+company+desc_prefix),5869159662,security engineer
+Security Engineer,5868418717,The Hartford,Security Engineer - Directory Services,near_duplicate(title+company+desc_prefix),5869219147,security engineer
+Security Engineer,5864353195,Weekday AI,DevSecOps & Product Security Engineer,near_duplicate(title+company+desc_prefix),5893913383,security engineer
+Security Engineer,5861793827,Happiest Minds Technologies,Application Security Engineer,near_duplicate(title+company+desc_prefix),5861793841,security engineer
+Security Engineer,5861793826,Happiest Minds Technologies,Security Engineer,near_duplicate(title+company+desc_prefix),5861793822,security engineer
+Security Engineer,5860543840,Microstrategy,Application Security Engineer,near_duplicate(title+company+desc_prefix),5860543797,security engineer
+Security Engineer,5838444736,GE HealthCare,Staff Product Security Engineer,near_duplicate(title+company+desc_prefix),5839586526,security engineer
+Security Engineer,5833589790,Tekion,Senior Security Engineer,near_duplicate(title+company+desc_prefix),5834763829,security engineer
+Security Engineer,5833580419,Tekion,Senior Security Engineer,near_duplicate(title+company+desc_prefix),5834763829,security engineer
+Security Engineer,5831398844,Barry Wehmiller,Network Security Engineer,near_duplicate(title+company+desc_prefix),5831398845,security engineer
+Security Engineer,5828762124,Autodesk,Principal Network Security Engineer,near_duplicate(title+company+desc_prefix),5829183267,security engineer
+Security Engineer,5828163405,CrossBoundary,Systems and Security Engineer,near_duplicate(title+company+desc_prefix),5830619628,security engineer
+Security Engineer,5827925853,Amazon,"Security Engineer, AWS Security Incident Response",near_duplicate(title+company+desc_prefix),5878695857,security engineer
+Security Engineer,5806901558,"NTT America, Inc.",Security Engineer WAF and SSLO (L2),near_duplicate(title+company+desc_prefix),5835316603,security engineer
+Security Engineer,5806518252,Amazon,"Security Engineer, AWS Security Incident Response",near_duplicate(title+company+desc_prefix),5878695857,security engineer
+Security Engineer,5802316698,Amazon,"Security Engineer, AWS Security Incident Response",near_duplicate(title+company+desc_prefix),5828759869,security engineer
+Security Engineer,5802316677,Amazon,"Security Engineer, AWS Security Incident Response",near_duplicate(title+company+desc_prefix),5828759869,security engineer
+Security Engineer,5801027906,AWS India - Karnataka,"Security Engineer, AWS Security Incident Response",near_duplicate(title+company+desc_prefix),5819668535,security engineer
+Security Engineer,5793209213,GE Vernova,Lead Embedded Security Engineer,near_duplicate(title+company+desc_prefix),5793785801,security engineer
+Information Security Analyst,5889542682,Nike,"Lead Information Security Analyst, ITC",near_duplicate(title+company+desc_prefix),5890241298,information security analyst
+Information Security Analyst,5804445145,Applied Materials,Lead Information Security Analyst (Individual Contributor),near_duplicate(title+company+desc_prefix),5805303792,information security analyst
+Information Security Analyst,5840379163,Equitas Small Finance Bank,Information Security Analyst,employer_cap(>1 per employer),,information security analyst
+Information Security Analyst,5887935193,Nike,"Principal Information Security Analyst, ITC",employer_cap(>1 per employer),,information security analyst
+Information Security Analyst,5887227114,Nike,"Principal Information Security Analyst, TRM, ITC",employer_cap(>1 per employer),,information security analyst
+Cybersecurity Engineer,5901472803,Jane Street,Cybersecurity Engineer: Security Operations Center (SOC),exact_id_duplicate,5901472803,cybersecurity engineer
+Cybersecurity Engineer,5887515360,Jane Street,Cybersecurity Engineer - Security Operations Center (SOC),exact_id_duplicate,5887515360,cybersecurity engineer
+Cybersecurity Engineer,5791195511,Xenon7,AI Cybersecurity Engineer (Offensive Security & Threat Modeling),exact_id_duplicate,5791195511,cybersecurity engineer
+Cybersecurity Engineer,5897049450,Unisys,SOC Detection and Response - Engineer Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5897062123,security engineer
+Cybersecurity Engineer,5897039269,Unisys,SOC Detection and Response - Engineer Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5897062123,security engineer
+Cybersecurity Engineer,5891404242,GE Vernova,Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5891404240,security engineer
+Cybersecurity Engineer,5891404238,GE Vernova,Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5891404240,security engineer
+Cybersecurity Engineer,5890805487,GE Vernova,Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5891404240,security engineer
+Cybersecurity Engineer,5889560759,GE HealthCare,Sr. Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5890240752,security engineer
+Cybersecurity Engineer,5870120012,GE Vernova,Lead OT Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5889504323,security engineer
+Cybersecurity Engineer,5860801438,GE Vernova,Sr Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5861227542,security engineer
+Cybersecurity Engineer,5855480385,Magna International,Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5885974667,security engineer
+Cybersecurity Engineer,5794152993,SolarEdge,Senior Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5811351306,security engineer
+Cybersecurity Engineer,5895347127,Ensemble Health Partners India,Sr. Cybersecurity Engineer,near_duplicate(title+company+desc_prefix),5895360145,cybersecurity engineer
+Cybersecurity Engineer,5868422848,Trane Technologies,Cybersecurity Engineer - OT,near_duplicate(title+company+desc_prefix),5869184042,cybersecurity engineer
+Cybersecurity Engineer,5823363673,Cornerstone onDemand,Senior Cybersecurity Engineer - India,near_duplicate(title+company+desc_prefix),5823363675,cybersecurity engineer
+Cybersecurity Engineer,5861227542,GE Vernova,Sr Cyber Security Engineer,employer_cap(>3 per employer),,security engineer
+Information Security Engineer,5902917997,Nike,"Lead Information Security Engineer, ITC",exact_id_duplicate,5902917997,information security engineer
+Information Security Engineer,5902912989,Nike,"Lead Information Security Engineer, ITC",exact_id_duplicate,5902912989,information security engineer
+Information Security Engineer,5902909643,Nike,"Senior Information Security Engineer, ITC",exact_id_duplicate,5902909643,information security engineer
+Information Security Engineer,5900876708,Optum,Senior Information Security Engineer Consultant,exact_id_duplicate,5900876708,information security engineer
+Information Security Engineer,5900875378,Infosys,Senior Information Security Engineer,exact_id_duplicate,5900875378,information security engineer
+Information Security Engineer,5900714936,Wells Fargo Bank,Lead Information Security Engineer-AppSec Champion,exact_id_duplicate,5900714936,information security engineer
+Information Security Engineer,5900356466,Wells Fargo,Lead Information Security Engineer-AppSec Champion,exact_id_duplicate,5900356466,information security engineer
+Information Security Engineer,5898488941,Nike,"Principal Information Security Engineer, ITC",exact_id_duplicate,5898488941,information security engineer
+Information Security Engineer,5897952312,Nike,"Principal Information Security Engineer, ITC",exact_id_duplicate,5897952312,information security engineer
+Information Security Engineer,5894836202,Wells Fargo,Lead Information Security Engineer- PAM,exact_id_duplicate,5894836202,information security engineer
+Information Security Engineer,5890803238,NCR Voyix,Information Security Engineer (II),exact_id_duplicate,5890803238,information security engineer
+Information Security Engineer,5890791860,First Citizens India,Lead Information Security Engineer - IAM (Java Full Stack Developer),exact_id_duplicate,5890791860,information security engineer
+Information Security Engineer,5886382275,JLL,"Senior Information Security Engineer, Identity Security Engineering",exact_id_duplicate,5886382275,information security engineer
+Information Security Engineer,5882781105,MoonPay,"Information Security Engineer, DLP & Insider Risk",exact_id_duplicate,5882781105,information security engineer
+Information Security Engineer,5882770935,Wells Fargo Bank,Senior Information Security Engineer,exact_id_duplicate,5882770935,information security engineer
+Information Security Engineer,5882276976,Synchrony,"AVP, Endpoint Information Security Engineer",exact_id_duplicate,5882276976,information security engineer
+Information Security Engineer,5882275715,Nike,"Lead Information Security Engineer, ITC",exact_id_duplicate,5882275715,information security engineer
+Information Security Engineer,5882275709,Nike,"Principal Information Security Engineer, ITC",exact_id_duplicate,5882275709,information security engineer
+Information Security Engineer,5882275615,Mastercard,Information Security Engineer II,exact_id_duplicate,5882275615,information security engineer
+Information Security Engineer,5881161584,Nike,"Lead Information Security Engineer, ITC",exact_id_duplicate,5881161584,information security engineer
+Information Security Engineer,5881146971,Nike,"Principal Information Security Engineer, ITC",exact_id_duplicate,5881146971,information security engineer
+Information Security Engineer,5881124519,Revantage,Information Security Engineer,exact_id_duplicate,5881124519,information security engineer
+Information Security Engineer,5880842857,MoonPay,"Information Security Engineer, DLP & Insider Risk",exact_id_duplicate,5880842857,information security engineer
+Information Security Engineer,5878060335,Procter & Gamble,Information Security Engineer,exact_id_duplicate,5878060335,information security engineer
+Information Security Engineer,5877284412,IMC,Information Security Engineer,exact_id_duplicate,5877284412,information security engineer
+Information Security Engineer,5876946623,Tangem,Senior Information Security Engineer,exact_id_duplicate,5876946623,information security engineer
+Information Security Engineer,5875717029,P&G,Information Security Engineer,exact_id_duplicate,5875717029,information security engineer
+Information Security Engineer,5872787553,UnitedHealth Group,Senior Information Security Engineer Consultant,exact_id_duplicate,5872787553,information security engineer
+Information Security Engineer,5872133129,Fortive,Associate Information Security Engineer,exact_id_duplicate,5872133129,information security engineer
+Information Security Engineer,5871530710,Fortive Corporation,Associate Information Security Engineer,exact_id_duplicate,5871530710,information security engineer
+Information Security Engineer,5869559153,IRIS Centre of Excellence - India,Senior information security Engineer - Vulnerability Management,exact_id_duplicate,5869559153,information security engineer
+Information Security Engineer,5866610708,Wells Fargo,Senior Information Security Engineer,exact_id_duplicate,5866610708,information security engineer
+Information Security Engineer,5866610678,Wells Fargo,Senior Information Security Engineer,exact_id_duplicate,5866610678,information security engineer
+Information Security Engineer,5866609085,Mastercard,Information Security Engineer II,exact_id_duplicate,5866609085,information security engineer
+Information Security Engineer,5862787108,Wells Fargo,Senior Information Security Engineer,exact_id_duplicate,5862787108,information security engineer
+Information Security Engineer,5861235308,Atlas Systems,P1-GP-Information Security Engineer (Generalist – AI & Automation Focus),exact_id_duplicate,5861235308,information security engineer
+Information Security Engineer,5860543778,Microstrategy,Information Security Engineer,exact_id_duplicate,5860543778,information security engineer
+Information Security Engineer,5859123623,PowerSchool India,Senior Information Security Engineer 1,exact_id_duplicate,5859123623,information security engineer
+Information Security Engineer,5859123580,PowerSchool India,Information Security Engineer 1,exact_id_duplicate,5859123580,information security engineer
+Information Security Engineer,5856964668,MoonPay,Information Security Engineer,exact_id_duplicate,5856964668,information security engineer
+Information Security Engineer,5854444770,Wells Fargo Bank,Senior Information Security Engineer,exact_id_duplicate,5854444770,information security engineer
+Information Security Engineer,5850376507,Inmobi,Senior Information Security Engineer,exact_id_duplicate,5850376507,information security engineer
+Information Security Engineer,5842777488,UnitedHealth Group,Senior Information Security Engineer Consultant - Palo Alto,exact_id_duplicate,5842777488,information security engineer
+Information Security Engineer,5838437518,Thoughtworks,Lead Information Security Engineer,exact_id_duplicate,5838437518,information security engineer
+Information Security Engineer,5835718304,Wells Fargo Bank,Senior Information Security Engineer,exact_id_duplicate,5835718304,information security engineer
+Information Security Engineer,5832798310,Gowra Bits & Bytes,Sr. Information Security Engineer,exact_id_duplicate,5832798310,information security engineer
+Information Security Engineer,5832798300,Gowra Bits & Bytes,Sr. Information Security Engineer,exact_id_duplicate,5832798300,information security engineer
+Information Security Engineer,5832798287,Gowra Bits & Bytes,Sr. Information Security Engineer,exact_id_duplicate,5832798287,information security engineer
+Information Security Engineer,5819656435,Nerve Solutions,Information Security Engineer,exact_id_duplicate,5819656435,information security engineer
+Information Security Engineer,5805396837,Tower Research Capital,Information Security Engineer III,exact_id_duplicate,5805396837,information security engineer
+Information Security Engineer,5804447336,UnitedHealth Group,Senior Information Security Engineer Consultant,exact_id_duplicate,5804447336,information security engineer
+Information Security Engineer,5801785221,Aspora,Senior Information Security Engineer,exact_id_duplicate,5801785221,information security engineer
+Information Security Engineer,5788421227,Cognite,Principal Information Security Engineer (AI Product/Cyber Security  SecOps),exact_id_duplicate,5788421227,information security engineer
+Information Security Engineer,5787621711,UnitedHealth Group,Principal Information Security Engineer,exact_id_duplicate,5787621711,information security engineer
+Information Security Engineer,5902912989,Nike,"Lead Information Security Engineer, ITC",near_duplicate(title+company+desc_prefix),5902917997,security engineer
+Information Security Engineer,5897952312,Nike,"Principal Information Security Engineer, ITC",near_duplicate(title+company+desc_prefix),5898488941,security engineer
+Information Security Engineer,5881161584,Nike,"Lead Information Security Engineer, ITC",near_duplicate(title+company+desc_prefix),5882275715,security engineer
+Information Security Engineer,5881146971,Nike,"Principal Information Security Engineer, ITC",near_duplicate(title+company+desc_prefix),5882275709,security engineer
+Information Security Engineer,5880842857,MoonPay,"Information Security Engineer, DLP & Insider Risk",near_duplicate(title+company+desc_prefix),5882781105,security engineer
+Information Security Engineer,5866609085,Mastercard,Information Security Engineer II,near_duplicate(title+company+desc_prefix),5882275615,security engineer
+Information Security Engineer,5862787108,Wells Fargo,Senior Information Security Engineer,near_duplicate(title+company+desc_prefix),5866610678,security engineer
+Information Security Engineer,5835718304,Wells Fargo Bank,Senior Information Security Engineer,near_duplicate(title+company+desc_prefix),5882770935,security engineer
+Information Security Engineer,5832798300,Gowra Bits & Bytes,Sr. Information Security Engineer,near_duplicate(title+company+desc_prefix),5832798310,security engineer
+Information Security Engineer,5832798287,Gowra Bits & Bytes,Sr. Information Security Engineer,near_duplicate(title+company+desc_prefix),5832798310,security engineer
+Information Security Engineer,5898488941,Nike,"Principal Information Security Engineer, ITC",employer_cap(>2 per employer),,security engineer
+Information Security Engineer,5882275715,Nike,"Lead Information Security Engineer, ITC",employer_cap(>2 per employer),,security engineer
+Information Security Engineer,5882275709,Nike,"Principal Information Security Engineer, ITC",employer_cap(>2 per employer),,security engineer
+Information Security Engineer,5854444770,Wells Fargo Bank,Senior Information Security Engineer,employer_cap(>2 per employer),,security engineer
+Information Security Engineer,5866610708,Wells Fargo,Senior Information Security Engineer,employer_cap(>2 per employer),,security engineer
+Information Security Engineer,5866610678,Wells Fargo,Senior Information Security Engineer,employer_cap(>2 per employer),,security engineer
+Information Security Engineer,5804447336,UnitedHealth Group,Senior Information Security Engineer Consultant,employer_cap(>2 per employer),,security engineer
+Information Security Engineer,5787621711,UnitedHealth Group,Principal Information Security Engineer,employer_cap(>2 per employer),,security engineer
+Cybersecurity Analyst,5856978876,Roche,Senior Cybersecurity Analyst - Policy Based Access,near_duplicate(title+company+desc_prefix),5859436070,cybersecurity analyst
+Cybersecurity Analyst,5796581910,Applied Materials,Cybersecurity Analyst - Attack Surface Management & Attack Path Analysis,near_duplicate(title+company+desc_prefix),5798270960,cybersecurity analyst
+GROUP:security,5877842275,Technogen India Private Limited,Analyst Information Security / Security Engineer,exact_id_duplicate,5877842275,information security analyst
+GROUP:security,5901472803,Jane Street,Cybersecurity Engineer: Security Operations Center (SOC),exact_id_duplicate,5901472803,cybersecurity engineer
+GROUP:security,5887515360,Jane Street,Cybersecurity Engineer - Security Operations Center (SOC),exact_id_duplicate,5887515360,cybersecurity engineer
+GROUP:security,5791195511,Xenon7,AI Cybersecurity Engineer (Offensive Security & Threat Modeling),exact_id_duplicate,5791195511,cybersecurity engineer
+GROUP:security,5902917997,Nike,"Lead Information Security Engineer, ITC",exact_id_duplicate,5902917997,information security engineer
+GROUP:security,5902912989,Nike,"Lead Information Security Engineer, ITC",exact_id_duplicate,5902912989,information security engineer
+GROUP:security,5902909643,Nike,"Senior Information Security Engineer, ITC",exact_id_duplicate,5902909643,information security engineer
+GROUP:security,5900876708,Optum,Senior Information Security Engineer Consultant,exact_id_duplicate,5900876708,information security engineer
+GROUP:security,5900875378,Infosys,Senior Information Security Engineer,exact_id_duplicate,5900875378,information security engineer
+GROUP:security,5900714936,Wells Fargo Bank,Lead Information Security Engineer-AppSec Champion,exact_id_duplicate,5900714936,information security engineer
+GROUP:security,5900356466,Wells Fargo,Lead Information Security Engineer-AppSec Champion,exact_id_duplicate,5900356466,information security engineer
+GROUP:security,5898488941,Nike,"Principal Information Security Engineer, ITC",exact_id_duplicate,5898488941,information security engineer
+GROUP:security,5897952312,Nike,"Principal Information Security Engineer, ITC",exact_id_duplicate,5897952312,information security engineer
+GROUP:security,5894836202,Wells Fargo,Lead Information Security Engineer- PAM,exact_id_duplicate,5894836202,information security engineer
+GROUP:security,5890803238,NCR Voyix,Information Security Engineer (II),exact_id_duplicate,5890803238,information security engineer
+GROUP:security,5890791860,First Citizens India,Lead Information Security Engineer - IAM (Java Full Stack Developer),exact_id_duplicate,5890791860,information security engineer
+GROUP:security,5886382275,JLL,"Senior Information Security Engineer, Identity Security Engineering",exact_id_duplicate,5886382275,information security engineer
+GROUP:security,5882781105,MoonPay,"Information Security Engineer, DLP & Insider Risk",exact_id_duplicate,5882781105,information security engineer
+GROUP:security,5882770935,Wells Fargo Bank,Senior Information Security Engineer,exact_id_duplicate,5882770935,information security engineer
+GROUP:security,5882276976,Synchrony,"AVP, Endpoint Information Security Engineer",exact_id_duplicate,5882276976,information security engineer
+GROUP:security,5882275715,Nike,"Lead Information Security Engineer, ITC",exact_id_duplicate,5882275715,information security engineer
+GROUP:security,5882275709,Nike,"Principal Information Security Engineer, ITC",exact_id_duplicate,5882275709,information security engineer
+GROUP:security,5882275615,Mastercard,Information Security Engineer II,exact_id_duplicate,5882275615,information security engineer
+GROUP:security,5881161584,Nike,"Lead Information Security Engineer, ITC",exact_id_duplicate,5881161584,information security engineer
+GROUP:security,5881146971,Nike,"Principal Information Security Engineer, ITC",exact_id_duplicate,5881146971,information security engineer
+GROUP:security,5881124519,Revantage,Information Security Engineer,exact_id_duplicate,5881124519,information security engineer
+GROUP:security,5880842857,MoonPay,"Information Security Engineer, DLP & Insider Risk",exact_id_duplicate,5880842857,information security engineer
+GROUP:security,5878060335,Procter & Gamble,Information Security Engineer,exact_id_duplicate,5878060335,information security engineer
+GROUP:security,5877842275,Technogen India Private Limited,Analyst Information Security / Security Engineer,exact_id_duplicate,5877842275,information security engineer
+GROUP:security,5877284412,IMC,Information Security Engineer,exact_id_duplicate,5877284412,information security engineer
+GROUP:security,5876946623,Tangem,Senior Information Security Engineer,exact_id_duplicate,5876946623,information security engineer
+GROUP:security,5875717029,P&G,Information Security Engineer,exact_id_duplicate,5875717029,information security engineer
+GROUP:security,5872787553,UnitedHealth Group,Senior Information Security Engineer Consultant,exact_id_duplicate,5872787553,information security engineer
+GROUP:security,5872133129,Fortive,Associate Information Security Engineer,exact_id_duplicate,5872133129,information security engineer
+GROUP:security,5871530710,Fortive Corporation,Associate Information Security Engineer,exact_id_duplicate,5871530710,information security engineer
+GROUP:security,5869559153,IRIS Centre of Excellence - India,Senior information security Engineer - Vulnerability Management,exact_id_duplicate,5869559153,information security engineer
+GROUP:security,5866610708,Wells Fargo,Senior Information Security Engineer,exact_id_duplicate,5866610708,information security engineer
+GROUP:security,5866610678,Wells Fargo,Senior Information Security Engineer,exact_id_duplicate,5866610678,information security engineer
+GROUP:security,5866609085,Mastercard,Information Security Engineer II,exact_id_duplicate,5866609085,information security engineer
+GROUP:security,5862787108,Wells Fargo,Senior Information Security Engineer,exact_id_duplicate,5862787108,information security engineer
+GROUP:security,5861235308,Atlas Systems,P1-GP-Information Security Engineer (Generalist – AI & Automation Focus),exact_id_duplicate,5861235308,information security engineer
+GROUP:security,5860543778,Microstrategy,Information Security Engineer,exact_id_duplicate,5860543778,information security engineer
+GROUP:security,5859123623,PowerSchool India,Senior Information Security Engineer 1,exact_id_duplicate,5859123623,information security engineer
+GROUP:security,5859123580,PowerSchool India,Information Security Engineer 1,exact_id_duplicate,5859123580,information security engineer
+GROUP:security,5856964668,MoonPay,Information Security Engineer,exact_id_duplicate,5856964668,information security engineer
+GROUP:security,5854444770,Wells Fargo Bank,Senior Information Security Engineer,exact_id_duplicate,5854444770,information security engineer
+GROUP:security,5850376507,Inmobi,Senior Information Security Engineer,exact_id_duplicate,5850376507,information security engineer
+GROUP:security,5842777488,UnitedHealth Group,Senior Information Security Engineer Consultant - Palo Alto,exact_id_duplicate,5842777488,information security engineer
+GROUP:security,5838437518,Thoughtworks,Lead Information Security Engineer,exact_id_duplicate,5838437518,information security engineer
+GROUP:security,5835718304,Wells Fargo Bank,Senior Information Security Engineer,exact_id_duplicate,5835718304,information security engineer
+GROUP:security,5832798310,Gowra Bits & Bytes,Sr. Information Security Engineer,exact_id_duplicate,5832798310,information security engineer
+GROUP:security,5832798300,Gowra Bits & Bytes,Sr. Information Security Engineer,exact_id_duplicate,5832798300,information security engineer
+GROUP:security,5832798287,Gowra Bits & Bytes,Sr. Information Security Engineer,exact_id_duplicate,5832798287,information security engineer
+GROUP:security,5819656435,Nerve Solutions,Information Security Engineer,exact_id_duplicate,5819656435,information security engineer
+GROUP:security,5805396837,Tower Research Capital,Information Security Engineer III,exact_id_duplicate,5805396837,information security engineer
+GROUP:security,5804447336,UnitedHealth Group,Senior Information Security Engineer Consultant,exact_id_duplicate,5804447336,information security engineer
+GROUP:security,5801785221,Aspora,Senior Information Security Engineer,exact_id_duplicate,5801785221,information security engineer
+GROUP:security,5788421227,Cognite,Principal Information Security Engineer (AI Product/Cyber Security  SecOps),exact_id_duplicate,5788421227,information security engineer
+GROUP:security,5787621711,UnitedHealth Group,Principal Information Security Engineer,exact_id_duplicate,5787621711,information security engineer
+GROUP:security,5902912989,Nike,"Lead Information Security Engineer, ITC",near_duplicate(title+company+desc_prefix),5902917997,security engineer
+GROUP:security,5900808819,CGI,Senior Cloud Security Engineer,near_duplicate(title+company+desc_prefix),5901693413,security engineer
+GROUP:security,5900529881,Vultr,"Security Engineer, GIOC",near_duplicate(title+company+desc_prefix),5900738722,security engineer
+GROUP:security,5900357030,UnitedHealth Group,Senior Manager Info Security Engineer - Cryptography & Certification Management,near_duplicate(title+company+desc_prefix),5900357037,security engineer
+GROUP:security,5898501787,Rubrik,Security Engineer - Identity and Access,near_duplicate(title+company+desc_prefix),5899328575,security engineer
+GROUP:security,5897952312,Nike,"Principal Information Security Engineer, ITC",near_duplicate(title+company+desc_prefix),5898488941,security engineer
+GROUP:security,5897049450,Unisys,SOC Detection and Response - Engineer Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5897062123,security engineer
+GROUP:security,5897039269,Unisys,SOC Detection and Response - Engineer Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5897062123,security engineer
+GROUP:security,5895371846,Palo Alto Networks,Senior Staff Cloud Security Engineer,near_duplicate(title+company+desc_prefix),5896367712,security engineer
+GROUP:security,5893733499,DeepSource Technologies,"Senior Network Security Engineer - Jeddah, KSA",near_duplicate(title+company+desc_prefix),5895065964,security engineer
+GROUP:security,5891893266,Vultr,"Senior Security Engineer,GIOC",near_duplicate(title+company+desc_prefix),5892690201,security engineer
+GROUP:security,5891404242,GE Vernova,Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5891404240,security engineer
+GROUP:security,5891404238,GE Vernova,Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5891404240,security engineer
+GROUP:security,5890805487,GE Vernova,Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5891404240,security engineer
+GROUP:security,5889560759,GE HealthCare,Sr. Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5890240752,security engineer
+GROUP:security,5889219959,LTM,Network Security Engineer,near_duplicate(title+company+desc_prefix),5890074008,security engineer
+GROUP:security,5881161584,Nike,"Lead Information Security Engineer, ITC",near_duplicate(title+company+desc_prefix),5882275715,security engineer
+GROUP:security,5881146971,Nike,"Principal Information Security Engineer, ITC",near_duplicate(title+company+desc_prefix),5882275709,security engineer
+GROUP:security,5880842857,MoonPay,"Information Security Engineer, DLP & Insider Risk",near_duplicate(title+company+desc_prefix),5882781105,security engineer
+GROUP:security,5879142440,Toast,Senior Product Security Engineer,near_duplicate(title+company+desc_prefix),5879142456,security engineer
+GROUP:security,5873184745,Gruve,Senior Infrastructure Security Engineer-L3 (Palo Alto & NGFW),near_duplicate(title+company+desc_prefix),5898178921,security engineer
+GROUP:security,5870120012,GE Vernova,Lead OT Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5889504323,security engineer
+GROUP:security,5868418721,The Hartford,Security Engineer I - Palo Alto Technologies,near_duplicate(title+company+desc_prefix),5889517097,security engineer
+GROUP:security,5868418722,The Hartford,Senior Security Engineer - Palo Alto Technologies,near_duplicate(title+company+desc_prefix),5869159662,security engineer
+GROUP:security,5868418717,The Hartford,Security Engineer - Directory Services,near_duplicate(title+company+desc_prefix),5869219147,security engineer
+GROUP:security,5866609085,Mastercard,Information Security Engineer II,near_duplicate(title+company+desc_prefix),5882275615,security engineer
+GROUP:security,5864353195,Weekday AI,DevSecOps & Product Security Engineer,near_duplicate(title+company+desc_prefix),5893913383,security engineer
+GROUP:security,5862787108,Wells Fargo,Senior Information Security Engineer,near_duplicate(title+company+desc_prefix),5866610678,security engineer
+GROUP:security,5861793827,Happiest Minds Technologies,Application Security Engineer,near_duplicate(title+company+desc_prefix),5861793841,security engineer
+GROUP:security,5861793826,Happiest Minds Technologies,Security Engineer,near_duplicate(title+company+desc_prefix),5861793822,security engineer
+GROUP:security,5860801438,GE Vernova,Sr Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5861227542,security engineer
+GROUP:security,5860543840,Microstrategy,Application Security Engineer,near_duplicate(title+company+desc_prefix),5860543797,security engineer
+GROUP:security,5855480385,Magna International,Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5885974667,security engineer
+GROUP:security,5838444736,GE HealthCare,Staff Product Security Engineer,near_duplicate(title+company+desc_prefix),5839586526,security engineer
+GROUP:security,5835718304,Wells Fargo Bank,Senior Information Security Engineer,near_duplicate(title+company+desc_prefix),5882770935,security engineer
+GROUP:security,5833589790,Tekion,Senior Security Engineer,near_duplicate(title+company+desc_prefix),5834763829,security engineer
+GROUP:security,5833580419,Tekion,Senior Security Engineer,near_duplicate(title+company+desc_prefix),5834763829,security engineer
+GROUP:security,5832798300,Gowra Bits & Bytes,Sr. Information Security Engineer,near_duplicate(title+company+desc_prefix),5832798310,security engineer
+GROUP:security,5832798287,Gowra Bits & Bytes,Sr. Information Security Engineer,near_duplicate(title+company+desc_prefix),5832798310,security engineer
+GROUP:security,5831398844,Barry Wehmiller,Network Security Engineer,near_duplicate(title+company+desc_prefix),5831398845,security engineer
+GROUP:security,5828762124,Autodesk,Principal Network Security Engineer,near_duplicate(title+company+desc_prefix),5829183267,security engineer
+GROUP:security,5828163405,CrossBoundary,Systems and Security Engineer,near_duplicate(title+company+desc_prefix),5830619628,security engineer
+GROUP:security,5827925853,Amazon,"Security Engineer, AWS Security Incident Response",near_duplicate(title+company+desc_prefix),5878695857,security engineer
+GROUP:security,5806901558,"NTT America, Inc.",Security Engineer WAF and SSLO (L2),near_duplicate(title+company+desc_prefix),5835316603,security engineer
+GROUP:security,5806518252,Amazon,"Security Engineer, AWS Security Incident Response",near_duplicate(title+company+desc_prefix),5878695857,security engineer
+GROUP:security,5802316698,Amazon,"Security Engineer, AWS Security Incident Response",near_duplicate(title+company+desc_prefix),5828759869,security engineer
+GROUP:security,5802316677,Amazon,"Security Engineer, AWS Security Incident Response",near_duplicate(title+company+desc_prefix),5828759869,security engineer
+GROUP:security,5801027906,AWS India - Karnataka,"Security Engineer, AWS Security Incident Response",near_duplicate(title+company+desc_prefix),5819668535,security engineer
+GROUP:security,5794152993,SolarEdge,Senior Cyber Security Engineer,near_duplicate(title+company+desc_prefix),5811351306,security engineer
+GROUP:security,5793209213,GE Vernova,Lead Embedded Security Engineer,near_duplicate(title+company+desc_prefix),5793785801,security engineer
+GROUP:security,5889542682,Nike,"Lead Information Security Analyst, ITC",near_duplicate(title+company+desc_prefix),5890241298,information security analyst
+GROUP:security,5804445145,Applied Materials,Lead Information Security Analyst (Individual Contributor),near_duplicate(title+company+desc_prefix),5805303792,information security analyst
+GROUP:security,5895347127,Ensemble Health Partners India,Sr. Cybersecurity Engineer,near_duplicate(title+company+desc_prefix),5895360145,cybersecurity engineer
+GROUP:security,5868422848,Trane Technologies,Cybersecurity Engineer - OT,near_duplicate(title+company+desc_prefix),5869184042,cybersecurity engineer
+GROUP:security,5823363673,Cornerstone onDemand,Senior Cybersecurity Engineer - India,near_duplicate(title+company+desc_prefix),5823363675,cybersecurity engineer
+GROUP:security,5856978876,Roche,Senior Cybersecurity Analyst - Policy Based Access,near_duplicate(title+company+desc_prefix),5859436070,cybersecurity analyst
+GROUP:security,5796581910,Applied Materials,Cybersecurity Analyst - Attack Surface Management & Attack Path Analysis,near_duplicate(title+company+desc_prefix),5798270960,cybersecurity analyst

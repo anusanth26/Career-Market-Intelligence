@@ -1,0 +1,423 @@
+{
+ "exact_id": {
+  "conflict_examples": [
+   {
+    "differing_fields": [
+     "description_raw"
+    ],
+    "job_id": "5893605603"
+   },
+   {
+    "differing_fields": [
+     "salary"
+    ],
+    "job_id": "5900410240"
+   }
+  ],
+  "conflicting_duplicates": 2,
+  "duplicate_job_id_count": 8909,
+  "ids_duplicated_within_one_source_run": 1936,
+  "ids_seen_in_legacy_and_run": 574,
+  "ids_seen_in_multiple_source_runs": 4617,
+  "ids_with_duplicates": 5340,
+  "multiplicity": {
+   "1": 11323,
+   "2": 3255,
+   "3": 957,
+   "4": 912,
+   "5": 116,
+   "6": 71,
+   "7": 19,
+   "8": 9,
+   "9": 1
+  },
+  "records_after_id_dedup": 16663,
+  "records_before_id_dedup": 25572,
+  "records_without_job_id": 0,
+  "representative_rule": "records with full run provenance first, then earliest collected_at, then run name, file, page, position",
+  "unique_job_ids": 16663
+ },
+ "near_duplicate": {
+  "candidate_groups_by_150_char_key": 1077,
+  "candidate_key": "normalized title + normalized employer + first 150 normalized description characters",
+  "confirmation_rule": "merge only if the FULL normalized snippet is identical",
+  "confirmed_duplicate_groups": 903,
+  "confirmed_groups_spanning_multiple_created_dates": 529,
+  "confirmed_groups_with_differing_location_labels": 534,
+  "examples_largest_confirmed_groups": [
+   {
+    "created_dates": [
+     "2026-07-02",
+     "2026-07-05",
+     "2026-07-08",
+     "2026-07-10",
+     "2026-07-11",
+     "2026-07-24",
+     "2026-08-05",
+     "2026-08-09",
+     "2026-08-11",
+     "2026-09-05",
+     "2026-09-06",
+     "2026-09-08",
+     "2026-09-17",
+     "2026-09-18",
+     "2026-09-19",
+     "2026-09-22",
+     "2026-09-26"
+    ],
+    "distinct_location_labels": 1,
+    "employer": "Accenture",
+    "job_ids": [
+     "5899863048",
+     "5894126836",
+     "5894078945",
+     "5890809819",
+     "5890767957",
+     "5889525563",
+     "5887901300",
+     "5887894985",
+     "5875735078",
+     "5875734817",
+     "5875733557",
+     "5873197378",
+     "5872128366",
+     "5836862786",
+     "5834762768",
+     "5834758820",
+     "5829192137",
+     "5812902070",
+     "5812755815",
+     "5796211411",
+     "5796211146",
+     "5794603859",
+     "5791447290",
+     "5788470668",
+     "5784264142"
+    ],
+    "key": "b30060d953468079",
+    "size": 25,
+    "title": "Quality Engineering Lead"
+   },
+   {
+    "created_dates": [
+     "2026-07-10",
+     "2026-07-18",
+     "2026-07-20",
+     "2026-07-24",
+     "2026-07-26",
+     "2026-08-01",
+     "2026-08-02",
+     "2026-08-13",
+     "2026-08-22",
+     "2026-08-26",
+     "2026-09-04",
+     "2026-09-06",
+     "2026-09-19",
+     "2026-09-24",
+     "2026-09-25"
+    ],
+    "distinct_location_labels": 1,
+    "employer": "Accenture",
+    "job_ids": [
+     "5898496289",
+     "5897066082",
+     "5897037287",
+     "5890788752",
+     "5873192794",
+     "5870760556",
+     "5856970762",
+     "5852580202",
+     "5840383340",
+     "5825769410",
+     "5824131820",
+     "5815798426",
+     "5815730450",
+     "5812886481",
+     "5807460687",
+     "5805403973",
+     "5805392268",
+     "5794762566"
+    ],
+    "key": "ebbe3b5753f20ddf",
+    "size": 18,
+    "title": "Quality Engineer"
+   },
+   {
+    "created_dates": [
+     "2026-09-24"
+    ],
+    "distinct_location_labels": 16,
+    "employer": "AgileEngine",
+    "job_ids": [
+     "5895860925",
+     "5895860929",
+     "5895860947",
+     "5895860949",
+     "5895860960",
+     "5895860967",
+     "5895860971",
+     "5895860974",
+     "5895860979",
+     "5895860983",
+     "5895860986",
+     "5895860988",
+     "5895860990",
+     "5895860992",
+     "5895860999",
+     "5895861004"
+    ],
+    "key": "15d88b8f332d0a89",
+    "size": 16,
+    "title": "Technical Program Manager ID89740"
+   },
+   {
+    "created_dates": [
+     "2026-09-29"
+    ],
+    "distinct_location_labels": 16,
+    "employer": "AgileEngine",
+    "job_ids": [
+     "5902067758",
+     "5902067764",
+     "5902067778",
+     "5902067784",
+     "5902067791",
+     "5902067792",
+     "5902067793",
+     "5902067794",
+     "5902067796",
+     "5902067799",
+     "5902067801",
+     "5902067807",
+     "5902067810",
+     "5902067739",
+     "5902067752",
+     "5902067757"
+    ],
+    "key": "86daa6c9a4327e12",
+    "size": 16,
+    "title": "Data Engineer ID89384"
+   },
+   {
+    "created_dates": [
+     "2026-09-25"
+    ],
+    "distinct_location_labels": 16,
+    "employer": "AgileEngine",
+    "job_ids": [
+     "5897302325",
+     "5897302329",
+     "5897302330",
+     "5897302331",
+     "5897302332",
+     "5897302339",
+     "5897302340",
+     "5897302346",
+     "5897302347",
+     "5897302349",
+     "5897302353",
+     "5897302309",
+     "5897302315",
+     "5897302316",
+     "5897302319",
+     "5897302320"
+    ],
+    "key": "f58a774226554d6d",
+    "size": 16,
+    "title": "GCP Cloud Engineer ID89421"
+   },
+   {
+    "created_dates": [
+     "2026-08-06",
+     "2026-08-19",
+     "2026-08-21",
+     "2026-08-28",
+     "2026-09-01",
+     "2026-09-02",
+     "2026-09-13",
+     "2026-09-18",
+     "2026-09-22"
+    ],
+    "distinct_location_labels": 4,
+    "employer": "IBM",
+    "job_ids": [
+     "5893467146",
+     "5888772239",
+     "5888551521",
+     "5888551539",
+     "5882275385",
+     "5866608029",
+     "5863702520",
+     "5863702535",
+     "5859432209",
+     "5859432185",
+     "5850632091",
+     "5847850852",
+     "5830102425"
+    ],
+    "key": "4001ae2dfcfe11c0",
+    "size": 13,
+    "title": "Application Developer-AWS Cloud FullStack"
+   }
+  ],
+  "examples_template_collisions_kept": [
+   {
+    "candidate_size": 32,
+    "distinct_full_snippets": 32,
+    "employer": "Accenture",
+    "job_ids": [
+     "5797313432",
+     "5797366568",
+     "5801787585",
+     "5836841186",
+     "5836872335",
+     "5840391016",
+     "5843175279",
+     "5844296527"
+    ],
+    "key": "66383d24f708984c",
+    "snippet_tails_after_150_chars": [
+     "irements. Must have skills : Salesforce Lightning Web Components Good to have skills : NA Minimum 3 year(s) of",
+     "irements. Must have skills : Salesforce Lightning Web Components Good to have skills : NA Minimum 7.5 year(s) ",
+     "irements. Must have skills : Salesforce Lightning Web Components Good to have skills : NA Minimum 3 year(s) of"
+    ],
+    "title": "Application Developer"
+   },
+   {
+    "candidate_size": 29,
+    "distinct_full_snippets": 29,
+    "employer": "Accenture",
+    "job_ids": [
+     "5899861843",
+     "5899862920",
+     "5899863570",
+     "5899865527",
+     "5899870753",
+     "5900708724",
+     "5900709917",
+     "5900717050"
+    ],
+    "key": "0958db39f205461a",
+    "snippet_tails_after_150_chars": [
+     "stems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solution",
+     "stems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solution",
+     "stems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solution"
+    ],
+    "title": "Custom Software Engineer"
+   },
+   {
+    "candidate_size": 21,
+    "distinct_full_snippets": 19,
+    "employer": "Accenture",
+    "job_ids": [
+     "5693603979",
+     "5711156495",
+     "5744928967",
+     "5755734601",
+     "5771059500",
+     "5775239948",
+     "5793371920",
+     "5794677969"
+    ],
+    "key": "b01bcb66d1f2a88f",
+    "snippet_tails_after_150_chars": [
+     "and its integration with technology. Assess current state, identify customer requirements, and define the futu",
+     "and its integration with technology. Assess current state, identify customer requirements, and define the futu",
+     "and its integration with technology. Assess current state, identify customer requirements, and define the futu"
+    ],
+    "title": "Business Analyst"
+   },
+   {
+    "candidate_size": 19,
+    "distinct_full_snippets": 18,
+    "employer": "Accenture",
+    "job_ids": [
+     "5869144445",
+     "5869180830",
+     "5873180808",
+     "5873200564",
+     "5881144233",
+     "5881153437",
+     "5881164104",
+     "5882744569"
+    ],
+    "key": "c55f3b6dbe97a301",
+    "snippet_tails_after_150_chars": [
+     " and non-cloud infrastructure. Can deploy infrastructure and platform environments, creates a proof of archite",
+     " and non-cloud infrastructure. Can deploy infrastructure and platform environments, creates a proof of archite",
+     " and non-cloud infrastructure. Can deploy infrastructure and platform environments, creates a proof of archite"
+    ],
+    "title": "Cloud Platform Engineer"
+   },
+   {
+    "candidate_size": 13,
+    "distinct_full_snippets": 2,
+    "employer": "Accenture",
+    "job_ids": [
+     "5843158252",
+     "5869155932",
+     "5869188747",
+     "5869225264",
+     "5877296028",
+     "5877296610",
+     "5882763329",
+     "5882765329"
+    ],
+    "key": "91fea3a3c11bff12",
+    "snippet_tails_after_150_chars": [
+     "tions: BCom Years of Experience: 5 to 8 years About Accenture Accenture is a global professional services comp",
+     "tions: BCom Years of Experience: 5 to 8 years About Accenture Accenture is a global professional services comp",
+     "tions: BCom/MCom/Master of Business Administration Years of Experience: 5 to 8 years About Accenture Accenture"
+    ],
+    "title": "Financial Plan & Analysis Senior Analyst"
+   },
+   {
+    "candidate_size": 12,
+    "distinct_full_snippets": 11,
+    "employer": "Accenture",
+    "job_ids": [
+     "5899857274",
+     "5899862021",
+     "5900714239",
+     "5900734539",
+     "5900734985",
+     "5900735182",
+     "5900749687",
+     "5900749732"
+    ],
+    "key": "1be82ad08dfd5c3c",
+    "snippet_tails_after_150_chars": [
+     "equirements. Must have skills : Workday Core Integrations Good to have skills : NA Minimum 12 year(s) of exper",
+     "equirements. Must have skills : Salesforce Conga CPQ Good to have skills : NA Minimum 3 year(s) of experience ",
+     "equirements. Must have skills : BMC Helix ITSM Good to have skills : NA Minimum 3 year(s) of experience is req"
+    ],
+    "title": "Custom Software Engineer"
+   }
+  ],
+  "group_size_distribution": {
+   "2": 716,
+   "3": 115,
+   "4": 34,
+   "5": 8,
+   "6": 12,
+   "7": 5,
+   "8": 2,
+   "10": 3,
+   "12": 2,
+   "13": 1,
+   "16": 3,
+   "18": 1,
+   "25": 1
+  },
+  "note": "Differing location labels inside confirmed groups are mostly the same place written at different granularity (e.g. 'India' vs 'Vadodara, Gujarat'), so location is not used to block a merge.",
+  "percent_removed_of_id_deduped": 7.99,
+  "records_after": 15332,
+  "records_before": 16663,
+  "records_in_confirmed_groups": 2234,
+  "records_kept_as_template_collisions": 403,
+  "records_removed": 1331,
+  "records_the_150_char_key_alone_would_remove": 1734,
+  "records_without_complete_key_not_checked": 84
+ },
+ "removed_near_duplicates_file": "near_duplicate_removals.csv (see audits folder)"
+}

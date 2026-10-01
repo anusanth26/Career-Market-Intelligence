@@ -1,0 +1,444 @@
+role,query_variant,status,title,n
+Data Analyst,data analyst,matched,Data Analyst,15
+Data Analyst,data analyst,matched,Senior Data Analyst,6
+Data Analyst,data analyst,mapped:Business Analyst,Senior Business Systems Analyst (AI / Data Products),2
+Data Analyst,data analyst,matched,"Data Analyst, EDT Data Strategy & Marketing",2
+Data Analyst,data analyst,matched,Senior Staff Data Analyst,2
+Data Analyst,data analyst,unmatched,Senior Data Management Analyst,2
+Data Analyst,data analyst,ambiguous_multi,Data Analyst/Business Analyst,2
+Data Analyst,data analyst,unmatched,Analyst-Data Analytics,1
+Data Analyst,data analyst,matched,Lead Data Analyst,1
+Data Analyst,data analyst,unmatched,"Sr. Analyst - BI, Reporting and Data Visualization 4B",1
+Data Analyst,data analyst,matched,GBS Data Operations - Maintenance Data Analyst,1
+Data Analyst,data analyst,matched,Senior Master Data Analyst - SCM,1
+Data Analyst,data analyst,matched,0926-IND-185 - Lead Data Analyst,1
+Data Analyst,data analyst,unmatched,Analyst - Data Solutions,1
+Data Analyst,data analyst,unmatched,"Data Eng, Mgmt & Governance Sr Analyst",1
+Data Analyst,data analyst,unmatched,"Analyst, Data Management",1
+Data Analyst,data analyst,unmatched,Senior Risk Analyst – Data Science & Analytics,1
+Data Analyst,data analyst,ambiguous_multi,Data Analyst / Data Scientist – AI & Analytics (Microsoft Fabric),1
+Data Analyst,data analyst,unmatched,QA Analyst I (Data/SQL/Python),1
+Data Analyst,data analyst,mapped:Business Analyst,Master Data Management Business Analyst-3,1
+Data Analyst,data analyst,unmatched,Associate Product Data Optimization Analyst - Data Science/Machine Learning [T500-29709],1
+Data Analyst,data analyst,matched,Staff Specialist Business Data Analyst,1
+Data Analyst,data analyst,matched,ANT - Sr. Data Analyst,1
+Data Analyst,data analyst,unmatched,Quality Analyst (Data Collection) IRC304981,1
+Data Analyst,data analyst,unmatched,Data Measurement & Reporting Analyst - Cigna Healthcare,1
+Data Analyst,data analyst,matched,Data Analyst Intern,1
+Data Analyst,data analyst,unmatched,"Senior Analyst I, Environment Offer Data and Performance",1
+Data Analyst,data analyst,matched,"Data Analyst, Digital Thread - India",1
+Data Analyst,data analyst,unmatched,Data Research Analyst,1
+Data Analyst,data analyst,unmatched,Tech Operations and Support Analyst - USBU OBU Data Reporting Ops,1
+Data Analyst,data analyst,matched,Senior MDM Product Data Analyst,1
+Data Analyst,data analyst,matched,Lead - Data Analyst,1
+Data Analyst,data analyst,unmatched,Clinical Data Svs Analyst,1
+Data Analyst,data analyst,unmatched,Senior Analyst - Data Analytics,1
+Data Analyst,data analyst,unmatched,Clinical Data Svs Sr Analyst,1
+Data Analyst,data analyst,matched,Sr Data Analyst,1
+Data Analyst,data analyst,unmatched,"Tech Operations and Support, Analyst - USBU OBU Data ML Ops",1
+Data Analyst,data analyst,matched,Master Data Analyst,1
+Data Analyst,data analyst,matched,Data Analyst (Python/SQL),1
+Data Analyst,data analyst,unmatched,"Senior Analyst, Data Analytics",1
+Data Analyst,data analyst,unmatched,Data analysis Analyst,1
+Data Analyst,data analyst,unmatched,"Analyst, Master Data Management",1
+Data Analyst,data analyst,matched,Senior EDI Data Analyst,1
+Data Analyst,data analyst,matched,Market Data Analyst,1
+Data Analyst,data analyst,matched,Lead Data Analyst (US Regulatory Reporting) - R01571259,1
+Data Analyst,data analyst,matched,Reference Data Analyst,1
+Data Analyst,data analyst,matched,"Data Analyst - Tableau, Power BI - Associate",1
+Data Analyst,data analyst,unmatched,Labeling Data and Quality Analyst,1
+Data Analyst,data analyst,unmatched,GIS Analyst - Data Solutions,1
+Data Analyst,data analyst,matched,"Senior Data Analyst, Network Analytics & AI",1
+Data Analyst,data analyst,unmatched,Index Data Research Analyst,1
+Data Analyst,data analyst,unmatched,Senior Structured Data Access Control Process Analyst,1
+Data Analyst,data analyst,unmatched,Solution Analyst - Data and Analytics 4B,1
+Data Analyst,data analyst,unmatched,Senior Analyst - Clinical Data Abstraction,1
+Data Analyst,data analyst,unmatched,Data & Analytics Analyst,1
+Data Analyst,data analyst,matched,HR Data Analyst,1
+Data Analyst,data analyst,matched,"Data Analyst, Global Growth",1
+Data Analyst,data analyst,matched,"Data Analyst, Regulatory Analytics and Reporting",1
+Data Analyst,data analyst,mapped:Business Analyst,Business Analyst - P&C Insurance Data,1
+Data Analyst,data analyst,matched,Data Analyst - Corporate Audit,1
+Data Analyst,data analyst,unmatched,Associate Product Data Optimisation Analyst,1
+Data Analyst,data analyst,matched,Senior Data Analyst – Analytics,1
+Data Analyst,data analyst,unmatched,Buisness Analyst & Data,1
+Data Analyst,data analyst,unmatched,Data Insight Analyst [T500-29603],1
+Data Analyst,data analyst,unmatched,Analyst - Data Engineering,1
+Data Analyst,data analyst,unmatched,Senior Analyst-Data Science,1
+Data Analyst,data analyst,matched,Pricing Ops Research & Data Analyst,1
+Data Analyst,data analyst,matched,Business Data Analyst - Analytics & AI,1
+Data Analyst,data analyst,unmatched,Quality Control Analyst - Data,1
+Data Analyst,data analyst,unmatched,Data Governance Analyst,1
+Data Analyst,data analyst,matched,Team Member - Data Analyst,1
+Data Analyst,data analyst,ambiguous_multi,Data Architect / Senior Business Analyst/Architect,1
+Data Analyst,data analyst,unmatched,Analyst III - RGM Data Science,1
+Data Analyst,data analyst,unmatched,Sr Analyst II Data Engineering,1
+Data Analyst,data analyst,unmatched,"Analyst-Data Analytics (Gen AI, Agentic AI)",1
+Data Analyst,data analyst,unmatched,Sr Analyst III Data Engineering,1
+Data Analyst,bi analyst,unmatched,"Sr. Analyst - BI, Reporting and Data Visualization 4B",8
+Data Analyst,bi analyst,unmatched,"Sr. Analyst - BI, Reporting and Data Visualization 4A",6
+Data Analyst,bi analyst,matched,BI Analyst,5
+Data Analyst,bi analyst,unmatched,"Lead Analyst - BI, Reporting and Data Visualization 4C",4
+Data Analyst,bi analyst,matched,Senior BI Analyst,3
+Data Analyst,bi analyst,matched,BI - Business Intelligence Analyst,2
+Data Analyst,bi analyst,unmatched,Lead Financial Planning & Analysis Analyst - Power BI Development,2
+Data Analyst,bi analyst,unmatched,Lead Analyst/ Associate Consultant-Power BI with paginated reports,2
+Data Analyst,bi analyst,matched,"Senior Data Analyst - SQL, BI Reporting & SAP BW",2
+Data Analyst,bi analyst,mapped:Business Analyst,System Analyst - Power BI/Python/VBA/R,2
+Data Analyst,bi analyst,unmatched,BI Reporting Senior Support Analyst,2
+Data Analyst,bi analyst,matched,Binary Semantics - Senior Data Analyst - Tableau/Power BI,2
+Data Analyst,bi analyst,matched,"Data Analyst - Tableau, Power BI - Associate",1
+Data Analyst,bi analyst,matched,GTM BI Analyst,1
+Data Analyst,bi analyst,unmatched,RevOps SF Analyst and Power BI,1
+Data Analyst,bi analyst,unmatched,BI Reporting Analyst,1
+Data Analyst,bi analyst,unmatched,Senior Insights Analyst - Power BI (Italian Speaking),1
+Data Analyst,bi analyst,unmatched,BI & MIS ANALYST – POWER BI & SQL EXPERT,1
+Data Analyst,bi analyst,unmatched,"Sr. Research Analyst - BI, Reporting and Data Visualization 4A",1
+Data Analyst,bi analyst,matched,Power BI Specialist/Data analyst,1
+Data Analyst,bi analyst,mapped:Business Analyst,Business Analyst - Power BI with Snowflake,1
+Data Analyst,bi analyst,mapped:Business Analyst,Data/BI/Business Analyst,1
+Data Analyst,bi analyst,matched,Middle Financial BI Analyst,1
+Data Analyst,bi analyst,mapped:Business Analyst,French - Business Analyst with Power BI or HR Functional,1
+Data Analyst,bi analyst,matched,Sr BI Analyst,1
+Data Analyst,bi analyst,matched,TPM  RGM Process & BI Analyst-Senior Associate-Bangalore,1
+Data Analyst,bi analyst,unmatched,S&C Global Network - AI - BI Strategy – Senior Analyst,1
+Data Analyst,bi analyst,matched,Sr. BI Analyst,1
+Data Analyst,bi analyst,unmatched,"Sr. Research Analyst - BI, Reporting and Data Visualization 4B",1
+Data Analyst,bi analyst,matched,Data Analyst/BI Developer,1
+Data Analyst,bi analyst,matched,Tableau Developer with Snowflake/ BI Analyst,1
+Data Analyst,bi analyst,matched,Senior Power BI Analyst / Developer (Azure Cloud),1
+Data Analyst,bi analyst,unmatched,Junior Power BI Developer/Analyst,1
+Data Analyst,bi analyst,matched,Power BI Developer / Data Analyst,1
+Data Analyst,bi analyst,matched,Senior BI Analyst - Power BI & Commercial Analytics,1
+Data Analyst,business intelligence analyst,matched,Business Intelligence Analyst,12
+Data Analyst,business intelligence analyst,matched,BI - Business Intelligence Analyst,2
+Data Analyst,business intelligence analyst,unmatched,"Analyst, Business & Competitive Intelligence",2
+Data Analyst,business intelligence analyst,matched,People Business Intelligence Analyst,2
+Data Analyst,business intelligence analyst,matched,Business Intelligence and Data Analyst,2
+Data Analyst,business intelligence analyst,unmatched,"Senior Analyst, Business Intelligence",2
+Data Analyst,business intelligence analyst,matched,Business Intelligence Analyst II,2
+Data Analyst,business intelligence analyst,matched,Senior Business Intelligence Analyst,1
+Data Analyst,business intelligence analyst,matched,Business Intelligence Analyst_97046,1
+Data Analyst,business intelligence analyst,unmatched,Lead/ Sr. Analyst – Business Research/ Market Intelligence/ Competitive Intelligence,1
+Data Analyst,business intelligence analyst,matched,Group Finance Business Intelligence Analyst,1
+Data Analyst,business intelligence analyst,matched,"Business Intelligence Analyst, Revenue Operations (India Remote) - Hours 1-9pm IST",1
+Data Analyst,business intelligence analyst,unmatched,Analyst Business Intelligence,1
+Data Analyst,business intelligence analyst,matched,Business Intelligence Analyst - II,1
+Data Analyst,business intelligence analyst,mapped:Business Analyst,Senior Business Analyst – Agentic Enterprise Intelligence (AEI),1
+Data Analyst,business intelligence analyst,matched,SR BUSINESS INTELLIGENCE ANALYST,1
+Data Analyst,business intelligence analyst,unmatched,Senior Analyst- BUSINESS INTELLIGENCE,1
+Data Analyst,business intelligence analyst,unmatched,Sr Analyst Business Intelligence,1
+Data Analyst,business intelligence analyst,unmatched,Sr. D&T Analyst – Business Intelligence,1
+Data Analyst,business intelligence analyst,matched,Business Intelligence Analyst On Contract / Off-Roll,1
+Data Analyst,business intelligence analyst,unmatched,Lead Analyst – Business Intelligence (SQLSemantic),1
+Data Analyst,business intelligence analyst,matched,Business Intelligence Analyst (Hotel Revenue Data),1
+Data Analyst,business intelligence analyst,matched,WALK IN DRIVE - Business Intelligence Analyst - 13th August,1
+Data Analyst,business intelligence analyst,unmatched,"Analyst, Business Intelligence (Operations, Product & Support)",1
+Data Analyst,business intelligence analyst,matched,Business Intelligence Analyst - Product,1
+Data Analyst,business intelligence analyst,unmatched,AVP Business Intelligence Senior Analyst,1
+Data Analyst,business intelligence analyst,matched,PTSI | Business Intelligence Analyst,1
+Data Analyst,reporting analyst,unmatched,Record to Report Ops Analyst,15
+Data Analyst,reporting analyst,unmatched,Record to Report Ops Senior Analyst,14
+Data Analyst,reporting analyst,unmatched,"Senior Tax Analyst, Foreign Reporting & Compliance, Withholding Tax",4
+Data Analyst,reporting analyst,unmatched,"Sr. Analyst - BI, Reporting and Data Visualization 4B",2
+Data Analyst,reporting analyst,unmatched,"Lead Analyst - BI, Reporting and Data Visualization 4C",2
+Data Analyst,reporting analyst,unmatched,Regulatory Reporting Analyst,2
+Data Analyst,reporting analyst,unmatched,BSA Administration and Reporting Senior Analyst,2
+Data Analyst,reporting analyst,unmatched,Senior Reporting & Insights Analyst,2
+Data Analyst,reporting analyst,unmatched,"Sr. Analyst - BI, Reporting and Data Visualization 4A",2
+Data Analyst,reporting analyst,matched,"Senior Data Analyst - SQL, BI Reporting & SAP BW",2
+Data Analyst,reporting analyst,mapped:Business Analyst,"Business Analyst, RBS ARTS (Automation Reporting and Tech Sciences)",2
+Data Analyst,reporting analyst,unmatched,Measurement & Report Analyst,1
+Data Analyst,reporting analyst,unmatched,GFCC Enablement Reporting Analyst-Compliance,1
+Data Analyst,reporting analyst,unmatched,"Analyst, Accounting & Reporting",1
+Data Analyst,reporting analyst,unmatched,Record to Report ops Senior Analyst,1
+Data Analyst,reporting analyst,unmatched,Data Measurement & Reporting Analyst - Cigna Healthcare,1
+Data Analyst,reporting analyst,unmatched,Associate Systems & Reporting Analyst [T500-29707],1
+Data Analyst,reporting analyst,unmatched,Tech Operations and Support Analyst - USBU OBU Data Reporting Ops,1
+Data Analyst,reporting analyst,unmatched,Associate Senior Financial Reporting Analyst,1
+Data Analyst,reporting analyst,unmatched,Servicing Reporting Intermediate Analyst,1
+Data Analyst,reporting analyst,matched,Lead Data Analyst (US Regulatory Reporting) - R01571259,1
+Data Analyst,reporting analyst,unmatched,Workday Reporting Analyst (People Analytics),1
+Data Analyst,reporting analyst,matched,"Data Analyst, Regulatory Analytics and Reporting",1
+Data Analyst,reporting analyst,unmatched,"Senior Risk Reporting Analyst, Wholesale Credit Risk, AVP (Hybrid)",1
+Data Analyst,reporting analyst,unmatched,Associate Systems & Reporting Analyst,1
+Data Analyst,reporting analyst,unmatched,Record-to-Report Analyst,1
+Data Analyst,reporting analyst,unmatched,Analyst - Account to Report,1
+Data Analyst,reporting analyst,unmatched,Accounting & Reporting Analyst - Accounts Payable_15,1
+Data Analyst,reporting analyst,unmatched,BSA Administration and Reporting Junior Analyst,1
+Data Analyst,reporting analyst,mapped:Financial Analyst,Financial Analyst-Record to Report,1
+Data Analyst,reporting analyst,unmatched,"Tech Operations and Support, Principal Analyst -Reporting & ML Ops",1
+Data Analyst,reporting analyst,unmatched,Reporting Analyst,1
+Data Analyst,reporting analyst,mapped:Financial Analyst,Reporting/Finance Analyst,1
+Data Analyst,reporting analyst,unmatched,Accounting & Financial Reporting Analyst,1
+Data Analyst,reporting analyst,unmatched,BI Reporting Analyst,1
+Data Analyst,reporting analyst,unmatched,"Tech Operations and Support, Analyst - USBU OBU Data Reporting Ops",1
+Data Analyst,reporting analyst,unmatched,GFCC Detect/Report Analyst,1
+Data Analyst,reporting analyst,unmatched,Record to report Operations analyst,1
+Data Analyst,reporting analyst,unmatched,"Financial and Regulatory Reporting Senior Analyst, AVP",1
+Data Analyst,reporting analyst,unmatched,External Reporting Controller - Analyst,1
+Data Analyst,reporting analyst,unmatched,BSA Administration and Reporting Analyst,1
+Data Analyst,reporting analyst,unmatched,MIS Reporting Analyst,1
+Data Analyst,reporting analyst,unmatched,Measurement and Report Analyst,1
+Data Analyst,reporting analyst,unmatched,Senior Accounting Analyst- Closing & Reporting- A2R,1
+Data Analyst,reporting analyst,unmatched,Senior Analyst-Data Analytics and Reporting-SQL-Python,1
+Data Analyst,reporting analyst,unmatched,"Senior Analyst , Client Reporting",1
+Data Analyst,reporting analyst,mapped:Project Manager,Lead Project Manager (Regulatory Reporting Analyst),1
+Data Analyst,reporting analyst,unmatched,Workday Analyst – Workday Reporting,1
+Data Analyst,reporting analyst,unmatched,Accounting Analyst- Closing & Reporting- A2R,1
+Data Analyst,reporting analyst,unmatched,"Sr. Research Analyst - BI, Reporting and Data Visualization 4A",1
+Data Analyst,reporting analyst,unmatched,Data & Reporting Analyst - 10437,1
+Data Analyst,reporting analyst,unmatched,Payments Regulatory Reporting Operations - Analyst,1
+Data Analyst,reporting analyst,unmatched,Analyst - Flight Operations Safety Reporting and Insights,1
+Data Analyst,reporting analyst,unmatched,Measurement and Report Senior Analyst,1
+Data Analyst,reporting analyst,unmatched,Reporting Analyst II,1
+Data Analyst,reporting analyst,unmatched,Oracle HR Reporting Analyst,1
+Data Analyst,reporting analyst,unmatched,Senior Analyst- Risk Reporting,1
+Data Analyst,reporting analyst,unmatched,Sr Analyst Accounting & Financial Reporting,1
+Data Analyst,reporting analyst,unmatched,Client Reporting Analyst,1
+Data Analyst,reporting analyst,unmatched,Technology Reporting & Insights Analyst- Senior Associate,1
+Data Analyst,reporting analyst,unmatched,"Tax Analyst I, Foreign Reporting & Compliance",1
+Data Analyst,reporting analyst,unmatched,Measurement & Report Senior Analyst,1
+Security Engineer,security engineer,matched,Security Engineer,3
+Security Engineer,security engineer,matched,Network Security Engineer,3
+Security Engineer,security engineer,matched,Product Security Engineer,3
+Security Engineer,security engineer,matched,Senior Security Engineer,3
+Security Engineer,security engineer,mapped:Information Security Engineer,"Lead Information Security Engineer, ITC",2
+Security Engineer,security engineer,matched,Senior Cloud Security Engineer,2
+Security Engineer,security engineer,matched,"Security Engineer, GIOC",2
+Security Engineer,security engineer,unmatched,"Director, Security Engineering - AI",2
+Security Engineer,security engineer,mapped:Information Security Engineer,Lead Information Security Engineer-AppSec Champion,2
+Security Engineer,security engineer,matched,Senior Manager Info Security Engineer - Cryptography & Certification Management,2
+Security Engineer,security engineer,matched,Application Security Engineer - Assistant Vice President,2
+Security Engineer,security engineer,unmatched,"Director, Information Security Engineering - ITC",2
+Security Engineer,security engineer,mapped:Software Engineer,Embedded Software Engineer - Security,2
+Security Engineer,security engineer,matched,Security Engineer - Identity and Access,2
+Security Engineer,security engineer,mapped:DevOps / Cloud Engineer,Senior Associate Security Platform Engineer,2
+Security Engineer,security engineer,matched,Application Security Engineer,2
+Security Engineer,security engineer,mapped:Information Security Engineer,"Principal Information Security Engineer, ITC",2
+Security Engineer,security engineer,mapped:Cybersecurity Engineer,SOC Detection and Response - Engineer Cyber Security Engineer,2
+Security Engineer,security engineer,unmatched,Product Security Apprentice Engineer – Post-Market Surveillance & Security Testing,1
+Security Engineer,security engineer,ambiguous_multi,Enterprise Software Engineer (AppOps Security Engineer),1
+Security Engineer,security engineer,matched,Network Security Engineer (L3),1
+Security Engineer,security engineer,matched,SIEM Security Engineer,1
+Security Engineer,security engineer,mapped:Information Security Engineer,"Senior Information Security Engineer, ITC",1
+Security Engineer,security engineer,unmatched,EY - Cyber Security - Data Protection and Privacy Platforms Engineering - Manager,1
+Security Engineer,security engineer,matched,Sr Security Engineer,1
+Security Engineer,security engineer,matched,Senior Security Engineer - Privacy & Data Security,1
+Security Engineer,security engineer,matched,NETSKOPE SECURITY ENGINEER,1
+Security Engineer,security engineer,matched,L3- Senior Security Engineer,1
+Security Engineer,security engineer,matched,L2- Senior Security Engineer,1
+Security Engineer,security engineer,matched,Senior Product Security Engineer,1
+Security Engineer,security engineer,matched,Mulesoft - Security Engineer – Integration Specialist,1
+Security Engineer,security engineer,unmatched,Associate - Security Test Engineer,1
+Security Engineer,security engineer,unmatched,Assistant Manager - IT Business Information Security Office (BISO) Engineer,1
+Security Engineer,security engineer,unmatched,Identity Security Operations Engineer,1
+Security Engineer,security engineer,matched,Mobile Security Engineer,1
+Security Engineer,security engineer,matched,Security Engineer (L1),1
+Security Engineer,security engineer,unmatched,"Solutions Engineer (Security, GSSO) - Mumbai",1
+Security Engineer,security engineer,mapped:Cybersecurity Engineer,Cybersecurity Engineer: Security Operations Center (SOC),1
+Security Engineer,security engineer,unmatched,Security Risk Engineer,1
+Security Engineer,security engineer,mapped:Information Security Engineer,Senior Information Security Engineer Consultant,1
+Security Engineer,security engineer,matched,Security Engineer (Detection and Response),1
+Security Engineer,security engineer,mapped:Information Security Engineer,Senior Information Security Engineer,1
+Security Engineer,security engineer,mapped:Software Engineer,Security Software Engineer,1
+Security Engineer,security engineer,matched,Security Engineer – Cloud & Infrastructure Security,1
+Security Engineer,security engineer,matched,"SecOps Security Engineer (L3) – Check Point, Palo Alto & Fortinet firewalls",1
+Security Engineer,security engineer,unmatched,Security Research Engineer,1
+Security Engineer,security engineer,unmatched,Senior Security Operations Engineer,1
+Security Engineer,security engineer,unmatched,Security Detection Engineer,1
+Security Engineer,security engineer,unmatched,Information Security Engineering Senior Manager - Critical Infrastructure,1
+Security Engineer,security engineer,unmatched,Engineer MS - Network Security,1
+Security Engineer,security engineer,mapped:Data Engineer,"Sr. Security Data Engineer & Developer, Security Data Platform",1
+Security Engineer,security engineer,matched,Principal Security Engineer,1
+Security Engineer,security engineer,unmatched,Information Security Engineering Senior Manager – Critical Infrastructure,1
+Security Engineer,security engineer,mapped:Software Engineer,"Staff Software Engineer, Frontier Security Team",1
+Security Engineer,security engineer,matched,Lead Network Security Engineer,1
+Security Engineer,security engineer,matched,Privileged Access Management Security Engineer,1
+Security Engineer,security engineer,matched,Infrastructure & Cloud Security Engineer,1
+Security Engineer,security engineer,matched,Offensive Security Engineer,1
+Security Engineer,security engineer,mapped:Software Engineer,Senior Network Security Software Engineer,1
+Security Engineer,security engineer,mapped:Cybersecurity Engineer,Cyber Security Engineer,1
+Security Engineer,security engineer,matched,"Staff Product Security Engineer, PSIRT",1
+Security Engineer,security engineer,unmatched,Guardicore Micro Segmentation Engineer – L2 Security,1
+Security Engineer,security engineer,mapped:Software Engineer,"Senior Mobile Software Engineer (iOS / Android), Identity & Security",1
+Security Engineer,security engineer,unmatched,Sr. Design Engineer- Security Systems,1
+Security Engineer,security engineer,matched,Senior Security Engineer – Platform,1
+Security Engineer,security engineer,unmatched,Network Engineer Security I,1
+Security Engineer,security engineer,unmatched,"Director, Security Engineering (Application & Cloud Security)",1
+Security Engineer,security engineer,matched,L1 Security Engineer,1
+Security Engineer,security engineer,matched,Security Engineer Intern,1
+Security Engineer,security engineer,matched,Senior Infrastructure Security Engineer-L3 (Palo Alto & NGFW),1
+Security Engineer,security engineer,unmatched,"Sr Manager, Active Directory & Entra Engineering - People Leader (Cyber Security)",1
+Security Engineer,security engineer,matched,"Security Engineer II, Application Security",1
+Security Engineer,security engineer,matched,"Security Engineer I, Application Security",1
+Security Engineer,security engineer,unmatched,Engineering Manager – Security Architecture,1
+Security Engineer,security engineer,matched,Lead Security Engineer,1
+Security Engineer,security engineer,unmatched,Security Integration Engineer,1
+Security Engineer,security engineer,unmatched,"Staff Engineer, Offensive Security",1
+Security Engineer,security engineer,matched,Senior Security Engineer - DART (Detection and Response Team),1
+Digital Marketing,digital marketing,matched,Digital Marketing Executive,14
+Digital Marketing,digital marketing,matched,Digital Marketing Manager,7
+Digital Marketing,digital marketing,matched,Digital Marketing Intern,5
+Digital Marketing,digital marketing,matched,Digital Marketing Specialist,4
+Digital Marketing,digital marketing,matched,Digital Marketing,3
+Digital Marketing,digital marketing,matched,Looking For Digital Marketing Executive,3
+Digital Marketing,digital marketing,matched,AI Creative Lead — Digital Marketing (India),2
+Digital Marketing,digital marketing,matched,Digital Marketing Executive Trainee,2
+Digital Marketing,digital marketing,matched,AI & Marketing Associate – Digital Marketing & AI Tools,2
+Digital Marketing,digital marketing,matched,Digital Marketing Internship,2
+Digital Marketing,digital marketing,matched,Digital Marketing Lead,1
+Digital Marketing,digital marketing,matched,Director Digital Marketing,1
+Digital Marketing,digital marketing,matched,"Digital marketing expert (Part-time, Equity only)",1
+Digital Marketing,digital marketing,matched,Digital Marketing Executive / Senior Executive,1
+Digital Marketing,digital marketing,matched,Sr. Digital Marketing Executive,1
+Digital Marketing,digital marketing,matched,Digital Marketing Head (6 Years),1
+Digital Marketing,digital marketing,matched,Specialist- Digital & Marketing Operations,1
+Digital Marketing,digital marketing,matched,Digital Marketing Specialist - Institutes Only,1
+Digital Marketing,digital marketing,matched,Associate Manager - Digital Marketing,1
+Digital Marketing,digital marketing,matched,Senior Digital Marketing Specialist,1
+Digital Marketing,digital marketing,matched,Digital Marketing - Content Creator,1
+Digital Marketing,digital marketing,unmatched,"Senior Marketing Executive, Digital Channels",1
+Digital Marketing,digital marketing,matched,Assistant Manager – Digital Marketing,1
+Digital Marketing,digital marketing,matched,Digital Marketing Executive - Ahmedabad,1
+Digital Marketing,digital marketing,matched,Digital Marketing Executive (Lead Generation & SEO),1
+Digital Marketing,digital marketing,matched,Digital Marketing Praktikant,1
+Digital Marketing,digital marketing,matched,Digital Marketing & WordPress Specialist,1
+Digital Marketing,digital marketing,matched,Digital Marketing Fresher,1
+Digital Marketing,digital marketing,matched,Senior Analyst - Digital Marketing,1
+Digital Marketing,digital marketing,matched,Digital Marketing Intern | Remote | 6-Month Internship  PPO,1
+Digital Marketing,digital marketing,unmatched,Marketing Manager – AI Products & Digital Growth,1
+Digital Marketing,digital marketing,matched,Sr. Digital Marketing Analyst,1
+Digital Marketing,digital marketing,matched,Digital Marketing Team Lead,1
+Digital Marketing,digital marketing,matched,Digital marketing executive,1
+Digital Marketing,digital marketing,matched,Sr. Digital Marketing Manager | Agency on Record for Alcobev Brand,1
+Digital Marketing,digital marketing,matched,"Hiring Immediately Digital Marketing Executive For An Aviation Academy Located In Bengaluru, Karnataka 560015 - ( Job ID - 24270)",1
+Digital Marketing,digital marketing,matched,Senior Executive – Digital Marketing,1
+Digital Marketing,digital marketing,matched,Digital marketing Executive,1
+Digital Marketing,digital marketing,matched,Digital Marketing intern,1
+Digital Marketing,digital marketing,matched,Executive – B2B Digital Marketing,1
+Digital Marketing,digital marketing,matched,Trainee- Digital marketing,1
+Digital Marketing,digital marketing,matched,Deputy Manager -Digital Marketing (Marketing),1
+Digital Marketing,digital marketing,matched,Digital Marketing Executive - SEO/Content,1
+Digital Marketing,digital marketing,matched,Digital Marketing Executive – Influencer & Social Media,1
+Digital Marketing,digital marketing,matched,Assistant Digital Marketing Manager,1
+Digital Marketing,digital marketing,matched,Digital Marketing (Client Coordination) Executive,1
+Digital Marketing,digital marketing,matched,"Urgent Job Opening for Digital Marketing, Ahmedabad",1
+Digital Marketing,digital marketing,matched,Digital Marketing Executive (6-10 Years Experience) - Chennai | Up to 18 LPA,1
+Digital Marketing,digital marketing,matched,Digital Marketing Specialist at Highadvocacy,1
+Digital Marketing,digital marketing,matched,"Digital Marketing & Social Media Coordinator -Hebbal, Bengaluru",1
+Digital Marketing,digital marketing,matched,Digital Marketing Sr Executive,1
+Digital Marketing,digital marketing,matched,Digital Marketing Coordinator,1
+Digital Marketing,digital marketing,matched,Senior Digital Marketing & SEO Lead,1
+Digital Marketing,digital marketing,ambiguous_multi,Digital Marketing Project Manager - Intern,1
+Digital Marketing,digital marketing,matched,Digital Marketing Account Manager - Intern,1
+Digital Marketing,digital marketing,unmatched,Marketing Head Branding AND Digital,1
+Digital Marketing,digital marketing,matched,Work From Home Social Media Manager Digital Marketing Sector Earn,1
+Digital Marketing,digital marketing,matched,Digital Marketing Trainer Faculty,1
+Digital Marketing,digital marketing,matched,Digital Marketing Executive Female Candidates Required,1
+Digital Marketing,digital marketing,matched,Senior Digital Marketing Executive,1
+Digital Marketing,digital marketing,matched,Digital Marketing Specialist Content Marketing India GDC Gurugram New Delhi,1
+Digital Marketing,digital marketing,matched,We need urgent students for digital marketing,1
+Digital Marketing,digital marketing,matched,Digital Marketing Trainee Fresher Part Time,1
+Digital Marketing,digital marketing,matched,Digital Marketing Expert,1
+Digital Marketing,digital marketing,matched,Digital Marketing Assistant,1
+Digital Marketing,digital marketing,matched,Specialist - S&M - Digital Marketing 4B,1
+Digital Marketing,seo specialist,matched,SEO Specialist,16
+Digital Marketing,seo specialist,unmatched,SEO Content Specialist,3
+Digital Marketing,seo specialist,matched,Senior SEO Specialist,2
+Digital Marketing,seo specialist,matched,Senior SEO Specialist (SEO  GEO),1
+Digital Marketing,seo specialist,matched,SEO Specialist Intern,1
+Digital Marketing,seo specialist,matched,SEO Specialist_104017,1
+Digital Marketing,seo specialist,matched,WordPress Developer & SEO Specialist,1
+Digital Marketing,seo specialist,matched,SEO Specialist - UAE & Saudi Markets,1
+Digital Marketing,seo specialist,matched,Senior SEO Specialist (B2B Tech Agency),1
+Digital Marketing,seo specialist,unmatched,SEO / AEO Specialist,1
+Digital Marketing,seo specialist,unmatched,SEO and Growth Specialist,1
+Digital Marketing,seo specialist,matched,SEO specialist,1
+Digital Marketing,seo specialist,unmatched,Organic Growth Specialist (SEO & GEO),1
+Digital Marketing,seo specialist,matched,SEO & Digital Marketing Specialist,1
+Digital Marketing,seo specialist,matched,Off-Page SEO Specialist (Link Building),1
+Digital Marketing,seo specialist,matched,SEO Specialist Course,1
+Digital Marketing,seo specialist,matched,On-Page SEO Specialist,1
+Digital Marketing,seo specialist,matched,SEO Specialist Jobs in Hyderabad at Swaasa,1
+Digital Marketing,seo specialist,unmatched,SEO Content Writer Specialist,1
+Digital Marketing,seo specialist,matched,SEO Specialist (Contract-to-Hire),1
+Digital Marketing,seo specialist,unmatched,SEO Expert - Organic Growth Specialist,1
+Digital Marketing,seo specialist,matched,SEO Specialist - Fully Remote,1
+Digital Marketing,seo specialist,unmatched,SEO Outreach Specialist,1
+Digital Marketing,seo specialist,matched,Sr . SEO Specialist,1
+Digital Marketing,seo specialist,matched,Technical SEO Specialist (In-House) New Alipore,1
+Digital Marketing,seo specialist,unmatched,SEO AEO GEO Specialist,1
+Digital Marketing,seo specialist,matched,Sr Technical SEO Specialist,1
+Digital Marketing,seo specialist,matched,Manager - SEO Specialist,1
+Digital Marketing,seo specialist,matched,Digital Marketing Specialist SEO Social Media Video Creator Intern,1
+Digital Marketing,seo specialist,matched,D2C SEO SPECIALIST (SKINCARE MUST),1
+Digital Marketing,seo specialist,unmatched,AEO/SEO Content Specialist,1
+Digital Marketing,seo specialist,unmatched,"Performance & Growth Marketing Specialist – SEO, AEO & GEO",1
+Digital Marketing,seo specialist,matched,SEO Specialist- Digital Marketing,1
+Digital Marketing,seo specialist,unmatched,SEO & Content Specialist,1
+Digital Marketing,seo specialist,unmatched,SEO/AEO/GEO Specialist,1
+Digital Marketing,seo specialist,unmatched,AEO/SEO & CRO Specialist,1
+Digital Marketing,performance marketing,matched,Performance Marketing Manager,10
+Digital Marketing,performance marketing,matched,Performance Marketing Specialist,7
+Digital Marketing,performance marketing,matched,Performance Marketing Executive,7
+Digital Marketing,performance marketing,matched,Performance Marketing,5
+Digital Marketing,performance marketing,matched,Performance Marketing Lead,5
+Digital Marketing,performance marketing,matched,Senior Performance Marketing Specialist,4
+Digital Marketing,performance marketing,matched,Performance Marketing Associate,4
+Digital Marketing,performance marketing,matched,"Outbound Marketing - Monetization, Monetization, Performance Marketing",3
+Digital Marketing,performance marketing,matched,"Senior Performance Marketing Specialist, Paid Media",3
+Digital Marketing,performance marketing,matched,Senior Performance Marketing Manager,3
+Digital Marketing,performance marketing,matched,Performance Marketing & Growth Manager,2
+Digital Marketing,performance marketing,matched,Graphics Designer - Performance Marketing,2
+Digital Marketing,performance marketing,matched,Manager - Performance Marketing,2
+Digital Marketing,performance marketing,matched,Performance Marketing Intern - Google Ads,2
+Digital Marketing,performance marketing,matched,"Senior Executive, Performance Marketing",2
+Digital Marketing,performance marketing,matched,Performance Marketing Executive - Content (Telugu)- Dostt,2
+Digital Marketing,performance marketing,matched,Performance Marketing Specialist - Dostt Supply,1
+Digital Marketing,performance marketing,matched,"Analyst, Performance Marketing",1
+Digital Marketing,performance marketing,matched,Content Strategist - Performance Marketing,1
+Digital Marketing,performance marketing,matched,Content Creator Intern - Performance Marketing,1
+Digital Marketing,performance marketing,matched,Performance Marketing Executive - Content (Eaze - Tamil),1
+Digital Marketing,performance marketing,matched,GTM Engineer – Performance Marketing,1
+Digital Marketing,performance marketing,matched,PERFORMANCE MARKETING MANAGER (M/W/D),1
+Digital Marketing,performance marketing,matched,Copywriting Executive- Social/ Performance Marketing,1
+Digital Marketing,performance marketing,matched,Deputy Manager - Search & Performance Marketing,1
+Digital Marketing,performance marketing,matched,"Senior Marketing Executive, Performance Marketing",1
+Digital Marketing,performance marketing,matched,Performance Marketing Expert – B2B Accounts,1
+Digital Marketing,performance marketing,matched,Performance Marketing Executive (Leading Global Footwear Brand),1
+Digital Marketing,performance marketing,matched,Performance Marketing & SDR Executive – Remote,1
+Digital Marketing,performance marketing,matched,Performance Marketing Specialist (M-19985),1
+Digital Marketing,performance marketing,matched,Performance Marketing Lead- Matrimony,1
+Digital Marketing,performance marketing,matched,Senior Manager – Performance Marketing,1
+Digital Marketing,performance marketing,matched,Performance Marketing Intern,1
+Digital Marketing,performance marketing,matched,Senior Executive Performance Marketing,1
+Digital Marketing,performance marketing,matched,Performance Marketing ( Meta & Google Ads ) & Tracking Specialist,1
+Digital Marketing,performance marketing,matched,Senior Director - Performance Marketing (Remote),1
+Digital Marketing,performance marketing,matched,Intern- Performance Marketing,1
+Digital Marketing,performance marketing,matched,Performance Marketing - Senior Associate,1
+Digital Marketing,performance marketing,matched,Account Manager - Performance Marketing - Search Ads,1
+Digital Marketing,performance marketing,ambiguous_multi,Sr. Creative Designer (Performance Marketing) - Static & Motion,1
+Digital Marketing,performance marketing,ambiguous_multi,"Sr. Creative Designer, Performance Marketing - Kraken Consumer",1
+Digital Marketing,performance marketing,matched,"Senior Performance Marketing Manager, Global Paid Social & Mobile UA",1
+Digital Marketing,performance marketing,matched,"Senior Performance Marketing Manager - Meta Ads · Remote, India",1
+Digital Marketing,performance marketing,matched,Senior Executive Performance Marketing JioCinema,1
+Digital Marketing,performance marketing,matched,Performance Marketing Specialist PPC,1
+Digital Marketing,performance marketing,matched,MOC Performance Marketing Sr Exec/Asst Mngr M/F 5-6YRS(7-11 LPA),1
+Digital Marketing,performance marketing,matched,Intern - Performance Marketing,1
+Digital Marketing,performance marketing,matched,Assistant Manager - Performance Marketing,1
+Digital Marketing,performance marketing,matched,Senior Executive - Performance Marketing,1
+Digital Marketing,performance marketing,matched,Senior Manager - Performance Marketing,1
+Digital Marketing,performance marketing,matched,Performance Marketing-Sr Associate,1
+Digital Marketing,performance marketing,matched,Opening For Performance Marketing,1
+Digital Marketing,performance marketing,matched,"Manager, Performance Marketing",1
+Digital Marketing,growth marketer,matched,Growth Marketer,4
+Digital Marketing,growth marketer,matched,Founding Growth Marketer,2
+Digital Marketing,growth marketer,unmatched,"Account Executive, Growth, Mid-Market",2
+Digital Marketing,growth marketer,matched,Product Growth Marketer,1
+Digital Marketing,growth marketer,unmatched,Head of SaaS Sales (Growth Stage / Mid-Market focus),1
+Digital Marketing,growth marketer,matched,Senior Growth Marketer,1
+Digital Marketing,growth marketer,matched,Growth Marketer at Highadvocacy,1
+Digital Marketing,growth marketer,matched,Lead Brand & Growth Marketer- Executive Initiatives,1
+Digital Marketing,growth marketer,unmatched,Growth & Market Research Intern,1
+Digital Marketing,growth marketer,unmatched,Lead Assistant Manager-Market Growth,1

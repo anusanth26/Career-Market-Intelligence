@@ -1,0 +1,281 @@
+{
+ "human_validation_template": "human_validation/human_validation_template.csv (blank labels; a teammate fills it in later)",
+ "independent_human_validation_overall": "PENDING",
+ "input_files_sha256": {
+  "mapping_spotcheck/labels.csv": "da6f8029a730cafa7ef62dddaf1eecdd578594eaa90b8de661cbdd736b4b9998",
+  "mapping_spotcheck/summary.json": "c7740fc0eb90c73fb0e5081c25b42dc2d8425338b226e8d4188d94b77b7683c0"
+ },
+ "per_role": {
+  "Business Analyst": {
+   "ambiguity_rate_pct": 35.0,
+   "ambiguous": 7,
+   "ci95_wilson_pct": [
+    77.2,
+    100.0
+   ],
+   "correct": 13,
+   "current_validation_method": "manual spot-check of role titles against a fixed rubric (correct / ambiguous / incorrect) by the project workflow (an AI assistant); NOT independent human validation",
+   "incorrect": 0,
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": 100.0,
+   "pooled_with_earlier_audit": {
+    "n": 70,
+    "precision_pct": 95.3
+   },
+   "sample_seed": 20261002,
+   "sample_size": 20,
+   "validation_status": "AI-assisted spot-check complete; independent human validation not done"
+  },
+  "Cybersecurity Analyst": {
+   "current_validation_method": "none (not sampled)",
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": null,
+   "sample_size": 0,
+   "validation_status": "not sampled"
+  },
+  "Cybersecurity Engineer": {
+   "current_validation_method": "none (not sampled)",
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": null,
+   "sample_size": 0,
+   "validation_status": "not sampled"
+  },
+  "Data Analyst": {
+   "ambiguity_rate_pct": 0.0,
+   "ambiguous": 0,
+   "ci95_wilson_pct": [
+    76.4,
+    99.1
+   ],
+   "correct": 19,
+   "current_validation_method": "manual spot-check of role titles against a fixed rubric (correct / ambiguous / incorrect) by the project workflow (an AI assistant); NOT independent human validation",
+   "incorrect": 1,
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": 95.0,
+   "pooled_with_earlier_audit": {
+    "n": 70,
+    "precision_pct": 98.4
+   },
+   "sample_seed": 20261002,
+   "sample_size": 20,
+   "validation_status": "AI-assisted spot-check complete; independent human validation not done"
+  },
+  "Data Engineer": {
+   "ambiguity_rate_pct": 5.0,
+   "ambiguous": 1,
+   "ci95_wilson_pct": [
+    83.2,
+    100.0
+   ],
+   "correct": 19,
+   "current_validation_method": "manual spot-check of role titles against a fixed rubric (correct / ambiguous / incorrect) by the project workflow (an AI assistant); NOT independent human validation",
+   "incorrect": 0,
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": 100.0,
+   "pooled_with_earlier_audit": {
+    "n": 69,
+    "precision_pct": 100.0
+   },
+   "sample_seed": 20261002,
+   "sample_size": 20,
+   "validation_status": "AI-assisted spot-check complete; independent human validation not done"
+  },
+  "Data Scientist": {
+   "ambiguity_rate_pct": 30.0,
+   "ambiguous": 6,
+   "ci95_wilson_pct": [
+    78.5,
+    100.0
+   ],
+   "correct": 14,
+   "current_validation_method": "manual spot-check of role titles against a fixed rubric (correct / ambiguous / incorrect) by the project workflow (an AI assistant); NOT independent human validation",
+   "incorrect": 0,
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": 100.0,
+   "pooled_with_earlier_audit": {
+    "n": 70,
+    "precision_pct": 100.0
+   },
+   "sample_seed": 20261002,
+   "sample_size": 20,
+   "validation_status": "AI-assisted spot-check complete; independent human validation not done"
+  },
+  "Delivery Manager": {
+   "current_validation_method": "none (not sampled)",
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": null,
+   "sample_size": 0,
+   "validation_status": "not sampled"
+  },
+  "DevOps / Cloud Engineer": {
+   "ambiguity_rate_pct": 30.0,
+   "ambiguous": 6,
+   "ci95_wilson_pct": [
+    68.5,
+    98.7
+   ],
+   "correct": 13,
+   "current_validation_method": "manual spot-check of role titles against a fixed rubric (correct / ambiguous / incorrect) by the project workflow (an AI assistant); NOT independent human validation",
+   "incorrect": 1,
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": 92.9,
+   "pooled_with_earlier_audit": {
+    "n": 69,
+    "precision_pct": 98.3
+   },
+   "sample_seed": 20261002,
+   "sample_size": 20,
+   "validation_status": "AI-assisted spot-check complete; independent human validation not done"
+  },
+  "Digital Marketing": {
+   "ambiguity_rate_pct": 20.0,
+   "ambiguous": 4,
+   "ci95_wilson_pct": [
+    71.7,
+    98.9
+   ],
+   "correct": 15,
+   "current_validation_method": "manual spot-check of role titles against a fixed rubric (correct / ambiguous / incorrect) by the project workflow (an AI assistant); NOT independent human validation",
+   "incorrect": 1,
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": 93.8,
+   "pooled_with_earlier_audit": {
+    "n": 69,
+    "precision_pct": 98.4
+   },
+   "sample_seed": 20261002,
+   "sample_size": 20,
+   "validation_status": "AI-assisted spot-check complete; independent human validation not done"
+  },
+  "Financial Analyst": {
+   "current_validation_method": "none (not sampled)",
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": null,
+   "sample_size": 0,
+   "validation_status": "not sampled"
+  },
+  "Graphic Designer": {
+   "ambiguity_rate_pct": 25.0,
+   "ambiguous": 5,
+   "ci95_wilson_pct": [
+    79.6,
+    100.0
+   ],
+   "correct": 15,
+   "current_validation_method": "manual spot-check of role titles against a fixed rubric (correct / ambiguous / incorrect) by the project workflow (an AI assistant); NOT independent human validation",
+   "incorrect": 0,
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": 100.0,
+   "pooled_with_earlier_audit": {
+    "n": 67,
+    "precision_pct": 100.0
+   },
+   "sample_seed": 20261002,
+   "sample_size": 20,
+   "validation_status": "AI-assisted spot-check complete; independent human validation not done"
+  },
+  "Information Security Analyst": {
+   "current_validation_method": "none (not sampled)",
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": null,
+   "sample_size": 0,
+   "validation_status": "not sampled"
+  },
+  "Information Security Engineer": {
+   "current_validation_method": "none (not sampled)",
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": null,
+   "sample_size": 0,
+   "validation_status": "not sampled"
+  },
+  "Product Manager": {
+   "ambiguity_rate_pct": 40.0,
+   "ambiguous": 8,
+   "ci95_wilson_pct": [
+    75.7,
+    100.0
+   ],
+   "correct": 12,
+   "current_validation_method": "manual spot-check of role titles against a fixed rubric (correct / ambiguous / incorrect) by the project workflow (an AI assistant); NOT independent human validation",
+   "incorrect": 0,
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": 100.0,
+   "pooled_with_earlier_audit": {
+    "n": 70,
+    "precision_pct": 100.0
+   },
+   "sample_seed": 20261002,
+   "sample_size": 20,
+   "validation_status": "AI-assisted spot-check complete; independent human validation not done"
+  },
+  "Program Manager": {
+   "current_validation_method": "none (not sampled)",
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": null,
+   "sample_size": 0,
+   "validation_status": "not sampled"
+  },
+  "Project Manager": {
+   "ambiguity_rate_pct": 22.0,
+   "ambiguous": 11,
+   "ci95_wilson_pct": [
+    91.0,
+    100.0
+   ],
+   "correct": 39,
+   "current_validation_method": "manual spot-check of role titles against a fixed rubric (correct / ambiguous / incorrect) by the project workflow (an AI assistant); NOT independent human validation",
+   "incorrect": 0,
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": 100.0,
+   "pooled_with_earlier_audit": {
+    "n": 69,
+    "precision_pct": 100.0
+   },
+   "sample_seed": 20261002,
+   "sample_size": 50,
+   "validation_status": "AI-assisted spot-check complete; independent human validation not done"
+  },
+  "Scrum Master": {
+   "current_validation_method": "none (not sampled)",
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": null,
+   "sample_size": 0,
+   "validation_status": "not sampled"
+  },
+  "Security Engineer": {
+   "current_validation_method": "none (not sampled)",
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": null,
+   "sample_size": 0,
+   "validation_status": "not sampled"
+  },
+  "Software Engineer": {
+   "ambiguity_rate_pct": 5.0,
+   "ambiguous": 1,
+   "ci95_wilson_pct": [
+    83.2,
+    100.0
+   ],
+   "correct": 19,
+   "current_validation_method": "manual spot-check of role titles against a fixed rubric (correct / ambiguous / incorrect) by the project workflow (an AI assistant); NOT independent human validation",
+   "incorrect": 0,
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": 100.0,
+   "pooled_with_earlier_audit": {
+    "n": 69,
+    "precision_pct": 100.0
+   },
+   "sample_seed": 20261002,
+   "sample_size": 20,
+   "validation_status": "AI-assisted spot-check complete; independent human validation not done"
+  },
+  "UX Designer": {
+   "current_validation_method": "none (not sampled)",
+   "independent_human_validation": "PENDING",
+   "observed_precision_pct": null,
+   "sample_size": 0,
+   "validation_status": "not sampled"
+  }
+ },
+ "role_assignment": "title-based only (regex rules on the job title; description, skills, salary, category, employer and query are never used)"
+}
