@@ -11,3 +11,11 @@ __pycache__/
 # # Processed/audit outputs contain Adzuna text (terms unresolved): do not commit
 # data/processed/
 # data/audits/
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
