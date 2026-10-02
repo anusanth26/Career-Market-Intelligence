@@ -1,0 +1,204 @@
+{
+  "probe_timestamp": "2026-10-02T08:35:10Z",
+  "country": "in",
+  "salary_min_filter": 1,
+  "max_days_old": 90,
+  "existing_salaried_rows_in_dataset": 599,
+  "total_salaried_available_now": 1619,
+  "roles": [
+    {
+      "role": "Software Engineer",
+      "query": "software engineer",
+      "total_available": 10634,
+      "salaried_available": 239,
+      "disclosure_rate": 0.0225,
+      "salary_on_page1_of_50": 50,
+      "errors": null
+    },
+    {
+      "role": "Data Analyst",
+      "query": "data analyst",
+      "total_available": 771,
+      "salaried_available": 43,
+      "disclosure_rate": 0.0558,
+      "salary_on_page1_of_50": 43,
+      "errors": null
+    },
+    {
+      "role": "Data Scientist",
+      "query": "data scientist",
+      "total_available": 1233,
+      "salaried_available": 70,
+      "disclosure_rate": 0.0568,
+      "salary_on_page1_of_50": 50,
+      "errors": null
+    },
+    {
+      "role": "Data Engineer",
+      "query": "data engineer",
+      "total_available": 2637,
+      "salaried_available": 149,
+      "disclosure_rate": 0.0565,
+      "salary_on_page1_of_50": 50,
+      "errors": null
+    },
+    {
+      "role": "DevOps / Cloud Engineer",
+      "query": "devops engineer",
+      "total_available": 828,
+      "salaried_available": 85,
+      "disclosure_rate": 0.1027,
+      "salary_on_page1_of_50": 50,
+      "errors": null
+    },
+    {
+      "role": "Security Engineer",
+      "query": "security engineer",
+      "total_available": 756,
+      "salaried_available": 30,
+      "disclosure_rate": 0.0397,
+      "salary_on_page1_of_50": 30,
+      "errors": null
+    },
+    {
+      "role": "Information Security Analyst",
+      "query": "information security analyst",
+      "total_available": 39,
+      "salaried_available": null,
+      "disclosure_rate": null,
+      "salary_on_page1_of_50": 0,
+      "errors": [
+        "HTTP 502: <!DOCTYPE html>\n<html>\n<!-- This file is managed by Chef -->\n    <head>\n        <meta charset=\"UTF-8\">\n        <title>Uh oh, something isn't right</title>\n        <meta name=\"HandheldFriendly\" content"
+      ]
+    },
+    {
+      "role": "Cybersecurity Engineer",
+      "query": "cybersecurity engineer",
+      "total_available": 84,
+      "salaried_available": 8,
+      "disclosure_rate": 0.0952,
+      "salary_on_page1_of_50": 8,
+      "errors": null
+    },
+    {
+      "role": "Information Security Engineer",
+      "query": "information security engineer",
+      "total_available": 74,
+      "salaried_available": 3,
+      "disclosure_rate": 0.0405,
+      "salary_on_page1_of_50": 3,
+      "errors": null
+    },
+    {
+      "role": "Cybersecurity Analyst",
+      "query": "cybersecurity analyst",
+      "total_available": 29,
+      "salaried_available": 1,
+      "disclosure_rate": 0.0345,
+      "salary_on_page1_of_50": 1,
+      "errors": null
+    },
+    {
+      "role": "Business Analyst",
+      "query": "business analyst",
+      "total_available": 1309,
+      "salaried_available": 74,
+      "disclosure_rate": 0.0565,
+      "salary_on_page1_of_50": 50,
+      "errors": null
+    },
+    {
+      "role": "Financial Analyst",
+      "query": "financial analyst",
+      "total_available": 604,
+      "salaried_available": 12,
+      "disclosure_rate": 0.0199,
+      "salary_on_page1_of_50": 12,
+      "errors": null
+    },
+    {
+      "role": "Product Manager",
+      "query": "product manager",
+      "total_available": 1841,
+      "salaried_available": 112,
+      "disclosure_rate": 0.0608,
+      "salary_on_page1_of_50": 50,
+      "errors": null
+    },
+    {
+      "role": "Project Manager",
+      "query": "project manager",
+      "total_available": 1649,
+      "salaried_available": 169,
+      "disclosure_rate": 0.1025,
+      "salary_on_page1_of_50": 50,
+      "errors": null
+    },
+    {
+      "role": "Digital Marketing",
+      "query": "digital marketing",
+      "total_available": null,
+      "salaried_available": 92,
+      "disclosure_rate": null,
+      "salary_on_page1_of_50": 49,
+      "errors": [
+        "HTTP 502: <!DOCTYPE html>\n<html>\n<!-- This file is managed by Chef -->\n    <head>\n        <meta charset=\"UTF-8\">\n        <title>Uh oh, something isn't right</title>\n        <meta name=\"HandheldFriendly\" content"
+      ]
+    },
+    {
+      "role": "Mechanical Engineer",
+      "query": "mechanical engineer",
+      "total_available": 574,
+      "salaried_available": 56,
+      "disclosure_rate": 0.0976,
+      "salary_on_page1_of_50": 50,
+      "errors": null
+    },
+    {
+      "role": "Electrical Engineer",
+      "query": "electrical engineer",
+      "total_available": 588,
+      "salaried_available": 58,
+      "disclosure_rate": 0.0986,
+      "salary_on_page1_of_50": 50,
+      "errors": null
+    },
+    {
+      "role": "Quality Engineer",
+      "query": "quality engineer",
+      "total_available": 856,
+      "salaried_available": 58,
+      "disclosure_rate": 0.0678,
+      "salary_on_page1_of_50": 50,
+      "errors": null
+    },
+    {
+      "role": "UX Designer",
+      "query": "ux designer",
+      "total_available": 219,
+      "salaried_available": 37,
+      "disclosure_rate": 0.1689,
+      "salary_on_page1_of_50": 37,
+      "errors": null
+    },
+    {
+      "role": "Graphic Designer",
+      "query": "graphic designer",
+      "total_available": 432,
+      "salaried_available": 117,
+      "disclosure_rate": 0.2708,
+      "salary_on_page1_of_50": 49,
+      "errors": null
+    },
+    {
+      "role": "Architect (contamination audit)",
+      "query": "architect",
+      "total_available": 3754,
+      "salaried_available": 206,
+      "disclosure_rate": 0.0549,
+      "salary_on_page1_of_50": 49,
+      "errors": null
+    }
+  ],
+  "note": "Adzuna 'count' is an API-side estimate of matches, not a guarantee of retrievable rows (free-tier pagination is limited). Use as an upper-bound indicator."
+}
