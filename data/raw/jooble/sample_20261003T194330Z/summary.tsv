@@ -1,0 +1,11 @@
+role	totalCount	rows	nonempty_salary	status
+software engineer	189	20	0	200
+data analyst	142	20	0	200
+machine learning engineer	58	20	0	200
+devops engineer	132	20	0	200
+product manager	128	20	1	200
+financial analyst	86	20	1	200
+cybersecurity analyst	69	20	1	200
+business analyst	92	20	1	200
+cloud engineer	35	20	0	200
+frontend developer	160	20	0	200
