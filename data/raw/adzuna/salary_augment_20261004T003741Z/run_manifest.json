@@ -1,0 +1,234 @@
+{
+  "run_id": "salary_augment_20261004T003741Z",
+  "started": "2026-10-03T19:07:41Z",
+  "country": "in",
+  "salary_min": 1,
+  "max_days_old": 90,
+  "queries": [
+    {
+      "role": "Software Engineer",
+      "query": "software engineer",
+      "api_count": 230,
+      "records": 230
+    },
+    {
+      "role": "Software Engineer",
+      "query": "software developer",
+      "api_count": 70,
+      "records": 70
+    },
+    {
+      "role": "Software Engineer",
+      "query": "software development engineer",
+      "api_count": 25,
+      "records": 25
+    },
+    {
+      "role": "Software Engineer",
+      "query": "application developer",
+      "api_count": 11,
+      "records": 11
+    },
+    {
+      "role": "Data Analyst",
+      "query": "data analyst",
+      "api_count": 41,
+      "records": 41
+    },
+    {
+      "role": "Data Analyst",
+      "query": "bi analyst",
+      "api_count": 3,
+      "records": 3
+    },
+    {
+      "role": "Data Analyst",
+      "query": "business intelligence analyst",
+      "api_count": 3,
+      "records": 3
+    },
+    {
+      "role": "Data Analyst",
+      "query": "reporting analyst",
+      "api_count": 1,
+      "records": 1
+    },
+    {
+      "role": "Data Scientist",
+      "query": "data scientist",
+      "api_count": 64,
+      "records": 64
+    },
+    {
+      "role": "Data Scientist",
+      "query": "machine learning engineer",
+      "api_count": 10,
+      "records": 10
+    },
+    {
+      "role": "Data Scientist",
+      "query": "applied scientist",
+      "api_count": 4,
+      "records": 4
+    },
+    {
+      "role": "Data Engineer",
+      "query": "data engineer",
+      "api_count": 146,
+      "records": 146
+    },
+    {
+      "role": "Data Engineer",
+      "query": "etl developer",
+      "api_count": 11,
+      "records": 11
+    },
+    {
+      "role": "Data Engineer",
+      "query": "big data engineer",
+      "api_count": 3,
+      "records": 3
+    },
+    {
+      "role": "Data Engineer",
+      "query": "analytics engineer",
+      "api_count": 2,
+      "records": 2
+    },
+    {
+      "role": "DevOps / Cloud Engineer",
+      "query": "devops engineer",
+      "api_count": 83,
+      "records": 83
+    },
+    {
+      "role": "DevOps / Cloud Engineer",
+      "query": "cloud engineer",
+      "api_count": 40,
+      "records": 40
+    },
+    {
+      "role": "DevOps / Cloud Engineer",
+      "query": "site reliability engineer",
+      "api_count": 23,
+      "records": 23
+    },
+    {
+      "role": "DevOps / Cloud Engineer",
+      "query": "platform engineer",
+      "api_count": 61,
+      "records": 61
+    },
+    {
+      "role": "Business Analyst",
+      "query": "business analyst",
+      "api_count": 71,
+      "records": 71
+    },
+    {
+      "role": "Business Analyst",
+      "query": "systems analyst",
+      "api_count": 4,
+      "records": 4
+    },
+    {
+      "role": "Business Analyst",
+      "query": "functional analyst",
+      "api_count": 4,
+      "records": 4
+    },
+    {
+      "role": "Business Analyst",
+      "query": "product analyst",
+      "api_count": 15,
+      "records": 15
+    },
+    {
+      "role": "Product Manager",
+      "query": "product manager",
+      "api_count": 112,
+      "records": 112
+    },
+    {
+      "role": "Product Manager",
+      "query": "product owner",
+      "api_count": 5,
+      "records": 5
+    },
+    {
+      "role": "Product Manager",
+      "query": "associate product manager",
+      "api_count": 9,
+      "records": 9
+    },
+    {
+      "role": "Project Manager",
+      "query": "project manager",
+      "api_count": 162,
+      "records": 162
+    },
+    {
+      "role": "Project Manager",
+      "query": "program manager",
+      "api_count": 29,
+      "records": 29
+    },
+    {
+      "role": "Project Manager",
+      "query": "delivery manager",
+      "api_count": 21,
+      "records": 21
+    },
+    {
+      "role": "Project Manager",
+      "query": "scrum master",
+      "api_count": 5,
+      "records": 5
+    },
+    {
+      "role": "Digital Marketing",
+      "query": "digital marketing",
+      "api_count": 91,
+      "records": 91
+    },
+    {
+      "role": "Digital Marketing",
+      "query": "seo specialist",
+      "api_count": 11,
+      "records": 11
+    },
+    {
+      "role": "Digital Marketing",
+      "query": "performance marketing",
+      "api_count": 45,
+      "records": 45
+    },
+    {
+      "role": "Digital Marketing",
+      "query": "growth marketer",
+      "api_count": 4,
+      "records": 4
+    },
+    {
+      "role": "Graphic Designer",
+      "query": "graphic designer",
+      "api_count": 116,
+      "records": 116
+    },
+    {
+      "role": "Graphic Designer",
+      "query": "visual designer",
+      "api_count": 7,
+      "records": 7
+    },
+    {
+      "role": "Graphic Designer",
+      "query": "creative designer",
+      "api_count": 15,
+      "records": 15
+    }
+  ],
+  "total_raw_records": 1557,
+  "finished": "2026-10-03T19:10:59Z",
+  "unique_ids_collected": 1416
+}
