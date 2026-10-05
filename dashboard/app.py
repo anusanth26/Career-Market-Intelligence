@@ -240,7 +240,7 @@ with tab1:
 # ==========================================
 with tab2:
     st.header("Model Performance & Diagnostics")
-    st.markdown("Review the final performance metrics and confusion matrices to understand where the models succeed and misclassify.")
+    st.markdown("Compare how the three models perform and how much to trust each number.")
     
     # Helper to load images robustly
     def load_image(filename):
@@ -249,32 +249,38 @@ with tab2:
             return Image.open(path)
         return None
 
-    # Binary Model Performance
-    st.subheader("1. Tuned Binary Classifier (Above vs Below Median)")
-    st.markdown("- **Accuracy:** 65.80%\n- **F1-Score:** 65.72%\n- **Improvement over Baseline:** +19.05 percentage points")
+    # Model comparison
+    st.subheader("1. Model Comparison")
+    st.markdown(
+        "All three models scored with employer-grouped cross-validation (a company never appears in both "
+        "training and validation), which estimates performance on postings from unseen employers:\n\n"
+        "| Model | Band accuracy | Binary accuracy |\n|---|---|---|\n"
+        "| Standard (structured features) | 47.0% | 69.2% |\n"
+        "| Text-enhanced (structured + title + description) | 49.2% | 71.2% |\n"
+        "| TF-IDF + SVD (description only) | 51.3% | 71.8% |\n\n"
+        "For reference, always predicting the most common class scores about 37% on the three bands and about 52% on above/below median."
+    )
     
-    cm_binary = load_image('cm_binary.png')
-    if cm_binary:
-        st.image(cm_binary, caption="Confusion Matrix: Binary Classifier")
-    else:
-        st.warning("Binary confusion matrix image not found.")
+    st.caption("The three-band task is harder than above/below median because adjacent bands overlap.")
 
     st.divider()
     
-    # Band Model Performance
-    st.subheader("2. Salary Band Multi-Class Classifier (Low, Medium, High)")
-    st.markdown("- **Accuracy:** 51.08%\n- **F1-Score:** 43.44%")
+    # Held-out results for the TF-IDF + SVD model
+    st.subheader("2. Held-Out Test Results (TF-IDF + SVD)")
+    st.markdown(
+        "Scored once on a held-out test split of 231 postings:\n\n"
+        "| Task | Accuracy | Macro-F1 |\n|---|---|---|\n"
+        "| Salary band (low / medium / high) | 58.4% | 0.570 |\n"
+        "| Above / below median | 76.6% | 0.766 |\n\n"
+        "The medium band is the hardest to predict (recall 0.37). About 70% of the band errors are between adjacent bands."
+    )
     
-    cm_band = load_image('cm_band.png')
-    if cm_band:
-        st.image(cm_band, caption="Confusion Matrix: Salary Band Classifier")
-    else:
-        st.warning("Salary Band confusion matrix image not found.")
+    st.caption("This split keeps employers in both training and test sets, so these scores run higher than the employer-grouped estimates above.")
 
     st.divider()
     
     # Feature Importance
-    st.subheader("3. Feature Importance (Key Drivers)")
+    st.subheader("3. Feature Importance (Standard Band Model)")
     fi_band = load_image('feature_importance_band.png')
     if fi_band:
         st.image(fi_band, caption="Top 10 Feature Importances (Salary Band Model)")
@@ -283,12 +289,9 @@ with tab2:
 
     st.divider()
 
-    st.subheader("4. Model Comparison")
+    st.subheader("4. How to Read These Numbers")
     st.markdown(
-        "All three models scored with employer-grouped cross-validation (a company never appears in both "
-        "training and validation), which estimates performance on unseen employers:\n\n"
-        "| Model | Band accuracy | Binary accuracy |\n|---|---|---|\n"
-        "| Standard (structured features) | 47.0% | 69.2% |\n"
-        "| Text-enhanced (structured + title + description) | 49.2% | 71.2% |\n"
-        "| TF-IDF + SVD (description only) | 51.3% | 71.8% |"
+        "- **Employer-grouped cross-validation** is the fairest comparison between models: it tests on companies the model has not seen.\n"
+        "- **The held-out split** shares employers between training and testing, which favours text models that recognise company wording.\n"
+        "- Pay for the same role and seniority varies widely, so no model on this data is expected to be highly accurate."
     )
