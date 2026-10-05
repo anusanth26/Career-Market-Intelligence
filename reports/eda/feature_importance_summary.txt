@@ -1,0 +1,25 @@
+Band Model Top 10 Features:
+                          Feature  Importance
+30             Seniority: ordinal    0.144242
+29                    skill_count    0.094479
+15        Role: Digital Marketing    0.081938
+28                   is_full_time    0.071738
+16         Role: Graphic Designer    0.068905
+14  Role: Devops / Cloud Engineer    0.044685
+25       Location: bucket_Unknown    0.042980
+22   Location: bucket_Maharashtra    0.040618
+24     Location: bucket_Telangana    0.030316
+21     Location: bucket_Karnataka    0.030067
+
+Binary Model Top 10 Features:
+                          Feature  Importance
+15        Role: Digital Marketing    0.153977
+29                    skill_count    0.136196
+30             Seniority: ordinal    0.106897
+28                   is_full_time    0.097347
+16         Role: Graphic Designer    0.082789
+21     Location: bucket_Karnataka    0.042597
+14  Role: Devops / Cloud Engineer    0.038681
+12            Role: Data Engineer    0.035214
+5                     skill_agile    0.033006
+0                    skill_python    0.032253
