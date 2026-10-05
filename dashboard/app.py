@@ -24,6 +24,13 @@ classes = model_data['classes']
 
 STANDARD_MODEL_LABEL = "Standard model (role, seniority, location, skills)"
 TEXT_MODEL_LABEL = "Text-enhanced model (adds job title + description)"
+SVD_MODEL_LABEL = "TF-IDF + SVD model (job description only)"
+
+
+@st.cache_resource
+def load_svd_models():
+    path = os.path.join(os.path.dirname(__file__), '..', 'models', 'salary_tfidf_svd_models.joblib')
+    return joblib.load(path) if os.path.exists(path) else None
 
 
 @st.cache_resource
@@ -96,7 +103,16 @@ def show_text_result(band_probs, binary_probs, median_salary):
             st.write(f"- **{cls.title()} median**: {prob * 100:.1f}%")
 
 
+def predict_svd_model(svd_data, job_description):
+    cleaned = clean_description(job_description)
+    band_model, binary_model = svd_data['band_model'], svd_data['binary_model']
+    band_probs = dict(zip(band_model.classes_, band_model.predict_proba([cleaned])[0]))
+    binary_probs = dict(zip(binary_model.classes_, binary_model.predict_proba([cleaned])[0]))
+    return band_probs, binary_probs
+
+
 text_data = load_text_models()
+svd_data = load_svd_models()
 
 st.title("💼 Career Market Intelligence Dashboard")
 
@@ -109,8 +125,11 @@ tab1, tab2 = st.tabs(["🎯 Salary Predictor", "📊 Model Evaluation"])
 with tab1:
     st.markdown("Enter the job posting characteristics below to predict the expected salary band.")
 
-    model_options = [STANDARD_MODEL_LABEL] + ([TEXT_MODEL_LABEL] if text_data else [])
+    model_options = [STANDARD_MODEL_LABEL] + ([TEXT_MODEL_LABEL] if text_data else []) + ([SVD_MODEL_LABEL] if svd_data else [])
     model_choice = st.radio("Model", model_options, horizontal=True)
+    structured_inputs_disabled = model_choice == SVD_MODEL_LABEL
+    if structured_inputs_disabled:
+        st.info("This model uses only the job description, so role, location, seniority and skills are not used.")
     
     st.header("Job Characteristics")
     col1, col2 = st.columns(2)
@@ -122,30 +141,41 @@ with tab1:
             "Graphic Designer", "Product Manager", 
             "Project Manager", "Software Engineer"
         ]
-        selected_role = st.selectbox("Role Category", roles)
+        selected_role = st.selectbox("Role Category", roles, disabled=structured_inputs_disabled)
         
         locations = [
             "Karnataka", "Maharashtra", "Telangana", "Delhi", 
             "Uttar Pradesh", "Tamil Nadu", "Gujarat", 
             "Unknown", "other"
         ]
-        selected_location = st.selectbox("Location Bucket", locations)
+        selected_location = st.selectbox("Location Bucket", locations, disabled=structured_inputs_disabled)
         
-        is_full_time = st.checkbox("Is Full Time?", value=True)
+        is_full_time = st.checkbox("Is Full Time?", value=True, disabled=structured_inputs_disabled)
     
     with col2:
         seniority_levels = {
             "Entry": 0, "Mid": 1, 
             "Senior": 2
         }
-        selected_seniority = st.selectbox("Seniority Level", list(seniority_levels.keys()))
+        selected_seniority = st.selectbox("Seniority Level", list(seniority_levels.keys()), disabled=structured_inputs_disabled)
         
         available_skills = [
             'python', 'sql', 'communication', 'azure', 
             'machine_learning', 'agile', 'aws', 'linux', 
             'java', 'sap', 'docker'
         ]
-        selected_skills = st.multiselect("Key Skills", available_skills)
+        selected_skills = st.multiselect("Key Skills", available_skills, disabled=structured_inputs_disabled)
+    
+    # --- TF-IDF + SVD model (description only) ---
+    if model_choice == SVD_MODEL_LABEL:
+        svd_description = st.text_area("Job Description", height=180, placeholder="Paste the job description here", key="svd_description")
+
+        if st.button("Predict Salary", type="primary", key="predict_svd"):
+            if not svd_description.strip():
+                st.warning("Enter a job description to use this model.")
+            else:
+                band_probs, binary_probs = predict_svd_model(svd_data, svd_description)
+                show_text_result(band_probs, binary_probs, svd_data['median_salary'])
     
     # --- Text-enhanced model ---
     if model_choice == TEXT_MODEL_LABEL:
@@ -253,10 +283,12 @@ with tab2:
 
     st.divider()
 
-    st.subheader("4. Text-Enhanced Model (Title + Description)")
+    st.subheader("4. Model Comparison")
     st.markdown(
-        "Employer-grouped cross-validation (a company never appears in both training and validation):\n\n"
-        "| Feature set | Band accuracy | Binary accuracy |\n|---|---|---|\n"
-        "| Structured features | 48.3% | 69.1% |\n"
-        "| Structured + title + description | 49.2% | 71.2% |"
+        "All three models scored with employer-grouped cross-validation (a company never appears in both "
+        "training and validation), which estimates performance on unseen employers:\n\n"
+        "| Model | Band accuracy | Binary accuracy |\n|---|---|---|\n"
+        "| Standard (structured features) | 47.0% | 69.2% |\n"
+        "| Text-enhanced (structured + title + description) | 49.2% | 71.2% |\n"
+        "| TF-IDF + SVD (description only) | 51.3% | 71.8% |"
     )
