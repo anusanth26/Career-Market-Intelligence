@@ -4,7 +4,7 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report, accuracy_score, f1_score, confusion_matrix
+from sklearn.metrics import classification_report, accuracy_score, f1_score, confusion_matrix, roc_curve, auc, precision_recall_curve, average_precision_score
 import os
 
 # Ensure directories
@@ -39,8 +39,62 @@ def plot_conf_matrix(y_true, y_pred, labels, title, filename):
     plt.xlabel('Predicted Label')
     plt.tight_layout()
     plt.savefig(f'reports/eda/{filename}')
-    plt.close()
-    print(f"Saved confusion matrix to reports/eda/{filename}")
+    plt.show()
+
+def plot_classification_report(y_true, y_pred, title, filename):
+    report = classification_report(y_true, y_pred, output_dict=True)
+    df_report = pd.DataFrame(report).iloc[:-1, :].T
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(df_report, annot=True, cmap='RdYlGn', vmin=0, vmax=1)
+    plt.title(title)
+    plt.tight_layout()
+    plt.savefig(f'reports/eda/{filename}')
+    plt.show()
+
+def plot_feature_importance(model, feature_names, title, filename):
+    importances = model.feature_importances_
+    df = pd.DataFrame({'Feature': feature_names, 'Importance': importances})
+    df = df.sort_values(by='Importance', ascending=False).head(15)
+    df['Feature'] = df['Feature'].str.replace('role_', 'Role: ').str.replace('category_', 'Category: ').str.replace('location_', 'Location: ').str.replace('seniority_', 'Seniority: ')
+    
+    plt.figure(figsize=(10, 6))
+    sns.barplot(x='Importance', y='Feature', data=df, palette='viridis')
+    plt.title(title)
+    plt.xlabel('Importance')
+    plt.ylabel('')
+    plt.tight_layout()
+    plt.savefig(f'reports/eda/{filename}')
+    plt.show()
+    return df
+
+def plot_roc_curve(y_true, y_prob, title, filename):
+    fpr, tpr, _ = roc_curve(y_true, y_prob)
+    roc_auc = auc(fpr, tpr)
+    plt.figure(figsize=(8, 6))
+    plt.plot(fpr, tpr, color='darkorange', lw=2, label=f'ROC curve (area = {roc_auc:.2f})')
+    plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title(title)
+    plt.legend(loc="lower right")
+    plt.tight_layout()
+    plt.savefig(f'reports/eda/{filename}')
+    plt.show()
+
+def plot_pr_curve(y_true, y_prob, title, filename):
+    precision, recall, _ = precision_recall_curve(y_true, y_prob)
+    ap = average_precision_score(y_true, y_prob)
+    plt.figure(figsize=(8, 6))
+    plt.plot(recall, precision, color='purple', lw=2, label=f'PR curve (AP = {ap:.2f})')
+    plt.xlabel('Recall')
+    plt.ylabel('Precision')
+    plt.title(title)
+    plt.legend(loc="lower left")
+    plt.tight_layout()
+    plt.savefig(f'reports/eda/{filename}')
+    plt.show()
 
 def evaluate_models():
     print("Loading data...")
@@ -49,8 +103,8 @@ def evaluate_models():
     df = engineer_features(df_raw)
     
     # 1. Evaluate Tuned Binary Model
-    print("\n--- Evaluating Tuned Binary Model ---")
-    binary_metadata = joblib.load('models/salary_binary_model.joblib') # Get median
+    print("\\n--- Evaluating Tuned Binary Model ---")
+    binary_metadata = joblib.load('models/salary_binary_model.joblib')
     median_salary = binary_metadata['median_salary']
     
     binary_model = joblib.load('models/tuned_salary_binary_model.joblib')
@@ -59,32 +113,45 @@ def evaluate_models():
     for col in feature_cols:
         if col not in df.columns:
             df[col] = 0
-    
+            
     X = df[feature_cols].fillna(0)
     y_binary = (df['salary_mid'] > median_salary).astype(int)
     
     _, X_test, _, y_test = train_test_split(X, y_binary, test_size=0.2, random_state=42)
     
     y_pred = binary_model.predict(X_test)
+    y_prob = binary_model.predict_proba(X_test)[:, 1] if hasattr(binary_model, 'predict_proba') else None
+    
     acc = accuracy_score(y_test, y_pred)
     f1 = f1_score(y_test, y_pred, average='weighted')
     
     print(f"Accuracy: {acc:.4f} | F1-Score: {f1:.4f}")
     plot_conf_matrix(y_test, y_pred, ['Below Median', 'Above Median'], 'Confusion Matrix: Tuned Binary Model', 'cm_binary.png')
+    plot_classification_report(y_test, y_pred, 'Classification Report: Tuned Binary Model', 'cr_binary.png')
+    if y_prob is not None:
+        plot_roc_curve(y_test, y_prob, 'ROC Curve: Tuned Binary Model', 'roc_binary.png')
+        plot_pr_curve(y_test, y_prob, 'Precision-Recall Curve: Tuned Binary Model', 'pr_binary.png')
+        
+    plot_feature_importance(binary_model, feature_cols, 'Top Feature Importances (Tuned Binary Model)', 'fi_binary.png')
     
     # 2. Evaluate Salary Band Model
-    print("\n--- Evaluating Salary Band Model ---")
+    print("\\n--- Evaluating Salary Band Model ---")
     band_metadata = joblib.load('models/salary_band_model.joblib')
     band_model = band_metadata['model']
     band_scaler = band_metadata['scaler']
     band_num_cols = band_metadata['numeric_cols']
     band_classes = band_metadata['classes']
+    band_feature_cols = band_metadata['feature_columns']
     
     y_band = df['salary_band']
     
-    _, X_test_band, _, y_test_band = train_test_split(X, y_band, test_size=0.2, random_state=42)
+    for col in band_feature_cols:
+        if col not in df.columns:
+            df[col] = 0
+            
+    X_band = df[band_feature_cols].fillna(0)
+    _, X_test_band, _, y_test_band = train_test_split(X_band, y_band, test_size=0.2, random_state=42)
     
-    # Scale numeric cols for the test set
     X_test_scaled = X_test_band.copy()
     X_test_scaled[band_num_cols] = band_scaler.transform(X_test_scaled[band_num_cols])
     
@@ -94,32 +161,9 @@ def evaluate_models():
     
     print(f"Accuracy: {acc_band:.4f} | F1-Score: {f1_band:.4f}")
     plot_conf_matrix(y_test_band, y_pred_band, band_classes, 'Confusion Matrix: Salary Band Model', 'cm_band.png')
-
-    # 3. Create Markdown Report
-    report = f"""# Final Model Performance Evaluation
-
-## 1. Tuned Binary Classifier (Above vs Below Median Salary)
-- **Accuracy:** {acc*100:.2f}%
-- **F1-Score (Weighted):** {f1*100:.2f}%
-
-*Confusion Matrix:*
-![Confusion Matrix Binary](/home/mahadeva/Projects/CarrerMarket/Career-Market-Intelligence/reports/eda/cm_binary.png)
-
-## 2. Salary Band Multi-Class Model (Low, Medium, High)
-- **Accuracy:** {acc_band*100:.2f}%
-- **F1-Score (Weighted):** {f1_band*100:.2f}%
-
-*Confusion Matrix:*
-![Confusion Matrix Band](/home/mahadeva/Projects/CarrerMarket/Career-Market-Intelligence/reports/eda/cm_band.png)
-
-## Interpretation
-The confusion matrices reveal exactly where the models succeed and struggle.
-- The **Binary Model** accurately separates higher-paying roles from lower-paying ones, showing balanced false positives and false negatives after tuning.
-- The **Band Model** is slightly less accurate overall because distinguishing between 3 classes is harder. The matrix shows that it occasionally confuses adjacent bands (e.g., predicting 'medium' when true is 'high'), but rarely makes egregious mistakes (like predicting 'low' when true is 'high').
-"""
-    with open('reports/final_performance_report.md', 'w') as f:
-        f.write(report)
-    print("Saved markdown report to reports/final_performance_report.md")
+    plot_classification_report(y_test_band, y_pred_band, 'Classification Report: Salary Band Model', 'cr_band.png')
+    
+    plot_feature_importance(band_model, band_feature_cols, 'Top Feature Importances (Salary Band Model)', 'fi_band.png')
 
 if __name__ == "__main__":
     evaluate_models()
