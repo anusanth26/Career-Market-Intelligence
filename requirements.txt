@@ -4,5 +4,10 @@ requests
 python-dotenv
 pytrends
 spacy
+scikit-learn
+joblib
+matplotlib
+seaborn
+wordcloud
 # spaCy English model (install after spacy):
 #   python -m spacy download en_core_web_sm
