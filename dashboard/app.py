@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
+import re
 from PIL import Image
 
 st.set_page_config(page_title="Salary Band Predictor", layout="wide")
@@ -21,6 +22,82 @@ feature_columns = model_data['feature_columns']
 numeric_cols = model_data['numeric_cols']
 classes = model_data['classes']
 
+STANDARD_MODEL_LABEL = "Standard model (role, seniority, location, skills)"
+TEXT_MODEL_LABEL = "Text-enhanced model (adds job title + description)"
+
+
+@st.cache_resource
+def load_text_models():
+    path = os.path.join(os.path.dirname(__file__), '..', 'models', 'salary_text_models.joblib')
+    return joblib.load(path) if os.path.exists(path) else None
+
+
+@st.cache_resource
+def load_lemmatizer():
+    try:
+        import spacy
+        return spacy.load("en_core_web_sm", disable=["parser", "ner"])
+    except Exception:
+        return None
+
+
+def clean_description(text):
+    # Mirrors the notebook's cleaning; lemmatization is skipped if spaCy is unavailable.
+    text = re.sub(r"<[^>]+>|https?://\S+|\S+@\S+", " ", text.lower())
+    text = re.sub(r"[^a-z0-9+#.\s]", " ", text)
+    nlp = load_lemmatizer()
+    if nlp is not None:
+        text = " ".join(tok.lemma_ for tok in nlp(text) if not tok.is_space)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def build_structured_input(columns, role, location, full_time, seniority, skills):
+    values = {col: 0 for col in columns}
+    values['is_full_time'] = int(full_time)
+    values['seniority_ordinal'] = seniority
+    values['skill_count'] = len(skills)
+    for key in (f"role_{role}", f"location_bucket_{location}"):
+        if key in values:
+            values[key] = 1
+    for skill in skills:
+        if f"skill_{skill}" in values:
+            values[f"skill_{skill}"] = 1
+    return values
+
+
+def predict_text_model(text_data, structured, job_title, job_description):
+    from scipy.sparse import hstack, csr_matrix
+    row = pd.DataFrame([structured])[text_data['feature_columns']].astype(float)
+    title_features = text_data['title_vectorizer'].transform([job_title.lower()])
+    desc_features = text_data['description_vectorizer'].transform([clean_description(job_description)])
+    features = hstack([csr_matrix(row.values), title_features, desc_features]).tocsr()
+    band_model, binary_model = text_data['band_model'], text_data['binary_model']
+    band_probs = dict(zip(band_model.classes_, band_model.predict_proba(features)[0]))
+    binary_probs = dict(zip(binary_model.classes_, binary_model.predict_proba(features)[0]))
+    return band_probs, binary_probs
+
+
+def show_text_result(band_probs, binary_probs, median_salary):
+    band = max(band_probs, key=band_probs.get)
+    side = max(binary_probs, key=binary_probs.get)
+    colors = {"high": "green", "medium": "blue", "low": "red"}
+    st.divider()
+    st.subheader("Prediction Result")
+    st.markdown(f"### Predicted Band: :{colors[band]}[{band.upper()}]")
+    st.progress(band_probs[band])
+    st.markdown(f"**Confidence:** `{band_probs[band] * 100:.1f}%`")
+    st.markdown(f"### Likely **{side.upper()}** the median salary (₹{median_salary:,.0f})")
+    st.progress(binary_probs[side])
+    st.markdown(f"**Confidence:** `{binary_probs[side] * 100:.1f}%`")
+    with st.expander("View All Probabilities"):
+        for cls, prob in band_probs.items():
+            st.write(f"- **{cls.title()}**: {prob * 100:.1f}%")
+        for cls, prob in binary_probs.items():
+            st.write(f"- **{cls.title()} median**: {prob * 100:.1f}%")
+
+
+text_data = load_text_models()
+
 st.title("💼 Career Market Intelligence Dashboard")
 
 # --- Tabs ---
@@ -31,13 +108,16 @@ tab1, tab2 = st.tabs(["🎯 Salary Predictor", "📊 Model Evaluation"])
 # ==========================================
 with tab1:
     st.markdown("Enter the job posting characteristics below to predict the expected salary band.")
+
+    model_options = [STANDARD_MODEL_LABEL] + ([TEXT_MODEL_LABEL] if text_data else [])
+    model_choice = st.radio("Model", model_options, horizontal=True)
     
     st.header("Job Characteristics")
     col1, col2 = st.columns(2)
     
     with col1:
         roles = [
-            "Data Analyst", "Data Engineer", "Data Scientist", 
+            "Business Analyst", "Data Analyst", "Data Engineer", "Data Scientist", 
             "Devops / Cloud Engineer", "Digital Marketing", 
             "Graphic Designer", "Product Manager", 
             "Project Manager", "Software Engineer"
@@ -45,7 +125,7 @@ with tab1:
         selected_role = st.selectbox("Role Category", roles)
         
         locations = [
-            "Karnataka", "Maharashtra", "Telangana", 
+            "Karnataka", "Maharashtra", "Telangana", "Delhi", 
             "Uttar Pradesh", "Tamil Nadu", "Gujarat", 
             "Unknown", "other"
         ]
@@ -55,8 +135,8 @@ with tab1:
     
     with col2:
         seniority_levels = {
-            "Unknown": 0, "Entry Level": 1, "Mid Level": 2, 
-            "Senior": 3, "Lead": 4, "Executive": 5
+            "Entry": 0, "Mid": 1, 
+            "Senior": 2
         }
         selected_seniority = st.selectbox("Seniority Level", list(seniority_levels.keys()))
         
@@ -67,8 +147,21 @@ with tab1:
         ]
         selected_skills = st.multiselect("Key Skills", available_skills)
     
+    # --- Text-enhanced model ---
+    if model_choice == TEXT_MODEL_LABEL:
+        st.markdown("Adding the job title and description improves accuracy. Both fields are optional.")
+        job_title = st.text_input("Job Title", placeholder="e.g. Senior Data Engineer")
+        job_description = st.text_area("Job Description", height=150, placeholder="Paste the job description here")
+
+        if st.button("Predict Salary", type="primary", key="predict_text"):
+            structured = build_structured_input(
+                text_data['feature_columns'], selected_role, selected_location,
+                is_full_time, seniority_levels[selected_seniority], selected_skills)
+            band_probs, binary_probs = predict_text_model(text_data, structured, job_title, job_description)
+            show_text_result(band_probs, binary_probs, text_data['median_salary'])
+
     # --- Prediction Logic ---
-    if st.button("Predict Salary Band", type="primary"):
+    if model_choice == STANDARD_MODEL_LABEL and st.button("Predict Salary Band", type="primary"):
         input_data = {col: 0 for col in feature_columns}
         
         input_data['is_full_time'] = int(is_full_time)
@@ -157,3 +250,13 @@ with tab2:
         st.image(fi_band, caption="Top 10 Feature Importances (Salary Band Model)")
     else:
         st.warning("Feature importance image not found.")
+
+    st.divider()
+
+    st.subheader("4. Text-Enhanced Model (Title + Description)")
+    st.markdown(
+        "Employer-grouped cross-validation (a company never appears in both training and validation):\n\n"
+        "| Feature set | Band accuracy | Binary accuracy |\n|---|---|---|\n"
+        "| Structured features | 48.3% | 69.1% |\n"
+        "| Structured + title + description | 49.2% | 71.2% |"
+    )
