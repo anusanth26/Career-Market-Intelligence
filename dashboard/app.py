@@ -3,8 +3,9 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
+from PIL import Image
 
-st.set_page_config(page_title="Salary Band Predictor", layout="centered")
+st.set_page_config(page_title="Salary Band Predictor", layout="wide")
 
 # --- Load Model ---
 @st.cache_resource
@@ -20,100 +21,139 @@ feature_columns = model_data['feature_columns']
 numeric_cols = model_data['numeric_cols']
 classes = model_data['classes']
 
-st.title("💼 Salary Band Predictor")
-st.markdown("Enter the job posting characteristics below to predict the expected salary band.")
+st.title("💼 Career Market Intelligence Dashboard")
 
-# --- Inputs ---
-st.header("Job Characteristics")
+# --- Tabs ---
+tab1, tab2 = st.tabs(["🎯 Salary Predictor", "📊 Model Evaluation"])
 
-col1, col2 = st.columns(2)
-
-with col1:
-    roles = [
-        "Data Analyst", "Data Engineer", "Data Scientist", 
-        "Devops / Cloud Engineer", "Digital Marketing", 
-        "Graphic Designer", "Product Manager", 
-        "Project Manager", "Software Engineer"
-    ]
-    selected_role = st.selectbox("Role Category", roles)
+# ==========================================
+# TAB 1: SALARY PREDICTOR
+# ==========================================
+with tab1:
+    st.markdown("Enter the job posting characteristics below to predict the expected salary band.")
     
-    locations = [
-        "Karnataka", "Maharashtra", "Telangana", 
-        "Uttar Pradesh", "Tamil Nadu", "Gujarat", 
-        "Unknown", "other"
-    ]
-    selected_location = st.selectbox("Location Bucket", locations)
+    st.header("Job Characteristics")
+    col1, col2 = st.columns(2)
     
-    is_full_time = st.checkbox("Is Full Time?", value=True)
-
-with col2:
-    seniority_levels = {
-        "Unknown": 0, "Entry Level": 1, "Mid Level": 2, 
-        "Senior": 3, "Lead": 4, "Executive": 5
-    }
-    selected_seniority = st.selectbox("Seniority Level", list(seniority_levels.keys()))
-    
-    available_skills = [
-        'python', 'sql', 'communication', 'azure', 
-        'machine_learning', 'agile', 'aws', 'linux', 
-        'java', 'sap', 'docker'
-    ]
-    selected_skills = st.multiselect("Key Skills", available_skills)
-
-
-# --- Prediction Logic ---
-if st.button("Predict Salary Band", type="primary"):
-    # 1. Initialize an empty row with zeros for all feature columns
-    input_data = {col: 0 for col in feature_columns}
-    
-    # 2. Populate standard features
-    input_data['is_full_time'] = int(is_full_time)
-    input_data['seniority_ordinal'] = seniority_levels[selected_seniority]
-    input_data['skill_count'] = len(selected_skills)
-    
-    # 3. Populate one-hot encoded roles and locations
-    role_col = f"role_{selected_role}"
-    if role_col in input_data:
-        input_data[role_col] = 1
+    with col1:
+        roles = [
+            "Data Analyst", "Data Engineer", "Data Scientist", 
+            "Devops / Cloud Engineer", "Digital Marketing", 
+            "Graphic Designer", "Product Manager", 
+            "Project Manager", "Software Engineer"
+        ]
+        selected_role = st.selectbox("Role Category", roles)
         
-    location_col = f"location_bucket_{selected_location}"
-    if location_col in input_data:
-        input_data[location_col] = 1
+        locations = [
+            "Karnataka", "Maharashtra", "Telangana", 
+            "Uttar Pradesh", "Tamil Nadu", "Gujarat", 
+            "Unknown", "other"
+        ]
+        selected_location = st.selectbox("Location Bucket", locations)
         
-    # 4. Populate one-hot encoded skills
-    for skill in selected_skills:
-        skill_col = f"skill_{skill}"
-        if skill_col in input_data:
-            input_data[skill_col] = 1
+        is_full_time = st.checkbox("Is Full Time?", value=True)
+    
+    with col2:
+        seniority_levels = {
+            "Unknown": 0, "Entry Level": 1, "Mid Level": 2, 
+            "Senior": 3, "Lead": 4, "Executive": 5
+        }
+        selected_seniority = st.selectbox("Seniority Level", list(seniority_levels.keys()))
+        
+        available_skills = [
+            'python', 'sql', 'communication', 'azure', 
+            'machine_learning', 'agile', 'aws', 'linux', 
+            'java', 'sap', 'docker'
+        ]
+        selected_skills = st.multiselect("Key Skills", available_skills)
+    
+    # --- Prediction Logic ---
+    if st.button("Predict Salary Band", type="primary"):
+        input_data = {col: 0 for col in feature_columns}
+        
+        input_data['is_full_time'] = int(is_full_time)
+        input_data['seniority_ordinal'] = seniority_levels[selected_seniority]
+        input_data['skill_count'] = len(selected_skills)
+        
+        role_col = f"role_{selected_role}"
+        if role_col in input_data:
+            input_data[role_col] = 1
             
-    # Create DataFrame
-    df_input = pd.DataFrame([input_data])[feature_columns]
+        location_col = f"location_bucket_{selected_location}"
+        if location_col in input_data:
+            input_data[location_col] = 1
+            
+        for skill in selected_skills:
+            skill_col = f"skill_{skill}"
+            if skill_col in input_data:
+                input_data[skill_col] = 1
+                
+        df_input = pd.DataFrame([input_data])[feature_columns]
+        df_input[numeric_cols] = scaler.transform(df_input[numeric_cols])
+        
+        prediction = model.predict(df_input)[0]
+        probabilities = model.predict_proba(df_input)[0]
+        
+        prob_dict = {classes[i]: probabilities[i] for i in range(len(classes))}
+        confidence = prob_dict[prediction] * 100
+        
+        st.divider()
+        st.subheader("Prediction Result")
+        
+        color = "blue"
+        if prediction == "high": color = "green"
+        elif prediction == "low": color = "red"
+        
+        st.markdown(f"### Predicted Band: :{color}[{prediction.upper()}]")
+        st.progress(confidence / 100.0)
+        st.markdown(f"**Confidence:** `{confidence:.1f}%`")
+        
+        with st.expander("View All Probabilities"):
+            for cls, prob in prob_dict.items():
+                st.write(f"- **{cls.title()}**: {prob*100:.1f}%")
+
+# ==========================================
+# TAB 2: MODEL EVALUATION
+# ==========================================
+with tab2:
+    st.header("Model Performance & Diagnostics")
+    st.markdown("Review the final performance metrics and confusion matrices to understand where the models succeed and misclassify.")
     
-    # 5. Scale numeric columns
-    df_input[numeric_cols] = scaler.transform(df_input[numeric_cols])
+    # Helper to load images robustly
+    def load_image(filename):
+        path = os.path.join(os.path.dirname(__file__), '..', 'reports', 'eda', filename)
+        if os.path.exists(path):
+            return Image.open(path)
+        return None
+
+    # Binary Model Performance
+    st.subheader("1. Tuned Binary Classifier (Above vs Below Median)")
+    st.markdown("- **Accuracy:** 65.80%\n- **F1-Score:** 65.72%\n- **Improvement over Baseline:** +19.05 percentage points")
     
-    # 6. Predict
-    prediction = model.predict(df_input)[0]
-    probabilities = model.predict_proba(df_input)[0]
-    
-    # Map probabilities to classes
-    prob_dict = {classes[i]: probabilities[i] for i in range(len(classes))}
-    confidence = prob_dict[prediction] * 100
-    
-    # --- Display Results ---
+    cm_binary = load_image('cm_binary.png')
+    if cm_binary:
+        st.image(cm_binary, caption="Confusion Matrix: Binary Classifier")
+    else:
+        st.warning("Binary confusion matrix image not found.")
+
     st.divider()
     
-    st.subheader("Prediction Result")
+    # Band Model Performance
+    st.subheader("2. Salary Band Multi-Class Classifier (Low, Medium, High)")
+    st.markdown("- **Accuracy:** 51.08%\n- **F1-Score:** 43.44%")
     
-    # Color coding based on prediction
-    color = "blue"
-    if prediction == "high": color = "green"
-    elif prediction == "low": color = "red"
+    cm_band = load_image('cm_band.png')
+    if cm_band:
+        st.image(cm_band, caption="Confusion Matrix: Salary Band Classifier")
+    else:
+        st.warning("Salary Band confusion matrix image not found.")
+
+    st.divider()
     
-    st.markdown(f"### Predicted Band: :{color}[{prediction.upper()}]")
-    st.progress(confidence / 100.0)
-    st.markdown(f"**Confidence:** `{confidence:.1f}%`")
-    
-    with st.expander("View All Probabilities"):
-        for cls, prob in prob_dict.items():
-            st.write(f"- **{cls.title()}**: {prob*100:.1f}%")
+    # Feature Importance
+    st.subheader("3. Feature Importance (Key Drivers)")
+    fi_band = load_image('feature_importance_band.png')
+    if fi_band:
+        st.image(fi_band, caption="Top 10 Feature Importances (Salary Band Model)")
+    else:
+        st.warning("Feature importance image not found.")
