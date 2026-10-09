@@ -279,8 +279,33 @@ with tab2:
 
     st.divider()
     
+    # Figures saved by the notebook (Section 5.3-5.5)
+    st.subheader("3. Salary-Band Confusion Matrix and Metrics")
+    band_fig = load_image('band_confusion_metrics.png')
+    if band_fig:
+        st.image(band_fig, caption="TF-IDF + SVD salary-band model on the held-out test split")
+    else:
+        st.warning("Run the notebook (Section 5.4) to generate this figure.")
+
+    st.subheader("4. Algorithm Comparison")
+    cmp_fig = load_image('model_comparison.png')
+    if cmp_fig:
+        st.image(cmp_fig, caption="Five classifiers on the same TF-IDF + SVD features and held-out split")
+    else:
+        st.warning("Run the notebook (Section 5.3) to generate this figure.")
+
+    st.subheader("5. Exact-Salary Regression (Baseline Random Forest)")
+    c1, c2, c3 = st.columns(3)
+    c1.metric("R²", "0.069")
+    c2.metric("MAE", "₹7.09 lakh")
+    c3.metric("RMSE", "₹9.91 lakh")
+    st.caption("Exact salary is barely predictable from posting text and basic features, which is why the "
+               "product predicts pay bands instead of a single figure.")
+
+    st.divider()
+
     # Feature Importance
-    st.subheader("3. Feature Importance (Standard Band Model)")
+    st.subheader("6. Feature Importance (Standard Band Model)")
     fi_band = load_image('feature_importance_band.png')
     if fi_band:
         st.image(fi_band, caption="Top 10 Feature Importances (Salary Band Model)")
@@ -289,7 +314,7 @@ with tab2:
 
     st.divider()
 
-    st.subheader("4. How to Read These Numbers")
+    st.subheader("7. How to Read These Numbers")
     st.markdown(
         "- **Employer-grouped cross-validation** is the fairest comparison between models: it tests on companies the model has not seen.\n"
         "- **The held-out split** shares employers between training and testing, which favours text models that recognise company wording.\n"

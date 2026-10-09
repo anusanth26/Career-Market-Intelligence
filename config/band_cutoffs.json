@@ -1,0 +1,12 @@
+{
+  "fitted_on": "train rows with has_label_v2 (organic + filtered_pull + text_recovered)",
+  "n_train_rows": 1047,
+  "unit": "annual INR (salary_mid_v2)",
+  "low": "<= 600,000",
+  "medium": "(600,000, 1,500,000]",
+  "high": "> 1,500,000",
+  "q1": 600000.0,
+  "q2": 1500000.0,
+  "seed": 20261034,
+  "test_frac_target": 0.2
+}
