@@ -1,0 +1,6 @@
+row_index,skill_python,skill_sql,skill_communication,skill_azure,skill_machine_learning,skill_agile,skill_aws,skill_linux,skill_java,skill_sap,skill_docker,role_Data Analyst,role_Data Engineer,role_Data Scientist,role_Devops / Cloud Engineer,role_Digital Marketing,role_Graphic Designer,role_Product Manager,role_Project Manager,role_Software Engineer,location_bucket_Gujarat,location_bucket_Karnataka,location_bucket_Maharashtra,location_bucket_Tamil Nadu,location_bucket_Telangana,location_bucket_Unknown,location_bucket_Uttar Pradesh,location_bucket_other,is_full_time,skill_count,seniority_ordinal
+8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+13,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+25,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0
+31,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0
+40,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0
