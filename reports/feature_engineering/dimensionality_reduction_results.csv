@@ -1,0 +1,9 @@
+experiment,representation,macro_f1_mean,macro_f1_std
+Curated features (no reduction),31,0.473,0.03
+PCA,5,0.453,0.021
+PCA,10,0.456,0.021
+PCA,15,0.445,0.037
+PCA,20,0.448,0.043
+TF-IDF + TruncatedSVD,25,0.523,0.034
+TF-IDF + TruncatedSVD,50,0.532,0.016
+TF-IDF + TruncatedSVD,100,0.548,0.025
