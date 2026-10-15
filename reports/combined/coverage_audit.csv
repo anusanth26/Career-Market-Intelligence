@@ -1,0 +1,30 @@
+rank,skill,frequency,pct_postings,in_frozen_list,trend_status
+1,AWS,335,4.63,True,pending_trends_batch
+2,Python,296,4.09,True,matched
+3,SQL,290,4.01,True,matched
+4,Machine Learning,282,3.9,True,pending_trends_batch
+5,Azure,254,3.51,True,pending_trends_batch
+6,Agile,229,3.16,True,pending_trends_batch
+7,Communication,216,2.98,True,pending_trends_batch
+8,Leadership,192,2.65,True,pending_trends_batch
+9,SEO,185,2.56,True,pending_trends_batch
+10,Kubernetes,145,2.0,True,pending_trends_batch
+11,Google Cloud,131,1.81,True,pending_trends_batch
+12,SAP,114,1.57,True,pending_trends_batch
+13,Java,99,1.37,True,pending_trends_batch
+14,Spark,76,1.05,True,pending_trends_batch
+15,Power BI,71,0.98,True,matched
+16,Linux,63,0.87,True,pending_trends_batch
+17,Excel,58,0.8,True,matched
+18,Scrum,55,0.76,True,pending_trends_batch
+19,React,44,0.61,False,pending_trends_batch
+20,Docker,42,0.58,False,pending_trends_batch
+21,Tableau,39,0.54,False,matched
+22,Deep Learning,37,0.51,False,pending_trends_batch
+23,JavaScript,27,0.37,False,pending_trends_batch
+24,Git,27,0.37,False,pending_trends_batch
+25,Angular,25,0.35,False,pending_trends_batch
+26,Jira,22,0.3,False,pending_trends_batch
+27,Google Analytics,21,0.29,False,pending_trends_batch
+28,Hadoop,12,0.17,False,pending_trends_batch
+29,TensorFlow,6,0.08,False,pending_trends_batch
