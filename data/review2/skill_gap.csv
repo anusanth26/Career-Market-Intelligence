@@ -1,0 +1,6 @@
+skill,demand_rank,demand_pct,momentum_class,pct_change,quadrant,recommendation
+Python,2,4.09,declining,-34.41,opportunity,"High demand, flat/falling interest — learn it, low competition."
+SQL,3,4.01,declining,-52.66,opportunity,"High demand, flat/falling interest — learn it, low competition."
+Power BI,15,0.98,stable,1.46,opportunity,"High demand, flat/falling interest — learn it, low competition."
+Excel,17,0.8,stable,1.29,avoid,Low demand and low interest — not a priority.
+Tableau,21,0.54,declining,-48.75,avoid,Low demand and low interest — not a priority.

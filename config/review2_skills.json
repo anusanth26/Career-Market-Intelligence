@@ -1,0 +1,27 @@
+{
+  "anchor": "SQL",
+  "geo": "IN",
+  "timeframe": "today 5-y",
+  "generated_from": "real skill-frequency count over 7240 job postings",
+  "source_file": "data/processed/career_market_preprocessed.csv",
+  "skills": [
+    "AWS",
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "Azure",
+    "Agile",
+    "Communication",
+    "Leadership",
+    "SEO",
+    "Kubernetes",
+    "Google Cloud",
+    "SAP",
+    "Java",
+    "Spark",
+    "Power BI",
+    "Linux",
+    "Excel",
+    "Scrum"
+  ]
+}

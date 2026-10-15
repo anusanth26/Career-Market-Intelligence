@@ -1,0 +1,30 @@
+skill,frequency,pct_postings,rank
+AWS,335,4.63,1
+Python,296,4.09,2
+SQL,290,4.01,3
+Machine Learning,282,3.9,4
+Azure,254,3.51,5
+Agile,229,3.16,6
+Communication,216,2.98,7
+Leadership,192,2.65,8
+SEO,185,2.56,9
+Kubernetes,145,2.0,10
+Google Cloud,131,1.81,11
+SAP,114,1.57,12
+Java,99,1.37,13
+Spark,76,1.05,14
+Power BI,71,0.98,15
+Linux,63,0.87,16
+Excel,58,0.8,17
+Scrum,55,0.76,18
+React,44,0.61,19
+Docker,42,0.58,20
+Tableau,39,0.54,21
+Deep Learning,37,0.51,22
+JavaScript,27,0.37,23
+Git,27,0.37,24
+Angular,25,0.35,25
+Jira,22,0.3,26
+Google Analytics,21,0.29,27
+Hadoop,12,0.17,28
+TensorFlow,6,0.08,29
