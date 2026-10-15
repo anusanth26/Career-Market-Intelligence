@@ -1,6 +1,6 @@
 skill,demand_rank,demand_pct,momentum_class,pct_change,quadrant,recommendation
-Python,2,4.09,declining,-34.41,opportunity,"High demand, flat/falling interest — learn it, low competition."
-SQL,3,4.01,declining,-52.66,opportunity,"High demand, flat/falling interest — learn it, low competition."
-Power BI,15,0.98,stable,1.46,opportunity,"High demand, flat/falling interest — learn it, low competition."
-Excel,17,0.8,stable,1.29,avoid,Low demand and low interest — not a priority.
-Tableau,21,0.54,declining,-48.75,avoid,Low demand and low interest — not a priority.
+Python,2,4.09,declining,-34.41,opportunity,"High employer demand (4.09% of postings, rank #2) with declining search interest (-34.4%). Dependable foundational market need with reduced public hype."
+SQL,3,4.01,declining,-52.66,opportunity,"High employer demand (4.01% of postings, rank #3) with declining search interest (-52.7%). Dependable foundational market need with reduced public hype."
+Power BI,15,0.98,stable,1.46,opportunity,"High employer demand (0.98% of postings, rank #15) with stable search interest (+1.5%). Dependable foundational market need with reduced public hype."
+Excel,17,0.8,stable,1.29,avoid,"Low employer demand (0.8% of postings, rank #17) and stable search momentum (+1.3%). Lower current hiring priority in job postings."
+Tableau,21,0.54,declining,-48.75,avoid,"Low employer demand (0.54% of postings, rank #21) and declining search momentum (-48.8%). Lower current hiring priority in job postings."
