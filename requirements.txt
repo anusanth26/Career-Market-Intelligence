@@ -9,6 +9,7 @@ joblib
 matplotlib
 seaborn
 wordcloud
+statsmodels
 # spaCy English model (install after spacy):
 #   python -m spacy download en_core_web_sm
 streamlit

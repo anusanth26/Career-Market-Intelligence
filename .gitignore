@@ -19,3 +19,6 @@ __pycache__/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+
+# Local-only planning docs (not shared via the repo)
+docs/
