@@ -1,0 +1,51 @@
+skill_key,label,category,count,pct_postings,in_old_12
+python,Python,Programming & Web,102,8.85,True
+stakeholder_management,Stakeholder Management,Soft & Professional,88,7.63,False
+project_management,Project Management,Soft & Professional,87,7.55,False
+sql,SQL,Programming & Web,85,7.37,True
+machine_learning,Machine Learning / ML,Data Science & AI,76,6.59,True
+communication,Communication,Soft & Professional,70,6.07,True
+social_media,Social Media Marketing,Functional & Marketing,66,5.72,False
+azure,Azure,Cloud & DevOps,64,5.55,True
+ci_cd,CI/CD & Jenkins,Cloud & DevOps,62,5.38,False
+etl,ETL Pipelines,Data Engineering,51,4.42,False
+gcp,Google Cloud (GCP),Cloud & DevOps,47,4.08,False
+seo_sem,SEO / SEM,Functional & Marketing,44,3.82,False
+agile,Agile,Functional & Marketing,44,3.82,True
+aws,AWS,Cloud & DevOps,43,3.73,True
+spark,Apache Spark,Data Engineering,37,3.21,False
+leadership,Leadership,Soft & Professional,35,3.04,False
+relational_db,Relational DBs (Postgres/Oracle/MySQL),Databases,31,2.69,False
+linux,Linux/Unix,Cloud & DevOps,24,2.08,True
+crm,CRM / Salesforce,Functional & Marketing,22,1.91,False
+sap,SAP Enterprise,Functional & Marketing,20,1.73,True
+java,Java,Programming & Web,20,1.73,True
+ui_ux,UI/UX & Design Tools,Functional & Marketing,19,1.65,False
+presentation,Presentation Skills,Soft & Professional,18,1.56,False
+airflow,Apache Airflow,Data Engineering,17,1.47,False
+docker,Docker,Cloud & DevOps,16,1.39,True
+bi_general,Business Intelligence,Analytics & BI,15,1.3,False
+problem_solving,Problem Solving,Soft & Professional,14,1.21,False
+devops,DevOps Methodologies,Cloud & DevOps,14,1.21,False
+nlp,NLP,Data Science & AI,14,1.21,False
+react,React,Programming & Web,14,1.21,False
+scrum,Scrum,Functional & Marketing,14,1.21,False
+git,Git & Version Control,Cloud & DevOps,13,1.13,False
+deep_learning,Deep Learning,Data Science & AI,12,1.04,False
+teamwork,Teamwork,Soft & Professional,11,0.95,False
+nosql,NoSQL / MongoDB,Databases,11,0.95,False
+javascript,JavaScript,Programming & Web,11,0.95,False
+excel,Advanced Excel,Analytics & BI,10,0.87,False
+snowflake,Snowflake,Data Engineering,10,0.87,False
+typescript,TypeScript,Programming & Web,9,0.78,False
+kafka,Apache Kafka,Data Engineering,8,0.69,False
+databricks,Databricks,Data Engineering,7,0.61,False
+power_bi,Power BI,Analytics & BI,7,0.61,True
+google_analytics,Google Analytics,Functional & Marketing,6,0.52,False
+jira,Jira,Functional & Marketing,6,0.52,False
+angular,Angular,Programming & Web,4,0.35,False
+html_css,HTML/CSS,Programming & Web,3,0.26,False
+hadoop,Apache Hadoop,Data Engineering,3,0.26,False
+node_js,Node.js,Programming & Web,2,0.17,False
+kubernetes,Kubernetes,Cloud & DevOps,1,0.09,False
+tableau,Tableau,Analytics & BI,1,0.09,False
