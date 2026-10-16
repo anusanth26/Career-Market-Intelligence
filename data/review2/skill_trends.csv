@@ -1,6 +1,19 @@
 skill,slope_per_week,pct_change,class
-SQL,-0.0977,-52.66,declining
-Python,-0.1239,-34.41,declining
-Power BI,0.0032,1.46,stable
-Tableau,-0.0071,-48.75,declining
-Excel,0.0243,1.29,stable
+Google Cloud,0.0109,83.46,rising
+SEO,0.0126,48.51,rising
+Spark,0.0123,18.28,rising
+Leadership,0.0014,12.24,rising
+Power BI,0.0033,1.95,stable
+Excel,0.0239,1.1,stable
+AWS,0.0022,1.02,stable
+SAP,0.0102,0.06,stable
+Machine Learning,-0.0026,-0.48,stable
+Azure,-0.0095,-17.39,declining
+Kubernetes,-0.0032,-20.53,declining
+Communication,-0.0485,-29.49,declining
+Linux,-0.0364,-30.68,declining
+Python,-0.1337,-35.24,declining
+Scrum,-0.0053,-45.42,declining
+Agile,-0.0103,-47.28,declining
+SQL,-0.1053,-53.37,declining
+Java,-0.2105,-54.46,declining
