@@ -21,25 +21,23 @@ from datetime import datetime, timezone
 import pandas as pd
 from pytrends.request import TrendReq
 
-# ── CONFIG ────────────────────────────────────────────────────────────
-ANCHOR = "SQL"                       # must be a high-volume, stable, unambiguous skill
-GEOS = {"IN": "IN", "US": "US", "GB": "GB", "WORLD": ""}
-TIMEFRAME = "today 5-y"              # weekly data; long enough to separate trend from spikes
+# ── CONFIG (loaded from config/review2_skills.json — the frozen skill list) ──
+_CONFIG_PATH = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "config", "review2_skills.json"
+)
+with open(_CONFIG_PATH, encoding="utf-8") as _fh:
+    _CFG = json.load(_fh)
+ANCHOR = _CFG.get("anchor", "SQL")   # high-volume, stable, unambiguous skill present in every batch
+_GEO = _CFG.get("geo", "IN")
+GEOS = {_GEO: _GEO}                   # single geo focus (IN); add more only if needed
+TIMEFRAME = _CFG.get("timeframe", "today 5-y")  # weekly data; separates trend from spikes
 CATEGORY = 0                         # 0 = all; 31 = Programming can disambiguate tech terms
 BATCH_SIZE = 4                       # + anchor = Google's limit of 5 terms per request
 PAUSE = (8, 15)                      # seconds between requests (randomised); Trends throttles hard
 MAX_RETRIES = 5
 OUTPUT_DIR = os.path.join("data", "raw", "trends")
 
-# Seed list — REPLACE with the final skill list from text mining. Prefer unambiguous phrases:
-# "Power BI" not "Power", "Tableau software" if "Tableau" is noisy, "Java programming language"
-# via a Knowledge Graph topic if needed (see pytrends.suggestions()).
-SKILLS = [
-    "Python", "Power BI", "Tableau", "Excel",
-    "Docker", "Kubernetes", "AWS", "Azure",
-    "Machine learning", "Google Analytics", "SEO", "Jira",
-    "React", "TensorFlow", "Snowflake", "Terraform",
-]
+SKILLS = _CFG["skills"]              # frozen list, derived from real skill demand
 # ─────────────────────────────────────────────────────────────────────
 
 
