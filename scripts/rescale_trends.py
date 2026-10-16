@@ -16,6 +16,7 @@ Usage:
 import argparse
 import glob
 import os
+import re
 
 import numpy as np
 import pandas as pd
@@ -28,7 +29,7 @@ ANCHOR = "SQL"
 
 def load_batch(path: str) -> pd.DataFrame:
     df = pd.read_csv(path)
-    df["date"] = pd.to_datetime(df["date"], format="%d-%m-%Y", errors="coerce")
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")  # handles ISO and other formats
     df = df.dropna(subset=["date"]).sort_values("date")
     if "isPartial" in df.columns:
         # drop the trailing partial week if present (incomplete data)
@@ -42,9 +43,16 @@ def main() -> None:
     ap.add_argument("--geo", default="IN")
     args = ap.parse_args()
 
-    paths = sorted(glob.glob(os.path.join(TRENDS_DIR, f"trends_{args.geo}_batch*.csv")))
-    if not paths:
+    all_paths = glob.glob(os.path.join(TRENDS_DIR, f"trends_{args.geo}_batch*.csv"))
+    if not all_paths:
         raise SystemExit(f"No trends batches found for geo={args.geo} in {TRENDS_DIR}")
+    # Use only the most recent pull date (filename suffix _YYYY-MM-DD.csv) to avoid mixing pulls.
+    def _pull_date(p: str) -> str:
+        m = re.search(r"_(\d{4}-\d{2}-\d{2})\.csv$", p)
+        return m.group(1) if m else ""
+    latest = max(_pull_date(p) for p in all_paths)
+    paths = sorted(p for p in all_paths if _pull_date(p) == latest)
+    print(f"Using pull date {latest}: {len(paths)} batch file(s)")
 
     ref = load_batch(paths[0])
     if ANCHOR not in ref.columns:
