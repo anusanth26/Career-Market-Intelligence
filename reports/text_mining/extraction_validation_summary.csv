@@ -1,0 +1,5 @@
+sample,version,true_mentions,found,missed,false_matches,recall,recall_95CI,precision,postings_with_a_skill,missed_detail
+sample 1 (V2 designed after seeing it: in-sample),V1,41,37,4,0,0.902,0.77-0.96,1.0,29,#9: Spark; #35: Machine Learning; #48: Spark; #80: Spark
+sample 1 (V2 designed after seeing it: in-sample),V2,41,41,0,0,1.0,0.91-1.00,1.0,29,
+holdout (V2 frozen before labelling: out-of-sample),V1,44,41,3,0,0.932,0.82-0.98,1.0,22,#35: Machine Learning; #36: React; #80: Spark
+holdout (V2 frozen before labelling: out-of-sample),V2,44,44,0,0,1.0,0.92-1.00,1.0,22,
