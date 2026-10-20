@@ -1,0 +1,21 @@
+{
+  "python_version": "3.10.13",
+  "pandas_version": "2.3.3",
+  "sklearn_version": "1.5.2",
+  "random_state": 42,
+  "dataset_rows": 7240,
+  "final_setup": "TF-IDF -> TruncatedSVD(50) -> K-Means",
+  "final_k": 7,
+  "final_silhouette": 0.08258695870904145,
+  "final_nmi_vs_role": 0.29713839631676475,
+  "final_ari_vs_role": 0.12227319499698143,
+  "baseline_silhouette": 0.013448451948412621,
+  "baseline_nmi_vs_role": 0.3424587888419571,
+  "ablations_kept": [
+    "C: TruncatedSVD(50)"
+  ],
+  "ablations_rejected": [
+    "A: boilerplate removal",
+    "B: bigrams"
+  ]
+}
