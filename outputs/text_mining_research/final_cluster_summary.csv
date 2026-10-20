@@ -1,0 +1,8 @@
+cluster,size,top_words,top_roles,example_job_ids
+0,127,"project, skills, educational, qualification, minimum, good, year, required, na, role, education, custom",Software Engineer (51%); DevOps / Cloud Engineer (31%); Business Analyst (10%),"[5793371920, 5794677969, 5806500173]"
+1,342,"graphic, designer, creative, visual, design, media, brand, social, marketing, digital, create, content",Graphic Designer (98%); Digital Marketing (2%),"[5841477807, 5845820110, 5854847264]"
+2,202,"global, inclusive, mygwork, lgbtq, recruiter, employer, contact, member, community, directly, largest, job",Software Engineer (49%); Business Analyst (26%); Data Analyst (7%),"[5803870389, 5809380560, 5821219494]"
+3,2766,"s, world, technology, ai, global, company, people, work, team, solutions, data, customers",Software Engineer (24%); Data Scientist (14%); DevOps / Cloud Engineer (13%),"[5782883230, 5783375611, 5784307650]"
+4,1455,"engineer, cloud, data, experience, infrastructure, software, role, engineering, design, devops, pipelines, scalable",DevOps / Cloud Engineer (37%); Software Engineer (33%); Data Engineer (21%),"[5803853350, 5826666762, 5831396015]"
+5,471,"marketing, digital, campaigns, performance, media, seo, social, ads, content, google, strategies, execute",Digital Marketing (93%); Graphic Designer (3%); Business Analyst (1%),"[5832796591, 5888520719, 5895065926]"
+6,1877,"business, data, product, role, analyst, project, requirements, job, manager, teams, experience, management",Business Analyst (28%); Product Manager (17%); Data Analyst (17%),"[5788415663, 5790856865, 5792028914]"
