@@ -1,0 +1,41 @@
+topic,name,rank,term,weight
+0,Employer & company description,1,company,0.0136
+0,Employer & company description,2,technology,0.0133
+0,Employer & company description,3,global,0.0132
+0,Employer & company description,4,team,0.0128
+0,Employer & company description,5,work,0.0112
+0,Employer & company description,6,customer,0.011
+0,Employer & company description,7,ai,0.011
+0,Employer & company description,8,world,0.0104
+0,Employer & company description,9,product,0.0104
+0,Employer & company description,10,help,0.0103
+1,"Marketing, design & project delivery",1,marketing,0.028
+1,"Marketing, design & project delivery",2,digital,0.0208
+1,"Marketing, design & project delivery",3,project,0.0165
+1,"Marketing, design & project delivery",4,role,0.0149
+1,"Marketing, design & project delivery",5,design,0.0142
+1,"Marketing, design & project delivery",6,experience,0.0134
+1,"Marketing, design & project delivery",7,job,0.0124
+1,"Marketing, design & project delivery",8,campaign,0.0116
+1,"Marketing, design & project delivery",9,creative,0.0116
+1,"Marketing, design & project delivery",10,manager,0.0108
+2,"Data, analytics & business/product",1,datum,0.0393
+2,"Data, analytics & business/product",2,business,0.0269
+2,"Data, analytics & business/product",3,data,0.0197
+2,"Data, analytics & business/product",4,role,0.017
+2,"Data, analytics & business/product",5,product,0.0147
+2,"Data, analytics & business/product",6,team,0.014
+2,"Data, analytics & business/product",7,experience,0.0134
+2,"Data, analytics & business/product",8,analyst,0.011
+2,"Data, analytics & business/product",9,work,0.01
+2,"Data, analytics & business/product",10,job,0.0097
+3,"Engineering, cloud & software",1,engineer,0.0296
+3,"Engineering, cloud & software",2,cloud,0.0223
+3,"Engineering, cloud & software",3,software,0.0217
+3,"Engineering, cloud & software",4,role,0.019
+3,"Engineering, cloud & software",5,platform,0.0184
+3,"Engineering, cloud & software",6,application,0.0167
+3,"Engineering, cloud & software",7,design,0.0166
+3,"Engineering, cloud & software",8,experience,0.0165
+3,"Engineering, cloud & software",9,infrastructure,0.0129
+3,"Engineering, cloud & software",10,build,0.0125
