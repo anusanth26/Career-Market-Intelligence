@@ -2,7 +2,7 @@
   "anchor": "SQL",
   "geo": "IN",
   "timeframe": "today 5-y",
-  "generated_from": "real skill-frequency count over 7240 job postings",
+  "generated_from": "top 20 non-generic skills by real frequency over 7240 job postings (data/review2/skill_demand.csv); generic words (Agile, Communication, Leadership, Scrum) excluded because no search query can isolate them",
   "source_file": "data/processed/career_market_preprocessed.csv",
   "skills": [
     "AWS",
@@ -10,9 +10,6 @@
     "SQL",
     "Machine Learning",
     "Azure",
-    "Agile",
-    "Communication",
-    "Leadership",
     "SEO",
     "Kubernetes",
     "Google Cloud",
@@ -22,6 +19,34 @@
     "Power BI",
     "Linux",
     "Excel",
-    "Scrum"
-  ]
+    "React",
+    "Docker",
+    "Tableau",
+    "Deep Learning",
+    "JavaScript",
+    "Git"
+  ],
+  "trends_queries": {
+    "AWS": "AWS",
+    "Python": "/m/05z1_",
+    "SQL": "/m/075st",
+    "Machine Learning": "/m/01hyh_",
+    "Azure": "/m/04y7lrx",
+    "SEO": "/m/019qb_",
+    "Kubernetes": "/g/11b7lxp79d",
+    "Google Cloud": "/m/0105pbj4",
+    "SAP": "/m/0dvl8x",
+    "Java": "/m/07sbkfb",
+    "Spark": "/m/0ndhxqz",
+    "Power BI": "/g/11clr_l6ft",
+    "Linux": "/m/0fpzzp",
+    "Excel": "/m/052tr",
+    "React": "/m/012l1vxv",
+    "Docker": "/m/0wkcjgj",
+    "Tableau": "/m/02s9k80",
+    "Deep Learning": "/m/0h1fn8h",
+    "JavaScript": "/m/02p97",
+    "Git": "/m/05vqwg"
+  },
+  "trends_queries_note": "Google Trends Knowledge Graph topic IDs resolved via the Trends suggestions API (2026-10-16). Skill labels are the join key used by every contract CSV; the IDs only change what is searched."
 }
