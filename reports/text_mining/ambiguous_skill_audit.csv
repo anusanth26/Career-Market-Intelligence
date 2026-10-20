@@ -1,0 +1,147 @@
+skill,context_id,job_id,context,n_matches,is_correct,labelled_by
+Spark,Sp00,5893831430,they used for almost everything online. this spark became lok…,1,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp01,5896657589,they used for almost everything online. this spark became lokal. our first instinct was to put ,13,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp02,5814494533,"of big data frameworks like hadoop, hive and spark. ● hands-on experience in query languages li",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp03,5809184520,maintain data transformation pipelines using spark develop and optimize large-scale/cpu intensi,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp04,5833604554, data platform and pipeline components using spark and ka…,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp05,5854877657,"aws glue, lambda, step functions, and apache spark . develop and optimize data lake and data wa",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp06,5862885166,ure . strong hands-on experience with apache spark . expertise in: spark performance tuning spa,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp07,5863636170,powercenter ibm datastage talend ssis apache spark aws glue or azure data factory develop compl,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp08,5864438685,"evelop real-time data pipelines using kafka, spark, aws kinesis , and related technologies. bui",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp09,5867036030,"a engineering solutions using python, apache spark, azure databricks, and snowflake . the ideal",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp10,5867038188,nce in python hands-on expertise with apache spark (pyspark preferred) strong sql development a,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp11,5871993046,"sight: review pipelines, sql, etl/elt logic, spark jobs, reporting outputs and technical delive",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp12,5879664831,"nts and bring deep expertise in sql, python, spark, databricks, and cloud-native…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp13,5879665605,"nts and bring deep expertise in sql, python, spark, databricks, and cloud-nativ…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp14,5883753878," week/ 12 days a month key skills – pyspark, spark, python, hive, sql job descriptions: - 6 yea",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp15,5886399425,ssing solutions on aws using java and apache spark. the role will focus on implementing big dat,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp16,5887955890,"ricks. programming expertise on python, sql, spark some experience with capital markets / inves",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp17,5889214883,spark/scala data engineer job title: spark/scala d,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp18,5889219615,"a engineer, scala, python, kafka, ai, flink, spark, streaming, aws role: 5 years of data engine",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp19,5891907864," solutions using aws, databricks, snowflake, spark, and python. it is a highly hands-on technic",2,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp20,5895238862,"- azure data engineer, adf, azure databricks spark (pyspark or scala), python, pl/sql desired e",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp21,5895239257,"(not less, not more) key skills: ✅ pyspark & spark sql ✅ databricks (delta lake) ✅ apache airfl",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp22,5895371922,"ith strong expertise in sql, pyspark, apache spark and databricks, along with awareness of gena",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp23,5896613821,"n solutions using java , python , and apache spark . build and integrate robust rest apis to co",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp24,5896614104, tata consultancy services (tcs) job title : spark / scala data engineer experience : 6- 10 yea,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp25,5897295352,atch and streaming data pipelines dataproc – spark and hadoop-based distributed processing clou,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp26,5898129616,cessing: process large datasets using apache spark via azure databricks or azure synapse analyt,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp27,5898465435,"ricks. programming expertise on python, sql, spark good experience on databricks - dealing with",2,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp28,5899838078,"neer with strong expertise in python, apache spark, databricks, and aws to support cloud‑based ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp29,5899844554,ython and sql. - working knowledge of apache spark (pyspark preferred) for data transformation.,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp30,5899962022,"d to have: unity catalog, microsoft purview, spark, dbt,…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp31,5900348940,"and operates the industrial data lakehouse — spark, iceberg, minio, influxdb, postgresql ▪ buil",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp32,5900875364," development. strong proficiency in pyspark, spark sql, python, and sql. experience with delta ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp33,5901137749,n aws data engineering hands-on expertise in spark and scala extensive experience with aws clou,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp34,5901872367,"anage batch & real-time data pipelines using spark, emr, kafka and flink. develop aws data lake",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp35,5902168787," analysis. 4)hands-on experience with apache spark, hadoop, or similar distribu…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp36,5840174988,egnyte your career. spark your passion. egnyte is a place where we spa,1,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp37,5886377403,description egnyte your career. spark your passion. egnyte is a place where we spa,1,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp38,5887516490,"ced tools and frameworks across python, sql, spark, and aws. the role requires strong…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp39,5889514963,"erience in programing (python, r, sql, nosql,spark) with ml tools & cloud technology (aws, azur",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp40,5831695451,they used for almost everything online. this spark be…,1,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp41,5893930222,"udiences. our work is designed to be shared, spark conversations, and contribute to contemporar",1,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp42,5836841602,wise ecosystem (built on the big data apache spark framework/lightweight architecture). you wil,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp43,5900746975,"what you'll do skillset: java/python, scala, spark, distributed systems experience range: 10 - ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp44,5902946964,"spring boot, rest apis/microservices, apache spark using java, sql, and development of dataproc",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp45,5902987731,scalable applications using scala and apache spark. implement functional programming principles,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp46,5906274262,"stems strong expertise in databricks, apache spark, sql, etl/data pipelines strong background i",2,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp47,5878636056,"performance tuning using sql. - sql, python, spark, pyspark, and azure. - fabric experience pre",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp48,5871776269,"deep hands-on experience with python,pyspark,spark batch,notebook in azure 2. experience in cos",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp49,5868927812,"bricks development & data engineering apache spark, pys…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp50,5866552725,ng domain expertise • etl/elt • databricks • spark • data lakes • data warehousing,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp51,5858131177,ms and data structures proficiency in scala  spark pro…,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp52,5843021049,senior data engineer – ab initio | gcp | spark | agentic ai location: bangalore experience:,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp53,5840174951,buted data processing solutions using apache spark . develop and deploy data applications on aw,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp54,5812187985," strong expertise in big data technologies , spark , sql/pl-sql , and rest api development usin",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp55,5813706127,"ms. also, you will be working on airflow and spark configurat…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp56,5792250600,"ource, and campaign we create is designed to spark curiosity and joy. if you're a designer with",1,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp57,5897259788,timizing data pipelines using databricks and spark. experience deploying and maintaining pipeli,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp58,5907821004,ies build batch and streaming pipelines with spark and kafka manage data in the hadoop ecosyste,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp59,5909807233,th pyspark model data in delta lake optimise spark jobs for cost and performance set up data qu,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Spark,Sp60,5909226085,"idate should have strong expertise in apache spark, databricks, sql, python, data warehousing, ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex00,5823793625," in business analysis tools (e.g., microsoft excel) and documentation tools (e.g., jira, conflu",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex01,5831402619,"cy in microsoft applications including word, excel, and outlook. a track record of …",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex02,5832799305,"database queries (sql, access), spreadsheet (excel) models, web analytics tools (adobe / omnitu",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex03,5878697553," technical skills – proficiency in microsoft excel, statistical analysis tools and techniques, ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex04,5889511359,"will have strong analytical skills, advanced excel proficiency, and experience in power bi. ski",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex05,5890810971,ols administration | adoption & compliance | excel reporting department it team experience 0–1 ,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex06,5800765376," experience: • 1–3 years • proficiency in ms excel (pivot tables, vlookup, formulas) • basickno",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex07,5808699198,tics statistical analysis data modeling hris excel project management good to have skills pytho,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex08,5819873638,"wledge & skill knowledge in microsoft office(excel, word and powerpoint). knowledge of spss k…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex09,5827202787,science concepts teach tools like python sql excel power bi tableau cover machine…,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex10,5830641274,"lytical capabilities, excellent power bi and excel skills, and experience working with large da",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex11,5832798151,"y in tableau (desktop, server, and prep), ms excel, and sql (oracle, hive, mysql ) bachelors de",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex12,5832798187," with good understanding of python (pandas), excel, tools like tableau and power bi. btech (cs/",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex13,5839221139,"d performance presentations using tools like excel and tableau. manage crm data accuracy, usage",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex14,5858131069,strong data analyst profile with advanced excel and sql expertise 2 mandatory (experience 1),1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex15,5860541729,"e large data sets with sql, tableau, python, excel, and other business intelligence tools. perf",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex16,5870527967,"nt position for senior data analyst advanced excel with power bi role for one of our projects, ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex17,5877842241,"atives. skills: proficient in data analysis (excel, sql, r, python), hris, and data vi…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex18,5879144086,"& coordination skills: sql, data management, excel, reporting, data analysis, automation, pytho",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex19,5879663063,"and microsoft office, specifically microsoft excel. this position does not require any license ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex20,5887951604,"ls, microsoft office, specifically microsoft excel. this position does not require any license ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex21,5894639200,"ing, and data visualization . proficiency in excel and bi tools such as power bi / tableau . ab",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex22,5898127468,"isualization, creating dashboards & reports, excel roles and responsibilities: conduct regular ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex23,5899510152,"ools) salesforce reporting & troubleshooting excel/google sheets (pivot, vlookup, sumifs) qa mi",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex24,5899834139,"ent knowledge of microsoft office suite, and excel and the ability to createcharts,spreadsheets",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex25,5900616370,"n data records and prepare mis/reports using excel . follow sops, controls and sla…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex26,5902918148,"ings, learn new skills and discover what you excel at—all from day one. job description respons",7,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex27,5897067172,ided with all the necessary opportunities to excel in life. people are at the core of everythin,2,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex28,5872112013,"ironment that encourages you to innovate and excel, not just in professional but personal life,",5,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex29,5850373193,llel computation horsepower that nvidia gpus excel. nvidia is a 'learning machine' that constan,1,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex30,5839177315,"inside the meta and google consoles, deep in excel, and presenting insights to senior stakehold",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex31,5859117785,"than 45 countries across five continents, we excel in leveraging state of-the-art technology, a",1,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex32,5859122844,"ads, meta ads manager. strong analytical and excel skills. familiarity with attribution a…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex33,5879551341,"em) and meta ads platforms, requiring strong excel, project and time management, proactive comm",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex34,5879551383,"r leading brands, requiring strong skills in excel, project management, proactive communication",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex35,5887778408,"documents using ms office (powerpoint, word, excel) and adobe acrobat (pdfs). intermediate know",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex36,5835737711,"ols. e. person should be well versed with ms excel including functionalities like pivot, vlooku",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex37,5850371601,"ther available data (proficient in ms office excel, word, ppt) should be able to prepare produc",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex38,5859122171," growth. possess expertise in sql , advanced excel , google sheets , and other database tools. ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex39,5861236881,technical skills must have advanced excel data analysis project management and busines,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex40,5846723322," strong technical skills in python, sql, and excel, combined with exper…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex41,5898178897,"ing team maintaining and supporting our vena excel desktop addin, which is our primary product ",3,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex42,5902916355,"leaders, senior software engineers at amazon excel in tackling complex, ambiguous problems with",1,0,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex43,5885229641,ystems & database development convert manual excel-based processes into structured and scalable,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+Excel,Ex44,5861217675,tion and receive processed data products and excel-based reports. the data engineer will design,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re00,5834188787,"/gcp, .net, devops practices, itil, reactjs, react native, nodejs, terraform/ansible, python, c",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re01,5861795043,"ervices architecture, spring, java & nodejs, react, koa, express.js. amazon rds, dynamo db, pos",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re02,5869153521,nderstanding to collaborate effectively with react and typescript e…,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re03,5897783727,"apis. build responsive user interfaces using react, angular, or similar frontend frameworks. co",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re04,5901133464,"eb applications using multiple technologies (react front-end, fast api as backed, nosql vector ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re05,5822283798,role: senior mobile engineer (react native) & team builder location: bangalore a,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re06,5842589803,react: 1. hand-on experience as a react developer-,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re07,5851857175,", high-performance mobile applications using react native and native platforms (ios/android). d",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re08,5867446920,"eveloper experience: 5 years primary skills: react.js, node.js, express.js, snowflake, sql, res",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re09,5877848790,ont-end development experience in angular or react . mandatory skills strong proficiency in jav,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re10,5878284776,"s in java 8, spring boot, hibernate/jpa, and react.js to support the development of scalable, h",2,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re11,5889580896," applications using the mern stack (node.js, react.js, next.js, mongodb). work on both backend ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re12,5890788289,velopment of web based applications using c# react technologies. job description roles and resp,2,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re13,5892230044,"data scientist ai/ml, cyber security,node js,react js.,etc (nine nine eight nine6one two73five)",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re14,5897050379,"role, you will design, develop, and optimize react native applications that deliver fast, relia",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re15,5897176689," job responsibilities 4 to 8 years of strong react 18, typescript, next.js, react query/redux t",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re16,5898129675,"are engineer with deep frontend expertise in react and javascript/typescript , along with pract",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re17,5899536043,"using ruby on rails, python, javascript, and react ● work across the stack: databases, apis, an",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re18,5899924975,"ot, microservices, restful api, sql, angular/react, aws benefits : learn more about our perks b",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re19,5900731900,"lop, and maintain full?stack solutions using react.js/next.js for frontend and node.js/nestjs f",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re20,5901481038,"tack: deep expertise in mongodb, express.js, react.js, and node.js . typescript: strong hands-o",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re21,5901481079, and maintain applications using front-end – react and/or htmx back-end - go and/or .net/.net c,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re22,5901703596,"test technologies (azure, ai, microservices, react, data, power plat…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re23,5901710949," boot, have working experience with angular, react, or ja…",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re24,5901762262,"y:global technology organization key skills: react.js, react, typescript, redux, rest apis, api",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re25,5901762285,full stack engineer with strong expertise in react.js (frontend) and python fastapi (backend) t,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re26,5902729833,"services. collaborate with data engineering, react, and ai/ml teams. participate in code review",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re27,5902913200,"full stack development good to have skills : react.js, spring boot minimum 5 year(s) of experie",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re28,5903011573,gn and develop modern web applications using react and typescript. build and maintain scalable ,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re29,5903777296, hiring: react native (mobile application developer )  loca,2,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re30,5903777292,design and develop mobile applications using react native. collaborate with cross-functional te,2,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re31,5904146503,* .net / asp.net core ⭐ priority * angular * react.js * node.js,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re32,5826314082,", monitor build scalable frontend apps using react.js, typescript, modern state …",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re33,5889539764," up languages on the go: python, go, nodejs, react, etc are what we use frequently though) open",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re34,5875743653,"g backend expertise in go (golang) with good react.js capabilities and, most importantly, a pro",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re35,5849116066,"• build apis and integrations across angular/react, node.js and mongodb environments. • debug, ",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re36,5810200782,odern financial platform. you will work with react native and expo to deliver mobile features e,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re37,5810200743,own end-to-end mobile app architecture using react native and expo • lead cross-platform deploy,1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re38,5810200322," will work across the full technology stack— react.js, next.js, python (fastapi), postgresql, a",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
+React,Re39,5810200344,"ore workflow. you'll work across the stack — react, next.js, and python (fastapi) — using tools",1,1,GitHub Copilot (AI assistant) - read each text; not human-verified
