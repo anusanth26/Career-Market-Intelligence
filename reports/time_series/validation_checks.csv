@@ -1,0 +1,7 @@
+check,passed,detail
+Regular weekly grid,True,"261 weeks, gaps = [np.int64(7)] days"
+No missing values,True,0 NaN
+No negative values,True,min = 0.00
+All frozen skills present,True,20 skills
+Anchor agrees across batches (min r with batch01 >= 0.95),True,min r = 0.999; batch scale factors 1.00-1.70
+Class agrees across the two pulls (informational),n/a,10/14 shared skills; median r = 0.956

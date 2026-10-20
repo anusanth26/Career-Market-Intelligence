@@ -1,0 +1,15 @@
+skill,r_between_pulls,pct_pull_a,pct_pull_b,class_pull_a,class_pull_b,same_class
+AWS,0.97,-10.0,-5.6,declining,stable,False
+Python,0.986,-36.5,-33.6,declining,declining,True
+SQL,0.993,-57.6,-56.1,declining,declining,True
+Machine Learning,0.5,0.0,40.0,stable,rising,False
+Azure,0.944,-21.4,-16.7,declining,declining,True
+SEO,0.995,0.0,0.0,stable,stable,True
+Kubernetes,0.805,-33.3,-25.0,declining,declining,True
+Google Cloud,0.777,66.7,50.0,rising,rising,True
+SAP,-0.06,-3.1,-71.4,stable,declining,False
+Java,0.993,-57.4,-57.4,declining,declining,True
+Spark,-0.308,16.7,-50.0,rising,declining,False
+Power BI,0.939,0.0,0.0,stable,stable,True
+Linux,0.974,-31.8,-36.0,declining,declining,True
+Excel,0.967,-2.1,1.4,stable,stable,True

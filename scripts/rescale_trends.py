@@ -16,6 +16,7 @@ Usage:
 import argparse
 import glob
 import os
+import re
 
 import numpy as np
 import pandas as pd
@@ -28,7 +29,7 @@ ANCHOR = "SQL"
 
 def load_batch(path: str) -> pd.DataFrame:
     df = pd.read_csv(path)
-    df["date"] = pd.to_datetime(df["date"], format="%d-%m-%Y", errors="coerce")
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")  # handles ISO and other formats
     df = df.dropna(subset=["date"]).sort_values("date")
     if "isPartial" in df.columns:
         # drop the trailing partial week if present (incomplete data)
@@ -37,15 +38,14 @@ def load_batch(path: str) -> pd.DataFrame:
     return df.set_index("date")
 
 
-def main() -> None:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--geo", default="IN")
-    args = ap.parse_args()
+def pull_date(path: str) -> str:
+    """Pull date from a filename suffix _YYYY-MM-DD.csv ('' if absent)."""
+    m = re.search(r"_(\d{4}-\d{2}-\d{2})\.csv$", path)
+    return m.group(1) if m else ""
 
-    paths = sorted(glob.glob(os.path.join(TRENDS_DIR, f"trends_{args.geo}_batch*.csv")))
-    if not paths:
-        raise SystemExit(f"No trends batches found for geo={args.geo} in {TRENDS_DIR}")
 
+def rescale_pull(paths: list[str]) -> pd.DataFrame:
+    """Merge the batch files of ONE pull onto the first batch's scale using the shared anchor."""
     ref = load_batch(paths[0])
     if ANCHOR not in ref.columns:
         raise SystemExit(f"Anchor '{ANCHOR}' missing from reference batch {paths[0]}")
@@ -65,8 +65,23 @@ def main() -> None:
             if col == ANCHOR or col in merged.columns:
                 continue
             merged[col] = batch[col].astype(float) * factor
+    return merged.sort_index()
 
-    merged = merged.sort_index()
+
+def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--geo", default="IN")
+    args = ap.parse_args()
+
+    all_paths = glob.glob(os.path.join(TRENDS_DIR, f"trends_{args.geo}_batch*.csv"))
+    if not all_paths:
+        raise SystemExit(f"No trends batches found for geo={args.geo} in {TRENDS_DIR}")
+    # Use only the most recent pull date to avoid mixing pulls.
+    latest = max(pull_date(p) for p in all_paths)
+    paths = sorted(p for p in all_paths if pull_date(p) == latest)
+    print(f"Using pull date {latest}: {len(paths)} batch file(s)")
+
+    merged = rescale_pull(paths)
     out_path = os.path.join(OUT_DIR, f"trends_rescaled_{args.geo}.csv")
     merged.reset_index().to_csv(out_path, index=False)
 

@@ -1,0 +1,15 @@
+skill,naive,ses,arima,holt_winters,best
+AWS,10.65,10.01,10.45,10.13,ses
+Azure,11.47,11.52,12.95,10.92,holt_winters
+Docker,15.96,16.44,13.99,13.87,holt_winters
+Excel,5.62,5.89,5.88,7.94,naive
+Git,10.67,10.56,10.85,8.53,holt_winters
+Java,11.1,11.16,11.6,13.17,naive
+JavaScript,10.85,10.85,10.46,16.71,arima
+Linux,10.12,10.12,9.66,13.62,arima
+Machine Learning,8.58,7.31,7.8,8.71,ses
+Power BI,11.56,12.03,12.54,14.0,naive
+Python,10.74,10.74,10.7,11.28,arima
+React,12.35,12.35,12.58,21.08,naive
+SEO,80.26,77.7,106.15,131.48,ses
+SQL,12.37,12.89,13.02,13.44,naive
