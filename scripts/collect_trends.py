@@ -37,7 +37,9 @@ PAUSE = (8, 15)                      # seconds between requests (randomised); Tr
 MAX_RETRIES = 5
 OUTPUT_DIR = os.path.join("data", "raw", "trends")
 
-SKILLS = _CFG["skills"]              # frozen list, derived from real skill demand
+SKILLS = _CFG["skills"]              # frozen list (labels = join key for every contract CSV)
+# label -> Google Trends topic ID (Knowledge Graph entity); falls back to the plain label
+QUERIES = _CFG.get("trends_queries", {})
 # ─────────────────────────────────────────────────────────────────────
 
 
@@ -68,12 +70,15 @@ def main():
 
     for geo_name, geo in GEOS.items():
         for n, batch in enumerate(batches, 1):
-            terms = [ANCHOR] + batch
-            print(f"[{geo_name}] batch {n}/{len(batches)}: {terms}")
+            labels = [ANCHOR] + batch
+            terms = [QUERIES.get(lbl, lbl) for lbl in labels]
+            print(f"[{geo_name}] batch {n}/{len(batches)}: {labels} -> {terms}")
             df = fetch(pytrends, terms, geo)
+            # store skill labels (not topic IDs) so downstream files keep the same join key
+            df = df.rename(columns=dict(zip(terms, labels)))
             fname = f"trends_{geo_name}_batch{n:02d}_{pull_date}.csv"
             df.to_csv(os.path.join(OUTPUT_DIR, fname))
-            log["batches"].append({"geo": geo_name, "batch": n, "terms": terms,
+            log["batches"].append({"geo": geo_name, "batch": n, "labels": labels, "terms": terms,
                                    "file": fname, "rows": len(df)})
             time.sleep(random.uniform(*PAUSE))
 
