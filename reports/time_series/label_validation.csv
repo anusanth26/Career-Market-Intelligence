@@ -1,0 +1,21 @@
+skill,slope_per_week,pct_change,class,low_volume,mk_trend,mk_p,sen_slope_per_month,trend_confirmed
+Deep Learning,0.0048,66.67,rising,True,increasing,0.0,0.018,True
+Google Cloud,0.0112,50.0,rising,True,increasing,0.0022,0.049,True
+Machine Learning,0.0199,40.0,rising,False,increasing,0.0,0.082,True
+Excel,0.0284,1.38,stable,False,no trend,0.408,0.147,True
+Power BI,0.0042,0.0,stable,False,no trend,0.4904,0.025,True
+Docker,0.0014,0.0,stable,False,no trend,0.9277,0.0,True
+SEO,0.0129,0.0,stable,False,increasing,0.0007,0.013,False
+AWS,0.0026,-5.56,stable,False,no trend,0.8757,0.003,True
+Azure,-0.005,-16.67,declining,False,no trend,0.556,-0.019,False
+Kubernetes,-0.002,-25.0,declining,True,no trend,0.2482,-0.007,False
+Git,-0.0083,-25.0,declining,False,decreasing,0.002,-0.049,True
+Tableau,-0.0066,-33.33,declining,True,decreasing,0.0022,-0.026,True
+Python,-0.1186,-33.55,declining,False,decreasing,0.0,-0.591,True
+Linux,-0.0334,-36.0,declining,False,decreasing,0.0,-0.16,True
+React,-0.0425,-50.0,declining,False,no trend,0.1632,-0.206,False
+Spark,-0.0079,-50.0,declining,True,decreasing,0.0007,-0.032,True
+SQL,-0.1007,-56.1,declining,False,decreasing,0.0,-0.481,True
+Java,-0.197,-57.41,declining,False,decreasing,0.0,-0.97,True
+JavaScript,-0.1277,-59.52,declining,False,decreasing,0.0015,-0.645,True
+SAP,-0.0203,-71.43,declining,True,no trend,0.4054,-0.04,False
