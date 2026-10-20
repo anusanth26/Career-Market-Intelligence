@@ -1,0 +1,5 @@
+model,mean_mape,median_mape,mean_smape,mean_mase,median_mase,mase_vs_naive,beats_naive_share,wilcoxon_p_vs_naive
+naive,15.878,10.72,13.533,1.623,1.035,1.0,,
+ses,15.683,10.585,13.235,1.574,1.076,0.969,0.49,0.877
+arima,17.759,11.059,13.285,1.697,1.126,1.045,0.51,0.8
+holt_winters,21.063,12.207,14.902,1.936,1.115,1.193,0.48,0.398
