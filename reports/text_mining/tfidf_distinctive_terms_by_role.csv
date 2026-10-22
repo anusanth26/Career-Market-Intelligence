@@ -1,0 +1,81 @@
+role,rank,term,tfidf_above_average
+Business Analyst,1,business,0.0605
+Business Analyst,2,analyst,0.0498
+Business Analyst,3,requirement,0.037
+Business Analyst,4,process,0.0206
+Business Analyst,5,functional,0.019
+Business Analyst,6,stakeholder,0.0144
+Business Analyst,7,support,0.0138
+Business Analyst,8,analysis,0.0136
+Data Analyst,1,datum,0.0812
+Data Analyst,2,analyst,0.0471
+Data Analyst,3,analytic,0.029
+Data Analyst,4,data,0.0263
+Data Analyst,5,insight,0.0261
+Data Analyst,6,report,0.0239
+Data Analyst,7,dashboard,0.022
+Data Analyst,8,analysis,0.0209
+Data Engineer,1,data,0.0972
+Data Engineer,2,datum,0.0935
+Data Engineer,3,pipeline,0.049
+Data Engineer,4,etl,0.0413
+Data Engineer,5,engineer,0.0375
+Data Engineer,6,analytic,0.0278
+Data Engineer,7,sql,0.0272
+Data Engineer,8,databrick,0.027
+Data Scientist,1,scientist,0.0629
+Data Scientist,2,machine,0.0463
+Data Scientist,3,model,0.0377
+Data Scientist,4,learning,0.0333
+Data Scientist,5,ai,0.0316
+Data Scientist,6,ml,0.0302
+Data Scientist,7,science,0.023
+Data Scientist,8,learn,0.0221
+Devops / Cloud Engineer,1,cloud,0.0563
+Devops / Cloud Engineer,2,infrastructure,0.0491
+Devops / Cloud Engineer,3,devop,0.0426
+Devops / Cloud Engineer,4,reliability,0.038
+Devops / Cloud Engineer,5,platform,0.0348
+Devops / Cloud Engineer,6,engineer,0.0345
+Devops / Cloud Engineer,7,ci,0.0269
+Devops / Cloud Engineer,8,cd,0.0259
+Digital Marketing,1,marketing,0.1662
+Digital Marketing,2,digital,0.0929
+Digital Marketing,3,campaign,0.0753
+Digital Marketing,4,seo,0.0598
+Digital Marketing,5,performance,0.0468
+Digital Marketing,6,ad,0.0422
+Digital Marketing,7,content,0.0416
+Digital Marketing,8,medium,0.0399
+Graphic Designer,1,graphic,0.13
+Graphic Designer,2,creative,0.1059
+Graphic Designer,3,designer,0.1017
+Graphic Designer,4,visual,0.0865
+Graphic Designer,5,design,0.0751
+Graphic Designer,6,brand,0.075
+Graphic Designer,7,medium,0.0494
+Graphic Designer,8,social,0.0456
+Product Manager,1,product,0.1164
+Product Manager,2,owner,0.0322
+Product Manager,3,manager,0.0288
+Product Manager,4,roadmap,0.0214
+Product Manager,5,customer,0.0179
+Product Manager,6,vision,0.017
+Product Manager,7,strategy,0.0151
+Product Manager,8,backlog,0.0148
+Project Manager,1,project,0.1688
+Project Manager,2,manager,0.072
+Project Manager,3,delivery,0.0459
+Project Manager,4,end,0.033
+Project Manager,5,execution,0.0302
+Project Manager,6,technical,0.0246
+Project Manager,7,manage,0.022
+Project Manager,8,coordinate,0.0196
+Software Engineer,1,software,0.0532
+Software Engineer,2,application,0.0255
+Software Engineer,3,engineer,0.0197
+Software Engineer,4,developer,0.0143
+Software Engineer,5,custom,0.0131
+Software Engineer,6,development,0.013
+Software Engineer,7,code,0.0103
+Software Engineer,8,system,0.0097
