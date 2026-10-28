@@ -1,0 +1,63 @@
+task,feature,importance
+band,skill_python,0.0261
+band,skill_sql,0.0179
+band,skill_communication,0.0159
+band,skill_azure,0.0159
+band,skill_machine_learning,0.0128
+band,skill_agile,0.013
+band,skill_aws,0.0221
+band,skill_linux,0.0145
+band,skill_java,0.009
+band,skill_sap,0.0058
+band,skill_docker,0.0074
+band,skill_count,0.0992
+band,role_Data Analyst,0.0132
+band,role_Data Engineer,0.0285
+band,role_Data Scientist,0.0168
+band,role_Devops / Cloud Engineer,0.034
+band,role_Digital Marketing,0.1012
+band,role_Graphic Designer,0.0752
+band,role_Product Manager,0.0128
+band,role_Project Manager,0.0127
+band,role_Software Engineer,0.0209
+band,location_bucket_Gujarat,0.0182
+band,location_bucket_Karnataka,0.0262
+band,location_bucket_Maharashtra,0.0433
+band,location_bucket_Tamil Nadu,0.0144
+band,location_bucket_Telangana,0.027
+band,location_bucket_Unknown,0.0399
+band,location_bucket_Uttar Pradesh,0.0084
+band,location_bucket_other,0.0267
+band,is_full_time,0.0722
+band,seniority_ordinal,0.1489
+binary,skill_python,0.04
+binary,skill_sql,0.0171
+binary,skill_communication,0.0169
+binary,skill_azure,0.0077
+binary,skill_machine_learning,0.0059
+binary,skill_agile,0.0317
+binary,skill_aws,0.0081
+binary,skill_linux,0.0033
+binary,skill_java,0.0056
+binary,skill_sap,0.0022
+binary,skill_docker,0.002
+binary,skill_count,0.1333
+binary,role_Data Analyst,0.0052
+binary,role_Data Engineer,0.033
+binary,role_Data Scientist,0.0172
+binary,role_Devops / Cloud Engineer,0.0517
+binary,role_Digital Marketing,0.1654
+binary,role_Graphic Designer,0.1123
+binary,role_Product Manager,0.0094
+binary,role_Project Manager,0.0069
+binary,role_Software Engineer,0.0103
+binary,location_bucket_Gujarat,0.0297
+binary,location_bucket_Karnataka,0.0271
+binary,location_bucket_Maharashtra,0.0113
+binary,location_bucket_Tamil Nadu,0.0062
+binary,location_bucket_Telangana,0.0149
+binary,location_bucket_Unknown,0.0198
+binary,location_bucket_Uttar Pradesh,0.0005
+binary,location_bucket_other,0.0134
+binary,is_full_time,0.0986
+binary,seniority_ordinal,0.093

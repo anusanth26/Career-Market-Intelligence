@@ -1,0 +1,5 @@
+task,evaluation,accuracy,macro_f1,majority_baseline_accuracy,n_scored
+band,holdout,0.5022,0.4796,0.368,231
+band,employer_grouped_cv,0.4688,0.4436,0.3361,1153
+binary,holdout,0.7316,0.7315,0.4848,231
+binary,employer_grouped_cv,0.6547,0.6495,0.493,1153

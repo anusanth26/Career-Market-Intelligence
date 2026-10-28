@@ -1,3 +1,6 @@
+import os
+import sys
+
 import pandas as pd
 import numpy as np
 import joblib
@@ -6,40 +9,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.dummy import DummyClassifier
 from sklearn.metrics import classification_report, accuracy_score
 
-def engineer_features(df):
-    model_df = df.copy()
-    
-    # 1. Seniority Ordinal
-    sen_map = {"Unknown": 0, "entry": 1, "mid": 2, "senior": 3, "lead": 4, "executive": 5}
-    model_df["seniority_ordinal"] = model_df["seniority_level"].fillna("Unknown").map(sen_map)
-    
-    # 2. Is Full Time
-    model_df["is_full_time"] = (model_df["contract_time"] == "full_time").astype(int)
-    
-    # 3. Location Bucket
-    top_regions = ["Karnataka", "Maharashtra", "Telangana", "Uttar Pradesh", "Tamil Nadu", "Gujarat"]
-    model_df["location_bucket"] = model_df["location_region"].where(model_df["location_region"].isin(top_regions), "other")
-    
-    # 4. Skills
-    skills = ['python', 'sql', 'communication', 'azure', 'machine_learning', 'agile', 'aws', 'linux', 'java', 'sap', 'docker']
-    model_df['description_clean'] = model_df['description_clean'].fillna('')
-    for s in skills:
-        model_df[f'skill_{s}'] = model_df['description_clean'].str.contains(s.replace('_', ' '), case=False, regex=False).astype(int)
-        
-    # Count skills (assuming the skills list is the only skills)
-    # Wait, the original model used a specific skill_count. This is a decent approximation.
-    model_df['skill_count'] = model_df[[f'skill_{s}' for s in skills]].sum(axis=1)
-    
-    # 5. Dummies
-    categorical = pd.get_dummies(model_df[["role", "location_bucket"]].fillna("Unknown"), columns=["role", "location_bucket"], dtype=int)
-    
-    # Combine
-    out_df = pd.concat([model_df, categorical], axis=1)
-    
-    # Rename for spaces in location
-    out_df = out_df.rename(columns=lambda x: x.replace('location_bucket_Tamil Nadu', 'location_bucket_Tamil Nadu').replace('location_bucket_Uttar Pradesh', 'location_bucket_Uttar Pradesh'))
-    
-    return out_df
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from features import engineer_features  # noqa: E402
 
 
 def tune_and_compare():

@@ -1,20 +1,12 @@
 # Final Model Performance Evaluation
 
-## 1. Tuned Binary Classifier (Above vs Below Median Salary)
-- **Accuracy:** 65.80%
-- **F1-Score (Weighted):** 65.72%
+Source: `scripts/model_results.py` (output in `tableau_dashboard/extracts/`). Standard models (31 structured features) retrained with the saved settings on the 1,153 salary-labelled postings from 497 employers.
 
-*Confusion Matrix:*
-![Confusion Matrix Binary](/home/mahadeva/Projects/CarrerMarket/Career-Market-Intelligence/reports/eda/cm_binary.png)
+| Task | Employer-grouped 5-fold CV | Majority baseline | Stratified 80/20 holdout | Majority baseline |
+|---|---|---|---|---|
+| Salary band (low / medium / high) | 46.9% (macro-F1 0.444) | 33.6% | 50.2% (macro-F1 0.480) | 36.8% |
+| Above / below median | 65.5% (macro-F1 0.650) | 49.3% | 73.2% (macro-F1 0.732) | 48.5% |
 
-## 2. Salary Band Multi-Class Model (Low, Medium, High)
-- **Accuracy:** 51.08%
-- **F1-Score (Weighted):** 43.44%
+The grouped CV keeps a company out of both train and test, so it is the fairer estimate for unseen postings. The holdout shares employers between train and test and runs optimistic.
 
-*Confusion Matrix:*
-![Confusion Matrix Band](/home/mahadeva/Projects/CarrerMarket/Career-Market-Intelligence/reports/eda/cm_band.png)
-
-## Interpretation
-The confusion matrices reveal exactly where the models succeed and struggle.
-- The **Binary Model** accurately separates higher-paying roles from lower-paying ones, showing balanced false positives and false negatives after tuning.
-- The **Band Model** is slightly less accurate overall because distinguishing between 3 classes is harder. The matrix shows that it occasionally confuses adjacent bands (e.g., predicting 'medium' when true is 'high'), but rarely makes egregious mistakes (like predicting 'low' when true is 'high').
+An earlier version of this report (65.8% binary, 51.1% band) came from scripts that zeroed the seniority feature, matched skills inside other words, and scored on rows the model had trained on. Those numbers and the matching figures in `reports/eda/` should not be used.

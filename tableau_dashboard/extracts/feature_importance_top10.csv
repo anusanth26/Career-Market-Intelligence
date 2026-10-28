@@ -1,0 +1,21 @@
+task,feature,importance
+band,seniority ordinal,0.1489
+band,Role: Digital Marketing,0.1012
+band,Skill: count,0.0992
+band,Role: Graphic Designer,0.0752
+band,is full time,0.0722
+band,State: Maharashtra,0.0433
+band,State: Unknown,0.0399
+band,Role: Devops / Cloud Engineer,0.034
+band,Role: Data Engineer,0.0285
+band,State: Telangana,0.027
+binary,Role: Digital Marketing,0.1654
+binary,Skill: count,0.1333
+binary,Role: Graphic Designer,0.1123
+binary,is full time,0.0986
+binary,seniority ordinal,0.093
+binary,Role: Devops / Cloud Engineer,0.0517
+binary,Skill: python,0.04
+binary,Role: Data Engineer,0.033
+binary,Skill: agile,0.0317
+binary,State: Gujarat,0.0297

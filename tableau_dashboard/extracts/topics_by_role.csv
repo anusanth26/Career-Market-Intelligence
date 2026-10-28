@@ -1,0 +1,41 @@
+role,topic,pct_of_role
+Business Analyst,0: Employer & company description,40.1
+Data Analyst,0: Employer & company description,36.0
+Data Engineer,0: Employer & company description,32.2
+Data Scientist,0: Employer & company description,51.7
+Devops / Cloud Engineer,0: Employer & company description,35.8
+Digital Marketing,0: Employer & company description,18.5
+Graphic Designer,0: Employer & company description,19.7
+Product Manager,0: Employer & company description,55.6
+Project Manager,0: Employer & company description,32.7
+Software Engineer,0: Employer & company description,50.3
+Business Analyst,"1: Marketing, design & project delivery",1.4
+Data Analyst,"1: Marketing, design & project delivery",3.8
+Data Engineer,"1: Marketing, design & project delivery",1.2
+Data Scientist,"1: Marketing, design & project delivery",1.4
+Devops / Cloud Engineer,"1: Marketing, design & project delivery",0.6
+Digital Marketing,"1: Marketing, design & project delivery",81.1
+Graphic Designer,"1: Marketing, design & project delivery",79.8
+Product Manager,"1: Marketing, design & project delivery",6.5
+Project Manager,"1: Marketing, design & project delivery",38.3
+Software Engineer,"1: Marketing, design & project delivery",1.8
+Business Analyst,"2: Data, analytics & business/product",56.4
+Data Analyst,"2: Data, analytics & business/product",59.1
+Data Engineer,"2: Data, analytics & business/product",52.3
+Data Scientist,"2: Data, analytics & business/product",45.6
+Devops / Cloud Engineer,"2: Data, analytics & business/product",3.5
+Digital Marketing,"2: Data, analytics & business/product",0.2
+Graphic Designer,"2: Data, analytics & business/product",0.0
+Product Manager,"2: Data, analytics & business/product",34.1
+Project Manager,"2: Data, analytics & business/product",25.3
+Software Engineer,"2: Data, analytics & business/product",6.8
+Business Analyst,"3: Engineering, cloud & software",2.0
+Data Analyst,"3: Engineering, cloud & software",1.1
+Data Engineer,"3: Engineering, cloud & software",14.2
+Data Scientist,"3: Engineering, cloud & software",1.4
+Devops / Cloud Engineer,"3: Engineering, cloud & software",60.1
+Digital Marketing,"3: Engineering, cloud & software",0.2
+Graphic Designer,"3: Engineering, cloud & software",0.4
+Product Manager,"3: Engineering, cloud & software",3.9
+Project Manager,"3: Engineering, cloud & software",3.6
+Software Engineer,"3: Engineering, cloud & software",41.0

@@ -1,0 +1,123 @@
+skill_a,skill_b,together,lift,jaccard
+Python,SQL,133,11.22,0.294
+AWS,Azure,87,7.4,0.173
+AWS,Python,76,5.55,0.137
+Python,Spark,75,14.79,0.217
+SQL,Spark,69,13.89,0.2
+AWS,Kubernetes,55,8.2,0.129
+SQL,Azure,55,5.41,0.112
+Python,Azure,55,5.3,0.111
+AWS,Google Cloud,54,8.91,0.131
+Python,Machine Learning,50,3.21,0.08
+Azure,Google Cloud,46,10.01,0.136
+AWS,SQL,46,3.43,0.079
+Python,Google Cloud,40,7.47,0.103
+Azure,Spark,38,8.74,0.112
+Azure,Kubernetes,35,6.88,0.096
+AWS,Spark,34,5.93,0.08
+SQL,Power BI,33,11.6,0.101
+SQL,Google Cloud,33,6.29,0.085
+Kubernetes,Docker,32,38.04,0.206
+Python,Java,30,7.41,0.082
+AWS,Docker,26,13.38,0.074
+AWS,Machine Learning,26,1.47,0.038
+Machine Learning,Deep Learning,24,12.33,0.061
+Kubernetes,Google Cloud,24,9.15,0.095
+Python,Kubernetes,24,4.05,0.058
+SQL,Tableau,22,14.08,0.072
+AWS,Java,21,4.58,0.051
+SQL,Machine Learning,21,1.38,0.032
+Machine Learning,Azure,20,1.5,0.033
+AWS,Linux,19,6.52,0.05
+Kubernetes,Linux,17,13.47,0.089
+Python,Power BI,17,5.86,0.049
+Power BI,Tableau,16,41.83,0.17
+Google Cloud,Spark,16,7.13,0.067
+Python,Linux,16,6.21,0.047
+SQL,Excel,15,7.97,0.047
+Python,Tableau,14,8.78,0.044
+Python,Docker,14,8.15,0.043
+Python,Git,13,11.78,0.042
+Azure,Docker,13,8.82,0.046
+Python,React,13,6.49,0.039
+Azure,Linux,12,5.43,0.039
+Java,React,11,16.42,0.08
+SQL,Java,11,2.77,0.029
+Machine Learning,Google Cloud,11,1.6,0.022
+Excel,Tableau,10,39.5,0.132
+Linux,Docker,10,27.36,0.105
+Google Cloud,Docker,10,13.16,0.061
+React,JavaScript,9,49.25,0.134
+Python,JavaScript,9,8.15,0.029
+Python,Excel,9,4.68,0.027
+AWS,React,9,3.97,0.024
+SQL,Linux,9,3.57,0.026
+Power BI,Excel,8,17.36,0.073
+Azure,Git,8,8.45,0.029
+SQL,JavaScript,8,7.4,0.026
+Spark,Power BI,8,6.58,0.043
+Python,Deep Learning,8,5.29,0.025
+Azure,Power BI,8,3.21,0.025
+SQL,SAP,8,1.75,0.02
+Azure,React,7,4.07,0.024
+SQL,Kubernetes,7,1.21,0.016
+Machine Learning,Spark,7,1.07,0.014
+Java,Docker,6,10.45,0.044
+Azure,JavaScript,6,6.33,0.022
+SQL,Git,6,5.55,0.019
+SAP,Power BI,6,5.37,0.034
+Google Cloud,Linux,6,5.26,0.032
+Google Cloud,Java,6,3.35,0.027
+SQL,React,6,3.06,0.018
+Kubernetes,Java,6,3.03,0.025
+Machine Learning,Excel,6,2.43,0.014
+Linux,Git,5,21.28,0.059
+Java,Spark,5,2.95,0.023
+Azure,Java,5,1.44,0.014
+Java,Git,4,10.83,0.033
+Google Cloud,React,4,4.51,0.023
+AWS,Git,4,3.2,0.011
+Azure,SAP,4,1.0,0.011
+Machine Learning,Kubernetes,4,0.52,0.008
+Machine Learning,SEO,4,0.4,0.007
+JavaScript,Git,3,29.79,0.059
+Docker,Git,3,19.15,0.045
+Spark,Git,3,6.49,0.02
+Google Cloud,Git,3,6.14,0.019
+SAP,Tableau,3,4.89,0.02
+Java,Linux,3,3.48,0.019
+Kubernetes,React,3,3.06,0.016
+Google Cloud,Power BI,3,2.34,0.015
+Azure,Tableau,3,2.19,0.01
+SQL,Docker,3,1.78,0.009
+Machine Learning,Tableau,3,1.46,0.007
+Kubernetes,Spark,3,1.21,0.011
+Python,SAP,3,0.64,0.007
+Power BI,JavaScript,2,7.55,0.021
+Java,JavaScript,2,5.42,0.016
+Kubernetes,Git,2,3.7,0.012
+Spark,Docker,2,2.78,0.012
+Azure,Deep Learning,2,1.54,0.007
+SQL,Deep Learning,2,1.35,0.006
+AWS,Tableau,2,1.11,0.005
+Machine Learning,React,2,0.78,0.005
+AWS,Power BI,2,0.61,0.005
+Machine Learning,Power BI,2,0.54,0.004
+Machine Learning,Java,2,0.38,0.004
+Tableau,JavaScript,1,6.88,0.015
+Power BI,Git,1,3.78,0.01
+React,Docker,1,3.52,0.011
+Java,Deep Learning,1,1.98,0.007
+Kubernetes,JavaScript,1,1.85,0.006
+SAP,Docker,1,1.51,0.006
+Spark,Tableau,1,1.5,0.006
+Google Cloud,Deep Learning,1,1.49,0.006
+SEO,JavaScript,1,1.43,0.005
+Google Cloud,Tableau,1,1.42,0.006
+SAP,Java,1,0.64,0.005
+AWS,Deep Learning,1,0.58,0.003
+SAP,Spark,1,0.51,0.004
+Machine Learning,Docker,1,0.45,0.002
+Kubernetes,SAP,1,0.44,0.004
+SEO,Java,1,0.39,0.003
+AWS,SAP,1,0.19,0.002
