@@ -1,0 +1,22 @@
+{
+ "Python": "\\bpython\\b",
+ "SQL": "\\bsql\\b",
+ "Power BI": "\\bpower\\s*bi\\b",
+ "Tableau": "\\btableau\\b",
+ "AWS": "\\baws\\b|\\bamazon web services\\b",
+ "Azure": "\\bazure\\b",
+ "Google Cloud": "\\bgcp\\b|\\bgoogle cloud\\b",
+ "Docker": "\\bdocker\\b",
+ "Kubernetes": "\\bkubernetes\\b|\\bk8s\\b",
+ "Deep Learning": "\\bdeep learning\\b",
+ "Java": "\\bjava\\b",
+ "JavaScript": "\\bjavascript\\b",
+ "Linux": "\\blinux\\b",
+ "SAP": "\\bsap\\b",
+ "Git": "\\bgit\\b",
+ "Machine Learning": "\\bmachine learning\\b|\\bml\\b",
+ "React": "\\breact\\b|\\breactjs\\b",
+ "SEO": "\\bseo\\b|\\bsearch engine optimi[sz]ation\\b",
+ "Spark": "\\bpyspark\\b|\\bapache spark\\b|(?<!\\bto )(?<!\\bthis )\\bspark\\b(?! (?:your|their|our|my|the|a|an|new|more|curiosity|conversations?|became|joy|interest|innovation|ideas?|passion|change|growth)\\b)",
+ "Excel": "(?<!\\bto )(?<!\\byou )(?<!\\bwe )(?<!\\bthey )(?<!\\bwho )\\bexcel\\b(?! (?:at|in|as|on)\\b)"
+}

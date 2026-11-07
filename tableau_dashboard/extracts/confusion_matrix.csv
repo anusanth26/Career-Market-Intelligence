@@ -1,0 +1,14 @@
+task,actual,predicted,count
+band,high,high,165
+band,high,low,150
+band,high,medium,64
+band,low,high,100
+band,low,low,262
+band,low,medium,61
+band,medium,high,116
+band,medium,low,132
+band,medium,medium,103
+binary,above,above,405
+binary,above,below,189
+binary,below,above,203
+binary,below,below,356

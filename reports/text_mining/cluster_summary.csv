@@ -1,0 +1,13 @@
+cluster,size,top_words,top_roles
+0,448,"product, manager, role, owner, business, roadmap, products, strategy, management, team, customer, experience",Product Manager (76%); Business Analyst (11%); Software Engineer (4%)
+1,507,"marketing, digital, campaigns, seo, performance, media, content, social, ads, google, strategies, paid",Digital Marketing (93%); Graphic Designer (4%); Business Analyst (1%)
+2,810,"company, global, technology, services, india, solutions, leading, financial, s, world, digital, clients",Software Engineer (17%); Product Manager (15%); Business Analyst (15%)
+3,728,"software, engineer, applications, development, role, design, experience, application, skills, systems, solutions, scalable",Software Engineer (85%); Devops / Cloud Engineer (7%); Business Analyst (3%)
+4,527,"business, analyst, requirements, functional, processes, support, role, teams, stakeholders, analysis, job, experience",Business Analyst (76%); Data Analyst (9%); Software Engineer (5%)
+5,360,"graphic, designer, creative, visual, design, brand, media, social, marketing, digital, create, graphics",Graphic Designer (96%); Digital Marketing (3%); Business Analyst (0%)
+6,636,"ai, platform, data, scale, agentic, s, enterprise, powered, intelligence, building, engineering, real",Software Engineer (26%); Data Scientist (23%); Devops / Cloud Engineer (17%)
+7,1144,"people, world, s, work, customers, technology, make, help, career, team, global, join",Software Engineer (25%); Data Scientist (17%); Devops / Cloud Engineer (14%)
+8,156,"lgbtq, mygwork, recruiter, employer, inclusive, contact, member, community, directly, largest, global, platform",Software Engineer (54%); Business Analyst (22%); Data Analyst (6%)
+9,564,"cloud, infrastructure, devops, engineer, reliability, aws, ci/cd, platform, automation, role, azure, experience",Devops / Cloud Engineer (90%); Software Engineer (7%); Data Engineer (2%)
+10,1025,"data, analytics, role, pipelines, experience, business, sql, engineer, insights, design, develop, years",Data Engineer (35%); Data Analyst (27%); Data Scientist (23%)
+11,335,"project, manager, projects, delivery, end, execution, planning, technical, job, role, management, lead",Project Manager (85%); Business Analyst (7%); Data Analyst (3%)

@@ -1,0 +1,201 @@
+role,skill,frequency,role_postings,pct_of_role_postings
+Business Analyst,AWS,0,897,0.0
+Business Analyst,Python,9,897,1.0
+Business Analyst,SQL,25,897,2.79
+Business Analyst,Machine Learning,5,897,0.56
+Business Analyst,Azure,5,897,0.56
+Business Analyst,SEO,1,897,0.11
+Business Analyst,Kubernetes,1,897,0.11
+Business Analyst,Google Cloud,2,897,0.22
+Business Analyst,SAP,40,897,4.46
+Business Analyst,Java,2,897,0.22
+Business Analyst,Spark,0,897,0.0
+Business Analyst,Power BI,12,897,1.34
+Business Analyst,Linux,1,897,0.11
+Business Analyst,Excel,6,897,0.67
+Business Analyst,React,0,897,0.0
+Business Analyst,Docker,0,897,0.0
+Business Analyst,Tableau,6,897,0.67
+Business Analyst,Deep Learning,0,897,0.0
+Business Analyst,JavaScript,2,897,0.22
+Business Analyst,Git,1,897,0.11
+Data Analyst,AWS,2,531,0.38
+Data Analyst,Python,29,531,5.46
+Data Analyst,SQL,67,531,12.62
+Data Analyst,Machine Learning,18,531,3.39
+Data Analyst,Azure,2,531,0.38
+Data Analyst,SEO,0,531,0.0
+Data Analyst,Kubernetes,0,531,0.0
+Data Analyst,Google Cloud,2,531,0.38
+Data Analyst,SAP,8,531,1.51
+Data Analyst,Java,0,531,0.0
+Data Analyst,Spark,6,531,1.13
+Data Analyst,Power BI,36,531,6.78
+Data Analyst,Linux,1,531,0.19
+Data Analyst,Excel,20,531,3.77
+Data Analyst,React,0,531,0.0
+Data Analyst,Docker,0,531,0.0
+Data Analyst,Tableau,25,531,4.71
+Data Analyst,Deep Learning,2,531,0.38
+Data Analyst,JavaScript,1,531,0.19
+Data Analyst,Git,0,531,0.0
+Data Engineer,AWS,72,562,12.81
+Data Engineer,Python,109,562,19.4
+Data Engineer,SQL,120,562,21.35
+Data Engineer,Machine Learning,15,562,2.67
+Data Engineer,Azure,61,562,10.85
+Data Engineer,SEO,0,562,0.0
+Data Engineer,Kubernetes,2,562,0.36
+Data Engineer,Google Cloud,47,562,8.36
+Data Engineer,SAP,7,562,1.25
+Data Engineer,Java,6,562,1.07
+Data Engineer,Spark,99,562,17.62
+Data Engineer,Power BI,13,562,2.31
+Data Engineer,Linux,2,562,0.36
+Data Engineer,Excel,1,562,0.18
+Data Engineer,React,0,562,0.0
+Data Engineer,Docker,1,562,0.18
+Data Engineer,Tableau,5,562,0.89
+Data Engineer,Deep Learning,0,562,0.0
+Data Engineer,JavaScript,0,562,0.0
+Data Engineer,Git,3,562,0.53
+Data Scientist,AWS,13,660,1.97
+Data Scientist,Python,47,660,7.12
+Data Scientist,SQL,16,660,2.42
+Data Scientist,Machine Learning,258,660,39.09
+Data Scientist,Azure,17,660,2.58
+Data Scientist,SEO,0,660,0.0
+Data Scientist,Kubernetes,0,660,0.0
+Data Scientist,Google Cloud,9,660,1.36
+Data Scientist,SAP,5,660,0.76
+Data Scientist,Java,1,660,0.15
+Data Scientist,Spark,9,660,1.36
+Data Scientist,Power BI,1,660,0.15
+Data Scientist,Linux,1,660,0.15
+Data Scientist,Excel,5,660,0.76
+Data Scientist,React,0,660,0.0
+Data Scientist,Docker,0,660,0.0
+Data Scientist,Tableau,1,660,0.15
+Data Scientist,Deep Learning,35,660,5.3
+Data Scientist,JavaScript,0,660,0.0
+Data Scientist,Git,0,660,0.0
+Devops / Cloud Engineer,AWS,174,983,17.7
+Devops / Cloud Engineer,Python,43,983,4.37
+Devops / Cloud Engineer,SQL,19,983,1.93
+Devops / Cloud Engineer,Machine Learning,22,983,2.24
+Devops / Cloud Engineer,Azure,131,983,13.33
+Devops / Cloud Engineer,SEO,0,983,0.0
+Devops / Cloud Engineer,Kubernetes,123,983,12.51
+Devops / Cloud Engineer,Google Cloud,57,983,5.8
+Devops / Cloud Engineer,SAP,13,983,1.32
+Devops / Cloud Engineer,Java,11,983,1.12
+Devops / Cloud Engineer,Spark,3,983,0.31
+Devops / Cloud Engineer,Power BI,3,983,0.31
+Devops / Cloud Engineer,Linux,36,983,3.66
+Devops / Cloud Engineer,Excel,1,983,0.1
+Devops / Cloud Engineer,React,4,983,0.41
+Devops / Cloud Engineer,Docker,33,983,3.36
+Devops / Cloud Engineer,Tableau,0,983,0.0
+Devops / Cloud Engineer,Deep Learning,0,983,0.0
+Devops / Cloud Engineer,JavaScript,4,983,0.41
+Devops / Cloud Engineer,Git,14,983,1.42
+Digital Marketing,AWS,0,583,0.0
+Digital Marketing,Python,0,583,0.0
+Digital Marketing,SQL,0,583,0.0
+Digital Marketing,Machine Learning,5,583,0.86
+Digital Marketing,Azure,0,583,0.0
+Digital Marketing,SEO,177,583,30.36
+Digital Marketing,Kubernetes,0,583,0.0
+Digital Marketing,Google Cloud,0,583,0.0
+Digital Marketing,SAP,0,583,0.0
+Digital Marketing,Java,1,583,0.17
+Digital Marketing,Spark,0,583,0.0
+Digital Marketing,Power BI,0,583,0.0
+Digital Marketing,Linux,0,583,0.0
+Digital Marketing,Excel,4,583,0.69
+Digital Marketing,React,0,583,0.0
+Digital Marketing,Docker,0,583,0.0
+Digital Marketing,Tableau,1,583,0.17
+Digital Marketing,Deep Learning,0,583,0.0
+Digital Marketing,JavaScript,1,583,0.17
+Digital Marketing,Git,0,583,0.0
+Graphic Designer,AWS,1,461,0.22
+Graphic Designer,Python,0,461,0.0
+Graphic Designer,SQL,0,461,0.0
+Graphic Designer,Machine Learning,2,461,0.43
+Graphic Designer,Azure,0,461,0.0
+Graphic Designer,SEO,8,461,1.74
+Graphic Designer,Kubernetes,0,461,0.0
+Graphic Designer,Google Cloud,0,461,0.0
+Graphic Designer,SAP,0,461,0.0
+Graphic Designer,Java,0,461,0.0
+Graphic Designer,Spark,0,461,0.0
+Graphic Designer,Power BI,0,461,0.0
+Graphic Designer,Linux,0,461,0.0
+Graphic Designer,Excel,1,461,0.22
+Graphic Designer,React,0,461,0.0
+Graphic Designer,Docker,0,461,0.0
+Graphic Designer,Tableau,0,461,0.0
+Graphic Designer,Deep Learning,0,461,0.0
+Graphic Designer,JavaScript,1,461,0.22
+Graphic Designer,Git,0,461,0.0
+Product Manager,AWS,7,696,1.01
+Product Manager,Python,0,696,0.0
+Product Manager,SQL,5,696,0.72
+Product Manager,Machine Learning,10,696,1.44
+Product Manager,Azure,2,696,0.29
+Product Manager,SEO,0,696,0.0
+Product Manager,Kubernetes,2,696,0.29
+Product Manager,Google Cloud,0,696,0.0
+Product Manager,SAP,4,696,0.57
+Product Manager,Java,3,696,0.43
+Product Manager,Spark,0,696,0.0
+Product Manager,Power BI,1,696,0.14
+Product Manager,Linux,0,696,0.0
+Product Manager,Excel,4,696,0.57
+Product Manager,React,1,696,0.14
+Product Manager,Docker,1,696,0.14
+Product Manager,Tableau,0,696,0.0
+Product Manager,Deep Learning,0,696,0.0
+Product Manager,JavaScript,0,696,0.0
+Product Manager,Git,0,696,0.0
+Project Manager,AWS,7,446,1.57
+Project Manager,Python,0,446,0.0
+Project Manager,SQL,2,446,0.45
+Project Manager,Machine Learning,4,446,0.9
+Project Manager,Azure,6,446,1.35
+Project Manager,SEO,1,446,0.22
+Project Manager,Kubernetes,0,446,0.0
+Project Manager,Google Cloud,1,446,0.22
+Project Manager,SAP,12,446,2.69
+Project Manager,Java,3,446,0.67
+Project Manager,Spark,1,446,0.22
+Project Manager,Power BI,1,446,0.22
+Project Manager,Linux,0,446,0.0
+Project Manager,Excel,0,446,0.0
+Project Manager,React,2,446,0.45
+Project Manager,Docker,0,446,0.0
+Project Manager,Tableau,0,446,0.0
+Project Manager,Deep Learning,0,446,0.0
+Project Manager,JavaScript,0,446,0.0
+Project Manager,Git,0,446,0.0
+Software Engineer,AWS,59,1421,4.15
+Software Engineer,Python,59,1421,4.15
+Software Engineer,SQL,36,1421,2.53
+Software Engineer,Machine Learning,42,1421,2.96
+Software Engineer,Azure,30,1421,2.11
+Software Engineer,SEO,1,1421,0.07
+Software Engineer,Kubernetes,17,1421,1.2
+Software Engineer,Google Cloud,13,1421,0.91
+Software Engineer,SAP,25,1421,1.76
+Software Engineer,Java,72,1421,5.07
+Software Engineer,Spark,6,1421,0.42
+Software Engineer,Power BI,4,1421,0.28
+Software Engineer,Linux,22,1421,1.55
+Software Engineer,Excel,5,1421,0.35
+Software Engineer,React,42,1421,2.96
+Software Engineer,Docker,7,1421,0.49
+Software Engineer,Tableau,1,1421,0.07
+Software Engineer,Deep Learning,0,1421,0.0
+Software Engineer,JavaScript,18,1421,1.27
+Software Engineer,Git,9,1421,0.63
