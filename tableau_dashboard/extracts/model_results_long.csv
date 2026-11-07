@@ -1,0 +1,9 @@
+task,evaluation,measure,value,test
+band,holdout,Model,0.5022,Band - holdout
+band,employer_grouped_cv,Model,0.4688,Band - unseen employers
+binary,holdout,Model,0.7316,Above/below - holdout
+binary,employer_grouped_cv,Model,0.6547,Above/below - unseen employers
+band,holdout,Guessing,0.368,Band - holdout
+band,employer_grouped_cv,Guessing,0.3361,Band - unseen employers
+binary,holdout,Guessing,0.4848,Above/below - holdout
+binary,employer_grouped_cv,Guessing,0.493,Above/below - unseen employers

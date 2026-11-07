@@ -209,6 +209,8 @@ The count probe must be spread over at least two days because of the 250/day lim
 
 ## 14. Text-mining requirements
 
+**Revision 2026-11-06: text-mining objective narrowed.** After finding that 98.5% of descriptions are cut at 500 characters and that 76.8% of postings mention none of the 20 listed skills (`notebooks/text_mining.ipynb`), the text-mining objective is: *identify which technical skills employers name in job postings, how the skills and the wording group the postings, and whether a description identifies its role, while being clear about what the 500-character limit prevents us from concluding.* The project objective in section 1 is unchanged. Text mining supports it as follows: skill frequencies are an **order, not a market share** (objective 1); role wording is evidence for objective 3; skill gaps (objective 5) are not claimed from snippets. The text below is the original design and is kept for the record.
+
 **Snippets are the binding constraint.** Descriptions are capped at 500 characters: 98.7% of core snippets end with "…", median length is exactly 500, and 9.3% contain employer boilerplate [V]. With a 95-term seed lexicon, **61.9% of snippets contain zero detected skills and only 8.7% contain three or more**; the worst role is Graphic Designer (77.9% zero, 1.4% with three or more) and the best is DevOps / Cloud Engineer (46.3% zero; Data Engineer 50.7%) [V]. Snippet skill frequencies are therefore lower bounds and are biased toward a posting's opening lines.
 
 **A new, verified way to see past the snippet** (tested 2026-09-30, India, 90 days, `results_per_page=1`) [V]:

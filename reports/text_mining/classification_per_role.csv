@@ -1,0 +1,14 @@
+,precision,recall,f1-score,support
+Business Analyst,0.605,0.628,0.617,183.0
+Data Analyst,0.539,0.603,0.569,126.0
+Data Engineer,0.733,0.738,0.735,145.0
+Data Scientist,0.541,0.679,0.602,137.0
+Devops / Cloud Engineer,0.714,0.597,0.65,201.0
+Digital Marketing,0.896,0.888,0.892,116.0
+Graphic Designer,0.854,0.884,0.869,86.0
+Product Manager,0.768,0.746,0.757,173.0
+Project Manager,0.802,0.707,0.751,92.0
+Software Engineer,0.687,0.657,0.672,254.0
+accuracy,0.695,0.695,0.695,0.695
+macro avg,0.714,0.713,0.711,1513.0
+weighted avg,0.701,0.695,0.696,1513.0
