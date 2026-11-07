@@ -1,0 +1,21 @@
+skill,demand_rank,demand_pct,momentum_class,pct_change,quadrant,recommendation,low_volume,trend_confirmed,salaried_postings,pay_premium_pct,pay_p,pay_fdr_sig
+SQL,1,25.86,declining,-56.1,opportunity,"High demand but flat or falling search interest: a baseline expectation, learn it.",False,True,321.0,3.3,0.4341,False
+Python,2,25.7,declining,-33.55,opportunity,"High demand but flat or falling search interest: a baseline expectation, learn it.",False,True,331.0,9.3,0.0748,False
+Azure,3,16.54,declining,-16.67,opportunity,"High demand but flat or falling search interest: a baseline expectation, learn it.",False,False,191.0,6.5,0.1274,False
+AWS,4,16.23,stable,-5.56,opportunity,"High demand but flat or falling search interest: a baseline expectation, learn it.",False,True,198.0,9.2,0.0332,False
+SEO,5,14.29,stable,0.0,opportunity,"High demand but flat or falling search interest: a baseline expectation, learn it. Postings asking for it pay about -13% at the same experience and role.",False,False,247.0,-12.6,0.0037,True
+Machine Learning,6,12.64,rising,40.0,hot,High demand and rising interest: learn it now. Postings asking for it pay about +21% at the same experience and role.,False,True,125.0,21.0,0.0037,True
+Git,7,12.38,declining,-25.0,opportunity,"High demand but flat or falling search interest: a baseline expectation, learn it.",False,True,142.0,1.8,0.7469,False
+Google Cloud,8,9.27,rising,50.0,trend unreliable,Search trend too small to judge; use the demand figure only.,True,True,111.0,7.3,0.2042,False
+Kubernetes,9,9.26,declining,-25.0,trend unreliable,Search trend too small to judge; use the demand figure only.,True,False,142.0,10.3,0.1268,False
+Java,10,8.96,declining,-57.41,opportunity,"High demand but flat or falling search interest: a baseline expectation, learn it.",False,True,72.0,11.8,0.111,False
+Docker,11,8.74,stable,0.0,avoid,Lower demand and flat or falling interest: not a priority.,False,True,116.0,5.7,0.2915,False
+JavaScript,12,7.92,declining,-59.52,avoid,Lower demand and flat or falling interest: not a priority.,False,True,57.0,-7.3,0.2578,False
+Power BI,13,7.31,stable,0.0,avoid,Lower demand and flat or falling interest: not a priority.,False,True,109.0,3.2,0.5842,False
+Linux,14,5.75,declining,-36.0,avoid,Lower demand and flat or falling interest: not a priority.,False,True,71.0,-4.0,0.5419,False
+Spark,15,5.45,declining,-50.0,trend unreliable,Search trend too small to judge; use the demand figure only.,True,True,79.0,1.2,0.8705,False
+Tableau,16,5.38,declining,-33.33,trend unreliable,Search trend too small to judge; use the demand figure only.,True,True,67.0,19.6,0.0198,False
+Excel,17,4.26,stable,1.38,avoid,Lower demand and flat or falling interest: not a priority.,False,True,91.0,-2.9,0.6425,False
+SAP,18,3.34,declining,-71.43,trend unreliable,Search trend too small to judge; use the demand figure only.,True,False,,,,
+Deep Learning,19,3.0,rising,66.67,trend unreliable,Search trend too small to judge; use the demand figure only.,True,True,26.0,17.4,0.2606,False
+React,20,2.32,declining,-50.0,avoid,Lower demand and flat or falling interest: not a priority.,False,False,25.0,-9.1,0.3505,False

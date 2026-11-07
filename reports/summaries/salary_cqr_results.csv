@@ -1,0 +1,4 @@
+model,MAE_INR,coverage,median_width_ratio_hi_over_lo
+role median + conformal,686385.0,0.811,7.27
+"CQR, structured only",648490.0,0.822,7.7
+"CQR, structured + text (final)",615539.0,0.772,7.78
