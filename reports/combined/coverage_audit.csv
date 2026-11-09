@@ -1,0 +1,21 @@
+rank,skill,frequency,pct_postings,in_frozen_list,trend_status
+1,Machine Learning,381,5.26,True,matched
+2,AWS,335,4.63,True,matched
+3,Python,296,4.09,True,matched
+4,SQL,290,4.01,True,matched
+5,Azure,254,3.51,True,matched
+6,SEO,188,2.6,True,matched
+7,Kubernetes,145,2.0,True,matched
+8,Google Cloud,131,1.81,True,matched
+9,Spark,124,1.71,True,matched
+10,SAP,114,1.57,True,matched
+11,Java,99,1.37,True,matched
+12,Power BI,71,0.98,True,matched
+13,Linux,63,0.87,True,matched
+14,React,49,0.68,True,matched
+15,Excel,47,0.65,True,matched
+16,Docker,42,0.58,True,matched
+17,Tableau,39,0.54,True,matched
+18,Deep Learning,37,0.51,True,matched
+19,Git,27,0.37,True,matched
+20,JavaScript,27,0.37,True,matched
