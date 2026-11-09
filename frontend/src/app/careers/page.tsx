@@ -17,7 +17,7 @@ export default function Careers() {
         { label: "Typical move", value: `${Math.round(OVERALL.median_added)} skills`, sub: "median added" },
       ]} />
       <div className="grid">
-        <Panel span={12} title="Which skills would make you read as another role?" sub="A role-fit model run backwards: the smallest set of skills to add to look like the target"
+        <Panel span={12} title="Career switch planner" sub="Pick the role you want to move toward and see the fewest skills to add so a role-fit model reads you as that role"
           info={<><p>The classifier reads only which of 200 skills a posting asks for. Starting from a role's typical skills, or ticks of your own, it adds the skill that most raises the target's lead over its closest rival, one at a time, until the target is the top role.</p><p>Only feasible suggestions are made: skills that at least 10% of the target role's postings ask for, and never a role name such as "data engineer". Without that limit the search picks rare skills with large weights that flip the classifier but are not what the role asks for.</p><p>This is actionable recourse for a linear classifier (Ustun, Spangher and Liu 2019). It describes how job-ad wording changes the reading, not whether a person would be hired.</p></>}>
           <SwitchDemo />
         </Panel>

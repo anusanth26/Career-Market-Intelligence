@@ -30,3 +30,5 @@ tableau_dashboard/workbook/.~*
 data/raw/naukri_apify/
 data/processed/naukri_model_table.csv
 ui/
+.vercel
+.env*

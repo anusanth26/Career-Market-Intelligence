@@ -1,0 +1,14 @@
+/.git
+/.venv
+/.env*
+/data
+/models
+/reports
+/notebooks
+/tableau_dashboard
+/scripts
+/config
+/*.pdf
+/*.log
+/frontend/node_modules
+/frontend/.next

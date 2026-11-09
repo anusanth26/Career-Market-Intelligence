@@ -25,7 +25,7 @@ This project works on those three problems for one Indian job board. Its contrib
 1. **A salary model with an honest range.** A boosted model with employer-grouped validation, and a conformal wrapper whose coverage is checked on employers it never saw, including where it fails (Section 5.1).
 2. **A cautious skill-pay analysis.** Three estimators, false-discovery control, a placebo test and a stability test, which together show that most apparent premiums are not reliable (Section 5.2).
 3. **Two classification tasks on the description.** Role identification, with checks that the model does not just read the title; and prediction of whether a posting states pay, which we did not find studied from posting wording (Sections 5.3 and 5.4).
-4. **Skill recourse between roles.** A role-fit model used backwards to list the skills that move a posting toward another role, tested against a simple baseline and shown beside each skill's pay association (Section 5.5).
+4. **Career switch between roles.** A role-fit model used backwards to list the skills that move a posting toward another role, tested against a simple baseline and shown beside each skill's pay association (Section 5.5).
 5. **Search interest set against demand and pay.** Twenty skills placed on three signals, plus a test of whether code skills lost search interest after AI coding assistants appeared (Section 5.6).
 6. **A benchmark and gap analysis against prior work, and a working dashboard** (Sections 2, 6, 7 and 8).
 
@@ -65,7 +65,7 @@ Conformalized quantile regression (Romano, Patterson and Candès, NeurIPS 2019) 
 
 *Our comparison.* We apply it to interval-valued salary labels. At an 80% target the range held 83.3% of 257 test postings (95% Wilson interval 78.2% to 87.3%), the uncalibrated quantile bands held 70.4%, and a role-median baseline with a conformal band also held 83.3% but was about twice as wide (median top-to-bottom ratio 6.25 against 3.27). The guarantee is marginal; coverage by role runs from 58.8% (Software Engineer, 17 test postings) to 96.9% (Graphic Designer), which is what the theory allows.
 
-### 2.6 Skill recourse and career moves
+### 2.6 Career switch and skill recourse
 
 Actionable recourse in linear classification (Ustun, Spangher and Liu, 2019) asks for the lowest-cost change a person can make to flip a decision [S13]. A study of employability applies counterfactual explanations to a Flemish public-employment dataset of about 1.4 million rows, averaging 11 skills per position, and searches greedily for the skills a rejected applicant would need for a job [S14].
 
@@ -135,7 +135,7 @@ Ten models, including a majority-class baseline, are compared (logistic regressi
 
 The label is whether the posting states a yearly range. Salary amounts and words such as "CTC", "LPA" and "salary" are removed from the text first (one run keeps them, to show it does not matter). Seven models and a "never states" baseline are compared by ROC-AUC, average precision, and accuracy, precision, recall and F1 for the stating class at a cut-off chosen on the other folds, because with 12.9% positives accuracy alone is uninformative. Words and phrases that separate the groups are ranked by the weighted log-odds ratio with an informative Dirichlet prior (Monroe, Colaresi and Quinn 2008) [R7]. A selection check estimates, for every posting, the pay the text points to using a ridge model fitted on the postings that state pay, and compares employers that state and do not state pay inside each role.
 
-### 4.6 Skill recourse
+### 4.6 Career switch (skill recourse)
 
 A multinomial logistic regression on the 200 skill indicators is trained on the training companies. For a posting and a target role, the search adds the unasked skill that most increases the target role's score lead over its closest rival, repeats, and stops when the target is the top role or after ten additions, following the idea of actionable recourse for linear classifiers [S13]. Only feasible additions are allowed: skills that at least 10% of the target role's postings ask for, and not skills that are role names (for example `data engineer`). We added this limit after seeing that the unrestricted search flips the classifier through rare, heavily weighted skills (for example `google analytics` on the way to Data Engineer, asked by 1% of Data Engineer postings), which no one could use as advice. It is evaluated on every test posting that the classifier reads as its own role, for all 90 ordered role pairs, against a baseline that adds the target role's most common skills the posting lacks.
 
@@ -207,7 +207,7 @@ On 2,064 held-out postings from unseen companies the word model scores ROC-AUC 0
 
 **Does silence bias the salary results?** For every posting we estimate the pay its text points to. Inside the same role, employers that stay silent point to 3.6% lower pay, with a company-bootstrap interval from −7.2% to +2.4%, which includes zero. The overall medians differ (₹10.3 lakh silent, ₹8.8 lakh stating) only because the role mix differs. Weighting each stated salary by the inverse of its estimated probability of being stated moves role medians by 0% to 23%, but the effective sample falls from 1,348 to 734, so we treat this as a bound on the size of the problem, not a correction.
 
-### 5.5 Skill recourse between roles
+### 5.5 Career switch between roles
 
 A classifier on 200 skill indicators places 90.3% of the 2,064 test postings in the right role (macro-F1 0.888), as many as the whole description and more than the employer tags alone (83.7%). Across all 90 role moves and 16,767 posting-moves, with additions limited to skills the target role really asks for, the search brings a posting to the target role within five added skills in 48.1% of cases and within ten in 84.3%, with a median of five skills. The baseline that adds the target's most common missing skills from the same list manages 29.2% and 61.7%, with a median of six. Without the feasibility limit the search reaches 64.7% and 93.1% (median four), but through rare skills; we report the limited version because its suggestions are ones a person could act on. Neighbouring roles are about three skills apart: Product Manager to Business Analyst flips within five skills in 92% of postings, Product Manager to Project Manager in 89%, Project Manager to Product Manager in 86% and DevOps / Cloud to Software Engineer in 82%. Data Analyst to Data Engineer takes a median of five (53% within five, 90% within ten), with suggestions such as big data, PySpark, CI/CD and ETL. Distant roles take six or seven skills and about half or fewer flip within ten (Digital Marketing to DevOps / Cloud: 50%). A flip means the classifier reads the posting as the target role; it says nothing about being hired.
 
