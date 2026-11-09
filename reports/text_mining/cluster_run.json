@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "rows": 7240,
+  "pipeline": "TF-IDF -> TruncatedSVD(50) -> unit length -> K-Means",
+  "k": 12,
+  "final": {
+    "silhouette": 0.02899427559994495,
+    "nmi": 0.40931506649068194,
+    "ari": 0.2690998745425785
+  },
+  "baseline": {
+    "silhouette": 0.022418296858856455,
+    "nmi": 0.34944353644894977,
+    "ari": 0.172978158899931
+  }
+}

@@ -22,3 +22,13 @@ __pycache__/
 
 # Local-only planning docs (not shared via the repo)
 docs/
+
+tableau_dashboard/extracts/hyper/
+tableau_dashboard/workbook/.~*
+
+# Scraped Naukri postings (large, terms apply): do not commit
+data/raw/naukri_apify/
+data/processed/naukri_model_table.csv
+ui/
+.vercel
+.env*
