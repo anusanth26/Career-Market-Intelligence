@@ -36,6 +36,7 @@
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
+    "_old",
     "node_modules"
   ]
 }

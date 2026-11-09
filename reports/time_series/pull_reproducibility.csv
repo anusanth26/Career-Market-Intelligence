@@ -1,15 +1,21 @@
-skill,r_between_pulls,pct_pull_a,pct_pull_b,class_pull_a,class_pull_b,same_class
-AWS,0.97,-10.0,-5.6,declining,stable,False
-Python,0.986,-36.5,-33.6,declining,declining,True
-SQL,0.993,-57.6,-56.1,declining,declining,True
-Machine Learning,0.5,0.0,40.0,stable,rising,False
-Azure,0.944,-21.4,-16.7,declining,declining,True
-SEO,0.995,0.0,0.0,stable,stable,True
-Kubernetes,0.805,-33.3,-25.0,declining,declining,True
-Google Cloud,0.777,66.7,50.0,rising,rising,True
-SAP,-0.06,-3.1,-71.4,stable,declining,False
-Java,0.993,-57.4,-57.4,declining,declining,True
-Spark,-0.308,16.7,-50.0,rising,declining,False
-Power BI,0.939,0.0,0.0,stable,stable,True
-Linux,0.974,-31.8,-36.0,declining,declining,True
-Excel,0.967,-2.1,1.4,stable,stable,True
+skill,r_between_pulls,pct_pull_a,pct_pull_b,class_pull_a,class_pull_b,same_class,r_with_analysed_series
+AWS,0.99,-10.5,-11.8,declining,declining,True,0.97
+Python,0.989,-40.7,-36.6,declining,declining,True,0.989
+SQL,0.995,-57.5,-57.9,declining,declining,True,0.994
+Machine Learning,0.494,-12.5,44.4,declining,rising,False,0.959
+Azure,0.942,-23.1,-18.2,declining,declining,True,0.965
+SEO,0.995,0.0,16.7,stable,rising,False,0.997
+Kubernetes,0.794,-33.3,-25.0,declining,declining,True,0.872
+Google Cloud,0.801,66.7,50.0,rising,rising,True,0.937
+SAP,-0.032,-1.6,-71.4,stable,declining,False,0.994
+Java,0.995,-58.0,-60.2,declining,declining,True,0.995
+Spark,-0.3,23.1,-50.0,rising,declining,False,0.988
+Power BI,0.953,-16.7,0.0,declining,stable,False,0.962
+Linux,0.979,-33.3,-34.0,declining,declining,True,0.983
+Excel,0.968,-2.0,-2.7,stable,stable,True,0.975
+React,0.968,-55.2,-52.0,declining,declining,True,0.993
+Docker,0.841,-16.7,0.0,declining,stable,False,0.896
+Tableau,0.854,-66.7,-33.3,declining,declining,True,0.905
+Deep Learning,0.886,50.0,66.7,rising,rising,True,0.942
+JavaScript,0.975,-78.8,-61.7,declining,declining,True,0.996
+Git,0.888,-8.0,-23.8,stable,declining,False,0.968

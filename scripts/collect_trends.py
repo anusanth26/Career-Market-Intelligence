@@ -9,6 +9,9 @@ not here — this script stores the raw batch output untouched, plus the anchor 
 Usage:
     python scripts/collect_trends.py                 # all skills, all geos
     python scripts/collect_trends.py --limit 1       # smoke test: first batch only
+    python scripts/collect_trends.py --plain         # query by plain skill word instead of topic ID
+                                                     # (files get a _plain suffix; used for the
+                                                     # query-method check in the time-series notebook)
 """
 
 import argparse
@@ -58,31 +61,33 @@ def fetch(pytrends: TrendReq, terms: list, geo: str) -> pd.DataFrame:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=None, help="max batches per geo (smoke test)")
+    parser.add_argument("--plain", action="store_true", help="use plain skill words, not Knowledge Graph topic IDs")
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     pull_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    tag = "_plain" if args.plain else ""
     skills = [s for s in SKILLS if s.lower() != ANCHOR.lower()]
     batches = [skills[i:i + BATCH_SIZE] for i in range(0, len(skills), BATCH_SIZE)][: args.limit]
     pytrends = TrendReq(hl="en-US", tz=0, timeout=(10, 30))
-    log = {"pull_date": pull_date, "timeframe": TIMEFRAME, "anchor": ANCHOR, "category": CATEGORY,
+    log = {"pull_date": pull_date, "queries": "plain" if args.plain else "topic_id", "timeframe": TIMEFRAME, "anchor": ANCHOR, "category": CATEGORY,
            "geos": GEOS, "batches": []}
 
     for geo_name, geo in GEOS.items():
         for n, batch in enumerate(batches, 1):
             labels = [ANCHOR] + batch
-            terms = [QUERIES.get(lbl, lbl) for lbl in labels]
+            terms = list(labels) if args.plain else [QUERIES.get(lbl, lbl) for lbl in labels]
             print(f"[{geo_name}] batch {n}/{len(batches)}: {labels} -> {terms}")
             df = fetch(pytrends, terms, geo)
             # store skill labels (not topic IDs) so downstream files keep the same join key
             df = df.rename(columns=dict(zip(terms, labels)))
-            fname = f"trends_{geo_name}_batch{n:02d}_{pull_date}.csv"
+            fname = f"trends_{geo_name}_batch{n:02d}{tag}_{pull_date}.csv"
             df.to_csv(os.path.join(OUTPUT_DIR, fname))
             log["batches"].append({"geo": geo_name, "batch": n, "labels": labels, "terms": terms,
                                    "file": fname, "rows": len(df)})
             time.sleep(random.uniform(*PAUSE))
 
-    with open(os.path.join(OUTPUT_DIR, f"trends_pull_log_{pull_date}.json"), "w") as f:
+    with open(os.path.join(OUTPUT_DIR, f"trends_pull_log{tag}_{pull_date}.json"), "w") as f:
         json.dump(log, f, indent=2)
     print("Done.")
 

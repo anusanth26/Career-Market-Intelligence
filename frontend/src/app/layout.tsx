@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Archivo, Literata } from "next/font/google";
-import Rail from "@/components/Rail";
+import FilterBar from "@/components/FilterBar";
+import TopBar from "@/components/TopBar";
+import { FilterProvider } from "@/lib/filters";
 import "./globals.css";
 
 const ui = Archivo({ subsets: ["latin"], variable: "--font-ui", axes: ["wdth"], display: "swap" });
@@ -15,10 +17,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" data-scroll-behavior="smooth" className={`${ui.variable} ${read.variable}`}>
       <body>
-        <div className="shell">
-          <Rail />
-          <main className="page">{children}</main>
-        </div>
+        <FilterProvider>
+          <TopBar />
+          <FilterBar />
+          <main className="dash">{children}</main>
+        </FilterProvider>
       </body>
     </html>
   );

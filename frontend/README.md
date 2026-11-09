@@ -18,27 +18,24 @@ Every figure is read from a JSON file in `src/data/`. Each file is written by th
 | File | Written by |
 |---|---|
 | `salary.json`, `demo.json`, `dataset.json`, `calculator.json` | `notebooks/career_market_intelligence.ipynb` |
-| `textmining.json`, `roles.json`, `disclosure.json`, `network.json` | `notebooks/text_mining.ipynb` |
+| `textmining.json`, `roles.json`, `disclosure.json`, `switch.json`, `network.json` | `notebooks/text_mining.ipynb` |
 | `trends.json` | `notebooks/method2_time_series.ipynb` |
 | `gap.json` | `notebooks/combined_insight.ipynb` |
 
 Re-run a notebook and reload the page to refresh its numbers. The JSON files hold aggregates, ten example postings and, in `dataset.json`, the 1,358 modelling rows (title, company, role, city, first skills, stated salary, the model's range for test rows). They do not hold job descriptions. `disclosure.json` also holds the first 1,800 characters of the description of ten postings, shown on `/disclosure`. Because titles, companies and description excerpts are scraped, do not deploy this frontend publicly. The raw scraped postings stay in `data/raw/naukri_apify/`, which is excluded from version control.
 
-## Pages
+## Layout
 
-In the order of the sidebar: the answer, the evidence behind it, the data, how to use it, then the text-mining analyses and supporting tools.
+A top bar with five sections, a filter strip (role, city, experience asked, work mode) that carries across them, and a grid of linked panels on each page. Tabs inside a panel swap the view without scrolling; the "?" button on a panel holds the method note. Clicking a row in "Who is paid what" sets that filter. The filter is also kept in the address, so a view can be shared.
 
-- `/` estimate a posting: ten held-out postings, the model's estimate and range, and the stated salary on request
-- `/pay` salary model, ablations, range coverage, errors by role
-- `/data` the final dataset with filters, a sortable table and the model's results on any selection
-- `/scenarios` three live situations (job seeker checks an offer, recruiter benchmarks a role, student plans skills) driven by a profile calculator
-- `/recommendations` what to do with the findings, with the evidence and how firm each one is
-- `/skills` skills by role, tags against text, topics, skill bundles, pay associations
-- `/disclosure` a classifier for whether a posting states its salary (trained on all role-matched postings): pick or paste a posting, models and ablations, the words that separate disclosing from silent postings, firm concentration, and a selection check on the salary results
-- `/roles` role classification and its stress tests
-- `/trends` a skill comparison picker, Google Trends for 20 skills, the AI-assistant test, forecast intervals, demand against interest
-- `/explore` one-role filter and a sortable skill table
-- `/method` data, notebooks, definitions and limits
+- `/` **Overview**: KPIs for the selection, pay by role, experience and city, the distribution, the skills employers tag, and where to go next
+- `/pay` **Pay**: estimate a posting, check an offer, benchmark a role; which model is best, what it relies on, how far to trust the range, where it errs
+- `/skills` **Skills**: demand, search interest and pay in one map, pay associations, the skill network, role by skill, a one-skill detail panel, and a skill planner
+- `/careers` **Careers**: which skills move you toward another role (a role classifier run backwards, limited to skills the target role really asks for), how long each move is, bridge skills, and how well text identifies a role
+- `/data` **Data and method**: the dataset with the model's results on any slice, who states the pay, method and limits, and links to the full write-ups
+- `/reports/...` the long write-ups (pay, skills, roles, trends, recommendations, method), kept as articles for depth
+
+Filters apply to the 1,358 salaried postings (pay charts, KPIs, the dataset). Panels computed in the notebooks, such as skill premiums, topics and trends, cannot be re-cut by city or experience and carry a "not filtered" tag.
 
 ## Notes
 
@@ -46,3 +43,4 @@ In the order of the sidebar: the answer, the evidence behind it, the data, how t
 - Colours are flat. The categorical palette (five hues) and the blue sequential ramp were checked for colour-blind separation and contrast.
 - The profile calculator (`src/lib/calc.ts`) is a ridge model on role, seniority, city, work mode and years, so it is weaker than the main model. Its cross-validated error and range coverage are shown beside every result.
 - Motion is short and answers an action (page change, a value that updates, a chart redraw). It is switched off for viewers who prefer reduced motion.
+- Shared state lives in `src/lib/filters.tsx`; the panel, KPI bar and ranked-list pieces are in `src/components/` (`Panel`, `KpiBar`, `RankList`).
