@@ -1,16 +1,16 @@
 "use client";
 import * as Plot from "@observablehq/plot";
 import { scaleLog } from "d3-scale";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Fig } from "@/components/Block";
 import Kpis from "@/components/Kpis";
 import Legend from "@/components/Legend";
-import PageNav from "@/components/PageNav";
 import PlotFigure from "@/components/PlotFigure";
 import { CALC, predict } from "@/lib/calc";
 import { logBins, median, midpoint, quantile, rankOf } from "@/lib/stats";
 import { Tokens } from "@/lib/tokens";
 import { f3, inr, lk, pct0, sgnPct } from "@/lib/format";
+import { ALL, useFilters } from "@/lib/filters";
 import D from "@/data/dataset.json";
 import S from "@/data/salary.json";
 import T from "@/data/textmining.json";
@@ -42,9 +42,11 @@ function Presets({ items }: { items: { label: string; on: () => void }[] }) {
 }
 
 /* 1: check an offer */
-function CheckOffer() {
+export function CheckOffer() {
+  const { f: gf } = useFilters();
   const [role, setRole] = useState("Data Engineer"), [sen, setSen] = useState("Mid"), [city, setCity] = useState("Bengaluru"), [mode, setMode] = useState("Hybrid");
   const [years, setYears] = useState(6), [offer, setOffer] = useState(14);
+  useEffect(() => { if (gf.role !== ALL) setRole(gf.role); if (OPT.city.includes(gf.city)) setCity(gf.city); if (OPT.work_mode.includes(gf.mode)) setMode(gf.mode); }, [gf.role, gf.city, gf.mode]);
   const p = useMemo(() => predict({ role, seniority: sen, city, work_mode: mode, years }), [role, sen, city, mode, years]);
   const sim = useMemo(() => {
     const near = ROWS.filter((r) => r.role === role && Math.abs(r.exp - years) <= 2);
@@ -91,8 +93,10 @@ function CheckOffer() {
 }
 
 /* 2: benchmark a role */
-function Benchmark() {
+export function Benchmark() {
+  const { f: gf } = useFilters();
   const [role, setRole] = useState("Data Analyst"), [city, setCity] = useState("All"), [y0, setY0] = useState(2), [y1, setY1] = useState(6);
+  useEffect(() => { if (gf.role !== ALL) setRole(gf.role); setCity(OPT.city.includes(gf.city) ? gf.city : "All"); const bd: Record<string, [number, number]> = { "0-2 years": [0, 2], "2-5 years": [2, 5], "5-8 years": [5, 8], "8-12 years": [8, 12], "12+ years": [12, 30] }; if (bd[gf.band]) { setY0(bd[gf.band][0]); setY1(bd[gf.band][1]); } }, [gf.role, gf.city, gf.band]);
   const rows = useMemo(() => ROWS.filter((r) => r.role === role && (city === "All" || r.city === city) && r.exp >= y0 && r.exp <= y1), [role, city, y0, y1]);
   const mids = rows.map((r) => r.mid);
   const bins = useMemo(() => logBins(mids), [mids]);
@@ -134,8 +138,10 @@ function Benchmark() {
 }
 
 /* 3: plan skills */
-function PlanSkills() {
+export function PlanSkills() {
+  const { f: gf } = useFilters();
   const [role, setRole] = useState("Data Scientist");
+  useEffect(() => { if (gf.role !== ALL) setRole(gf.role); }, [gf.role]);
   const skills = (RS[role] ?? []) as any[];
   const [have, setHave] = useState<Record<string, boolean>>({ python: true, sql: true });
   const rows = skills.map((s) => ({ ...s, have: !!have[s.skill], prem: premium(s.skill) }));
@@ -180,24 +186,5 @@ function PlanSkills() {
         <tbody>{gaps.slice(0, 8).map((g) => { const pr = g.prem; const pc = pr ? (Math.exp(pr.dml_beta) - 1) * 100 : null; const sig = pr && (pr.dml_fdr_sig || pr.ols_fdr_sig);
           return <tr key={g.skill}><td>{g.skill}</td><td className="r">{Math.round(g.tag_pct)}% of postings</td><td className="r">{pc == null ? "not estimated" : sgnPct(pc)}</td><td className="small">{pc == null ? "Too few salaried postings to estimate." : sig ? "Clear association at the same experience and role." : "Not distinguishable from zero. Learn it for access to postings, not for pay."}</td></tr>; })}</tbody></table></div>
     </section>
-  );
-}
-
-export default function ScenariosPage() {
-  return (
-    <>
-      <h1>Three situations, run live on the data</h1>
-      <p className="lede">Each scenario starts from a real question, takes inputs you can change, and updates every number and chart as you do. Use the examples to start, then change anything.</p>
-      <Kpis items={[
-        { value: inr(D.n), label: "postings behind every figure here" },
-        { value: f3(CALC.cv_r2), label: "R² of the profile calculator in cross-validation" },
-        { value: lk(CALC.cv_mae_inr / 1e5), label: "its typical error" },
-        { value: pct0(CALC.cv_coverage80), label: "of held-out salaries inside its 80% range" },
-      ]} />
-      <PageNav />
-      <CheckOffer />
-      <Benchmark />
-      <PlanSkills />
-    </>
   );
 }

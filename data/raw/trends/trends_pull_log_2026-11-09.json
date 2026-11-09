@@ -1,0 +1,110 @@
+{
+  "pull_date": "2026-11-09",
+  "queries": "topic_id",
+  "timeframe": "today 5-y",
+  "anchor": "SQL",
+  "category": 0,
+  "geos": {
+    "IN": "IN"
+  },
+  "batches": [
+    {
+      "geo": "IN",
+      "batch": 1,
+      "labels": [
+        "SQL",
+        "AWS",
+        "Python",
+        "Machine Learning",
+        "Azure"
+      ],
+      "terms": [
+        "/m/075st",
+        "AWS",
+        "/m/05z1_",
+        "/m/01hyh_",
+        "/m/04y7lrx"
+      ],
+      "file": "trends_IN_batch01_2026-11-09.csv",
+      "rows": 262
+    },
+    {
+      "geo": "IN",
+      "batch": 2,
+      "labels": [
+        "SQL",
+        "SEO",
+        "Kubernetes",
+        "Google Cloud",
+        "SAP"
+      ],
+      "terms": [
+        "/m/075st",
+        "/m/019qb_",
+        "/g/11b7lxp79d",
+        "/m/0105pbj4",
+        "/m/0dvl8x"
+      ],
+      "file": "trends_IN_batch02_2026-11-09.csv",
+      "rows": 262
+    },
+    {
+      "geo": "IN",
+      "batch": 3,
+      "labels": [
+        "SQL",
+        "Java",
+        "Spark",
+        "Power BI",
+        "Linux"
+      ],
+      "terms": [
+        "/m/075st",
+        "/m/07sbkfb",
+        "/m/0ndhxqz",
+        "/g/11clr_l6ft",
+        "/m/0fpzzp"
+      ],
+      "file": "trends_IN_batch03_2026-11-09.csv",
+      "rows": 262
+    },
+    {
+      "geo": "IN",
+      "batch": 4,
+      "labels": [
+        "SQL",
+        "Excel",
+        "React",
+        "Docker",
+        "Tableau"
+      ],
+      "terms": [
+        "/m/075st",
+        "/m/052tr",
+        "/m/012l1vxv",
+        "/m/0wkcjgj",
+        "/m/02s9k80"
+      ],
+      "file": "trends_IN_batch04_2026-11-09.csv",
+      "rows": 262
+    },
+    {
+      "geo": "IN",
+      "batch": 5,
+      "labels": [
+        "SQL",
+        "Deep Learning",
+        "JavaScript",
+        "Git"
+      ],
+      "terms": [
+        "/m/075st",
+        "/m/0h1fn8h",
+        "/m/02p97",
+        "/m/05vqwg"
+      ],
+      "file": "trends_IN_batch05_2026-11-09.csv",
+      "rows": 262
+    }
+  ]
+}

@@ -1,16 +1,12 @@
 import S from "@/data/salary.json";
-import PageNav from "@/components/PageNav";
 import { inr } from "@/lib/format";
 
-export const metadata = { title: "Data and method" };
-
-export default function MethodPage() {
+export default function MethodBody() {
   const f = S.funnel as { label: string; n: number }[];
   return (
     <>
       <h1>Where the numbers come from, and what they cannot tell you</h1>
       <p className="lede">Every figure in this dashboard is read from a file that a notebook in this project wrote. Nothing is typed in by hand.</p>
-      <PageNav />
 
       <section className="section">
         <h2>The postings</h2>
@@ -26,16 +22,16 @@ export default function MethodPage() {
 
       <section className="section">
         <h2>The three kinds of analytics here</h2>
-        <p>Descriptive: what postings ask for and pay (Skills, Roles, Trends, Explorer, The dataset). Predictive: what a profile should earn, with an honest 80% range (Estimate, Pay, Scenarios). Prescriptive: what to do about it, for a job seeker, a recruiter or a student (Scenarios, Recommendations). The profile calculator behind Scenarios uses only role, seniority, city, work mode and years, so it is weaker than the main model.</p>
+        <p>Descriptive: what postings ask for and pay (Overview, Skills, and the dataset under Data and method). Predictive: what a profile should earn, with an honest 80% range (Pay), and which skills would move a posting toward another role (Careers). Prescriptive: what to do about it, for a job seeker, a recruiter or a student (Pay, Skills and Careers, with the full write-up of recommendations). The profile calculator behind the offer check uses only role, seniority, city, work mode and years, so it is weaker than the main model.</p>
         <h2>The four notebooks</h2>
         <div className="tablewrap">
           <table>
             <thead><tr><th>Notebook</th><th>What it does</th><th>Feeds</th></tr></thead>
             <tbody>
-              <tr><td>career_market_intelligence</td><td>Salary model: twelve models compared, ablations, a range with guaranteed coverage, errors by role</td><td>Pay, Estimate a posting</td></tr>
-              <tr><td>text_mining</td><td>Skills, topics, clusters, skill bundles, pay associations of skills, classifying a role from its description</td><td>Skills, Roles</td></tr>
-              <tr><td>method2_time_series</td><td>Google Trends for 20 skills: trend labels, forecasts, intervals, a test of the AI-assistant explanation</td><td>Trends</td></tr>
-              <tr><td>combined_insight</td><td>Joins demand, search interest and pay for each skill</td><td>Trends, Recommendations</td></tr>
+              <tr><td>career_market_intelligence</td><td>Salary model: four models compared against two baselines, ablations, a range with guaranteed coverage, errors by role</td><td>Overview, Pay</td></tr>
+              <tr><td>text_mining</td><td>Skills, topics, clusters, skill bundles, pay associations of skills, classifying a role from its description, classifying whether a posting states its pay, and which skills would move a role</td><td>Skills, Careers, Data and method (who states pay)</td></tr>
+              <tr><td>method2_time_series</td><td>Google Trends for 20 skills: trend labels, forecasts, intervals, a test of the AI-assistant explanation</td><td>Skills (search interest), full write-up on trends</td></tr>
+              <tr><td>combined_insight</td><td>Joins demand, search interest and pay for each skill</td><td>Skills (quadrant map), Overview, full write-up of recommendations</td></tr>
             </tbody>
           </table>
         </div>
